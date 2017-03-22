@@ -1,7 +1,9 @@
-#include "crawler.hpp"
+#include <iostream>
+#include "injector.hpp"
 
 int main () {
-  Crawler::Crawler c = Crawler::Crawler();
-  c.FirstFunc();
+  std::shared_ptr<Crawler::ICrawler> c;
+  c = Crawler::Injector::Instance()->crawler();
+  c->Start();
   return 0;
 }
