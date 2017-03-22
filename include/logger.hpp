@@ -26,6 +26,6 @@ class Logger : public ILogger {
   void Log(const std::string& msg);
 };
 
-}; // End of namespace.
+} // End of namespace.
 
 #endif

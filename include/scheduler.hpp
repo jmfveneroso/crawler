@@ -68,6 +68,6 @@ class Scheduler : public IScheduler {
   bool AddUrl(const std::string&);
 };
 
-}; // End of namespace.
+} // End of namespace.
 
 #endif

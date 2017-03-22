@@ -38,6 +38,6 @@ class Fetcher : public IFetcher {
   WebPage GetWebPage(const std::string& url);
 };
 
-}; // End of namespace.
+} // End of namespace.
 
 #endif

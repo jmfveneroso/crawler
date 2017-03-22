@@ -11,4 +11,4 @@ void Logger::Log(const std::string& msg) {
   mtx_.unlock();
 }
 
-}; // End of namespace.
+} // End of namespace.

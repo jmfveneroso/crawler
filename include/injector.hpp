@@ -28,6 +28,6 @@ class Injector {
   std::shared_ptr<ICrawler> crawler();
 };
 
-}; // End of namespace.
+} // End of namespace.
 
 #endif

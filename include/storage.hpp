@@ -6,6 +6,7 @@
 #ifndef __STORAGE_HPP__
 #define __STORAGE_HPP__
 
+#include <memory>
 #include <stdio.h>
 #include "logger.hpp"
 
@@ -28,6 +29,6 @@ class Storage : public IStorage {
   void Write(const std::string&, const std::string&);
 };
 
-}; // End of namespace.
+} // End of namespace.
 
 #endif

@@ -28,4 +28,4 @@ std::shared_ptr<ICrawler> Injector::crawler() {
   return crawler_;
 }
 
-}; // End of namespace.
+} // End of namespace.

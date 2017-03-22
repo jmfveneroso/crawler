@@ -44,4 +44,4 @@ WebPage Fetcher::GetWebPage(const std::string& url) {
   return web_page;
 }
 
-}; // End of namespace.
+} // End of namespace.
