@@ -53,11 +53,11 @@ void Crawler::FetchPagesAsync() {
 void Crawler::Start() {
   scheduler_->AddUrl("globo.com");
 
-  for (int i = 0; i < 6; ++i) {
+  for (int i = 0; i < NUM_THREADS; ++i) {
     threads_[i] = std::thread(&Crawler::FetchPagesAsync, this);
   }
 
-  for (int i = 0; i < 6; ++i) {
+  for (int i = 0; i < NUM_THREADS; ++i) {
     threads_[i].join();
   }
 }

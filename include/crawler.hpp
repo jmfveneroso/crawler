@@ -12,6 +12,8 @@
 #include "fetcher.hpp"
 #include "storage.hpp"
 
+#define NUM_THREADS 60
+
 namespace Crawler {
 
 class ICrawler {
@@ -28,7 +30,7 @@ class Crawler : public ICrawler {
 
   std::mutex scheduler_mtx_;
   std::mutex write_mtx_;
-  std::thread threads_[6];
+  std::thread threads_[NUM_THREADS];
 
   void FetchPagesAsync();
 
