@@ -59,7 +59,7 @@ void Scheduler::WaitPolitelyAsync() {
 }
 
 void Scheduler::Init() {
-  queue_file_ = fopen("queue", "wb+");
+  queue_file_ = fopen("queue_file", "wb+");
   url_pos_ = 0;
   fwrite(&url_pos_, sizeof(size_t), 1, queue_file_);
 

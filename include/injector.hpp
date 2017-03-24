@@ -8,6 +8,7 @@
 #include "fetcher.hpp"
 #include "storage.hpp"
 #include "crawler.hpp"
+#include "url_database.hpp"
 
 namespace Crawler {
 
@@ -18,6 +19,7 @@ class Injector {
  std::shared_ptr<IScheduler> scheduler_;
  std::shared_ptr<IFetcher> fetcher_;
  std::shared_ptr<IStorage> storage_;
+ std::shared_ptr<IUrlDatabase> url_database_;
  std::shared_ptr<ICrawler> crawler_;
 
  public:
@@ -26,6 +28,7 @@ class Injector {
 
   static Injector* Instance();
   std::shared_ptr<ICrawler> crawler();
+  std::shared_ptr<IUrlDatabase> url_database();
 };
 
 } // End of namespace.

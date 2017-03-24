@@ -10,6 +10,7 @@ Injector::Injector()
     scheduler_(std::make_shared<Scheduler>(logger_)),
     fetcher_(std::make_shared<Fetcher>(logger_, ck_spider_)),
     storage_(std::make_shared<Storage>(logger_)),
+    url_database_(std::make_shared<UrlDatabase>(logger_)),
     crawler_(std::make_shared<Crawler>(logger_, scheduler_, fetcher_, storage_)) {
 }
 
@@ -26,6 +27,10 @@ Injector* Injector::Instance() {
 
 std::shared_ptr<ICrawler> Injector::crawler() {
   return crawler_;
+}
+
+std::shared_ptr<IUrlDatabase> Injector::url_database() {
+  return url_database_;
 }
 
 } // End of namespace.

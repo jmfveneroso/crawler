@@ -14,10 +14,10 @@ CPP_FLAGS += $(CPP_FLAGS_$(ARCH))
 BUILD_DIR=build
 LDIR=lib
 
-_DEPS = injector.hpp crawler.hpp fetcher.hpp scheduler.hpp storage.hpp logger.hpp
+_DEPS = injector.hpp crawler.hpp fetcher.hpp scheduler.hpp storage.hpp logger.hpp url_database.hpp
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = main.o injector.o crawler.o fetcher.o scheduler.o storage.o logger.o
+_OBJ = main.o injector.o crawler.o fetcher.o scheduler.o storage.o logger.o url_database.o
 OBJ = $(patsubst %,$(BUILD_DIR)/%,$(_OBJ))
 
 # $(info $$TOP is [${TOP}])
