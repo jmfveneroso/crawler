@@ -112,7 +112,13 @@ bool Scheduler::IsUnique(const std::string& url) {
 
   if (fseek(file_, offset, 0) == 0) {
     size_t buffer[PARTITION_SIZE];
-    fread(&buffer, sizeof(size_t), PARTITION_SIZE, file_);
+    size_t count = fread(&buffer, sizeof(size_t), PARTITION_SIZE, file_);
+    if (count != PARTITION_SIZE) {
+      logger_->Log("Error reading partition.");
+      mtx_.unlock();
+      return false;
+    }
+
     for (int i = 0; i < PARTITION_SIZE; ++i) {
       if (hash == buffer[i]) {
         mtx_.unlock();
@@ -235,4 +241,4 @@ std::string Scheduler::GetNextUrl() {
   return url;
 }
 
-}; // End of namespace.
+} // End of namespace.

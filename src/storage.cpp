@@ -28,4 +28,4 @@ void Storage::Write(const std::string& url, const std::string& html) {
   std::cout << "Wrote " << buffer.size() << "bytes." << std::endl;
 }
 
-}; // End of namespace.
+} // End of namespace.

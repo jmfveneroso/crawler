@@ -1,6 +1,7 @@
 TOP := $(shell pwd)
 ARCH := $(shell getconf LONG_BIT)
 UNAME_S := $(shell uname -s)
+MKDIR_P := $(shell mkdir -p build)
 
 IDIR=include
 CC=g++
@@ -23,7 +24,8 @@ OBJ = $(patsubst %,$(BUILD_DIR)/%,$(_OBJ))
 
 # Chilkat.
 ifeq ($(UNAME_S),Linux)
-   # LDLIBS += $(LDIR)/libchilkat-9.5.0.so
+   INC += -Ilib/chilkat-9.5.0-x86_64-linux-gcc/include
+   LDLIBS += $(LDIR)/chilkat-9.5.0-x86_64-linux-gcc/lib/libchilkat-9.5.0.a -pthread
 else ifeq ($(UNAME_S),Darwin)
    INC += -Ilib/chilkat-9.5.0-macosx-cpp11/include
    LDLIBS += $(LDIR)/chilkat-9.5.0-macosx-cpp11/libStatic/libchilkat_x86_64.a

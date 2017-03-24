@@ -45,6 +45,6 @@ class Crawler : public ICrawler {
   void Start();
 };
 
-}; // End of namespace.
+} // End of namespace.
 
 #endif

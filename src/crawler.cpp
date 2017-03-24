@@ -62,4 +62,4 @@ void Crawler::Start() {
   }
 }
 
-}; // End of namespace.
+} // End of namespace.
