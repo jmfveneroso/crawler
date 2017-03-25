@@ -1,25 +1,26 @@
 #include "fetcher.hpp"
+#include <iostream>
 
 namespace Crawler {
 
-Fetcher::Fetcher(
-  std::shared_ptr<ILogger> logger,
-  std::shared_ptr<CkSpider> ck_spider
-) : logger_(logger),
-    ck_spider_(ck_spider) {
+Fetcher::Fetcher() {
+  // spider_.put_ConnectTimeout(5);
+  // spider_.put_MaxResponseSize(250000); // 250kb.
 }
 
 WebPage Fetcher::GetWebPage(const std::string& url) {
   CkSpider spider;
-
   // No need to call Initialize here since Initialize restrains the crawler
   // to crawl only within the specified domain.
-  // spider.Initialize("chilkatsoft.com");
+  // spider.Initialize(url);
 
   WebPage web_page;
+  web_page.failed = false;
 
   spider.AddUnspidered(url.c_str());
   if (!spider.CrawlNext()) {
+    web_page.failed = true;
+    state_ = FAILED;
     spider.ClearFailedUrls();
     return web_page;
   }
@@ -30,17 +31,15 @@ WebPage Fetcher::GetWebPage(const std::string& url) {
   for (int i = 0; i < spider.get_NumUnspidered(); ++i) {
     std::string link = spider.getUnspideredUrl(0);
     spider.SkipUnspidered(0); // Removes inbound link from chilkat queue.
-    web_page.inbound_links.push_back(link);
+    web_page.links.push_back(link);
   }
 
   // Outbound links.
   for (int i = 0; i < spider.get_NumOutboundLinks(); ++i) {
     std::string link = spider.getOutboundLink(i);
-    web_page.outbound_links.push_back(link);
+    web_page.links.push_back(link);
   }
 
-  spider.ClearOutboundLinks();
-  spider.ClearSpideredUrls();
   return web_page;
 }
 

@@ -28,29 +28,33 @@ size_t UrlDatabase::GetHash(std::string const& s) const {
 bool UrlDatabase::Probe(size_t start, const std::string& key, Entry* entry) {
   fseeko(db_file_, header_size_ + start * sizeof(Entry), SEEK_SET);
   while (fread(entry, sizeof(Entry), 1, db_file_) == 1) {
-    if (!entry->occupied || entry->url == key) return true;
+    if (!entry->occupied || entry->url == key) {
+      return true;
+    }
   }
 
   // Reached end of file.
   size_t counter = 0;
   fseeko(db_file_, header_size_, SEEK_SET);
   while (fread(entry, sizeof(Entry), 1, db_file_) == 1) {
-    if (!entry->occupied || entry->url == key) return true;
+    if (!entry->occupied || entry->url == key) {
+      return true;
+    }
     if (counter++ == start) break;
   }
   
   return false;
 }
 
-bool UrlDatabase::Open(const char* filename) {
+bool UrlDatabase::Open(const char* filename, bool overwrite) {
   bool file_exists = access(filename, F_OK) != -1;
 
   size_t fingerprint = 0x462fab2668d358eb;
   table_size_ = TABLE_SIZE;
-  if (!file_exists) { 
+  if (!file_exists || overwrite) { 
     db_file_ = fopen(filename, "wb+");
     if (db_file_ == NULL) 
-      throw new std::runtime_error("The database file is invalid.");
+      throw new std::runtime_error("Error opening database file.");
 
     // Write fingerprint to the new file.
     fwrite(&fingerprint, sizeof(size_t), 1, db_file_);
@@ -58,7 +62,7 @@ bool UrlDatabase::Open(const char* filename) {
     // Write table size to the new file.
     fwrite(&table_size_, sizeof(size_t), 1, db_file_);
 
-    Entry e = { false, "", 0 };
+    Entry e = { false, "", system_clock::time_point() };
     for (size_t i = 0; i < TABLE_SIZE; ++i) {
       fwrite(&e, sizeof(Entry), 1, db_file_);
     }
@@ -90,13 +94,13 @@ bool UrlDatabase::Close() {
   return true;
 }
 
-bool UrlDatabase::Put(const std::string& key, int timestamp) {
+bool UrlDatabase::Put(
+  const std::string& key, system_clock::time_point timestamp
+) {
   size_t hash = GetHash(key) % table_size_; 
-  std::cout << "Hash is: " << hash << std::endl;
 
   Entry entry;
   if (!Probe(hash, key, &entry)) {
-    std::cout << "The hash table is full." << std::endl;
     throw std::runtime_error("The hash table is full.");
   }
 
@@ -112,7 +116,9 @@ bool UrlDatabase::Put(const std::string& key, int timestamp) {
 
 bool UrlDatabase::Get(const std::string& key, Entry* entry) {
   size_t hash = GetHash(key) % table_size_; 
-  if (!Probe(hash, key, entry)) return false;
+  if (!Probe(hash, key, entry)) {
+    return false;
+  }
   return entry->occupied;
 }
 

@@ -13,10 +13,16 @@
 
 namespace Crawler {
 
+enum FetcherState {
+  IDLE = 0,
+  FETCHING,
+  FAILED
+};
+
 struct WebPage {
+  bool failed;
   std::string html;
-  std::vector<std::string> inbound_links;
-  std::vector<std::string> outbound_links;
+  std::vector<std::string> links;
 };
 
 class IFetcher {
@@ -26,15 +32,14 @@ class IFetcher {
 };
 
 class Fetcher : public IFetcher {
-  std::shared_ptr<ILogger> logger_;
-  std::shared_ptr<CkSpider> ck_spider_;
+  CkSpider spider_;
+  FetcherState state_ = IDLE;
 
  public:
-  Fetcher(
-    std::shared_ptr<ILogger>, 
-    std::shared_ptr<CkSpider>
-  );
+  Fetcher();
 
+  FetcherState state() { return state_; }
+  void set_state(FetcherState state) { state_ = state; }
   WebPage GetWebPage(const std::string& url);
 };
 

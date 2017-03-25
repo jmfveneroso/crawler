@@ -10,24 +10,27 @@
 #include <string>
 #include <stdio.h>
 #include <unistd.h>
+#include <chrono>
 #include "logger.hpp"
 
-#define TABLE_SIZE 10
+#define TABLE_SIZE 100000
 
 namespace Crawler {
+
+using namespace std::chrono;
 
 struct Entry {
   bool occupied;
   char url[256];
-  int timestamp;
+  system_clock::time_point timestamp;
 };
 
 class IUrlDatabase {
  public:
   virtual ~IUrlDatabase() {}
-  virtual bool Open(const char*) = 0;
+  virtual bool Open(const char*, bool overwrite = false) = 0;
   virtual bool Close() = 0;
-  virtual bool Put(const std::string&, int) = 0;
+  virtual bool Put(const std::string&, system_clock::time_point) = 0;
   virtual bool Get(const std::string&, Entry*) = 0;
 };
 
@@ -46,9 +49,9 @@ class UrlDatabase : public IUrlDatabase {
   UrlDatabase(std::shared_ptr<ILogger> logger);
   ~UrlDatabase();
 
-  bool Open(const char*);
+  bool Open(const char*, bool overwrite = false);
   bool Close();
-  bool Put(const std::string&, int timestamp);
+  bool Put(const std::string&, system_clock::time_point);
   bool Get(const std::string&, Entry*);
 };
 

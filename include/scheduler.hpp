@@ -12,60 +12,71 @@
 #include <set>
 #include <map>
 #include <chrono>
+#include <iostream>
 #include "logger.hpp"
-
-// 2 ^ 32 total size and 2 ^ 16 partition size.
-// 8192 hashes.
-#define PARTITION_SIZE 1024
-#define NUM_PARTITIONS 1024 // 524288
+#include "url_database.hpp"
+#include "url_priority_list.hpp"
 
 namespace Crawler {
 
-class UrlComparator {
-  bool GetUrlWordSize(std::string);
+using namespace std::chrono;
 
- public:
-  bool operator() (std::string, std::string);
+struct DelayedUrl {
+  std::string url; 
+  system_clock::time_point timestamp;
+
+  DelayedUrl() : url() {
+    timestamp = system_clock::time_point();
+  }
+
+  DelayedUrl(const std::string& url, system_clock::time_point timestamp) 
+    : url(url), timestamp(timestamp) {
+  }
+
+  bool operator() (const DelayedUrl& lhs, const DelayedUrl& rhs) const {
+    auto ms = duration_cast<milliseconds>(rhs.timestamp - lhs.timestamp);
+    return ms.count() > 0;
+  }
 };
+
+// Aliases for typing convenience.
+using PriorityQueue = std::priority_queue<DelayedUrl, std::vector<DelayedUrl>, DelayedUrl>;
 
 class IScheduler {
  public:
   virtual ~IScheduler() {}
-  virtual std::string GetNextUrl() = 0;
-  virtual bool AddUrl(const std::string&) = 0;
+  virtual bool RegisterUrlAsync(const std::string&) = 0;
+  virtual bool ProcessDelayedQueue() = 0;
+  virtual bool GetNextUrl(std::string*) = 0;
+  virtual void set_politeness_policy(size_t) = 0;
 };
 
 class Scheduler : public IScheduler {
   std::shared_ptr<ILogger> logger_;
+  std::shared_ptr<IUrlDatabase> url_database_;
+  std::shared_ptr<IUrlPriorityList> url_priority_list_;
+
   std::mutex mtx_;
-  std::priority_queue<std::string, std::vector<std::string>, UrlComparator> url_queue_;
-  std::map<std::string, std::chrono::system_clock::time_point> last_requests_;
-  std::thread polite_thread_;
-  off_t url_pos_;
-  // std::map<size_t, std::string> crawled_urls_;
+  PriorityQueue delayed_queue_;
+  std::queue<std::string> ready_queue_;
+  long long politeness_policy_ = 1000;
 
-  FILE* file_;
-  FILE* queue_file_;
-  long int partition_offset_[NUM_PARTITIONS];
-
-  long int GetPartitionOffset(size_t);
-  size_t GetHash(const std::string&) const;
-  bool IsUnique(const std::string&);
-  void SetUnique(const std::string&);
-  bool ShouldWait(const std::string&);
-  void WaitPolitelyAsync();
-  bool ReadNextBatch();
-  void Init();
-
-  std::queue<std::string> waiting_queue_;
-
+  static std::string TruncateUrl(std::string);
   static std::string GetRootUrl(std::string);
+  bool EnforcePolitenessPolicy(const std::string&);
+  bool RegisterUrl(const std::string&);
 
  public:
-  Scheduler(std::shared_ptr<ILogger> logger);
+  Scheduler(
+    std::shared_ptr<ILogger> logger,
+    std::shared_ptr<IUrlDatabase> url_database_,
+    std::shared_ptr<IUrlPriorityList> url_priority_list_
+  );
 
-  std::string GetNextUrl();
-  bool AddUrl(const std::string&);
+  void set_politeness_policy(size_t time) { politeness_policy_ = time; }
+  bool RegisterUrlAsync(const std::string&);
+  bool ProcessDelayedQueue();
+  bool GetNextUrl(std::string*);
 };
 
 } // End of namespace.
