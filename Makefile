@@ -7,7 +7,7 @@ MKDIR_TEST := $(shell mkdir -p build/test)
 IDIR=include
 CC=g++
 # CPP_FLAGS=-I. -W -Wall -Werror -pedantic -std=c++11 -O3 -D_FILE_OFFSET_BITS=64
-CPP_FLAGS=-g -I. -W -Wall -Werror -pedantic -std=c++11 -D_FILE_OFFSET_BITS=64
+CPP_FLAGS=-g -I. -W -Wall -pedantic -std=c++11 -D_FILE_OFFSET_BITS=64
 
 CPP_FLAGS_32 := -Dx86 -m32
 CPP_FLAGS_64 := -Dx64 -m64
@@ -16,7 +16,7 @@ CPP_FLAGS += $(CPP_FLAGS_$(ARCH))
 BUILD_DIR=build
 LDIR=lib
 
-_DEPS = injector.hpp crawler.hpp fetcher.hpp scheduler.hpp storage.hpp logger.hpp url_database.hpp url_priority_list.hpp
+_DEPS = injector.hpp crawler.hpp fetcher.hpp scheduler.hpp storage.hpp logger.hpp url_database.hpp url_priority_list.hpp config.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
 _OBJ = injector.o crawler.o fetcher.o scheduler.o storage.o logger.o url_database.o url_priority_list.o
@@ -37,7 +37,7 @@ $(BUILD_DIR)/%.o: src/%.cpp $(DEPS)
 	$(CC) -c -o $@ $< $(CPP_FLAGS) -I$(IDIR) $(INC)
 
 $(BUILD_DIR)/crawler: build/main.o $(OBJ)
-	$(CC) -o $@ $^ $(LDLIBS) $(CPP_FLAGS)
+	$(CC) -o $@ $^ $(LDLIBS) $(CPP_FLAGS) -lprofiler
 
 # Tests.
 

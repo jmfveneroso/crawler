@@ -46,6 +46,12 @@ bool Scheduler::ProcessDelayedQueue() {
 
 bool Scheduler::RegisterUrl(const std::string& url) {
   std::string truncated_url = TruncateUrl(url);
+  std::string root_url = GetRootUrl(url);
+  if (root_url.size() < 3) return false;
+  if (root_url.substr(root_url.size() - 3) != ".br") {
+    logger_->Log("Ignoring url: " + url);
+    return false;
+  }
 
   // Checks if url is unique.
   Entry entry;
@@ -119,7 +125,7 @@ bool Scheduler::GetNextUrl(std::string* url) {
   // Fetch a url that abides to the politeness policy, while adding the
   // ones that do not abide to the delayed queue.
   while (!EnforcePolitenessPolicy(*url)) {
-    // logger_->Log("Not polite now: " + *url);
+    logger_->Log("Not polite now: " + *url);
     // We must wait to query this url. Let's try another one.
     if (!url_priority_list_->Pop(url)) {
       mtx_.unlock(); 

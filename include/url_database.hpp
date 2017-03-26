@@ -11,9 +11,11 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <chrono>
+#include <map>
 #include "logger.hpp"
+#include "config.h"
 
-#define TABLE_SIZE 100000
+#define TABLE_SIZE 10000000
 
 namespace Crawler {
 
@@ -40,6 +42,7 @@ class UrlDatabase : public IUrlDatabase {
   FILE* db_file_;
   size_t table_size_;
   size_t header_size_;
+  std::map<std::string, system_clock::time_point> urls_;
 
   size_t GetHash(std::string const&) const;
   bool Probe(size_t, const std::string&, Entry*);

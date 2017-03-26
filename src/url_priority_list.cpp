@@ -85,6 +85,12 @@ bool UrlPriorityList::Close() {
 bool UrlPriorityList::Push(const std::string& url) {
   if (!url.size() || url.size() > 256) return false;
 
+#ifdef IN_MEMORY
+  // Write to memory.
+  urls_.push(url);
+  return true;
+#endif
+
   int priority = GetPriority(url);
 
   unsigned char size = url.size();
@@ -92,7 +98,7 @@ bool UrlPriorityList::Push(const std::string& url) {
     return false;
 
   char buffer[256];
-  strncpy(buffer, url.c_str(), size);
+  std::strncpy(buffer, url.c_str(), size);
   if (fwrite(buffer, sizeof(char), size, priority_files_[priority]) != size)
     return false;
 

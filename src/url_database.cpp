@@ -97,6 +97,11 @@ bool UrlDatabase::Close() {
 bool UrlDatabase::Put(
   const std::string& key, system_clock::time_point timestamp
 ) {
+#ifdef IN_MEMORY
+  urls_[key] = timestamp; 
+  return true;
+#endif
+  
   size_t hash = GetHash(key) % table_size_; 
 
   Entry entry;
@@ -115,6 +120,15 @@ bool UrlDatabase::Put(
 }
 
 bool UrlDatabase::Get(const std::string& key, Entry* entry) {
+#ifdef IN_MEMORY
+  if (urls_.find(key) != urls_.end()) {
+    entry->timestamp = urls_[key];
+    return true;
+  } else {
+    return false;
+  }
+#endif
+
   size_t hash = GetHash(key) % table_size_; 
   if (!Probe(hash, key, entry)) {
     return false;

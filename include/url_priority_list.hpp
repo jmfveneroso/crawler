@@ -7,11 +7,12 @@
 #define __URL_PRIORITY_LIST_HPP__
 
 #include <thread>
-#include <string>
+#include <cstring>
 #include <queue>
 #include <stdio.h>
 #include <unistd.h>
 #include "logger.hpp"
+#include "config.h"
 
 #define PRIORITY_LEVELS 10
 #define BLOCK_SIZE 10000

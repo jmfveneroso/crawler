@@ -8,13 +8,17 @@
 
 #include <thread>
 #include <mutex>
+#include <chrono>
 #include "logger.hpp"
 #include "fetcher.hpp"
 #include "storage.hpp"
+#include "config.h"
 
-#define NUM_THREADS 64
+#define NUM_THREADS 256
 
 namespace Crawler {
+
+using namespace std::chrono;
 
 class ICrawler {
  public:
@@ -31,6 +35,8 @@ class Crawler : public ICrawler {
   std::shared_ptr<IStorage> storage_;
 
   std::mutex mtx_;
+  system_clock::time_point now_;
+
   Fetcher fetchers_[NUM_THREADS];
   std::thread threads_[NUM_THREADS];
   std::thread url_fetcher_thread_;
