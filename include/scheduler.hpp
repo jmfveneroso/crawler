@@ -49,6 +49,7 @@ class IScheduler {
   virtual bool ProcessDelayedQueue() = 0;
   virtual bool GetNextUrl(std::string*) = 0;
   virtual void set_politeness_policy(size_t) = 0;
+  virtual void ClearDelayedQueue() = 0;
 };
 
 class Scheduler : public IScheduler {
@@ -77,6 +78,7 @@ class Scheduler : public IScheduler {
   bool RegisterUrlAsync(const std::string&);
   bool ProcessDelayedQueue();
   bool GetNextUrl(std::string*);
+  void ClearDelayedQueue();
 };
 
 } // End of namespace.

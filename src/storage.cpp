@@ -26,7 +26,7 @@ void Storage::StripSeparators(std::string& html) {
   }
 }
 
-void Storage::Write(const std::string& url, std::string& html) {
+size_t Storage::Write(const std::string& url, std::string& html) {
   StripSeparators(html);
 
   std::string buffer;
@@ -45,6 +45,7 @@ void Storage::Write(const std::string& url, std::string& html) {
   mtx_.unlock();
 
   logger_->Log("Wrote " + std::to_string(buffer.size()) + "bytes.");
+  return buffer.size();
 }
 
 void Storage::Close() {

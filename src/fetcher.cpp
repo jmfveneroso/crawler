@@ -10,14 +10,22 @@ Fetcher::Fetcher() {
 
 WebPage Fetcher::GetWebPage(const std::string& url) {
   CkSpider spider;
+  spider.put_FetchFromCache(false);
+
   // No need to call Initialize here since Initialize restrains the crawler
   // to crawl only within the specified domain.
-  // spider.Initialize(url);
+  //spider.Initialize(url.c_str());
 
   WebPage web_page;
   web_page.failed = false;
 
   spider.AddUnspidered(url.c_str());
+
+  // CkTask* task = spider.CrawlNextAsync();
+  // if (task == 0) {
+  //   throw std::runtime_error("Problem writing to chilkat."); 
+  // }
+
   if (!spider.CrawlNext()) {
     web_page.failed = true;
     state_ = FAILED;

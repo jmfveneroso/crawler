@@ -16,7 +16,7 @@ namespace Crawler {
 class IStorage {
  public:
   virtual ~IStorage() {}
-  virtual void Write(const std::string&, std::string&) = 0;
+  virtual size_t Write(const std::string&, std::string&) = 0;
   virtual void Open(const std::string&, bool) = 0;
   virtual void Close() = 0;
 };
@@ -35,7 +35,7 @@ class Storage : public IStorage {
 
   void Open(const std::string&, bool);
   void Close();
-  void Write(const std::string&, std::string&);
+  size_t Write(const std::string&, std::string&);
 };
 
 } // End of namespace.

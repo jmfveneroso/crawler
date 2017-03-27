@@ -49,7 +49,7 @@ bool Scheduler::RegisterUrl(const std::string& url) {
   std::string root_url = GetRootUrl(url);
   if (root_url.size() < 3) return false;
   if (root_url.substr(root_url.size() - 3) != ".br") {
-    logger_->Log("Ignoring url: " + url);
+    // logger_->Log("Ignoring url: " + url);
     return false;
   }
 
@@ -66,11 +66,10 @@ bool Scheduler::RegisterUrl(const std::string& url) {
   } catch (std::runtime_error& e) {
     logger_->Log(e.what());
   }
-  logger_->Log(std::string("Added: ") + truncated_url + ".");
+  // logger_->Log(std::string("Added: ") + truncated_url + ".");
 
   // Pushes url to queue.
   url_priority_list_->Push(truncated_url);
-
   return true;
 }
 
@@ -125,7 +124,7 @@ bool Scheduler::GetNextUrl(std::string* url) {
   // Fetch a url that abides to the politeness policy, while adding the
   // ones that do not abide to the delayed queue.
   while (!EnforcePolitenessPolicy(*url)) {
-    logger_->Log("Not polite now: " + *url);
+    // logger_->Log("Not polite now: " + *url);
     // We must wait to query this url. Let's try another one.
     if (!url_priority_list_->Pop(url)) {
       mtx_.unlock(); 
@@ -135,6 +134,13 @@ bool Scheduler::GetNextUrl(std::string* url) {
 
   mtx_.unlock();
   return true;
+}
+
+void Scheduler::ClearDelayedQueue() {
+  mtx_.lock();
+  delayed_queue_ = PriorityQueue();
+  ready_queue_ = std::queue<std::string>();
+  mtx_.unlock();
 }
 
 } // End of namespace.

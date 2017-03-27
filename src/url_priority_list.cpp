@@ -88,6 +88,7 @@ bool UrlPriorityList::Push(const std::string& url) {
 #ifdef IN_MEMORY
   // Write to memory.
   urls_.push(url);
+  ++written_urls_num_;
   return true;
 #endif
 
@@ -95,21 +96,25 @@ bool UrlPriorityList::Push(const std::string& url) {
 
   unsigned char size = url.size();
   if (fwrite(&size, sizeof(unsigned char), 1, priority_files_[priority]) != 1)
-    return false;
+    throw new std::runtime_error("Error writing to priority file.");
 
   char buffer[256];
   std::strncpy(buffer, url.c_str(), size);
   if (fwrite(buffer, sizeof(char), size, priority_files_[priority]) != size)
-    return false;
+    throw new std::runtime_error("Error writing to priority file.");
 
   ++written_urls_num_;
   return true;
 }
 
 bool UrlPriorityList::Pop(std::string* url) {
-  if (urls_.empty()) return false;
+  if (urls_.empty()) {
+    logger_->Log("Empty buffer.");
+    return false;
+  }
 
   *url = urls_.front();
+  logger_->Log("Popping: " + *url);
   urls_.pop();
   return true;
 }
@@ -132,8 +137,12 @@ size_t UrlPriorityList::FetchBlock() {
       continue;
     }
 
-    fread(buffer, sizeof(char), size, priority_files_[priority]);
+    if (fread(buffer, sizeof(char), size, priority_files_[priority]) != size) {
+      throw std::runtime_error("Error reading priority file.");
+    }
+
     buffer[size] = '\0';
+    logger_->Log(std::string("Fetched ") + buffer + " from disk.");
     urls_.push(buffer);
     file_cursors_[priority] += 1 + size;
   }

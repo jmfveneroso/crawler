@@ -16,90 +16,61 @@ Crawler::Crawler(
     storage_(storage) {
 }
 
-void Crawler::FetchUrlsFromDisk() {
-  // while (true) {
-    // mtx_.lock();
-    // if (!fetching_urls_in_disk_) {
-    //   std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-    //   mtx_.unlock();
-    //   continue;
-    // }
-    // mtx_.unlock();
- 
-    // bool wait = false;
-    // for (int i = 0; i < NUM_THREADS; ++i) {
-    //   if (fetchers_[i].state() != IDLE) {
-    //     wait = true;
-    //     break;
-    //   }
-    // }
-
-    // // Flush all files. Wait for all fetchers to finish downloading
-    // // and writing the html files before commiting the cursor positions.
-    // if (wait) {
-    //   std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-    //   continue;
-    // }
-
-    mtx_.lock();
-    url_priority_list_->FetchBlock();
-    fetching_urls_in_disk_ = false; 
-    mtx_.unlock();
-  // }
-}
-
 void Crawler::FetchPagesAsync(int fetcher_pos) {
   while (true) {
     mtx_.lock();
-    // bool skip = fetching_urls_in_disk_;
+    if (fetched_urls_num_ >= NUM_URLS) {  
+      mtx_.unlock();
+      return; 
+    }
 
-    // if (skip) {
-    //   logger_->Log("Waiting 1000ms.");
-    //   std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-    //   mtx_.unlock();
-    //   continue;
-    // }
- 
     std::string url;
     if (!scheduler_->GetNextUrl(&url)) {
-      // FetchUrlsFromDisk();
-      // fetching_urls_in_disk_ = true;
 #ifndef IN_MEMORY
-      url_priority_list_->FetchBlock();
+      if (!empty_db_file_) {
+        if (url_priority_list_->FetchBlock() == 0) empty_db_file_ = true;
+      }
 #endif
       mtx_.unlock();
+      std::this_thread::sleep_for(std::chrono::milliseconds(1000));
       continue;
     }
     mtx_.unlock();
 
     logger_->Log(std::string("Fetching ") + url + " for " + std::to_string(fetcher_pos));
 
-    WebPage web_page = fetchers_[fetcher_pos].GetWebPage(url); 
-
-    mtx_.lock();
-    for (auto link : web_page.links) {
-      scheduler_->RegisterUrlAsync(link);
-    }
-    mtx_.unlock();
-
     fetchers_[fetcher_pos].set_state(FETCHING);
+    WebPage web_page = fetchers_[fetcher_pos].GetWebPage(url); 
     if (fetchers_[fetcher_pos].state() == FAILED || web_page.html.size() == 0) {
-      logger_->Log(std::string("[FAILED] ") + url + ".");
+      logger_->Log(std::string("[FAILED] ") + url);
+      continue;
     } else {
-      // if (fetched_urls_num_ >= 500) {
-      //   logger_->Log("Fetched urls: " + std::to_string(fetched_urls_num_));
-      //   return;
-      // }
+      mtx_.lock();
+      for (auto link : web_page.links) {
+        if (scheduler_->RegisterUrlAsync(link)) {
+          empty_db_file_ = false;
+        }
+      }
+      mtx_.unlock();
+
       ++fetched_urls_num_;
-      storage_->Write(url, web_page.html);
+      if (fetched_urls_num_ <= NUM_URLS) {
+        bytes_written_ += storage_->Write(url, web_page.html);
+      }
     }
-    fetchers_[fetcher_pos].set_state(IDLE);
+
+    fetchers_[fetcher_pos].set_state(IDLE); 
 
     std::string msg = "Fetched urls: ";
     system_clock::time_point now = system_clock::now();
     auto ms = duration_cast<milliseconds>(now - now_);
     msg += std::to_string(fetched_urls_num_) + " in " + std::to_string(ms.count()) + " ms.";
-    logger_->Log(msg);
+    // std::cout << msg << std::endl;
+    // logger_->Log(msg);
+
+    if (fetched_urls_num_ >= NUM_URLS) {
+      if (total_time_ == 0) total_time_ = ms.count();
+    }
   }
 }
 
@@ -108,44 +79,50 @@ void Crawler::ProcessDelayedUrls() {
     if (!scheduler_->ProcessDelayedQueue()) {
       std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     }
-    if (fetched_urls_num_ > 100) { return; }
   }
 }
 
 void Crawler::Start() {
-  now_ = system_clock::now();
-  storage_->Open("build/html_pages", true);
-
-#ifndef IN_MEMORY
-  url_database_->Open("build/db", true);
-  url_priority_list_->Open("build/p_list_", true),
-#endif
-
-  scheduler_->RegisterUrlAsync("https://www.bcb.gov.br/pec/GCI/PORT/readout/R20161230.pdf");
-  // scheduler_->RegisterUrlAsync("globo.com");
-  // scheduler_->RegisterUrlAsync("yahoo.com");
-  scheduler_->RegisterUrlAsync("jovemnerd.com.br");
-  // scheduler_->RegisterUrlAsync("uol.com.br");
-
-  for (int i = 0; i < NUM_THREADS; ++i) {
-    threads_[i] = std::thread(&Crawler::FetchPagesAsync, this, i);
-  }
   delayed_urls_thread_ = std::thread(&Crawler::ProcessDelayedUrls, this);
+  for (num_threads_ = 8; num_threads_ <= 48; num_threads_ += 8) {
+    now_ = system_clock::now();
+    bytes_written_ = 0;
+    fetched_urls_num_ = 0;
+    empty_db_file_ = false;
+    total_time_ = 0;
+    scheduler_->ClearDelayedQueue();
 
-  // url_fetcher_thread_ = std::thread(&Crawler::FetchUrlsFromDisk, this);
+    std::string msg = std::to_string(num_threads_) + " threads.";
+    std::cout << msg << std::endl;
 
-  for (int i = 0; i < NUM_THREADS; ++i) {
-    threads_[i].join();
-  }
-  // url_fetcher_thread_.join();
-  delayed_urls_thread_.join();
+    storage_->Open("/mnt/hd0/joao_test/html_pages", true);
+  
+#ifndef IN_MEMORY
+    url_database_->Open("/mnt/hd0/joao_test/db", true);
+    url_priority_list_->Open("/mnt/hd0/joao_test/p_list_", true),
+#endif
+  
+    scheduler_->RegisterUrlAsync("noticias.terra.com.br");
+ 
+    for (int i = 0; i < num_threads_; ++i) {
+      threads_[i] = new std::thread(&Crawler::FetchPagesAsync, this, i);
+    }
 
-  storage_->Close();
+    for (int i = 0; i < num_threads_; ++i) {
+      threads_[i]->join();
+      delete threads_[i];
+    }
+
+    std::cout << num_threads_ << ", " << total_time_ << ", " << bytes_written_ << std::endl;
+    storage_->Close();
 
 #ifndef IN_MEMORY
-  url_database_->Close();
-  url_priority_list_->Close();
+    url_database_->Close();
+    url_priority_list_->Close();
 #endif
+  }
+
+  delayed_urls_thread_.join();
 }
 
 } // End of namespace.
