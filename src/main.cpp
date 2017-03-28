@@ -1,12 +1,12 @@
 #include "injector.hpp"
 #include <iostream>
-#include <gperftools/profiler.h>
+//#include <gperftools/profiler.h>
 #include <fstream>
 #include <streambuf>
 
 int main () {
-  ProfilerStart("crawler.prof");
+  // ProfilerStart("crawler.prof");
   Crawler::Injector::Instance()->crawler()->Start();
-  ProfilerStop();
+  // ProfilerStop();
   return 0;
 }

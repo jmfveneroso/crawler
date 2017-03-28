@@ -26,7 +26,7 @@ void Crawler::FetchPagesAsync(int fetcher_pos) {
 
     std::string url;
     if (!scheduler_->GetNextUrl(&url)) {
-#ifndef IN_MEMORY
+#ifndef IN_MEMORY_PRIORITY_LIST
       if (!empty_db_file_) {
         if (url_priority_list_->FetchBlock() == 0) empty_db_file_ = true;
       }
@@ -40,13 +40,13 @@ void Crawler::FetchPagesAsync(int fetcher_pos) {
     logger_->Log(std::string("Fetching ") + url + " for " + std::to_string(fetcher_pos));
 
     fetchers_[fetcher_pos].set_state(FETCHING);
-    WebPage web_page = fetchers_[fetcher_pos].GetWebPage(url); 
-    if (fetchers_[fetcher_pos].state() == FAILED || web_page.html.size() == 0) {
+    WebPage *web_page = fetchers_[fetcher_pos].GetWebPage(url); 
+    if (fetchers_[fetcher_pos].state() == FAILED || web_page->html.size() == 0) {
       logger_->Log(std::string("[FAILED] ") + url);
       continue;
     } else {
       mtx_.lock();
-      for (auto link : web_page.links) {
+      for (auto link : web_page->links) {
         if (scheduler_->RegisterUrlAsync(link)) {
           empty_db_file_ = false;
         }
@@ -55,9 +55,10 @@ void Crawler::FetchPagesAsync(int fetcher_pos) {
 
       ++fetched_urls_num_;
       if (fetched_urls_num_ <= NUM_URLS) {
-        bytes_written_ += storage_->Write(url, web_page.html);
+        bytes_written_ += storage_->Write(url, web_page->html);
       }
     }
+    delete web_page;
 
     fetchers_[fetcher_pos].set_state(IDLE); 
 
@@ -65,8 +66,7 @@ void Crawler::FetchPagesAsync(int fetcher_pos) {
     system_clock::time_point now = system_clock::now();
     auto ms = duration_cast<milliseconds>(now - now_);
     msg += std::to_string(fetched_urls_num_) + " in " + std::to_string(ms.count()) + " ms.";
-    // std::cout << msg << std::endl;
-    // logger_->Log(msg);
+    logger_->Log(msg);
 
     if (fetched_urls_num_ >= NUM_URLS) {
       if (total_time_ == 0) total_time_ = ms.count();
@@ -76,6 +76,7 @@ void Crawler::FetchPagesAsync(int fetcher_pos) {
 
 void Crawler::ProcessDelayedUrls() {
   while (true) {
+    if (fetched_urls_num_ >= NUM_URLS) return;
     if (!scheduler_->ProcessDelayedQueue()) {
       std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     }
@@ -83,8 +84,8 @@ void Crawler::ProcessDelayedUrls() {
 }
 
 void Crawler::Start() {
-  delayed_urls_thread_ = std::thread(&Crawler::ProcessDelayedUrls, this);
-  for (num_threads_ = 8; num_threads_ <= 48; num_threads_ += 8) {
+  std::cout << "Started" << std::endl;
+  for (num_threads_ = 512; num_threads_ <= 512; num_threads_ += 8) {
     now_ = system_clock::now();
     bytes_written_ = 0;
     fetched_urls_num_ = 0;
@@ -92,18 +93,18 @@ void Crawler::Start() {
     total_time_ = 0;
     scheduler_->ClearDelayedQueue();
 
-    std::string msg = std::to_string(num_threads_) + " threads.";
-    std::cout << msg << std::endl;
-
     storage_->Open("/mnt/hd0/joao_test/html_pages", true);
   
 #ifndef IN_MEMORY
     url_database_->Open("/mnt/hd0/joao_test/db", true);
+#endif
+#ifndef IN_MEMORY_PRIORITY_LIST
     url_priority_list_->Open("/mnt/hd0/joao_test/p_list_", true),
 #endif
   
     scheduler_->RegisterUrlAsync("noticias.terra.com.br");
  
+    delayed_urls_thread_ = new std::thread(&Crawler::ProcessDelayedUrls, this);
     for (int i = 0; i < num_threads_; ++i) {
       threads_[i] = new std::thread(&Crawler::FetchPagesAsync, this, i);
     }
@@ -112,17 +113,21 @@ void Crawler::Start() {
       threads_[i]->join();
       delete threads_[i];
     }
+    delayed_urls_thread_->join();
+    delete delayed_urls_thread_;
 
     std::cout << num_threads_ << ", " << total_time_ << ", " << bytes_written_ << std::endl;
     storage_->Close();
 
 #ifndef IN_MEMORY
     url_database_->Close();
+#endif
+#ifndef IN_MEMORY_PRIORITY_LIST
     url_priority_list_->Close();
 #endif
   }
 
-  delayed_urls_thread_.join();
+  std::cout << "Finished." << std::endl;
 }
 
 } // End of namespace.

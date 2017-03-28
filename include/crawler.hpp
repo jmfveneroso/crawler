@@ -15,7 +15,7 @@
 #include "config.h"
 
 #define NUM_THREADS 512
-#define NUM_URLS 1000
+#define NUM_URLS 100000
 
 namespace Crawler {
 
@@ -40,7 +40,7 @@ class Crawler : public ICrawler {
 
   Fetcher fetchers_[NUM_THREADS];
   std::thread* threads_[NUM_THREADS];
-  std::thread delayed_urls_thread_;
+  std::thread* delayed_urls_thread_;
 
   bool empty_db_file_ = false;
   size_t fetched_urls_num_ = 0;

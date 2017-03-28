@@ -62,7 +62,9 @@ bool UrlDatabase::Open(const char* filename, bool overwrite) {
     // Write table size to the new file.
     fwrite(&table_size_, sizeof(size_t), 1, db_file_);
 
-    Entry e = { false, "", system_clock::time_point() };
+    Entry e = { false, "\0", system_clock::time_point() };
+    memset(e.url, 0, (size_t) 256);
+
     for (size_t i = 0; i < TABLE_SIZE; ++i) {
       fwrite(&e, sizeof(Entry), 1, db_file_);
     }
@@ -110,7 +112,7 @@ bool UrlDatabase::Put(
   }
 
   entry.occupied = true;
-  key.copy(entry.url, 256);
+  key.copy(entry.url, key.size());
   entry.timestamp = timestamp;
 
   fseeko(db_file_, -sizeof(Entry), SEEK_CUR);

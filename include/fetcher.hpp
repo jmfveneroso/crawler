@@ -28,11 +28,11 @@ struct WebPage {
 class IFetcher {
  public:
   virtual ~IFetcher() {}
-  virtual WebPage GetWebPage(const std::string& url) = 0;
+  virtual WebPage* GetWebPage(const std::string& url) = 0;
 };
 
 class Fetcher : public IFetcher {
-  CkSpider spider_;
+  CkSpider* spider;
   FetcherState state_ = IDLE;
 
  public:
@@ -40,7 +40,7 @@ class Fetcher : public IFetcher {
 
   FetcherState state() { return state_; }
   void set_state(FetcherState state) { state_ = state; }
-  WebPage GetWebPage(const std::string& url);
+  WebPage* GetWebPage(const std::string& url);
 };
 
 } // End of namespace.

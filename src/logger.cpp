@@ -4,14 +4,26 @@
 
 namespace Crawler {
 
-Logger::Logger() {}
+Logger::Logger() {
+  log_file_ = fopen("crawler.log", "wb+");
+}
+
+Logger::~Logger() {
+  fclose(log_file_);
+}
 
 void Logger::Log(const std::string& msg) {
   mtx_.lock();
-#ifdef LOG
+#ifdef LOG_TO_STDOUT
   std::cout << msg << "\n";
 #else
-  msg.size();
+  char buffer[1024];
+  size_t size = (msg.size() > 1024) ? 1024 : msg.size();
+  std::strncpy(buffer, msg.c_str(), size);
+  buffer[size - 1] = '\n';
+  if (fwrite(buffer, sizeof(char), size, log_file_) != size)
+    throw new std::runtime_error("Error writing to priority file.");
+  fflush(log_file_);
 #endif
   mtx_.unlock();
 }

@@ -45,6 +45,8 @@ bool Scheduler::ProcessDelayedQueue() {
 }
 
 bool Scheduler::RegisterUrl(const std::string& url) {
+  if (url.size() > 256) return false;
+
   std::string truncated_url = TruncateUrl(url);
   std::string root_url = GetRootUrl(url);
   if (root_url.size() < 3) return false;

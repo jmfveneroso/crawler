@@ -1,6 +1,7 @@
 #include "url_priority_list.hpp"
 #include <iostream>
 #include <sstream>
+#include <cassert>
 
 namespace Crawler {
 
@@ -83,9 +84,9 @@ bool UrlPriorityList::Close() {
 }
 
 bool UrlPriorityList::Push(const std::string& url) {
-  if (!url.size() || url.size() > 256) return false;
+  if (url.size() == 0 || url.size() > 256) return false;
 
-#ifdef IN_MEMORY
+#ifdef IN_MEMORY_PRIORITY_LIST
   // Write to memory.
   urls_.push(url);
   ++written_urls_num_;
@@ -99,7 +100,7 @@ bool UrlPriorityList::Push(const std::string& url) {
     throw new std::runtime_error("Error writing to priority file.");
 
   char buffer[256];
-  std::strncpy(buffer, url.c_str(), size);
+  url.copy(buffer, url.size());
   if (fwrite(buffer, sizeof(char), size, priority_files_[priority]) != size)
     throw new std::runtime_error("Error writing to priority file.");
 
@@ -123,7 +124,7 @@ size_t UrlPriorityList::FetchBlock() {
   // std::queue<std::string> empty;
   // std::swap(urls_, empty);
 
-  // Commit the current cursor values to file and set cursors
+  // Commit the current cursor values to file and set the cursors
   // to read position.
   CommitFileCursors();
 
@@ -143,8 +144,8 @@ size_t UrlPriorityList::FetchBlock() {
 
     buffer[size] = '\0';
     logger_->Log(std::string("Fetched ") + buffer + " from disk.");
-    urls_.push(buffer);
-    file_cursors_[priority] += 1 + size;
+    urls_.push(std::string(buffer));
+    file_cursors_[priority] += sizeof(unsigned char) + size * sizeof(char);
   }
 
   // Set cursors back to write position.

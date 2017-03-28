@@ -7,7 +7,8 @@
 #define __LOGGER_HPP__
 
 #include <mutex>
-#include <string>
+#include <cstring>
+#include <cstdio>
 
 namespace Crawler {
 
@@ -19,9 +20,11 @@ class ILogger {
 
 class Logger : public ILogger {
   std::mutex mtx_;
+  FILE* log_file_ = NULL;
 
  public:
   Logger();
+  ~Logger();
   
   void Log(const std::string& msg);
 };
