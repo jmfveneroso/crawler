@@ -32,7 +32,6 @@ class IFetcher {
 };
 
 class Fetcher : public IFetcher {
-  CkSpider* spider;
   FetcherState state_ = IDLE;
 
  public:

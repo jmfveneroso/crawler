@@ -174,7 +174,9 @@ void Crawler::SignalHandler(int signum) {
    exit(signum);  
 }
 
-void Crawler::Start() {
+void Crawler::Start(
+  const char* out_file, const char* db_file, const char* pl_file
+) {
   std::cout << "Started" << std::endl;
   instance_ = this;
   num_threads_ = NUM_THREADS;
@@ -186,13 +188,15 @@ void Crawler::Start() {
   sample_time_ = system_clock::now();
   scheduler_->ClearDelayedQueue();
 
-  storage_->Open("/mnt/hd0/joao_test/html_pages", false);
-  
+  storage_->Open(out_file, false);
+
+  logger_->Log(db_file);
+  logger_->Log(pl_file);
 #ifndef IN_MEMORY
-  url_database_->Open("/mnt/hd0/joao_test/db", false);
+  url_database_->Open(db_file, false);
 #endif
 #ifndef IN_MEMORY_PRIORITY_LIST
-  url_priority_list_->Open("/mnt/hd0/joao_test/p_list_", false),
+  url_priority_list_->Open(pl_file, false),
 #endif
  
   scheduler_->RegisterUrlAsync("noticias.terra.com.br");

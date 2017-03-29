@@ -24,7 +24,7 @@ using namespace std::chrono;
 class ICrawler {
  public:
   virtual ~ICrawler() {}
-  virtual void Start() = 0;
+  virtual void Start(const char*, const char*, const char*) = 0;
 };
 
 class Crawler : public ICrawler {
@@ -72,7 +72,7 @@ class Crawler : public ICrawler {
     std::shared_ptr<IStorage>
   );
 
-  void Start();
+  void Start(const char*, const char*, const char*);
   static void SignalHandler(int);
 };
 

@@ -14,7 +14,11 @@ int main () {
 #ifdef PROFILE
   ProfilerStart("crawler.prof");
 #endif
-  Crawler::Injector::Instance()->crawler()->Start();
+  Crawler::Injector::Instance()->crawler()->Start(
+    "html_pages",
+    "db",
+    "pl_"
+  );
 #ifdef PROFILE
   ProfilerStop();
 #endif

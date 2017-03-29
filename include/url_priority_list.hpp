@@ -7,7 +7,7 @@
 #define __URL_PRIORITY_LIST_HPP__
 
 #include <thread>
-#include <string.h>
+#include <string>
 #include <queue>
 #include <stdio.h>
 #include <unistd.h>
