@@ -1,0 +1,203 @@
+\documentclass{acmart}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+\title{Information Retrieval Assignment 1 Report}
+\author{João Mateus de Freitas Veneroso}
+
+\maketitle
+
+\begin{abstract}
+This report makes a thorough examination of a web crawler engine implemented
+in C/C++.
+\end{abstract}
+
+\section{Introduction}
+
+A web crawler is a computer software designed to retrieve documents by following
+hyperlinks just as a internet user would do. In order to achieve 
+good coverage the crawler needs to make efficient usage of the available bandwidth.
+This report describes a crawler programmed in C/C++ which aimed to retrieve a broad
+sample of the brazilian network and its latest release can be found at: 
+https://github.com/jmfveneroso/crawler. For installation instructions and usage 
+examples see the README.md file. 
+
+\section{Project}
+The aim of this project was to build an efficient command line tool to collect a 
+significant portion of the brazilian web. The end result achieved a performance of
+up to 300 page downloads per second in ideal conditions and averaged about 190 pages 
+per second. Note that this performance was quite possibly capped by the available bandwidth.
+The crawler's operation can be summarised into four steps:
+
+\begin{description}
+  \item [Read]     The next url is read from the queue.
+  \item [Fetch]    A web page is retrieved. Multiple fetchers can perform this task in parallel.
+  \item [Schedule] All valid links found in a document are scheduled to be crawled next.
+  \item [Write]    The document is written to an output file.
+\end{description}
+
+\subsection{Read}
+
+During the read phase the next url to be crawled is retrieved according to its priority, which 
+is set during the "schedule" phase. However multiple requests to the same server (url root) in rapid 
+succession are avoided in order to prevent making the server unavailable to its actual users.
+This is achieved by following a simple politeness policy: if any request has been made to the
+requested server in the last 30 seconds the url is added to a delayed queue and the next one
+is fetched until a target that abides to the politeness policy is found.
+
+The read operation is atomic.
+
+\subsection{Fetch}
+
+Latency varies broadly among web servers. This means that once a request has been made it may 
+take several seconds before the server responds, and during that time gap the processor becomes 
+idle resulting in loss of performance. To achieve better results the fetch operation can be 
+performed by multiple threads operating in parallel.
+After the fetching operation terminates, multiple threads must compete to schedule the newly 
+found hyperlinks and persist the retrieved document.
+
+\subsection{Schedule}
+
+The scheduling phase register urls found in hyperlinks and sorts them according to their priority.
+Since our main goal is to retrieve a broad sample of documents written in portuguese, urls without 
+the suffix ".br" were discarded from our collection. A language checker would be a better 
+alternative in order to achieve this goal, but is falls out of the scope of this project due 
+to time limitation.
+
+Even when considering brazilian web pages alone the sample size becomes huge, so there is a need to 
+impose a priority check before performing the retrieval. In order to so, unspidered urls
+were classified in categories according to word sizes ranging from 1 to 10. Any sequence of 
+characters occurring between "/" was considered a complete word, for example:
+
+\begin{itemize}
+\item "www.example.com.br" has size 1
+\item "www.example.com.br/category" has size 2
+\item "www.example.uol.com.br" has size 1
+\end{itemize}
+
+If the url size exceeded 10 words, it was classified in the tenth category. It was observed that
+the overwhelming majority of urls had 9 words or less, so this decision did not have a huge impact 
+in the crawler's operation.
+
+We evaluated the possibility of checking word size before the first ocurrence of "/" but it seemed
+arbitrary to give greater priority to "www.example.com.br" compared to "www.example.br". The consequence
+is that "www.app.example.com" is assigned the same priority as "www.example.com" in our crawler.
+
+This operation is atomic, so multiple threads cannot register urls at the same time.
+
+\subsection{Write}
+
+The main goal of this project is to build a sample of the brazilian network so all downloaded documents must be 
+persisted to secondary memory. This operation is a simple write to disk operation and it is atomic. The finishing
+file size can reach several gigabytes after a few minutes running.
+
+\section{Experiments}
+
+Three experiments were conducted to evaluate trade offs between architecture choices and 
+to find the characteristics of the collection of documents available in portuguese over the web. The
+experiments are described below.
+
+\subsection{Optimal thread performance}
+Multipled threads were used during the fetch phase but the optimal number of concurrent processes was
+not evident. The goal of this experiment was to find the number of threads in which the ratio
+of pages downloaded per second was maximized.
+The number of threads performing the fetch operation was varied from 8 to 512 in increments of size 8. And at
+each iteration 1000 urls were downloaded. The remaining crawler operations were kept unvaried through the 
+experiment.
+The sample size may be small, but it is somewhat irrelevant for the end sought. The sample size has impact
+over the atomic operations of the crawler, not the fetch phase. So if a number of threads is optimal for
+this small sample size it can be argued that it will remain so for larger collections.
+
+The total time and the collection size were recorded for each number of threads providing the following results:
+
+[Graph goes here]
+
+By assessing the experimental data it was possible to notice that there exists a trade off between document size 
+and speed of retrieval. A big number of threads performs considerably faster but the collection size diminishes 
+as the number of threads increases.
+This happens due to the server response time. When many threads are fetching web pages from multiple servers,
+the smaller documents will have a faster response time, so the collection will end up with a smaller average size.
+When the number of threads is small, most threads will get stuck waiting for a big document or waiting for the
+server to timeout and as a consequence the collection size will decrease.
+
+Since our goal in this project is to collect as many pages as possible in as little a time as possible
+we chose to run all other experiments with 512 parallel threads.
+
+\subsection{Primary and secondary memory storage}
+In order to obtain huge sample sizes it is virtually impossible to keep all data structures residing in 
+primary memory so the goal of this experiment was to find out if there was a huge performance loss when 
+secondary memory was used for this goal.
+The experiment consisted in crawling 100.000 urls while keeping all relevant data structures first in
+primary and then in secondary memory.
+
+The project implements two data structures that may reach considerable sizes: the url hash table and the 
+url priority list.
+  
+\subsubsection{Url hash table}
+The url hash table ascertains url uniqueness when the crawler is evaluating which link to crawl next. This
+structure is of uttermost importance to avoid downloading the same document over and over again. The table
+functions also as a key value store in which the values correspond to the last time that url was queried, a
+necessary feature to make the politeness policy achievable.
+
+In secondary memory, the url hash table was modeled by making use of open addressing and linear probing as
+a method of conflict resolution. 
+This means that in case of collision, the key is stored in the next available space. This design must
+store entries in fixed size buckets, so all urls were considered to have at most 256 characters. This is 
+inefficient considering that most urls are much smaller than that but it works well as a proof of concept. The retrieval
+time for this model is very efficient when the table is less than half filled but decreases rapidly after that.
+To make sure retrieval times were fast enough the table size was made to be much larger than the amount of urls stored.
+
+In primary memory the url hash table was implemented with the stl container std::set.
+
+\subsubsection{Url priority list}
+The priority list was called that way to differentiate it from the stl container priority queue. 
+It actually consists of multiple lists, one for each priority level, with constant insertion complexity.
+
+In secondary memory the priority list was modeled as 10 separate files in which the urls were written one after another
+without any underlying structure. The file cursor was recorded to keep track where the next sequence of reads had to be
+performed and 10000 urls were kept in primary memory at each time. The new urls are simply written to the end of the file.
+
+In primary memory the url priority list was modeled as 10 instances of the stl container std::queue.
+
+We found that eventhough primary memory is faster, the performance loss of using secondary memory was not
+very significant. The bandwidth seems to present a more significant barrier when ultra fast networks are
+not available so the next experiment was conducted by storing the data structures in secondary memory.
+
+\subsubsection{Massive Crawling}
+In order to acquire a big collection size, the crawler was left running for 24 hours. 1.231.444 web pages were
+downloaded and the collection size reached around 10 gigabytes.
+
+[data goes here]
+
+The average size of a page in the collection is 60kbs. The average number of crawlable links found in each page 
+is 100 which means that at each step the amount of crawlable targets increases tenfold. However this rate of increase
+would probably face some reduction as the collection size increases.
+
+[pages/s by time graph]
+
+The crawler experienced little oscillation in the average speed of retrieval as the time passed. 
+It averaged at about 200 pages per second, amounting to a total bandwidth of 96 megabits per second, 
+roughly a quarter of the available bandwidth if it were dedicated entirely to this task.
+Also, part of the total available bandwidth has to be employed necessarily in downloading the 
+robots.txt file and receiving failed responses (non 200 http codes) so even in perfect conditions
+it is not possible to make use of all the available connection speed.
+
+The hash table size for this experiment was 4gb. At the end of the experiment, the hash table was 80% full.
+The url priority list held 100000 urls yet to be crawled and they were distributed in the following order
+of priority:
+
+[graph with urls and order of priority]
+
+This shows that our assumption that most urls would fit in the first 9 priority levels was right. In total
+only 0.5% of all urls were composed of 10 or more words.
+
+\section{Conclusion}
+The experiments showed our crawler achieved a good performance peak and kept stable velocities all through the
+program's execution, even when the data structures were written to secondary memory. As a proof of concept,
+this project showed the guidelines described in this report are sound enough to model a more robust web
+crawler.
+
+\end{document}
