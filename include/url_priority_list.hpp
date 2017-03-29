@@ -7,7 +7,7 @@
 #define __URL_PRIORITY_LIST_HPP__
 
 #include <thread>
-#include <cstring>
+#include <string.h>
 #include <queue>
 #include <stdio.h>
 #include <unistd.h>
@@ -27,6 +27,7 @@ class IUrlPriorityList {
   virtual bool Pop(std::string*) = 0;
   virtual size_t FetchBlock() = 0;
   virtual bool Close() = 0;
+  virtual size_t GetNumUrlsAtPriorityLevel(int) = 0;
 };
 
 class UrlPriorityList : public IUrlPriorityList {
@@ -41,6 +42,7 @@ class UrlPriorityList : public IUrlPriorityList {
 
   void CommitFileCursors();
   int GetPriority(const std::string&);
+  char buffer_[257];
 
  public:
   UrlPriorityList(std::shared_ptr<ILogger> logger);
@@ -51,6 +53,7 @@ class UrlPriorityList : public IUrlPriorityList {
   bool Pop(std::string*);
   size_t FetchBlock();
   bool Close();
+  size_t GetNumUrlsAtPriorityLevel(int);
 };
 
 } // End of namespace.

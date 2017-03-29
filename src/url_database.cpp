@@ -3,6 +3,13 @@
 
 namespace Crawler {
 
+Entry::Entry() {}
+
+Entry::Entry(bool occupied, std::string str, system_clock::time_point timestamp)
+  : occupied(occupied), timestamp(timestamp) {
+  str.copy(url, str.size());
+}
+
 UrlDatabase::UrlDatabase(std::shared_ptr<ILogger> logger) 
   : logger_(logger), db_file_(NULL), table_size_(0) {
   header_size_ = sizeof(size_t) * 2;
@@ -26,22 +33,32 @@ size_t UrlDatabase::GetHash(std::string const& s) const {
 }
 
 bool UrlDatabase::Probe(size_t start, const std::string& key, Entry* entry) {
-  fseeko(db_file_, header_size_ + start * sizeof(Entry), SEEK_SET);
+  if (fseek(db_file_, header_size_ + start * sizeof(Entry), SEEK_SET) != 0)
+    throw new std::runtime_error("Seek set 1 failed.");
+
   while (fread(entry, sizeof(Entry), 1, db_file_) == 1) {
     if (!entry->occupied || entry->url == key) {
       return true;
     }
   }
 
+  if (ferror(db_file_))
+    throw new std::runtime_error("Error 1 reading db file.");
+
   // Reached end of file.
   size_t counter = 0;
-  fseeko(db_file_, header_size_, SEEK_SET);
+  if (fseek(db_file_, header_size_, SEEK_SET) != 0)
+    throw new std::runtime_error("Seek set 2 failed.");
+
   while (fread(entry, sizeof(Entry), 1, db_file_) == 1) {
     if (!entry->occupied || entry->url == key) {
       return true;
     }
     if (counter++ == start) break;
   }
+
+  if (ferror(db_file_))
+    throw new std::runtime_error("Error 2 reading db file.");
   
   return false;
 }
@@ -99,6 +116,8 @@ bool UrlDatabase::Close() {
 bool UrlDatabase::Put(
   const std::string& key, system_clock::time_point timestamp
 ) {
+  if (key.size() == 0 || key.size() > 256) return false;
+
 #ifdef IN_MEMORY
   urls_[key] = timestamp; 
   return true;
@@ -111,12 +130,17 @@ bool UrlDatabase::Put(
     throw std::runtime_error("The hash table is full.");
   }
 
-  entry.occupied = true;
-  key.copy(entry.url, key.size());
-  entry.timestamp = timestamp;
+  // buffer_.occupied = true;
+  // key.copy(buffer_.url, key.size());
+  // buffer_.timestamp = timestamp;
+  entry = Entry(true, key, timestamp);
+  // fseeko(db_file_, -sizeof(Entry), SEEK_CUR);
 
-  fseeko(db_file_, -sizeof(Entry), SEEK_CUR);
-  fwrite(&entry, sizeof(Entry), 1, db_file_);
+  if (fseek(db_file_, -sizeof(Entry), SEEK_CUR) != 0) 
+    throw new std::runtime_error("Error 3 on seek set.");
+
+  if (fwrite(&entry, sizeof(Entry), 1, db_file_) != 1)
+    throw new std::runtime_error("Error writing to db.");
 
   return true;
 }
@@ -136,6 +160,20 @@ bool UrlDatabase::Get(const std::string& key, Entry* entry) {
     return false;
   }
   return entry->occupied;
+}
+
+double UrlDatabase::CheckEmptyBuckets() {
+  fseeko(db_file_, header_size_, SEEK_SET);
+
+  Entry entry;
+  size_t num_occupied = 0;
+  for (size_t i = 0; i < table_size_; ++i) {
+    if (fread(&entry, sizeof(Entry), 1, db_file_) != 1)
+      throw new std::runtime_error("Error reading entry from url database.");
+
+    if (entry.occupied) ++num_occupied;
+  }
+  return (double) num_occupied / table_size_; 
 }
 
 } // End of namespace.

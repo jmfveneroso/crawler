@@ -15,7 +15,7 @@ std::string Scheduler::TruncateUrl(std::string url) {
   if (url.find("https://") == 0)  url = url.substr(8);
   if (url.find("www.")     == 0)  url = url.substr(4);
   if (url[url.size() - 1] == '/') url = url.substr(0, url.size() - 1);
-  return (url.size() <= 256) ? url : url.substr(0, 256);
+  return (url.size() <= 255) ? url : url.substr(0, 255);
 }
 
 std::string Scheduler::GetRootUrl(std::string url) {
@@ -25,27 +25,32 @@ std::string Scheduler::GetRootUrl(std::string url) {
 }
 
 bool Scheduler::ProcessDelayedQueue() {
+  mtx_.lock();
   if (delayed_queue_.empty()) {
+    mtx_.unlock();
     return false;
   }
   // logger_->Log("delayed_queue: " + std::to_string(delayed_queue_.size()));
 
-  DelayedUrl delayed_url = delayed_queue_.top();
+  // Only the oldest element is checked.
+  DelayedUrl delayed_url = delayed_queue_.front();
   system_clock::time_point now = system_clock::now();
   auto ms = duration_cast<milliseconds>(now - delayed_url.timestamp);
   if (ms.count() < politeness_policy_) {
+    mtx_.unlock();
     return false;
   }
 
-  mtx_.lock();
-  delayed_queue_.pop();
   ready_queue_.push(delayed_url.url);
+  delayed_queue_.pop();
   mtx_.unlock();
   return true;
+  // mtx_.unlock();
+  // return false;
 }
 
 bool Scheduler::RegisterUrl(const std::string& url) {
-  if (url.size() > 256) return false;
+  if (url.size() > 255) return false;
 
   std::string truncated_url = TruncateUrl(url);
   std::string root_url = GetRootUrl(url);
@@ -115,7 +120,6 @@ bool Scheduler::GetNextUrl(std::string* url) {
   if (!ready_queue_.empty()) {
     *url = ready_queue_.front();
     ready_queue_.pop();
-    mtx_.unlock();
   } else if (!url_priority_list_->Pop(url)) {
     // If the url queue is empty, we must fetch the next batch from disk.
     // logger_->Log("Empty queue.");
@@ -140,7 +144,8 @@ bool Scheduler::GetNextUrl(std::string* url) {
 
 void Scheduler::ClearDelayedQueue() {
   mtx_.lock();
-  delayed_queue_ = PriorityQueue();
+  // delayed_queue_ = PriorityQueue();
+  delayed_queue_ = std::queue<DelayedUrl>();
   ready_queue_ = std::queue<std::string>();
   mtx_.unlock();
 }

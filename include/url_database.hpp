@@ -23,8 +23,11 @@ using namespace std::chrono;
 
 struct Entry {
   bool occupied;
-  char url[256];
+  char url[257];
   system_clock::time_point timestamp;
+
+  Entry();
+  Entry(bool, std::string, system_clock::time_point);
 };
 
 class IUrlDatabase {
@@ -34,6 +37,7 @@ class IUrlDatabase {
   virtual bool Close() = 0;
   virtual bool Put(const std::string&, system_clock::time_point) = 0;
   virtual bool Get(const std::string&, Entry*) = 0;
+  virtual double CheckEmptyBuckets() = 0;
 };
 
 class UrlDatabase : public IUrlDatabase {
@@ -48,6 +52,8 @@ class UrlDatabase : public IUrlDatabase {
   bool Probe(size_t, const std::string&, Entry*);
   bool ReadEntry(size_t, Entry*);
 
+  Entry buffer_;
+
  public:
   UrlDatabase(std::shared_ptr<ILogger> logger);
   ~UrlDatabase();
@@ -56,6 +62,7 @@ class UrlDatabase : public IUrlDatabase {
   bool Close();
   bool Put(const std::string&, system_clock::time_point);
   bool Get(const std::string&, Entry*);
+  double CheckEmptyBuckets();
 };
 
 } // End of namespace.

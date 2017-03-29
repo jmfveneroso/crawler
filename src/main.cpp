@@ -1,12 +1,22 @@
 #include "injector.hpp"
 #include <iostream>
-//#include <gperftools/profiler.h>
 #include <fstream>
 #include <streambuf>
+#include <csignal>
+
+// Google profiler.
+#ifdef PROFILE
+#include <gperftools/profiler.h>
+#endif
 
 int main () {
-  // ProfilerStart("crawler.prof");
+  signal(SIGINT, Crawler::Crawler::SignalHandler);
+#ifdef PROFILE
+  ProfilerStart("crawler.prof");
+#endif
   Crawler::Injector::Instance()->crawler()->Start();
-  // ProfilerStop();
+#ifdef PROFILE
+  ProfilerStop();
+#endif
   return 0;
 }

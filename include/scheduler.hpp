@@ -58,7 +58,8 @@ class Scheduler : public IScheduler {
   std::shared_ptr<IUrlPriorityList> url_priority_list_;
 
   std::mutex mtx_;
-  PriorityQueue delayed_queue_;
+  // PriorityQueue delayed_queue_;
+  std::queue<DelayedUrl> delayed_queue_;
   std::queue<std::string> ready_queue_;
   long long politeness_policy_ = 1000;
 

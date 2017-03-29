@@ -14,7 +14,7 @@
 #include "storage.hpp"
 #include "config.h"
 
-#define NUM_THREADS 512
+#define NUM_THREADS 256
 #define NUM_URLS 100000
 
 namespace Crawler {
@@ -41,16 +41,27 @@ class Crawler : public ICrawler {
   Fetcher fetchers_[NUM_THREADS];
   std::thread* threads_[NUM_THREADS];
   std::thread* delayed_urls_thread_;
+  std::thread* print_info_thread_;
+
+  size_t sample_size_ = 0;
+  system_clock::time_point sample_time_;
 
   bool empty_db_file_ = false;
   size_t fetched_urls_num_ = 0;
+  size_t failed_urls_num_ = 0;
   size_t bytes_written_ = 0;
   size_t total_time_ = 0;
+  size_t registered_urls_ = 0;
+  size_t max_urls_ = 10000;
 
   void FetchPagesAsync(int);
   void ProcessDelayedUrls();
+  void PrintInfoCallback();
+  void PrintInfo(bool print_all = false);
 
   int num_threads_ = 1;
+  
+  static Crawler* instance_;
 
  public:
   Crawler(
@@ -62,6 +73,7 @@ class Crawler : public ICrawler {
   );
 
   void Start();
+  static void SignalHandler(int);
 };
 
 } // End of namespace.

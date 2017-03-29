@@ -25,11 +25,11 @@ int UrlPriorityList::GetPriority(const std::string& url) {
 void UrlPriorityList::CommitFileCursors() {
   for (int i = 0; i < PRIORITY_LEVELS; ++i) {
     // Write cursor to the file header.
-    fseeko(priority_files_[i], sizeof(size_t), SEEK_SET);
+    fseek(priority_files_[i], sizeof(size_t), SEEK_SET);
     fwrite(&file_cursors_[i], sizeof(size_t), 1, priority_files_[i]);
 
     // Set cursor to read position.
-    fseeko(priority_files_[i], file_cursors_[i], SEEK_SET);
+    fseek(priority_files_[i], file_cursors_[i], SEEK_SET);
   }
 }
 
@@ -68,7 +68,7 @@ bool UrlPriorityList::Open(const std::string& file_suffix, bool overwrite) {
       if (fread(&file_cursors_[i], sizeof(size_t), 1, priority_files_[i]) != 1)
         throw new std::runtime_error("Error reading file cursor.");
       
-      fseeko(priority_files_[i], 0, SEEK_END);
+      fseek(priority_files_[i], 0, SEEK_END);
     }
   }
   return true;
@@ -99,23 +99,25 @@ bool UrlPriorityList::Push(const std::string& url) {
   if (fwrite(&size, sizeof(unsigned char), 1, priority_files_[priority]) != 1)
     throw new std::runtime_error("Error writing to priority file.");
 
-  char buffer[256];
-  url.copy(buffer, url.size());
-  if (fwrite(buffer, sizeof(char), size, priority_files_[priority]) != size)
+  // char* buffer = new char[257]; // The null character is also copied. That's why the extra bit is set.
+  std::strcpy(buffer_, url.c_str());
+  if (buffer_[0] == '\0')
+    throw new std::runtime_error("Error writing to char buffer in pl->push.");
+
+  if (fwrite(buffer_, sizeof(char), size, priority_files_[priority]) != size)
     throw new std::runtime_error("Error writing to priority file.");
 
   ++written_urls_num_;
+  // delete[] buffer;
   return true;
 }
 
 bool UrlPriorityList::Pop(std::string* url) {
   if (urls_.empty()) {
-    logger_->Log("Empty buffer.");
     return false;
   }
 
   *url = urls_.front();
-  logger_->Log("Popping: " + *url);
   urls_.pop();
   return true;
 }
@@ -143,16 +145,31 @@ size_t UrlPriorityList::FetchBlock() {
     }
 
     buffer[size] = '\0';
-    logger_->Log(std::string("Fetched ") + buffer + " from disk.");
     urls_.push(std::string(buffer));
     file_cursors_[priority] += sizeof(unsigned char) + size * sizeof(char);
   }
 
   // Set cursors back to write position.
   for (int i = 0; i < PRIORITY_LEVELS; ++i) 
-    fseeko(priority_files_[i], 0, SEEK_END);
+    fseek(priority_files_[i], 0, SEEK_END);
 
   return urls_.size();
+}
+
+size_t UrlPriorityList::GetNumUrlsAtPriorityLevel(int i) {
+  size_t num_urls = 0;
+  fseek(priority_files_[i], header_size_, SEEK_SET);
+
+  size_t size = 0;
+  while (fread(&size, sizeof(unsigned char), 1, priority_files_[i]) == 1) {
+    char buffer[257];
+    if (fread(buffer, sizeof(char), size, priority_files_[i]) != size) {
+      throw std::runtime_error("Error reading priority file.");
+    }
+    buffer[size] = '\0';
+    ++num_urls;
+  } 
+  return num_urls;
 }
 
 } // End of namespace.
