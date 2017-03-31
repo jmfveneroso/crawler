@@ -1,3 +1,4254 @@
 Started
-512, 605132, 6816784343
+/mnt/hd0/joao_test/memo/db
+/mnt/hd0/joao_test/memo/pl_
+==================================================
+Elapsed time (ms): 4511
+Webpages fetched: 0
+Failed urls: 0
+Bytes written: 0
+Registered urls: 0
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+Hash table (empty): 100.00%
+URLs at priority level 0: 6
+URLs at priority level 1: 0
+URLs at priority level 2: 0
+URLs at priority level 3: 0
+URLs at priority level 4: 0
+URLs at priority level 5: 0
+URLs at priority level 6: 0
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 6
+Total pages written: 0
+File size: 3 bytes
+Average page size: 0 bytes
+Growth ratio: 0.00 links/page
+==================================================
+Elapsed time (ms): 10589
+Webpages fetched: 639
+Failed urls: 0
+Bytes written: 127115399
+Registered urls: 32002
+Pages per second (current): 91.29 pages/s
+Pages per second (overall): 58.09 pages/s
+==================================================
+Elapsed time (ms): 15589
+Webpages fetched: 1188
+Failed urls: 0
+Bytes written: 302723229
+Registered urls: 84545
+Pages per second (current): 91.50 pages/s
+Pages per second (overall): 74.25 pages/s
+==================================================
+Elapsed time (ms): 20589
+Webpages fetched: 1727
+Failed urls: 0
+Bytes written: 478714091
+Registered urls: 137959
+Pages per second (current): 89.83 pages/s
+Pages per second (overall): 82.24 pages/s
+==================================================
+Elapsed time (ms): 25589
+Webpages fetched: 2120
+Failed urls: 0
+Bytes written: 606324365
+Registered urls: 177006
+Pages per second (current): 65.50 pages/s
+Pages per second (overall): 81.54 pages/s
+==================================================
+Elapsed time (ms): 30589
+Webpages fetched: 2593
+Failed urls: 0
+Bytes written: 744647344
+Registered urls: 216876
+Pages per second (current): 78.83 pages/s
+Pages per second (overall): 83.65 pages/s
+==================================================
+Elapsed time (ms): 35590
+Webpages fetched: 3064
+Failed urls: 0
+Bytes written: 882647605
+Registered urls: 248846
+Pages per second (current): 78.50 pages/s
+Pages per second (overall): 85.11 pages/s
+==================================================
+Elapsed time (ms): 40590
+Webpages fetched: 3515
+Failed urls: 0
+Bytes written: 1016102279
+Registered urls: 279626
+Pages per second (current): 75.17 pages/s
+Pages per second (overall): 85.73 pages/s
+==================================================
+Elapsed time (ms): 45590
+Webpages fetched: 3962
+Failed urls: 0
+Bytes written: 1145801956
+Registered urls: 312184
+Pages per second (current): 74.50 pages/s
+Pages per second (overall): 86.13 pages/s
+==================================================
+Elapsed time (ms): 50590
+Webpages fetched: 4493
+Failed urls: 0
+Bytes written: 1257380940
+Registered urls: 343398
+Pages per second (current): 88.50 pages/s
+Pages per second (overall): 88.10 pages/s
+==================================================
+Elapsed time (ms): 55590
+Webpages fetched: 4892
+Failed urls: 0
+Bytes written: 1337050871
+Registered urls: 373655
+Pages per second (current): 66.50 pages/s
+Pages per second (overall): 87.36 pages/s
+==================================================
+Elapsed time (ms): 60590
+Webpages fetched: 5397
+Failed urls: 0
+Bytes written: 1433507016
+Registered urls: 396980
+Pages per second (current): 84.17 pages/s
+Pages per second (overall): 88.48 pages/s
+==================================================
+Elapsed time (ms): 65590
+Webpages fetched: 5733
+Failed urls: 2
+Bytes written: 1498604326
+Registered urls: 416428
+Pages per second (current): 56.00 pages/s
+Pages per second (overall): 86.86 pages/s
+==================================================
+Elapsed time (ms): 70591
+Webpages fetched: 5941
+Failed urls: 65
+Bytes written: 1535653099
+Registered urls: 428062
+Pages per second (current): 34.67 pages/s
+Pages per second (overall): 83.68 pages/s
+==================================================
+Elapsed time (ms): 75608
+Webpages fetched: 6310
+Failed urls: 185
+Bytes written: 1601200807
+Registered urls: 448311
+Pages per second (current): 61.50 pages/s
+Pages per second (overall): 83.03 pages/s
+==================================================
+Elapsed time (ms): 80609
+Webpages fetched: 6761
+Failed urls: 288
+Bytes written: 1682747525
+Registered urls: 472932
+Pages per second (current): 75.17 pages/s
+Pages per second (overall): 83.47 pages/s
+==================================================
+Elapsed time (ms): 85609
+Webpages fetched: 7140
+Failed urls: 377
+Bytes written: 1751913800
+Registered urls: 493340
+Pages per second (current): 63.17 pages/s
+Pages per second (overall): 83.02 pages/s
+==================================================
+Elapsed time (ms): 90609
+Webpages fetched: 7364
+Failed urls: 416
+Bytes written: 1793944124
+Registered urls: 507584
+Pages per second (current): 37.33 pages/s
+Pages per second (overall): 80.92 pages/s
+==================================================
+Elapsed time (ms): 95609
+Webpages fetched: 7698
+Failed urls: 525
+Bytes written: 1851650642
+Registered urls: 523856
+Pages per second (current): 55.67 pages/s
+Pages per second (overall): 80.19 pages/s
+==================================================
+Elapsed time (ms): 100609
+Webpages fetched: 8003
+Failed urls: 596
+Bytes written: 1906909122
+Registered urls: 540695
+Pages per second (current): 50.83 pages/s
+Pages per second (overall): 79.24 pages/s
+==================================================
+Elapsed time (ms): 105609
+Webpages fetched: 8335
+Failed urls: 694
+Bytes written: 1966659578
+Registered urls: 559079
+Pages per second (current): 55.33 pages/s
+Pages per second (overall): 78.63 pages/s
+==================================================
+Elapsed time (ms): 110610
+Webpages fetched: 8642
+Failed urls: 764
+Bytes written: 2024104389
+Registered urls: 576934
+Pages per second (current): 51.17 pages/s
+Pages per second (overall): 77.86 pages/s
+==================================================
+Elapsed time (ms): 115619
+Webpages fetched: 8943
+Failed urls: 863
+Bytes written: 2078723846
+Registered urls: 593549
+Pages per second (current): 50.17 pages/s
+Pages per second (overall): 77.09 pages/s
+==================================================
+Elapsed time (ms): 120620
+Webpages fetched: 9277
+Failed urls: 944
+Bytes written: 2139643318
+Registered urls: 612812
+Pages per second (current): 55.67 pages/s
+Pages per second (overall): 76.67 pages/s
+==================================================
+Elapsed time (ms): 125620
+Webpages fetched: 9581
+Failed urls: 1031
+Bytes written: 2193426149
+Registered urls: 629385
+Pages per second (current): 50.67 pages/s
+Pages per second (overall): 76.04 pages/s
+==================================================
+Elapsed time (ms): 130620
+Webpages fetched: 9946
+Failed urls: 1103
+Bytes written: 2259836811
+Registered urls: 649957
+Pages per second (current): 60.83 pages/s
+Pages per second (overall): 75.92 pages/s
+==================================================
+Elapsed time (ms): 135620
+Webpages fetched: 10239
+Failed urls: 1189
+Bytes written: 2313666887
+Registered urls: 665986
+Pages per second (current): 48.83 pages/s
+Pages per second (overall): 75.29 pages/s
+==================================================
+Elapsed time (ms): 140620
+Webpages fetched: 10447
+Failed urls: 1263
+Bytes written: 2370828504
+Registered urls: 683749
+Pages per second (current): 34.67 pages/s
+Pages per second (overall): 74.09 pages/s
+==================================================
+Elapsed time (ms): 145620
+Webpages fetched: 10638
+Failed urls: 1350
+Bytes written: 2426684863
+Registered urls: 701277
+Pages per second (current): 31.83 pages/s
+Pages per second (overall): 72.86 pages/s
+==================================================
+Elapsed time (ms): 150621
+Webpages fetched: 10855
+Failed urls: 1437
+Bytes written: 2481881017
+Registered urls: 718492
+Pages per second (current): 36.17 pages/s
+Pages per second (overall): 71.89 pages/s
+==================================================
+Elapsed time (ms): 155621
+Webpages fetched: 11210
+Failed urls: 1530
+Bytes written: 2544855350
+Registered urls: 738448
+Pages per second (current): 59.17 pages/s
+Pages per second (overall): 71.86 pages/s
+Hash table (empty): 95.88%
+URLs at priority level 0: 107045
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 757093
+Total pages written: 11313
+File size: 2564933834 bytes
+Average page size: 226720 bytes
+Growth ratio: 66.92 links/page
+==================================================
+Elapsed time (ms): 164694
+Webpages fetched: 12110
+Failed urls: 1573
+Bytes written: 2714837111
+Registered urls: 743821
+Pages per second (current): 90.00 pages/s
+Pages per second (overall): 73.39 pages/s
+==================================================
+Elapsed time (ms): 169694
+Webpages fetched: 12335
+Failed urls: 1613
+Bytes written: 2754913246
+Registered urls: 743821
+Pages per second (current): 37.50 pages/s
+Pages per second (overall): 72.56 pages/s
+==================================================
+Elapsed time (ms): 174694
+Webpages fetched: 12622
+Failed urls: 1702
+Bytes written: 2806429310
+Registered urls: 743821
+Pages per second (current): 47.83 pages/s
+Pages per second (overall): 72.13 pages/s
+==================================================
+Elapsed time (ms): 179695
+Webpages fetched: 12824
+Failed urls: 1732
+Bytes written: 2842639366
+Registered urls: 743821
+Pages per second (current): 33.67 pages/s
+Pages per second (overall): 71.24 pages/s
+==================================================
+Elapsed time (ms): 184695
+Webpages fetched: 13288
+Failed urls: 1927
+Bytes written: 2923847615
+Registered urls: 743821
+Pages per second (current): 77.33 pages/s
+Pages per second (overall): 71.83 pages/s
+==================================================
+Elapsed time (ms): 189695
+Webpages fetched: 13619
+Failed urls: 1984
+Bytes written: 2984494810
+Registered urls: 743821
+Pages per second (current): 55.17 pages/s
+Pages per second (overall): 71.68 pages/s
+==================================================
+Elapsed time (ms): 194695
+Webpages fetched: 13870
+Failed urls: 2065
+Bytes written: 3028559165
+Registered urls: 743821
+Pages per second (current): 41.83 pages/s
+Pages per second (overall): 71.13 pages/s
+==================================================
+Elapsed time (ms): 199695
+Webpages fetched: 14094
+Failed urls: 2116
+Bytes written: 3068690301
+Registered urls: 743821
+Pages per second (current): 37.33 pages/s
+Pages per second (overall): 70.47 pages/s
+==================================================
+Elapsed time (ms): 204696
+Webpages fetched: 14379
+Failed urls: 2254
+Bytes written: 3119553892
+Registered urls: 743821
+Pages per second (current): 47.50 pages/s
+Pages per second (overall): 70.14 pages/s
+==================================================
+Elapsed time (ms): 209696
+Webpages fetched: 14761
+Failed urls: 2353
+Bytes written: 3191078458
+Registered urls: 743821
+Pages per second (current): 63.67 pages/s
+Pages per second (overall): 70.29 pages/s
+==================================================
+Elapsed time (ms): 214696
+Webpages fetched: 15042
+Failed urls: 2446
+Bytes written: 3243658800
+Registered urls: 743821
+Pages per second (current): 46.83 pages/s
+Pages per second (overall): 69.96 pages/s
+==================================================
+Elapsed time (ms): 219696
+Webpages fetched: 15270
+Failed urls: 2515
+Bytes written: 3285673684
+Registered urls: 743821
+Pages per second (current): 38.00 pages/s
+Pages per second (overall): 69.41 pages/s
+==================================================
+Elapsed time (ms): 224696
+Webpages fetched: 15500
+Failed urls: 2618
+Bytes written: 3328249029
+Registered urls: 743821
+Pages per second (current): 38.33 pages/s
+Pages per second (overall): 68.89 pages/s
+==================================================
+Elapsed time (ms): 229696
+Webpages fetched: 15818
+Failed urls: 2741
+Bytes written: 3388830282
+Registered urls: 743821
+Pages per second (current): 53.00 pages/s
+Pages per second (overall): 68.77 pages/s
+==================================================
+Elapsed time (ms): 234697
+Webpages fetched: 16125
+Failed urls: 2856
+Bytes written: 3448526862
+Registered urls: 743821
+Pages per second (current): 51.17 pages/s
+Pages per second (overall): 68.62 pages/s
+==================================================
+Elapsed time (ms): 239697
+Webpages fetched: 16462
+Failed urls: 2954
+Bytes written: 3526141725
+Registered urls: 743821
+Pages per second (current): 56.17 pages/s
+Pages per second (overall): 68.59 pages/s
+==================================================
+Elapsed time (ms): 244697
+Webpages fetched: 16850
+Failed urls: 3060
+Bytes written: 3617540485
+Registered urls: 743821
+Pages per second (current): 64.67 pages/s
+Pages per second (overall): 68.78 pages/s
+==================================================
+Elapsed time (ms): 249697
+Webpages fetched: 17280
+Failed urls: 3174
+Bytes written: 3713034046
+Registered urls: 743821
+Pages per second (current): 71.67 pages/s
+Pages per second (overall): 69.12 pages/s
+==================================================
+Elapsed time (ms): 254697
+Webpages fetched: 17602
+Failed urls: 3262
+Bytes written: 3783419182
+Registered urls: 743821
+Pages per second (current): 53.67 pages/s
+Pages per second (overall): 69.03 pages/s
+==================================================
+Elapsed time (ms): 259697
+Webpages fetched: 17866
+Failed urls: 3347
+Bytes written: 3837445965
+Registered urls: 743821
+Pages per second (current): 44.00 pages/s
+Pages per second (overall): 68.72 pages/s
+==================================================
+Elapsed time (ms): 264698
+Webpages fetched: 18159
+Failed urls: 3450
+Bytes written: 3893445452
+Registered urls: 743821
+Pages per second (current): 48.83 pages/s
+Pages per second (overall): 68.52 pages/s
+==================================================
+Elapsed time (ms): 269698
+Webpages fetched: 18463
+Failed urls: 3577
+Bytes written: 3950029929
+Registered urls: 743821
+Pages per second (current): 50.67 pages/s
+Pages per second (overall): 68.38 pages/s
+==================================================
+Elapsed time (ms): 274698
+Webpages fetched: 18748
+Failed urls: 3685
+Bytes written: 4003925361
+Registered urls: 743821
+Pages per second (current): 47.50 pages/s
+Pages per second (overall): 68.17 pages/s
+==================================================
+Elapsed time (ms): 279698
+Webpages fetched: 19025
+Failed urls: 3802
+Bytes written: 4055734899
+Registered urls: 743821
+Pages per second (current): 46.17 pages/s
+Pages per second (overall): 67.95 pages/s
+==================================================
+Elapsed time (ms): 284699
+Webpages fetched: 19331
+Failed urls: 3919
+Bytes written: 4113246125
+Registered urls: 743821
+Pages per second (current): 51.00 pages/s
+Pages per second (overall): 67.83 pages/s
+==================================================
+Elapsed time (ms): 289699
+Webpages fetched: 19580
+Failed urls: 4012
+Bytes written: 4160235291
+Registered urls: 743821
+Pages per second (current): 41.50 pages/s
+Pages per second (overall): 67.52 pages/s
+==================================================
+Elapsed time (ms): 294699
+Webpages fetched: 19819
+Failed urls: 4095
+Bytes written: 4204561197
+Registered urls: 743821
+Pages per second (current): 39.83 pages/s
+Pages per second (overall): 67.18 pages/s
+==================================================
+Elapsed time (ms): 299699
+Webpages fetched: 20102
+Failed urls: 4192
+Bytes written: 4254780267
+Registered urls: 743821
+Pages per second (current): 47.17 pages/s
+Pages per second (overall): 67.01 pages/s
+==================================================
+Elapsed time (ms): 304699
+Webpages fetched: 20406
+Failed urls: 4312
+Bytes written: 4311699844
+Registered urls: 743821
+Pages per second (current): 50.67 pages/s
+Pages per second (overall): 66.90 pages/s
+==================================================
+Elapsed time (ms): 309700
+Webpages fetched: 20690
+Failed urls: 4416
+Bytes written: 4366523541
+Registered urls: 743821
+Pages per second (current): 47.33 pages/s
+Pages per second (overall): 66.74 pages/s
+Hash table (empty): 95.78%
+URLs at priority level 0: 119392
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 769440
+Total pages written: 20690
+File size: 4366523544 bytes
+Average page size: 211041 bytes
+Growth ratio: 37.19 links/page
+==================================================
+Elapsed time (ms): 318548
+Webpages fetched: 21134
+Failed urls: 4600
+Bytes written: 4450093614
+Registered urls: 743821
+Pages per second (current): 49.33 pages/s
+Pages per second (overall): 66.25 pages/s
+==================================================
+Elapsed time (ms): 323551
+Webpages fetched: 21461
+Failed urls: 4722
+Bytes written: 4513306603
+Registered urls: 743821
+Pages per second (current): 54.50 pages/s
+Pages per second (overall): 66.24 pages/s
+==================================================
+Elapsed time (ms): 328552
+Webpages fetched: 21739
+Failed urls: 4818
+Bytes written: 4566434870
+Registered urls: 743821
+Pages per second (current): 46.33 pages/s
+Pages per second (overall): 66.08 pages/s
+==================================================
+Elapsed time (ms): 333553
+Webpages fetched: 21937
+Failed urls: 4858
+Bytes written: 4604175873
+Registered urls: 743821
+Pages per second (current): 33.00 pages/s
+Pages per second (overall): 65.68 pages/s
+==================================================
+Elapsed time (ms): 338553
+Webpages fetched: 22235
+Failed urls: 5021
+Bytes written: 4661717915
+Registered urls: 743821
+Pages per second (current): 49.67 pages/s
+Pages per second (overall): 65.59 pages/s
+==================================================
+Elapsed time (ms): 343556
+Webpages fetched: 22559
+Failed urls: 5135
+Bytes written: 4729078593
+Registered urls: 743821
+Pages per second (current): 54.00 pages/s
+Pages per second (overall): 65.58 pages/s
+==================================================
+Elapsed time (ms): 348556
+Webpages fetched: 22868
+Failed urls: 5233
+Bytes written: 4804410295
+Registered urls: 743821
+Pages per second (current): 51.50 pages/s
+Pages per second (overall): 65.52 pages/s
+==================================================
+Elapsed time (ms): 353556
+Webpages fetched: 23082
+Failed urls: 5307
+Bytes written: 4851165890
+Registered urls: 743821
+Pages per second (current): 35.67 pages/s
+Pages per second (overall): 65.20 pages/s
+==================================================
+Elapsed time (ms): 358556
+Webpages fetched: 23368
+Failed urls: 5436
+Bytes written: 4908908002
+Registered urls: 743821
+Pages per second (current): 47.67 pages/s
+Pages per second (overall): 65.09 pages/s
+==================================================
+Elapsed time (ms): 363556
+Webpages fetched: 23702
+Failed urls: 5562
+Bytes written: 4982973552
+Registered urls: 743821
+Pages per second (current): 55.67 pages/s
+Pages per second (overall): 65.12 pages/s
+==================================================
+Elapsed time (ms): 368557
+Webpages fetched: 23948
+Failed urls: 5655
+Bytes written: 5034126177
+Registered urls: 743821
+Pages per second (current): 41.00 pages/s
+Pages per second (overall): 64.90 pages/s
+==================================================
+Elapsed time (ms): 373557
+Webpages fetched: 24101
+Failed urls: 5723
+Bytes written: 5064406322
+Registered urls: 743821
+Pages per second (current): 25.50 pages/s
+Pages per second (overall): 64.44 pages/s
+==================================================
+Elapsed time (ms): 378557
+Webpages fetched: 24295
+Failed urls: 5807
+Bytes written: 5099379978
+Registered urls: 743821
+Pages per second (current): 32.33 pages/s
+Pages per second (overall): 64.10 pages/s
+==================================================
+Elapsed time (ms): 383557
+Webpages fetched: 24531
+Failed urls: 5942
+Bytes written: 5144694494
+Registered urls: 743821
+Pages per second (current): 39.33 pages/s
+Pages per second (overall): 63.88 pages/s
+==================================================
+Elapsed time (ms): 388557
+Webpages fetched: 25019
+Failed urls: 6038
+Bytes written: 5230069952
+Registered urls: 743821
+Pages per second (current): 81.33 pages/s
+Pages per second (overall): 64.32 pages/s
+==================================================
+Elapsed time (ms): 393558
+Webpages fetched: 25348
+Failed urls: 6086
+Bytes written: 5290270338
+Registered urls: 743821
+Pages per second (current): 54.83 pages/s
+Pages per second (overall): 64.34 pages/s
+==================================================
+Elapsed time (ms): 398558
+Webpages fetched: 25569
+Failed urls: 6148
+Bytes written: 5331230424
+Registered urls: 743821
+Pages per second (current): 36.83 pages/s
+Pages per second (overall): 64.08 pages/s
+==================================================
+Elapsed time (ms): 403558
+Webpages fetched: 25800
+Failed urls: 6229
+Bytes written: 5375454698
+Registered urls: 743821
+Pages per second (current): 38.50 pages/s
+Pages per second (overall): 63.86 pages/s
+==================================================
+Elapsed time (ms): 408558
+Webpages fetched: 26150
+Failed urls: 6366
+Bytes written: 5450404265
+Registered urls: 743821
+Pages per second (current): 58.33 pages/s
+Pages per second (overall): 63.94 pages/s
+==================================================
+Elapsed time (ms): 413558
+Webpages fetched: 26579
+Failed urls: 6479
+Bytes written: 5536806883
+Registered urls: 743821
+Pages per second (current): 71.50 pages/s
+Pages per second (overall): 64.20 pages/s
+==================================================
+Elapsed time (ms): 418558
+Webpages fetched: 26839
+Failed urls: 6569
+Bytes written: 5588979768
+Registered urls: 743821
+Pages per second (current): 43.33 pages/s
+Pages per second (overall): 64.05 pages/s
+==================================================
+Elapsed time (ms): 423559
+Webpages fetched: 27287
+Failed urls: 6652
+Bytes written: 5682066270
+Registered urls: 743821
+Pages per second (current): 74.67 pages/s
+Pages per second (overall): 64.36 pages/s
+==================================================
+Elapsed time (ms): 428559
+Webpages fetched: 27746
+Failed urls: 6742
+Bytes written: 5775883570
+Registered urls: 743821
+Pages per second (current): 76.50 pages/s
+Pages per second (overall): 64.68 pages/s
+==================================================
+Elapsed time (ms): 433559
+Webpages fetched: 28390
+Failed urls: 6852
+Bytes written: 5915694506
+Registered urls: 743821
+Pages per second (current): 107.33 pages/s
+Pages per second (overall): 65.41 pages/s
+==================================================
+Elapsed time (ms): 438559
+Webpages fetched: 28823
+Failed urls: 6916
+Bytes written: 5998971141
+Registered urls: 743821
+Pages per second (current): 72.17 pages/s
+Pages per second (overall): 65.66 pages/s
+==================================================
+Elapsed time (ms): 443559
+Webpages fetched: 29173
+Failed urls: 6985
+Bytes written: 6067758202
+Registered urls: 743821
+Pages per second (current): 58.33 pages/s
+Pages per second (overall): 65.70 pages/s
+==================================================
+Elapsed time (ms): 448559
+Webpages fetched: 29548
+Failed urls: 7062
+Bytes written: 6141549258
+Registered urls: 743821
+Pages per second (current): 62.50 pages/s
+Pages per second (overall): 65.81 pages/s
+==================================================
+Elapsed time (ms): 453559
+Webpages fetched: 29898
+Failed urls: 7205
+Bytes written: 6209835106
+Registered urls: 743821
+Pages per second (current): 58.33 pages/s
+Pages per second (overall): 65.85 pages/s
+==================================================
+Elapsed time (ms): 458560
+Webpages fetched: 30476
+Failed urls: 7341
+Bytes written: 6324236260
+Registered urls: 743821
+Pages per second (current): 96.33 pages/s
+Pages per second (overall): 66.40 pages/s
+==================================================
+Elapsed time (ms): 463560
+Webpages fetched: 31026
+Failed urls: 7425
+Bytes written: 6434648237
+Registered urls: 743821
+Pages per second (current): 91.67 pages/s
+Pages per second (overall): 66.87 pages/s
+Hash table (empty): 95.67%
+URLs at priority level 0: 132737
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 782785
+Total pages written: 31026
+File size: 6434648240 bytes
+Average page size: 207391 bytes
+Growth ratio: 25.23 links/page
+==================================================
+Elapsed time (ms): 473911
+Webpages fetched: 31495
+Failed urls: 7560
+Bytes written: 6523104115
+Registered urls: 743821
+Pages per second (current): 42.64 pages/s
+Pages per second (overall): 66.45 pages/s
+==================================================
+Elapsed time (ms): 478911
+Webpages fetched: 31950
+Failed urls: 7678
+Bytes written: 6618963332
+Registered urls: 743821
+Pages per second (current): 75.83 pages/s
+Pages per second (overall): 66.70 pages/s
+==================================================
+Elapsed time (ms): 483911
+Webpages fetched: 32633
+Failed urls: 7809
+Bytes written: 6769582593
+Registered urls: 743821
+Pages per second (current): 113.83 pages/s
+Pages per second (overall): 67.42 pages/s
+==================================================
+Elapsed time (ms): 488912
+Webpages fetched: 33319
+Failed urls: 7827
+Bytes written: 6914220361
+Registered urls: 743821
+Pages per second (current): 114.33 pages/s
+Pages per second (overall): 68.14 pages/s
+==================================================
+Elapsed time (ms): 493920
+Webpages fetched: 33730
+Failed urls: 7902
+Bytes written: 6999970927
+Registered urls: 743821
+Pages per second (current): 68.50 pages/s
+Pages per second (overall): 68.28 pages/s
+==================================================
+Elapsed time (ms): 498924
+Webpages fetched: 33947
+Failed urls: 7975
+Bytes written: 7042786921
+Registered urls: 743821
+Pages per second (current): 36.17 pages/s
+Pages per second (overall): 68.03 pages/s
+==================================================
+Elapsed time (ms): 503924
+Webpages fetched: 34336
+Failed urls: 8092
+Bytes written: 7129683238
+Registered urls: 743821
+Pages per second (current): 64.83 pages/s
+Pages per second (overall): 68.13 pages/s
+==================================================
+Elapsed time (ms): 508925
+Webpages fetched: 34771
+Failed urls: 8204
+Bytes written: 7221600839
+Registered urls: 743821
+Pages per second (current): 72.50 pages/s
+Pages per second (overall): 68.31 pages/s
+==================================================
+Elapsed time (ms): 513925
+Webpages fetched: 35179
+Failed urls: 8323
+Bytes written: 7299008985
+Registered urls: 743821
+Pages per second (current): 68.00 pages/s
+Pages per second (overall): 68.44 pages/s
+==================================================
+Elapsed time (ms): 518925
+Webpages fetched: 35502
+Failed urls: 8403
+Bytes written: 7364702576
+Registered urls: 743821
+Pages per second (current): 53.83 pages/s
+Pages per second (overall): 68.40 pages/s
+==================================================
+Elapsed time (ms): 523925
+Webpages fetched: 35816
+Failed urls: 8504
+Bytes written: 7428666745
+Registered urls: 743821
+Pages per second (current): 52.33 pages/s
+Pages per second (overall): 68.35 pages/s
+==================================================
+Elapsed time (ms): 528925
+Webpages fetched: 36176
+Failed urls: 8594
+Bytes written: 7500644327
+Registered urls: 743821
+Pages per second (current): 60.00 pages/s
+Pages per second (overall): 68.39 pages/s
+==================================================
+Elapsed time (ms): 533925
+Webpages fetched: 36508
+Failed urls: 8696
+Bytes written: 7562019522
+Registered urls: 743821
+Pages per second (current): 55.33 pages/s
+Pages per second (overall): 68.37 pages/s
+==================================================
+Elapsed time (ms): 538926
+Webpages fetched: 36892
+Failed urls: 8779
+Bytes written: 7635238755
+Registered urls: 743821
+Pages per second (current): 64.00 pages/s
+Pages per second (overall): 68.45 pages/s
+==================================================
+Elapsed time (ms): 543926
+Webpages fetched: 37214
+Failed urls: 8869
+Bytes written: 7699330187
+Registered urls: 743821
+Pages per second (current): 53.67 pages/s
+Pages per second (overall): 68.41 pages/s
+==================================================
+Elapsed time (ms): 548926
+Webpages fetched: 37555
+Failed urls: 8973
+Bytes written: 7769930186
+Registered urls: 743821
+Pages per second (current): 56.83 pages/s
+Pages per second (overall): 68.41 pages/s
+==================================================
+Elapsed time (ms): 553926
+Webpages fetched: 37851
+Failed urls: 9081
+Bytes written: 7825194282
+Registered urls: 743821
+Pages per second (current): 49.33 pages/s
+Pages per second (overall): 68.32 pages/s
+==================================================
+Elapsed time (ms): 558927
+Webpages fetched: 38229
+Failed urls: 9198
+Bytes written: 7898357274
+Registered urls: 743821
+Pages per second (current): 63.00 pages/s
+Pages per second (overall): 68.39 pages/s
+==================================================
+Elapsed time (ms): 563927
+Webpages fetched: 38662
+Failed urls: 9294
+Bytes written: 7986493428
+Registered urls: 743821
+Pages per second (current): 72.17 pages/s
+Pages per second (overall): 68.55 pages/s
+==================================================
+Elapsed time (ms): 568927
+Webpages fetched: 39059
+Failed urls: 9399
+Bytes written: 8065429743
+Registered urls: 743821
+Pages per second (current): 66.17 pages/s
+Pages per second (overall): 68.64 pages/s
+==================================================
+Elapsed time (ms): 573927
+Webpages fetched: 39344
+Failed urls: 9478
+Bytes written: 8120918499
+Registered urls: 743821
+Pages per second (current): 47.50 pages/s
+Pages per second (overall): 68.54 pages/s
+==================================================
+Elapsed time (ms): 578928
+Webpages fetched: 39791
+Failed urls: 9567
+Bytes written: 8207974173
+Registered urls: 743821
+Pages per second (current): 74.50 pages/s
+Pages per second (overall): 68.72 pages/s
+==================================================
+Elapsed time (ms): 583928
+Webpages fetched: 40109
+Failed urls: 9657
+Bytes written: 8268971810
+Registered urls: 743821
+Pages per second (current): 53.00 pages/s
+Pages per second (overall): 68.68 pages/s
+==================================================
+Elapsed time (ms): 588928
+Webpages fetched: 40512
+Failed urls: 9784
+Bytes written: 8347040790
+Registered urls: 743821
+Pages per second (current): 67.17 pages/s
+Pages per second (overall): 68.78 pages/s
+==================================================
+Elapsed time (ms): 593928
+Webpages fetched: 40819
+Failed urls: 9869
+Bytes written: 8403964911
+Registered urls: 743821
+Pages per second (current): 51.17 pages/s
+Pages per second (overall): 68.72 pages/s
+==================================================
+Elapsed time (ms): 598929
+Webpages fetched: 41172
+Failed urls: 9991
+Bytes written: 8469404198
+Registered urls: 743821
+Pages per second (current): 58.83 pages/s
+Pages per second (overall): 68.73 pages/s
+==================================================
+Elapsed time (ms): 603929
+Webpages fetched: 41554
+Failed urls: 10103
+Bytes written: 8540245841
+Registered urls: 743821
+Pages per second (current): 63.67 pages/s
+Pages per second (overall): 68.80 pages/s
+==================================================
+Elapsed time (ms): 608929
+Webpages fetched: 41840
+Failed urls: 10197
+Bytes written: 8593465226
+Registered urls: 743821
+Pages per second (current): 47.67 pages/s
+Pages per second (overall): 68.70 pages/s
+==================================================
+Elapsed time (ms): 613929
+Webpages fetched: 42125
+Failed urls: 10278
+Bytes written: 8647797720
+Registered urls: 743821
+Pages per second (current): 47.50 pages/s
+Pages per second (overall): 68.61 pages/s
+==================================================
+Elapsed time (ms): 618929
+Webpages fetched: 42451
+Failed urls: 10369
+Bytes written: 8705099446
+Registered urls: 743821
+Pages per second (current): 54.33 pages/s
+Pages per second (overall): 68.58 pages/s
+Hash table (empty): 95.56%
+URLs at priority level 0: 147106
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 797154
+Total pages written: 42451
+File size: 8705099449 bytes
+Average page size: 205058 bytes
+Growth ratio: 18.78 links/page
+==================================================
+Elapsed time (ms): 630931
+Webpages fetched: 43165
+Failed urls: 10623
+Bytes written: 8838337683
+Registered urls: 743821
+Pages per second (current): 54.92 pages/s
+Pages per second (overall): 68.41 pages/s
+==================================================
+Elapsed time (ms): 635932
+Webpages fetched: 43550
+Failed urls: 10695
+Bytes written: 8909279984
+Registered urls: 743821
+Pages per second (current): 64.17 pages/s
+Pages per second (overall): 68.47 pages/s
+==================================================
+Elapsed time (ms): 640932
+Webpages fetched: 43801
+Failed urls: 10757
+Bytes written: 8953599320
+Registered urls: 743821
+Pages per second (current): 41.83 pages/s
+Pages per second (overall): 68.33 pages/s
+==================================================
+Elapsed time (ms): 645932
+Webpages fetched: 43981
+Failed urls: 10802
+Bytes written: 8986187321
+Registered urls: 743821
+Pages per second (current): 30.00 pages/s
+Pages per second (overall): 68.08 pages/s
+==================================================
+Elapsed time (ms): 650932
+Webpages fetched: 44334
+Failed urls: 10980
+Bytes written: 9047764478
+Registered urls: 743821
+Pages per second (current): 58.83 pages/s
+Pages per second (overall): 68.10 pages/s
+==================================================
+Elapsed time (ms): 655932
+Webpages fetched: 44648
+Failed urls: 11066
+Bytes written: 9106016234
+Registered urls: 743821
+Pages per second (current): 52.33 pages/s
+Pages per second (overall): 68.06 pages/s
+==================================================
+Elapsed time (ms): 660933
+Webpages fetched: 44869
+Failed urls: 11160
+Bytes written: 9144909659
+Registered urls: 743821
+Pages per second (current): 36.83 pages/s
+Pages per second (overall): 67.88 pages/s
+==================================================
+Elapsed time (ms): 665933
+Webpages fetched: 45198
+Failed urls: 11256
+Bytes written: 9205703524
+Registered urls: 743821
+Pages per second (current): 54.83 pages/s
+Pages per second (overall): 67.86 pages/s
+==================================================
+Elapsed time (ms): 670933
+Webpages fetched: 45536
+Failed urls: 11397
+Bytes written: 9265463328
+Registered urls: 743821
+Pages per second (current): 56.33 pages/s
+Pages per second (overall): 67.86 pages/s
+==================================================
+Elapsed time (ms): 675933
+Webpages fetched: 45866
+Failed urls: 11513
+Bytes written: 9326362652
+Registered urls: 743821
+Pages per second (current): 55.00 pages/s
+Pages per second (overall): 67.85 pages/s
+==================================================
+Elapsed time (ms): 680933
+Webpages fetched: 46119
+Failed urls: 11612
+Bytes written: 9371920376
+Registered urls: 743821
+Pages per second (current): 42.17 pages/s
+Pages per second (overall): 67.72 pages/s
+==================================================
+Elapsed time (ms): 685933
+Webpages fetched: 46350
+Failed urls: 11724
+Bytes written: 9412141525
+Registered urls: 743821
+Pages per second (current): 38.50 pages/s
+Pages per second (overall): 67.57 pages/s
+==================================================
+Elapsed time (ms): 690933
+Webpages fetched: 46551
+Failed urls: 11831
+Bytes written: 9450657034
+Registered urls: 743821
+Pages per second (current): 33.50 pages/s
+Pages per second (overall): 67.37 pages/s
+==================================================
+Elapsed time (ms): 695934
+Webpages fetched: 46757
+Failed urls: 11930
+Bytes written: 9489720453
+Registered urls: 743821
+Pages per second (current): 34.33 pages/s
+Pages per second (overall): 67.18 pages/s
+==================================================
+Elapsed time (ms): 700934
+Webpages fetched: 46980
+Failed urls: 12020
+Bytes written: 9530648970
+Registered urls: 743821
+Pages per second (current): 37.17 pages/s
+Pages per second (overall): 67.02 pages/s
+==================================================
+Elapsed time (ms): 705934
+Webpages fetched: 47238
+Failed urls: 12121
+Bytes written: 9573941002
+Registered urls: 743821
+Pages per second (current): 43.00 pages/s
+Pages per second (overall): 66.91 pages/s
+==================================================
+Elapsed time (ms): 710934
+Webpages fetched: 47476
+Failed urls: 12226
+Bytes written: 9619459518
+Registered urls: 743821
+Pages per second (current): 39.67 pages/s
+Pages per second (overall): 66.77 pages/s
+==================================================
+Elapsed time (ms): 715934
+Webpages fetched: 47709
+Failed urls: 12314
+Bytes written: 9662597870
+Registered urls: 743821
+Pages per second (current): 38.83 pages/s
+Pages per second (overall): 66.63 pages/s
+==================================================
+Elapsed time (ms): 720934
+Webpages fetched: 47917
+Failed urls: 12399
+Bytes written: 9700421816
+Registered urls: 743821
+Pages per second (current): 34.67 pages/s
+Pages per second (overall): 66.46 pages/s
+==================================================
+Elapsed time (ms): 725935
+Webpages fetched: 48447
+Failed urls: 12461
+Bytes written: 9785941635
+Registered urls: 743821
+Pages per second (current): 88.33 pages/s
+Pages per second (overall): 66.73 pages/s
+==================================================
+Elapsed time (ms): 730935
+Webpages fetched: 48872
+Failed urls: 12527
+Bytes written: 9860874917
+Registered urls: 743821
+Pages per second (current): 70.83 pages/s
+Pages per second (overall): 66.86 pages/s
+==================================================
+Elapsed time (ms): 735935
+Webpages fetched: 49134
+Failed urls: 12604
+Bytes written: 9907474786
+Registered urls: 743821
+Pages per second (current): 43.67 pages/s
+Pages per second (overall): 66.76 pages/s
+==================================================
+Elapsed time (ms): 740935
+Webpages fetched: 49404
+Failed urls: 12674
+Bytes written: 9957404101
+Registered urls: 743821
+Pages per second (current): 45.00 pages/s
+Pages per second (overall): 66.67 pages/s
+==================================================
+Elapsed time (ms): 745936
+Webpages fetched: 49747
+Failed urls: 12791
+Bytes written: 10016744865
+Registered urls: 743821
+Pages per second (current): 57.17 pages/s
+Pages per second (overall): 66.68 pages/s
+==================================================
+Elapsed time (ms): 750936
+Webpages fetched: 50076
+Failed urls: 12905
+Bytes written: 10074848802
+Registered urls: 743821
+Pages per second (current): 54.83 pages/s
+Pages per second (overall): 66.68 pages/s
+==================================================
+Elapsed time (ms): 755936
+Webpages fetched: 50366
+Failed urls: 12999
+Bytes written: 10126850400
+Registered urls: 743821
+Pages per second (current): 48.33 pages/s
+Pages per second (overall): 66.62 pages/s
+==================================================
+Elapsed time (ms): 760936
+Webpages fetched: 50649
+Failed urls: 13087
+Bytes written: 10177610116
+Registered urls: 743821
+Pages per second (current): 47.17 pages/s
+Pages per second (overall): 66.56 pages/s
+==================================================
+Elapsed time (ms): 765936
+Webpages fetched: 50923
+Failed urls: 13196
+Bytes written: 10225339553
+Registered urls: 743821
+Pages per second (current): 45.67 pages/s
+Pages per second (overall): 66.48 pages/s
+==================================================
+Elapsed time (ms): 770937
+Webpages fetched: 51234
+Failed urls: 13316
+Bytes written: 10280100353
+Registered urls: 743821
+Pages per second (current): 51.83 pages/s
+Pages per second (overall): 66.45 pages/s
+==================================================
+Elapsed time (ms): 775937
+Webpages fetched: 51538
+Failed urls: 13417
+Bytes written: 10334901688
+Registered urls: 743821
+Pages per second (current): 50.67 pages/s
+Pages per second (overall): 66.41 pages/s
+Hash table (empty): 95.45%
+URLs at priority level 0: 159241
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 809289
+Total pages written: 51538
+File size: 10334901691 bytes
+Average page size: 200525 bytes
+Growth ratio: 15.70 links/page
+==================================================
+Elapsed time (ms): 788884
+Webpages fetched: 52248
+Failed urls: 13713
+Bytes written: 10458153589
+Registered urls: 743821
+Pages per second (current): 54.62 pages/s
+Pages per second (overall): 66.22 pages/s
+==================================================
+Elapsed time (ms): 793884
+Webpages fetched: 52621
+Failed urls: 13790
+Bytes written: 10525553009
+Registered urls: 743821
+Pages per second (current): 62.17 pages/s
+Pages per second (overall): 66.27 pages/s
+==================================================
+Elapsed time (ms): 798885
+Webpages fetched: 52859
+Failed urls: 13825
+Bytes written: 10567639916
+Registered urls: 743821
+Pages per second (current): 39.67 pages/s
+Pages per second (overall): 66.16 pages/s
+==================================================
+Elapsed time (ms): 803885
+Webpages fetched: 53028
+Failed urls: 13840
+Bytes written: 10596388431
+Registered urls: 743821
+Pages per second (current): 28.17 pages/s
+Pages per second (overall): 65.96 pages/s
+==================================================
+Elapsed time (ms): 808885
+Webpages fetched: 53376
+Failed urls: 14024
+Bytes written: 10656904468
+Registered urls: 743821
+Pages per second (current): 58.00 pages/s
+Pages per second (overall): 65.98 pages/s
+==================================================
+Elapsed time (ms): 813885
+Webpages fetched: 53740
+Failed urls: 14120
+Bytes written: 10720975142
+Registered urls: 743821
+Pages per second (current): 60.67 pages/s
+Pages per second (overall): 66.02 pages/s
+==================================================
+Elapsed time (ms): 818885
+Webpages fetched: 54040
+Failed urls: 14230
+Bytes written: 10776431867
+Registered urls: 743821
+Pages per second (current): 50.00 pages/s
+Pages per second (overall): 65.98 pages/s
+==================================================
+Elapsed time (ms): 823886
+Webpages fetched: 54261
+Failed urls: 14309
+Bytes written: 10814276922
+Registered urls: 743821
+Pages per second (current): 36.83 pages/s
+Pages per second (overall): 65.85 pages/s
+==================================================
+Elapsed time (ms): 828886
+Webpages fetched: 54672
+Failed urls: 14460
+Bytes written: 10884560938
+Registered urls: 743821
+Pages per second (current): 68.50 pages/s
+Pages per second (overall): 65.95 pages/s
+==================================================
+Elapsed time (ms): 833886
+Webpages fetched: 55052
+Failed urls: 14582
+Bytes written: 10953670088
+Registered urls: 743821
+Pages per second (current): 63.33 pages/s
+Pages per second (overall): 66.01 pages/s
+==================================================
+Elapsed time (ms): 838886
+Webpages fetched: 55393
+Failed urls: 14681
+Bytes written: 11014068635
+Registered urls: 743821
+Pages per second (current): 56.83 pages/s
+Pages per second (overall): 66.02 pages/s
+==================================================
+Elapsed time (ms): 843886
+Webpages fetched: 55617
+Failed urls: 14756
+Bytes written: 11054383829
+Registered urls: 743821
+Pages per second (current): 37.33 pages/s
+Pages per second (overall): 65.90 pages/s
+==================================================
+Elapsed time (ms): 848887
+Webpages fetched: 55928
+Failed urls: 14890
+Bytes written: 11108766532
+Registered urls: 743821
+Pages per second (current): 51.83 pages/s
+Pages per second (overall): 65.88 pages/s
+==================================================
+Elapsed time (ms): 853887
+Webpages fetched: 56233
+Failed urls: 15021
+Bytes written: 11161230190
+Registered urls: 743821
+Pages per second (current): 50.83 pages/s
+Pages per second (overall): 65.85 pages/s
+==================================================
+Elapsed time (ms): 858887
+Webpages fetched: 56556
+Failed urls: 15104
+Bytes written: 11220590110
+Registered urls: 743821
+Pages per second (current): 53.83 pages/s
+Pages per second (overall): 65.84 pages/s
+==================================================
+Elapsed time (ms): 863887
+Webpages fetched: 56776
+Failed urls: 15170
+Bytes written: 11258806877
+Registered urls: 743821
+Pages per second (current): 36.67 pages/s
+Pages per second (overall): 65.71 pages/s
+==================================================
+Elapsed time (ms): 868887
+Webpages fetched: 57054
+Failed urls: 15286
+Bytes written: 11306919259
+Registered urls: 743821
+Pages per second (current): 46.33 pages/s
+Pages per second (overall): 65.65 pages/s
+==================================================
+Elapsed time (ms): 873887
+Webpages fetched: 57402
+Failed urls: 15398
+Bytes written: 11368514277
+Registered urls: 743821
+Pages per second (current): 58.00 pages/s
+Pages per second (overall): 65.68 pages/s
+==================================================
+Elapsed time (ms): 878887
+Webpages fetched: 57698
+Failed urls: 15508
+Bytes written: 11421965278
+Registered urls: 743821
+Pages per second (current): 49.33 pages/s
+Pages per second (overall): 65.64 pages/s
+==================================================
+Elapsed time (ms): 883888
+Webpages fetched: 58013
+Failed urls: 15611
+Bytes written: 11476333934
+Registered urls: 743821
+Pages per second (current): 52.50 pages/s
+Pages per second (overall): 65.63 pages/s
+==================================================
+Elapsed time (ms): 888888
+Webpages fetched: 58313
+Failed urls: 15736
+Bytes written: 11531164137
+Registered urls: 743821
+Pages per second (current): 50.00 pages/s
+Pages per second (overall): 65.59 pages/s
+==================================================
+Elapsed time (ms): 893888
+Webpages fetched: 58688
+Failed urls: 15859
+Bytes written: 11597317989
+Registered urls: 743821
+Pages per second (current): 62.50 pages/s
+Pages per second (overall): 65.65 pages/s
+==================================================
+Elapsed time (ms): 898888
+Webpages fetched: 58979
+Failed urls: 15935
+Bytes written: 11648950494
+Registered urls: 743821
+Pages per second (current): 48.50 pages/s
+Pages per second (overall): 65.61 pages/s
+==================================================
+Elapsed time (ms): 903892
+Webpages fetched: 59253
+Failed urls: 16018
+Bytes written: 11696875981
+Registered urls: 743821
+Pages per second (current): 45.67 pages/s
+Pages per second (overall): 65.55 pages/s
+==================================================
+Elapsed time (ms): 908892
+Webpages fetched: 59539
+Failed urls: 16111
+Bytes written: 11746006007
+Registered urls: 743821
+Pages per second (current): 47.67 pages/s
+Pages per second (overall): 65.50 pages/s
+==================================================
+Elapsed time (ms): 913892
+Webpages fetched: 59885
+Failed urls: 16242
+Bytes written: 11808253574
+Registered urls: 743821
+Pages per second (current): 57.67 pages/s
+Pages per second (overall): 65.52 pages/s
+==================================================
+Elapsed time (ms): 918893
+Webpages fetched: 60196
+Failed urls: 16341
+Bytes written: 11863749659
+Registered urls: 743821
+Pages per second (current): 51.83 pages/s
+Pages per second (overall): 65.50 pages/s
+==================================================
+Elapsed time (ms): 923893
+Webpages fetched: 60493
+Failed urls: 16447
+Bytes written: 11916010100
+Registered urls: 743821
+Pages per second (current): 49.50 pages/s
+Pages per second (overall): 65.47 pages/s
+==================================================
+Elapsed time (ms): 928893
+Webpages fetched: 60791
+Failed urls: 16554
+Bytes written: 11969127239
+Registered urls: 743821
+Pages per second (current): 49.67 pages/s
+Pages per second (overall): 65.44 pages/s
+==================================================
+Elapsed time (ms): 933893
+Webpages fetched: 61143
+Failed urls: 16690
+Bytes written: 12030409442
+Registered urls: 743821
+Pages per second (current): 58.67 pages/s
+Pages per second (overall): 65.46 pages/s
+Hash table (empty): 95.33%
+URLs at priority level 0: 172119
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 822167
+Total pages written: 61143
+File size: 12030409445 bytes
+Average page size: 196754 bytes
+Growth ratio: 13.45 links/page
+==================================================
+Elapsed time (ms): 948011
+Webpages fetched: 61753
+Failed urls: 16934
+Bytes written: 12136132850
+Registered urls: 743821
+Pages per second (current): 40.67 pages/s
+Pages per second (overall): 65.07 pages/s
+==================================================
+Elapsed time (ms): 953011
+Webpages fetched: 62237
+Failed urls: 17026
+Bytes written: 12219663927
+Registered urls: 743821
+Pages per second (current): 80.67 pages/s
+Pages per second (overall): 65.24 pages/s
+==================================================
+Elapsed time (ms): 958011
+Webpages fetched: 62531
+Failed urls: 17067
+Bytes written: 12271752579
+Registered urls: 743821
+Pages per second (current): 49.00 pages/s
+Pages per second (overall): 65.20 pages/s
+==================================================
+Elapsed time (ms): 963011
+Webpages fetched: 62636
+Failed urls: 17081
+Bytes written: 12291298486
+Registered urls: 743821
+Pages per second (current): 17.50 pages/s
+Pages per second (overall): 64.98 pages/s
+==================================================
+Elapsed time (ms): 968011
+Webpages fetched: 62966
+Failed urls: 17245
+Bytes written: 12347993862
+Registered urls: 743821
+Pages per second (current): 55.00 pages/s
+Pages per second (overall): 64.98 pages/s
+==================================================
+Elapsed time (ms): 973012
+Webpages fetched: 63314
+Failed urls: 17379
+Bytes written: 12409255777
+Registered urls: 743821
+Pages per second (current): 58.00 pages/s
+Pages per second (overall): 65.00 pages/s
+==================================================
+Elapsed time (ms): 978012
+Webpages fetched: 63709
+Failed urls: 17512
+Bytes written: 12479897178
+Registered urls: 743821
+Pages per second (current): 65.83 pages/s
+Pages per second (overall): 65.08 pages/s
+==================================================
+Elapsed time (ms): 983012
+Webpages fetched: 63997
+Failed urls: 17577
+Bytes written: 12532634517
+Registered urls: 743821
+Pages per second (current): 48.00 pages/s
+Pages per second (overall): 65.04 pages/s
+==================================================
+Elapsed time (ms): 988012
+Webpages fetched: 64276
+Failed urls: 17703
+Bytes written: 12579868449
+Registered urls: 743821
+Pages per second (current): 46.50 pages/s
+Pages per second (overall): 64.99 pages/s
+==================================================
+Elapsed time (ms): 993012
+Webpages fetched: 64633
+Failed urls: 17826
+Bytes written: 12643782216
+Registered urls: 743821
+Pages per second (current): 59.50 pages/s
+Pages per second (overall): 65.02 pages/s
+==================================================
+Elapsed time (ms): 998013
+Webpages fetched: 64986
+Failed urls: 17943
+Bytes written: 12707221527
+Registered urls: 743821
+Pages per second (current): 58.83 pages/s
+Pages per second (overall): 65.05 pages/s
+==================================================
+Elapsed time (ms): 1003013
+Webpages fetched: 65248
+Failed urls: 18013
+Bytes written: 12753851589
+Registered urls: 743821
+Pages per second (current): 43.67 pages/s
+Pages per second (overall): 64.99 pages/s
+==================================================
+Elapsed time (ms): 1008013
+Webpages fetched: 65494
+Failed urls: 18083
+Bytes written: 12796464957
+Registered urls: 743821
+Pages per second (current): 41.00 pages/s
+Pages per second (overall): 64.91 pages/s
+==================================================
+Elapsed time (ms): 1013013
+Webpages fetched: 65750
+Failed urls: 18197
+Bytes written: 12841713521
+Registered urls: 743821
+Pages per second (current): 42.67 pages/s
+Pages per second (overall): 64.84 pages/s
+==================================================
+Elapsed time (ms): 1018013
+Webpages fetched: 65994
+Failed urls: 18321
+Bytes written: 12887773604
+Registered urls: 743821
+Pages per second (current): 40.67 pages/s
+Pages per second (overall): 64.76 pages/s
+==================================================
+Elapsed time (ms): 1023014
+Webpages fetched: 66228
+Failed urls: 18428
+Bytes written: 12931757362
+Registered urls: 743821
+Pages per second (current): 39.00 pages/s
+Pages per second (overall): 64.68 pages/s
+==================================================
+Elapsed time (ms): 1028014
+Webpages fetched: 66444
+Failed urls: 18525
+Bytes written: 12972595979
+Registered urls: 743821
+Pages per second (current): 36.00 pages/s
+Pages per second (overall): 64.57 pages/s
+==================================================
+Elapsed time (ms): 1033014
+Webpages fetched: 66663
+Failed urls: 18642
+Bytes written: 13013071419
+Registered urls: 743821
+Pages per second (current): 36.50 pages/s
+Pages per second (overall): 64.47 pages/s
+==================================================
+Elapsed time (ms): 1038014
+Webpages fetched: 66875
+Failed urls: 18739
+Bytes written: 13051576389
+Registered urls: 743821
+Pages per second (current): 35.33 pages/s
+Pages per second (overall): 64.36 pages/s
+==================================================
+Elapsed time (ms): 1043015
+Webpages fetched: 67402
+Failed urls: 18807
+Bytes written: 13136237271
+Registered urls: 743821
+Pages per second (current): 87.83 pages/s
+Pages per second (overall): 64.56 pages/s
+==================================================
+Elapsed time (ms): 1048015
+Webpages fetched: 67760
+Failed urls: 18867
+Bytes written: 13196905357
+Registered urls: 743821
+Pages per second (current): 59.67 pages/s
+Pages per second (overall): 64.59 pages/s
+==================================================
+Elapsed time (ms): 1053019
+Webpages fetched: 68073
+Failed urls: 18945
+Bytes written: 13253844264
+Registered urls: 743821
+Pages per second (current): 52.17 pages/s
+Pages per second (overall): 64.59 pages/s
+==================================================
+Elapsed time (ms): 1058020
+Webpages fetched: 68356
+Failed urls: 19023
+Bytes written: 13302579444
+Registered urls: 743821
+Pages per second (current): 47.17 pages/s
+Pages per second (overall): 64.55 pages/s
+==================================================
+Elapsed time (ms): 1063020
+Webpages fetched: 68637
+Failed urls: 19144
+Bytes written: 13352102583
+Registered urls: 743821
+Pages per second (current): 46.83 pages/s
+Pages per second (overall): 64.51 pages/s
+==================================================
+Elapsed time (ms): 1068020
+Webpages fetched: 68964
+Failed urls: 19243
+Bytes written: 13411106420
+Registered urls: 743821
+Pages per second (current): 54.50 pages/s
+Pages per second (overall): 64.51 pages/s
+==================================================
+Elapsed time (ms): 1073020
+Webpages fetched: 69312
+Failed urls: 19356
+Bytes written: 13470617168
+Registered urls: 743821
+Pages per second (current): 58.00 pages/s
+Pages per second (overall): 64.54 pages/s
+==================================================
+Elapsed time (ms): 1078021
+Webpages fetched: 69591
+Failed urls: 19467
+Bytes written: 13522094608
+Registered urls: 743821
+Pages per second (current): 46.50 pages/s
+Pages per second (overall): 64.50 pages/s
+==================================================
+Elapsed time (ms): 1083021
+Webpages fetched: 69959
+Failed urls: 19584
+Bytes written: 13586054004
+Registered urls: 743821
+Pages per second (current): 61.33 pages/s
+Pages per second (overall): 64.54 pages/s
+==================================================
+Elapsed time (ms): 1088021
+Webpages fetched: 70302
+Failed urls: 19698
+Bytes written: 13648442951
+Registered urls: 743821
+Pages per second (current): 57.17 pages/s
+Pages per second (overall): 64.56 pages/s
+==================================================
+Elapsed time (ms): 1093021
+Webpages fetched: 70621
+Failed urls: 19795
+Bytes written: 13705828199
+Registered urls: 743821
+Pages per second (current): 53.17 pages/s
+Pages per second (overall): 64.55 pages/s
+Hash table (empty): 95.22%
+URLs at priority level 0: 184702
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 834750
+Total pages written: 70621
+File size: 13705828202 bytes
+Average page size: 194071 bytes
+Growth ratio: 11.82 links/page
+==================================================
+Elapsed time (ms): 1174108
+Webpages fetched: 71803
+Failed urls: 20140
+Bytes written: 13900270707
+Registered urls: 743821
+Pages per second (current): 14.41 pages/s
+Pages per second (overall): 61.11 pages/s
+==================================================
+Elapsed time (ms): 1179109
+Webpages fetched: 72166
+Failed urls: 20140
+Bytes written: 13968865693
+Registered urls: 743821
+Pages per second (current): 60.50 pages/s
+Pages per second (overall): 61.16 pages/s
+==================================================
+Elapsed time (ms): 1184109
+Webpages fetched: 72242
+Failed urls: 20140
+Bytes written: 13982481186
+Registered urls: 743821
+Pages per second (current): 12.67 pages/s
+Pages per second (overall): 60.96 pages/s
+==================================================
+Elapsed time (ms): 1189109
+Webpages fetched: 72324
+Failed urls: 20144
+Bytes written: 13994397127
+Registered urls: 743821
+Pages per second (current): 13.67 pages/s
+Pages per second (overall): 60.78 pages/s
+==================================================
+Elapsed time (ms): 1194109
+Webpages fetched: 72544
+Failed urls: 20325
+Bytes written: 14029608125
+Registered urls: 743821
+Pages per second (current): 36.67 pages/s
+Pages per second (overall): 60.71 pages/s
+==================================================
+Elapsed time (ms): 1199109
+Webpages fetched: 73038
+Failed urls: 20487
+Bytes written: 14116080701
+Registered urls: 743821
+Pages per second (current): 82.33 pages/s
+Pages per second (overall): 60.87 pages/s
+==================================================
+Elapsed time (ms): 1204109
+Webpages fetched: 73423
+Failed urls: 20555
+Bytes written: 14189072308
+Registered urls: 743821
+Pages per second (current): 64.17 pages/s
+Pages per second (overall): 60.93 pages/s
+==================================================
+Elapsed time (ms): 1209110
+Webpages fetched: 73665
+Failed urls: 20607
+Bytes written: 14232092502
+Registered urls: 743821
+Pages per second (current): 40.33 pages/s
+Pages per second (overall): 60.88 pages/s
+==================================================
+Elapsed time (ms): 1214110
+Webpages fetched: 73833
+Failed urls: 20665
+Bytes written: 14262148740
+Registered urls: 743821
+Pages per second (current): 28.00 pages/s
+Pages per second (overall): 60.77 pages/s
+==================================================
+Elapsed time (ms): 1219110
+Webpages fetched: 74109
+Failed urls: 20781
+Bytes written: 14309351464
+Registered urls: 743821
+Pages per second (current): 46.00 pages/s
+Pages per second (overall): 60.75 pages/s
+==================================================
+Elapsed time (ms): 1224110
+Webpages fetched: 74455
+Failed urls: 20893
+Bytes written: 14371376900
+Registered urls: 743821
+Pages per second (current): 57.67 pages/s
+Pages per second (overall): 60.78 pages/s
+==================================================
+Elapsed time (ms): 1229110
+Webpages fetched: 74770
+Failed urls: 21011
+Bytes written: 14427553781
+Registered urls: 743821
+Pages per second (current): 52.50 pages/s
+Pages per second (overall): 60.79 pages/s
+==================================================
+Elapsed time (ms): 1234110
+Webpages fetched: 75084
+Failed urls: 21105
+Bytes written: 14483989323
+Registered urls: 743821
+Pages per second (current): 52.33 pages/s
+Pages per second (overall): 60.80 pages/s
+==================================================
+Elapsed time (ms): 1239111
+Webpages fetched: 75365
+Failed urls: 21221
+Bytes written: 14533888341
+Registered urls: 743821
+Pages per second (current): 46.83 pages/s
+Pages per second (overall): 60.78 pages/s
+==================================================
+Elapsed time (ms): 1244111
+Webpages fetched: 75720
+Failed urls: 21353
+Bytes written: 14597134423
+Registered urls: 743821
+Pages per second (current): 59.17 pages/s
+Pages per second (overall): 60.82 pages/s
+==================================================
+Elapsed time (ms): 1249111
+Webpages fetched: 76049
+Failed urls: 21453
+Bytes written: 14657831100
+Registered urls: 743821
+Pages per second (current): 54.83 pages/s
+Pages per second (overall): 60.84 pages/s
+==================================================
+Elapsed time (ms): 1254111
+Webpages fetched: 76312
+Failed urls: 21529
+Bytes written: 14710535756
+Registered urls: 743821
+Pages per second (current): 43.83 pages/s
+Pages per second (overall): 60.81 pages/s
+==================================================
+Elapsed time (ms): 1259111
+Webpages fetched: 76554
+Failed urls: 21621
+Bytes written: 14758603928
+Registered urls: 743821
+Pages per second (current): 40.33 pages/s
+Pages per second (overall): 60.76 pages/s
+==================================================
+Elapsed time (ms): 1264111
+Webpages fetched: 76856
+Failed urls: 21748
+Bytes written: 14816412960
+Registered urls: 743821
+Pages per second (current): 50.33 pages/s
+Pages per second (overall): 60.76 pages/s
+==================================================
+Elapsed time (ms): 1269112
+Webpages fetched: 77155
+Failed urls: 21859
+Bytes written: 14876345392
+Registered urls: 743821
+Pages per second (current): 49.83 pages/s
+Pages per second (overall): 60.75 pages/s
+==================================================
+Elapsed time (ms): 1274112
+Webpages fetched: 77500
+Failed urls: 21968
+Bytes written: 14944867720
+Registered urls: 743821
+Pages per second (current): 57.50 pages/s
+Pages per second (overall): 60.78 pages/s
+==================================================
+Elapsed time (ms): 1279112
+Webpages fetched: 77831
+Failed urls: 22081
+Bytes written: 15011934063
+Registered urls: 743821
+Pages per second (current): 55.17 pages/s
+Pages per second (overall): 60.81 pages/s
+==================================================
+Elapsed time (ms): 1284112
+Webpages fetched: 78172
+Failed urls: 22204
+Bytes written: 15080656706
+Registered urls: 743821
+Pages per second (current): 56.83 pages/s
+Pages per second (overall): 60.83 pages/s
+==================================================
+Elapsed time (ms): 1289112
+Webpages fetched: 78503
+Failed urls: 22309
+Bytes written: 15146623148
+Registered urls: 743821
+Pages per second (current): 55.17 pages/s
+Pages per second (overall): 60.86 pages/s
+==================================================
+Elapsed time (ms): 1294120
+Webpages fetched: 78778
+Failed urls: 22399
+Bytes written: 15201711368
+Registered urls: 743821
+Pages per second (current): 45.83 pages/s
+Pages per second (overall): 60.83 pages/s
+==================================================
+Elapsed time (ms): 1299120
+Webpages fetched: 79019
+Failed urls: 22487
+Bytes written: 15248595164
+Registered urls: 743821
+Pages per second (current): 40.17 pages/s
+Pages per second (overall): 60.78 pages/s
+==================================================
+Elapsed time (ms): 1304120
+Webpages fetched: 79298
+Failed urls: 22574
+Bytes written: 15299362306
+Registered urls: 743821
+Pages per second (current): 46.50 pages/s
+Pages per second (overall): 60.76 pages/s
+==================================================
+Elapsed time (ms): 1309120
+Webpages fetched: 79661
+Failed urls: 22704
+Bytes written: 15370333153
+Registered urls: 743821
+Pages per second (current): 60.50 pages/s
+Pages per second (overall): 60.81 pages/s
+==================================================
+Elapsed time (ms): 1314120
+Webpages fetched: 79977
+Failed urls: 22799
+Bytes written: 15435888624
+Registered urls: 743821
+Pages per second (current): 52.67 pages/s
+Pages per second (overall): 60.82 pages/s
+==================================================
+Elapsed time (ms): 1319120
+Webpages fetched: 80269
+Failed urls: 22911
+Bytes written: 15490942834
+Registered urls: 743821
+Pages per second (current): 48.67 pages/s
+Pages per second (overall): 60.81 pages/s
+Hash table (empty): 95.11%
+URLs at priority level 0: 197466
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 847514
+Total pages written: 80269
+File size: 15490942837 bytes
+Average page size: 192983 bytes
+Growth ratio: 10.56 links/page
+==================================================
+Elapsed time (ms): 1421877
+Webpages fetched: 81314
+Failed urls: 23318
+Bytes written: 15677389057
+Registered urls: 743821
+Pages per second (current): 10.15 pages/s
+Pages per second (overall): 57.18 pages/s
+==================================================
+Elapsed time (ms): 1426877
+Webpages fetched: 81637
+Failed urls: 23318
+Bytes written: 15740716646
+Registered urls: 743821
+Pages per second (current): 53.83 pages/s
+Pages per second (overall): 57.21 pages/s
+==================================================
+Elapsed time (ms): 1431877
+Webpages fetched: 81702
+Failed urls: 23318
+Bytes written: 15752171952
+Registered urls: 743821
+Pages per second (current): 10.83 pages/s
+Pages per second (overall): 57.05 pages/s
+==================================================
+Elapsed time (ms): 1436877
+Webpages fetched: 81776
+Failed urls: 23319
+Bytes written: 15763944703
+Registered urls: 743821
+Pages per second (current): 12.33 pages/s
+Pages per second (overall): 56.91 pages/s
+==================================================
+Elapsed time (ms): 1441877
+Webpages fetched: 82013
+Failed urls: 23500
+Bytes written: 15802302161
+Registered urls: 743821
+Pages per second (current): 39.50 pages/s
+Pages per second (overall): 56.87 pages/s
+==================================================
+Elapsed time (ms): 1446877
+Webpages fetched: 82583
+Failed urls: 23632
+Bytes written: 15898661938
+Registered urls: 743821
+Pages per second (current): 95.00 pages/s
+Pages per second (overall): 57.07 pages/s
+==================================================
+Elapsed time (ms): 1451878
+Webpages fetched: 82958
+Failed urls: 23670
+Bytes written: 15963841358
+Registered urls: 743821
+Pages per second (current): 62.50 pages/s
+Pages per second (overall): 57.13 pages/s
+==================================================
+Elapsed time (ms): 1456878
+Webpages fetched: 83186
+Failed urls: 23706
+Bytes written: 16006877075
+Registered urls: 743821
+Pages per second (current): 38.00 pages/s
+Pages per second (overall): 57.09 pages/s
+==================================================
+Elapsed time (ms): 1461878
+Webpages fetched: 83379
+Failed urls: 23787
+Bytes written: 16041160888
+Registered urls: 743821
+Pages per second (current): 32.17 pages/s
+Pages per second (overall): 57.03 pages/s
+==================================================
+Elapsed time (ms): 1466878
+Webpages fetched: 83687
+Failed urls: 23881
+Bytes written: 16098129505
+Registered urls: 743821
+Pages per second (current): 51.33 pages/s
+Pages per second (overall): 57.05 pages/s
+==================================================
+Elapsed time (ms): 1471878
+Webpages fetched: 84028
+Failed urls: 24010
+Bytes written: 16160075621
+Registered urls: 743821
+Pages per second (current): 56.83 pages/s
+Pages per second (overall): 57.08 pages/s
+==================================================
+Elapsed time (ms): 1476879
+Webpages fetched: 84352
+Failed urls: 24116
+Bytes written: 16219833440
+Registered urls: 743821
+Pages per second (current): 54.00 pages/s
+Pages per second (overall): 57.11 pages/s
+==================================================
+Elapsed time (ms): 1481880
+Webpages fetched: 84569
+Failed urls: 24203
+Bytes written: 16259864460
+Registered urls: 743821
+Pages per second (current): 36.17 pages/s
+Pages per second (overall): 57.06 pages/s
+==================================================
+Elapsed time (ms): 1486880
+Webpages fetched: 84860
+Failed urls: 24326
+Bytes written: 16315039911
+Registered urls: 743821
+Pages per second (current): 48.50 pages/s
+Pages per second (overall): 57.07 pages/s
+==================================================
+Elapsed time (ms): 1491881
+Webpages fetched: 85163
+Failed urls: 24463
+Bytes written: 16371390823
+Registered urls: 743821
+Pages per second (current): 50.50 pages/s
+Pages per second (overall): 57.08 pages/s
+==================================================
+Elapsed time (ms): 1496881
+Webpages fetched: 85516
+Failed urls: 24583
+Bytes written: 16438020789
+Registered urls: 743821
+Pages per second (current): 58.83 pages/s
+Pages per second (overall): 57.12 pages/s
+==================================================
+Elapsed time (ms): 1501881
+Webpages fetched: 85752
+Failed urls: 24650
+Bytes written: 16483126041
+Registered urls: 743821
+Pages per second (current): 39.33 pages/s
+Pages per second (overall): 57.09 pages/s
+==================================================
+Elapsed time (ms): 1506881
+Webpages fetched: 85947
+Failed urls: 24737
+Bytes written: 16519224477
+Registered urls: 743821
+Pages per second (current): 32.50 pages/s
+Pages per second (overall): 57.03 pages/s
+==================================================
+Elapsed time (ms): 1511881
+Webpages fetched: 86198
+Failed urls: 24832
+Bytes written: 16563425429
+Registered urls: 743821
+Pages per second (current): 41.83 pages/s
+Pages per second (overall): 57.01 pages/s
+==================================================
+Elapsed time (ms): 1516882
+Webpages fetched: 86545
+Failed urls: 24958
+Bytes written: 16627708999
+Registered urls: 743821
+Pages per second (current): 57.83 pages/s
+Pages per second (overall): 57.05 pages/s
+==================================================
+Elapsed time (ms): 1521882
+Webpages fetched: 86838
+Failed urls: 25065
+Bytes written: 16683160720
+Registered urls: 743821
+Pages per second (current): 48.83 pages/s
+Pages per second (overall): 57.06 pages/s
+==================================================
+Elapsed time (ms): 1526882
+Webpages fetched: 87079
+Failed urls: 25158
+Bytes written: 16728671735
+Registered urls: 743821
+Pages per second (current): 40.17 pages/s
+Pages per second (overall): 57.03 pages/s
+==================================================
+Elapsed time (ms): 1531882
+Webpages fetched: 87347
+Failed urls: 25262
+Bytes written: 16780305477
+Registered urls: 743821
+Pages per second (current): 44.67 pages/s
+Pages per second (overall): 57.02 pages/s
+==================================================
+Elapsed time (ms): 1536883
+Webpages fetched: 87633
+Failed urls: 25378
+Bytes written: 16834512908
+Registered urls: 743821
+Pages per second (current): 47.67 pages/s
+Pages per second (overall): 57.02 pages/s
+==================================================
+Elapsed time (ms): 1541883
+Webpages fetched: 87896
+Failed urls: 25479
+Bytes written: 16883538994
+Registered urls: 743821
+Pages per second (current): 43.83 pages/s
+Pages per second (overall): 57.00 pages/s
+==================================================
+Elapsed time (ms): 1546883
+Webpages fetched: 88157
+Failed urls: 25579
+Bytes written: 16933631848
+Registered urls: 743821
+Pages per second (current): 43.50 pages/s
+Pages per second (overall): 56.99 pages/s
+==================================================
+Elapsed time (ms): 1551883
+Webpages fetched: 88403
+Failed urls: 25689
+Bytes written: 16979801942
+Registered urls: 743821
+Pages per second (current): 41.00 pages/s
+Pages per second (overall): 56.96 pages/s
+==================================================
+Elapsed time (ms): 1556883
+Webpages fetched: 88697
+Failed urls: 25807
+Bytes written: 17036117164
+Registered urls: 743821
+Pages per second (current): 49.00 pages/s
+Pages per second (overall): 56.97 pages/s
+==================================================
+Elapsed time (ms): 1561884
+Webpages fetched: 89043
+Failed urls: 25932
+Bytes written: 17106557225
+Registered urls: 743821
+Pages per second (current): 57.67 pages/s
+Pages per second (overall): 57.01 pages/s
+==================================================
+Elapsed time (ms): 1566884
+Webpages fetched: 89490
+Failed urls: 26041
+Bytes written: 17213511436
+Registered urls: 743821
+Pages per second (current): 74.50 pages/s
+Pages per second (overall): 57.11 pages/s
+Hash table (empty): 95.00%
+URLs at priority level 0: 209817
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 859865
+Total pages written: 89490
+File size: 17213511439 bytes
+Average page size: 192347 bytes
+Growth ratio: 9.61 links/page
+==================================================
+Elapsed time (ms): 1682988
+Webpages fetched: 90616
+Failed urls: 26377
+Bytes written: 17438847987
+Registered urls: 743821
+Pages per second (current): 9.62 pages/s
+Pages per second (overall): 53.84 pages/s
+==================================================
+Elapsed time (ms): 1687988
+Webpages fetched: 91102
+Failed urls: 26377
+Bytes written: 17541547433
+Registered urls: 743821
+Pages per second (current): 81.00 pages/s
+Pages per second (overall): 53.97 pages/s
+==================================================
+Elapsed time (ms): 1692989
+Webpages fetched: 91226
+Failed urls: 26377
+Bytes written: 17565458123
+Registered urls: 743821
+Pages per second (current): 20.67 pages/s
+Pages per second (overall): 53.88 pages/s
+==================================================
+Elapsed time (ms): 1697989
+Webpages fetched: 91298
+Failed urls: 26377
+Bytes written: 17576565109
+Registered urls: 743821
+Pages per second (current): 12.00 pages/s
+Pages per second (overall): 53.77 pages/s
+==================================================
+Elapsed time (ms): 1702989
+Webpages fetched: 91508
+Failed urls: 26512
+Bytes written: 17609674253
+Registered urls: 743821
+Pages per second (current): 35.00 pages/s
+Pages per second (overall): 53.73 pages/s
+==================================================
+Elapsed time (ms): 1707989
+Webpages fetched: 92048
+Failed urls: 26663
+Bytes written: 17706490377
+Registered urls: 743821
+Pages per second (current): 90.00 pages/s
+Pages per second (overall): 53.89 pages/s
+==================================================
+Elapsed time (ms): 1712989
+Webpages fetched: 92432
+Failed urls: 26722
+Bytes written: 17777324764
+Registered urls: 743821
+Pages per second (current): 64.00 pages/s
+Pages per second (overall): 53.96 pages/s
+==================================================
+Elapsed time (ms): 1717990
+Webpages fetched: 92597
+Failed urls: 26751
+Bytes written: 17808152051
+Registered urls: 743821
+Pages per second (current): 27.50 pages/s
+Pages per second (overall): 53.90 pages/s
+==================================================
+Elapsed time (ms): 1722990
+Webpages fetched: 92733
+Failed urls: 26834
+Bytes written: 17833041379
+Registered urls: 743821
+Pages per second (current): 22.67 pages/s
+Pages per second (overall): 53.82 pages/s
+==================================================
+Elapsed time (ms): 1727990
+Webpages fetched: 93033
+Failed urls: 26950
+Bytes written: 17887758064
+Registered urls: 743821
+Pages per second (current): 50.00 pages/s
+Pages per second (overall): 53.84 pages/s
+==================================================
+Elapsed time (ms): 1732990
+Webpages fetched: 93335
+Failed urls: 27047
+Bytes written: 17942774441
+Registered urls: 743821
+Pages per second (current): 50.33 pages/s
+Pages per second (overall): 53.86 pages/s
+==================================================
+Elapsed time (ms): 1737990
+Webpages fetched: 93558
+Failed urls: 27104
+Bytes written: 17983984108
+Registered urls: 743821
+Pages per second (current): 37.17 pages/s
+Pages per second (overall): 53.83 pages/s
+==================================================
+Elapsed time (ms): 1742991
+Webpages fetched: 93713
+Failed urls: 27171
+Bytes written: 18013425251
+Registered urls: 743821
+Pages per second (current): 25.83 pages/s
+Pages per second (overall): 53.77 pages/s
+==================================================
+Elapsed time (ms): 1747991
+Webpages fetched: 93945
+Failed urls: 27295
+Bytes written: 18055901682
+Registered urls: 743821
+Pages per second (current): 38.67 pages/s
+Pages per second (overall): 53.74 pages/s
+==================================================
+Elapsed time (ms): 1752991
+Webpages fetched: 94556
+Failed urls: 27382
+Bytes written: 18161372428
+Registered urls: 743821
+Pages per second (current): 101.83 pages/s
+Pages per second (overall): 53.94 pages/s
+==================================================
+Elapsed time (ms): 1757991
+Webpages fetched: 94894
+Failed urls: 27440
+Bytes written: 18224035045
+Registered urls: 743821
+Pages per second (current): 56.33 pages/s
+Pages per second (overall): 53.98 pages/s
+==================================================
+Elapsed time (ms): 1762991
+Webpages fetched: 95094
+Failed urls: 27487
+Bytes written: 18261139648
+Registered urls: 743821
+Pages per second (current): 33.33 pages/s
+Pages per second (overall): 53.94 pages/s
+==================================================
+Elapsed time (ms): 1767992
+Webpages fetched: 95310
+Failed urls: 27562
+Bytes written: 18301655554
+Registered urls: 743821
+Pages per second (current): 36.00 pages/s
+Pages per second (overall): 53.91 pages/s
+==================================================
+Elapsed time (ms): 1772992
+Webpages fetched: 95675
+Failed urls: 27707
+Bytes written: 18369953081
+Registered urls: 743821
+Pages per second (current): 60.83 pages/s
+Pages per second (overall): 53.96 pages/s
+==================================================
+Elapsed time (ms): 1777992
+Webpages fetched: 96140
+Failed urls: 27818
+Bytes written: 18477336890
+Registered urls: 743821
+Pages per second (current): 77.50 pages/s
+Pages per second (overall): 54.07 pages/s
+==================================================
+Elapsed time (ms): 1782992
+Webpages fetched: 96523
+Failed urls: 27892
+Bytes written: 18551916617
+Registered urls: 743821
+Pages per second (current): 63.83 pages/s
+Pages per second (overall): 54.14 pages/s
+==================================================
+Elapsed time (ms): 1787992
+Webpages fetched: 96826
+Failed urls: 27968
+Bytes written: 18616784575
+Registered urls: 743821
+Pages per second (current): 50.50 pages/s
+Pages per second (overall): 54.15 pages/s
+==================================================
+Elapsed time (ms): 1792996
+Webpages fetched: 97124
+Failed urls: 28070
+Bytes written: 18679567815
+Registered urls: 743821
+Pages per second (current): 49.67 pages/s
+Pages per second (overall): 54.17 pages/s
+==================================================
+Elapsed time (ms): 1797996
+Webpages fetched: 97389
+Failed urls: 28163
+Bytes written: 18730573120
+Registered urls: 743821
+Pages per second (current): 44.17 pages/s
+Pages per second (overall): 54.17 pages/s
+==================================================
+Elapsed time (ms): 1802997
+Webpages fetched: 97688
+Failed urls: 28286
+Bytes written: 18786507626
+Registered urls: 743821
+Pages per second (current): 49.83 pages/s
+Pages per second (overall): 54.18 pages/s
+==================================================
+Elapsed time (ms): 1807997
+Webpages fetched: 97966
+Failed urls: 28393
+Bytes written: 18839354529
+Registered urls: 743821
+Pages per second (current): 46.33 pages/s
+Pages per second (overall): 54.18 pages/s
+==================================================
+Elapsed time (ms): 1812997
+Webpages fetched: 98235
+Failed urls: 28498
+Bytes written: 18890259562
+Registered urls: 743821
+Pages per second (current): 44.83 pages/s
+Pages per second (overall): 54.18 pages/s
+==================================================
+Elapsed time (ms): 1817997
+Webpages fetched: 98550
+Failed urls: 28620
+Bytes written: 18950656488
+Registered urls: 743821
+Pages per second (current): 52.50 pages/s
+Pages per second (overall): 54.21 pages/s
+==================================================
+Elapsed time (ms): 1822998
+Webpages fetched: 98879
+Failed urls: 28748
+Bytes written: 19012967219
+Registered urls: 743821
+Pages per second (current): 54.83 pages/s
+Pages per second (overall): 54.24 pages/s
+==================================================
+Elapsed time (ms): 1827998
+Webpages fetched: 99198
+Failed urls: 28851
+Bytes written: 19083267574
+Registered urls: 743821
+Pages per second (current): 53.17 pages/s
+Pages per second (overall): 54.27 pages/s
+Hash table (empty): 94.90%
+URLs at priority level 0: 222335
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 872383
+Total pages written: 99198
+File size: 19083267577 bytes
+Average page size: 192371 bytes
+Growth ratio: 8.79 links/page
+==================================================
+Elapsed time (ms): 1986145
+Webpages fetched: 100295
+Failed urls: 29401
+Bytes written: 19239192715
+Registered urls: 743821
+Pages per second (current): 6.90 pages/s
+Pages per second (overall): 50.48 pages/s
+Hash table (empty): 94.89%
+URLs at priority level 0: 223470
+URLs at priority level 1: 371761
+URLs at priority level 2: 115140
+URLs at priority level 3: 54366
+URLs at priority level 4: 6967
+URLs at priority level 5: 151
+URLs at priority level 6: 101663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 873518
+Total pages written: 100000
+File size: 19239192718 bytes
+Average page size: 192387 bytes
+Growth ratio: 8.74 links/page
+Finished.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Started
+/mnt/hd0/joao_test/memo_secondary/db
+/mnt/hd0/joao_test/memo_secondary/pl_
+==================================================
+Elapsed time (ms): 1808
+Webpages fetched: 0
+Failed urls: 0
+Bytes written: 0
+Registered urls: 0
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 6808
+Webpages fetched: 19
+Failed urls: 0
+Bytes written: 2314207
+Registered urls: 538
+Pages per second (current): 3.17 pages/s
+Pages per second (overall): 2.71 pages/s
+==================================================
+Elapsed time (ms): 11808
+Webpages fetched: 187
+Failed urls: 23
+Bytes written: 16263117
+Registered urls: 3253
+Pages per second (current): 28.00 pages/s
+Pages per second (overall): 15.58 pages/s
+==================================================
+Elapsed time (ms): 16830
+Webpages fetched: 572
+Failed urls: 54
+Bytes written: 45746745
+Registered urls: 9546
+Pages per second (current): 64.17 pages/s
+Pages per second (overall): 33.65 pages/s
+==================================================
+Elapsed time (ms): 21834
+Webpages fetched: 1389
+Failed urls: 187
+Bytes written: 100933439
+Registered urls: 20898
+Pages per second (current): 136.17 pages/s
+Pages per second (overall): 63.14 pages/s
+==================================================
+Elapsed time (ms): 26834
+Webpages fetched: 2662
+Failed urls: 367
+Bytes written: 188574116
+Registered urls: 46236
+Pages per second (current): 212.17 pages/s
+Pages per second (overall): 98.59 pages/s
+==================================================
+Elapsed time (ms): 31834
+Webpages fetched: 2957
+Failed urls: 408
+Bytes written: 214264498
+Registered urls: 49629
+Pages per second (current): 49.17 pages/s
+Pages per second (overall): 92.41 pages/s
+==================================================
+Elapsed time (ms): 36835
+Webpages fetched: 3900
+Failed urls: 566
+Bytes written: 298395526
+Registered urls: 53904
+Pages per second (current): 157.17 pages/s
+Pages per second (overall): 105.41 pages/s
+==================================================
+Elapsed time (ms): 41835
+Webpages fetched: 5045
+Failed urls: 774
+Bytes written: 379405580
+Registered urls: 55065
+Pages per second (current): 190.83 pages/s
+Pages per second (overall): 120.12 pages/s
+==================================================
+Elapsed time (ms): 46835
+Webpages fetched: 6235
+Failed urls: 1011
+Bytes written: 479857927
+Registered urls: 56339
+Pages per second (current): 198.33 pages/s
+Pages per second (overall): 132.66 pages/s
+==================================================
+Elapsed time (ms): 51835
+Webpages fetched: 7507
+Failed urls: 1244
+Bytes written: 585414740
+Registered urls: 57508
+Pages per second (current): 212.00 pages/s
+Pages per second (overall): 144.37 pages/s
+==================================================
+Elapsed time (ms): 56835
+Webpages fetched: 8522
+Failed urls: 1376
+Bytes written: 667423569
+Registered urls: 58538
+Pages per second (current): 169.17 pages/s
+Pages per second (overall): 149.51 pages/s
+==================================================
+Elapsed time (ms): 61835
+Webpages fetched: 9764
+Failed urls: 1579
+Bytes written: 781954206
+Registered urls: 59858
+Pages per second (current): 207.00 pages/s
+Pages per second (overall): 157.48 pages/s
+==================================================
+Elapsed time (ms): 66836
+Webpages fetched: 11100
+Failed urls: 1724
+Bytes written: 887772080
+Registered urls: 61210
+Pages per second (current): 222.67 pages/s
+Pages per second (overall): 165.67 pages/s
+==================================================
+Elapsed time (ms): 71838
+Webpages fetched: 12148
+Failed urls: 1863
+Bytes written: 979680378
+Registered urls: 62148
+Pages per second (current): 174.67 pages/s
+Pages per second (overall): 168.72 pages/s
+==================================================
+Elapsed time (ms): 76838
+Webpages fetched: 13365
+Failed urls: 1980
+Bytes written: 1090030187
+Registered urls: 63374
+Pages per second (current): 202.83 pages/s
+Pages per second (overall): 173.57 pages/s
+==================================================
+Elapsed time (ms): 81839
+Webpages fetched: 14204
+Failed urls: 2079
+Bytes written: 1163395036
+Registered urls: 64211
+Pages per second (current): 139.83 pages/s
+Pages per second (overall): 173.22 pages/s
+==================================================
+Elapsed time (ms): 86839
+Webpages fetched: 15756
+Failed urls: 2229
+Bytes written: 1300291246
+Registered urls: 65763
+Pages per second (current): 258.67 pages/s
+Pages per second (overall): 181.10 pages/s
+==================================================
+Elapsed time (ms): 91839
+Webpages fetched: 16588
+Failed urls: 2315
+Bytes written: 1379952744
+Registered urls: 66592
+Pages per second (current): 138.67 pages/s
+Pages per second (overall): 180.30 pages/s
+==================================================
+Elapsed time (ms): 96840
+Webpages fetched: 17775
+Failed urls: 2410
+Bytes written: 1492166413
+Registered urls: 68022
+Pages per second (current): 197.83 pages/s
+Pages per second (overall): 183.25 pages/s
+==================================================
+Elapsed time (ms): 101840
+Webpages fetched: 18860
+Failed urls: 2499
+Bytes written: 1585158579
+Registered urls: 68858
+Pages per second (current): 180.83 pages/s
+Pages per second (overall): 184.90 pages/s
+==================================================
+Elapsed time (ms): 106842
+Webpages fetched: 20115
+Failed urls: 2603
+Bytes written: 1703549766
+Registered urls: 70120
+Pages per second (current): 209.17 pages/s
+Pages per second (overall): 187.99 pages/s
+==================================================
+Elapsed time (ms): 111846
+Webpages fetched: 21126
+Failed urls: 2704
+Bytes written: 1799071062
+Registered urls: 71195
+Pages per second (current): 168.67 pages/s
+Pages per second (overall): 188.63 pages/s
+==================================================
+Elapsed time (ms): 116847
+Webpages fetched: 21825
+Failed urls: 2759
+Bytes written: 1869321017
+Registered urls: 71828
+Pages per second (current): 116.33 pages/s
+Pages per second (overall): 186.54 pages/s
+==================================================
+Elapsed time (ms): 121847
+Webpages fetched: 23361
+Failed urls: 2892
+Bytes written: 2005532478
+Registered urls: 73456
+Pages per second (current): 256.00 pages/s
+Pages per second (overall): 191.48 pages/s
+==================================================
+Elapsed time (ms): 126847
+Webpages fetched: 24345
+Failed urls: 2961
+Bytes written: 2096527161
+Registered urls: 74344
+Pages per second (current): 164.00 pages/s
+Pages per second (overall): 191.69 pages/s
+==================================================
+Elapsed time (ms): 131847
+Webpages fetched: 25460
+Failed urls: 3058
+Bytes written: 2199273505
+Registered urls: 75490
+Pages per second (current): 185.83 pages/s
+Pages per second (overall): 192.88 pages/s
+==================================================
+Elapsed time (ms): 136847
+Webpages fetched: 26655
+Failed urls: 3154
+Bytes written: 2318353534
+Registered urls: 76671
+Pages per second (current): 199.17 pages/s
+Pages per second (overall): 194.56 pages/s
+==================================================
+Elapsed time (ms): 141848
+Webpages fetched: 27725
+Failed urls: 3236
+Bytes written: 2417355061
+Registered urls: 77723
+Pages per second (current): 178.33 pages/s
+Pages per second (overall): 195.25 pages/s
+==================================================
+Elapsed time (ms): 146848
+Webpages fetched: 28870
+Failed urls: 3334
+Bytes written: 2530308771
+Registered urls: 79234
+Pages per second (current): 190.83 pages/s
+Pages per second (overall): 196.39 pages/s
+==================================================
+Elapsed time (ms): 151848
+Webpages fetched: 29646
+Failed urls: 3393
+Bytes written: 2603931014
+Registered urls: 79661
+Pages per second (current): 129.33 pages/s
+Pages per second (overall): 195.04 pages/s
+==================================================
+Elapsed time (ms): 156848
+Webpages fetched: 30507
+Failed urls: 3460
+Bytes written: 2691905927
+Registered urls: 80557
+Pages per second (current): 143.50 pages/s
+Pages per second (overall): 194.31 pages/s
+==================================================
+Elapsed time (ms): 161849
+Webpages fetched: 31998
+Failed urls: 3573
+Bytes written: 2837469627
+Registered urls: 82087
+Pages per second (current): 248.50 pages/s
+Pages per second (overall): 197.52 pages/s
+==================================================
+Elapsed time (ms): 166849
+Webpages fetched: 32989
+Failed urls: 3645
+Bytes written: 2941932972
+Registered urls: 83027
+Pages per second (current): 165.17 pages/s
+Pages per second (overall): 197.54 pages/s
+==================================================
+Elapsed time (ms): 171849
+Webpages fetched: 34199
+Failed urls: 3733
+Bytes written: 3064818227
+Registered urls: 84248
+Pages per second (current): 201.67 pages/s
+Pages per second (overall): 198.83 pages/s
+==================================================
+Elapsed time (ms): 176862
+Webpages fetched: 35152
+Failed urls: 3807
+Bytes written: 3168482526
+Registered urls: 85257
+Pages per second (current): 158.83 pages/s
+Pages per second (overall): 198.60 pages/s
+==================================================
+Elapsed time (ms): 181863
+Webpages fetched: 36192
+Failed urls: 3904
+Bytes written: 3284461549
+Registered urls: 86199
+Pages per second (current): 173.33 pages/s
+Pages per second (overall): 198.86 pages/s
+==================================================
+Elapsed time (ms): 186863
+Webpages fetched: 37251
+Failed urls: 4001
+Bytes written: 3397728263
+Registered urls: 87253
+Pages per second (current): 176.50 pages/s
+Pages per second (overall): 199.20 pages/s
+==================================================
+Elapsed time (ms): 191873
+Webpages fetched: 38124
+Failed urls: 4071
+Bytes written: 3490114998
+Registered urls: 88002
+Pages per second (current): 145.50 pages/s
+Pages per second (overall): 198.56 pages/s
+==================================================
+Elapsed time (ms): 196873
+Webpages fetched: 39121
+Failed urls: 4154
+Bytes written: 3599718082
+Registered urls: 89122
+Pages per second (current): 166.17 pages/s
+Pages per second (overall): 198.58 pages/s
+==================================================
+Elapsed time (ms): 201873
+Webpages fetched: 40333
+Failed urls: 4244
+Bytes written: 3733735787
+Registered urls: 90692
+Pages per second (current): 202.00 pages/s
+Pages per second (overall): 199.67 pages/s
+==================================================
+Elapsed time (ms): 206873
+Webpages fetched: 40990
+Failed urls: 4298
+Bytes written: 3815315497
+Registered urls: 91126
+Pages per second (current): 109.50 pages/s
+Pages per second (overall): 198.02 pages/s
+==================================================
+Elapsed time (ms): 211874
+Webpages fetched: 41793
+Failed urls: 4362
+Bytes written: 3904468373
+Registered urls: 91961
+Pages per second (current): 133.83 pages/s
+Pages per second (overall): 197.14 pages/s
+==================================================
+Elapsed time (ms): 216874
+Webpages fetched: 42303
+Failed urls: 4399
+Bytes written: 3971248855
+Registered urls: 92337
+Pages per second (current): 85.00 pages/s
+Pages per second (overall): 194.94 pages/s
+==================================================
+Elapsed time (ms): 221875
+Webpages fetched: 43293
+Failed urls: 4449
+Bytes written: 4083630552
+Registered urls: 93540
+Pages per second (current): 165.00 pages/s
+Pages per second (overall): 195.01 pages/s
+==================================================
+Elapsed time (ms): 226877
+Webpages fetched: 44355
+Failed urls: 4515
+Bytes written: 4197068780
+Registered urls: 94417
+Pages per second (current): 177.00 pages/s
+Pages per second (overall): 195.40 pages/s
+==================================================
+Elapsed time (ms): 231877
+Webpages fetched: 45392
+Failed urls: 4580
+Bytes written: 4314533557
+Registered urls: 95430
+Pages per second (current): 172.83 pages/s
+Pages per second (overall): 195.66 pages/s
+==================================================
+Elapsed time (ms): 236878
+Webpages fetched: 45745
+Failed urls: 4599
+Bytes written: 4358807228
+Registered urls: 95846
+Pages per second (current): 58.83 pages/s
+Pages per second (overall): 193.02 pages/s
+==================================================
+Elapsed time (ms): 241878
+Webpages fetched: 46881
+Failed urls: 4676
+Bytes written: 4492520894
+Registered urls: 96885
+Pages per second (current): 189.33 pages/s
+Pages per second (overall): 193.72 pages/s
+==================================================
+Elapsed time (ms): 246878
+Webpages fetched: 47749
+Failed urls: 4714
+Bytes written: 4592516089
+Registered urls: 97993
+Pages per second (current): 144.67 pages/s
+Pages per second (overall): 193.32 pages/s
+==================================================
+Elapsed time (ms): 251878
+Webpages fetched: 48612
+Failed urls: 4783
+Bytes written: 4692983616
+Registered urls: 98708
+Pages per second (current): 143.83 pages/s
+Pages per second (overall): 192.90 pages/s
+==================================================
+Elapsed time (ms): 257106
+Webpages fetched: 49158
+Failed urls: 4834
+Bytes written: 4762961797
+Registered urls: 99256
+Pages per second (current): 91.00 pages/s
+Pages per second (overall): 190.53 pages/s
+==================================================
+Elapsed time (ms): 262107
+Webpages fetched: 49957
+Failed urls: 4866
+Bytes written: 4864551887
+Registered urls: 100536
+Pages per second (current): 133.17 pages/s
+Pages per second (overall): 189.95 pages/s
+==================================================
+Elapsed time (ms): 267107
+Webpages fetched: 50790
+Failed urls: 4906
+Bytes written: 4971639510
+Registered urls: 100794
+Pages per second (current): 138.83 pages/s
+Pages per second (overall): 189.51 pages/s
+==================================================
+Elapsed time (ms): 272107
+Webpages fetched: 51557
+Failed urls: 4946
+Bytes written: 5069259870
+Registered urls: 101555
+Pages per second (current): 127.83 pages/s
+Pages per second (overall): 188.85 pages/s
+==================================================
+Elapsed time (ms): 277107
+Webpages fetched: 52395
+Failed urls: 4991
+Bytes written: 5173943948
+Registered urls: 102406
+Pages per second (current): 139.67 pages/s
+Pages per second (overall): 188.47 pages/s
+==================================================
+Elapsed time (ms): 282110
+Webpages fetched: 53038
+Failed urls: 5021
+Bytes written: 5252954192
+Registered urls: 103109
+Pages per second (current): 107.17 pages/s
+Pages per second (overall): 187.41 pages/s
+==================================================
+Elapsed time (ms): 287110
+Webpages fetched: 53737
+Failed urls: 5058
+Bytes written: 5344126303
+Registered urls: 104248
+Pages per second (current): 116.50 pages/s
+Pages per second (overall): 186.59 pages/s
+==================================================
+Elapsed time (ms): 292111
+Webpages fetched: 54452
+Failed urls: 5096
+Bytes written: 5434648152
+Registered urls: 104452
+Pages per second (current): 119.17 pages/s
+Pages per second (overall): 185.84 pages/s
+==================================================
+Elapsed time (ms): 297111
+Webpages fetched: 55118
+Failed urls: 5137
+Bytes written: 5523829338
+Registered urls: 105112
+Pages per second (current): 111.00 pages/s
+Pages per second (overall): 184.96 pages/s
+==================================================
+Elapsed time (ms): 302111
+Webpages fetched: 55805
+Failed urls: 5184
+Bytes written: 5618609752
+Registered urls: 105859
+Pages per second (current): 114.50 pages/s
+Pages per second (overall): 184.17 pages/s
+==================================================
+Elapsed time (ms): 307111
+Webpages fetched: 56425
+Failed urls: 5228
+Bytes written: 5697715754
+Registered urls: 106433
+Pages per second (current): 103.33 pages/s
+Pages per second (overall): 183.20 pages/s
+==================================================
+Elapsed time (ms): 312111
+Webpages fetched: 57098
+Failed urls: 5278
+Bytes written: 5782769595
+Registered urls: 107098
+Pages per second (current): 112.17 pages/s
+Pages per second (overall): 182.42 pages/s
+==================================================
+Elapsed time (ms): 317112
+Webpages fetched: 57781
+Failed urls: 5324
+Bytes written: 5876173724
+Registered urls: 107778
+Pages per second (current): 113.83 pages/s
+Pages per second (overall): 181.70 pages/s
+==================================================
+Elapsed time (ms): 322115
+Webpages fetched: 58428
+Failed urls: 5375
+Bytes written: 5970349283
+Registered urls: 108470
+Pages per second (current): 107.83 pages/s
+Pages per second (overall): 180.89 pages/s
+==================================================
+Elapsed time (ms): 327115
+Webpages fetched: 59134
+Failed urls: 5419
+Bytes written: 6052910444
+Registered urls: 109135
+Pages per second (current): 117.67 pages/s
+Pages per second (overall): 180.29 pages/s
+==================================================
+Elapsed time (ms): 332115
+Webpages fetched: 59694
+Failed urls: 5461
+Bytes written: 6132561487
+Registered urls: 109779
+Pages per second (current): 93.33 pages/s
+Pages per second (overall): 179.26 pages/s
+==================================================
+Elapsed time (ms): 337115
+Webpages fetched: 60188
+Failed urls: 5500
+Bytes written: 6201851152
+Registered urls: 110172
+Pages per second (current): 82.33 pages/s
+Pages per second (overall): 178.07 pages/s
+==================================================
+Elapsed time (ms): 342115
+Webpages fetched: 60638
+Failed urls: 5546
+Bytes written: 6256362761
+Registered urls: 110639
+Pages per second (current): 75.00 pages/s
+Pages per second (overall): 176.79 pages/s
+==================================================
+Elapsed time (ms): 347116
+Webpages fetched: 61240
+Failed urls: 5576
+Bytes written: 6340267862
+Registered urls: 111220
+Pages per second (current): 100.33 pages/s
+Pages per second (overall): 175.98 pages/s
+==================================================
+Elapsed time (ms): 352116
+Webpages fetched: 61937
+Failed urls: 5632
+Bytes written: 6443113940
+Registered urls: 111940
+Pages per second (current): 116.17 pages/s
+Pages per second (overall): 175.46 pages/s
+==================================================
+Elapsed time (ms): 357116
+Webpages fetched: 62622
+Failed urls: 5686
+Bytes written: 6529840465
+Registered urls: 112638
+Pages per second (current): 114.17 pages/s
+Pages per second (overall): 174.92 pages/s
+==================================================
+Elapsed time (ms): 362116
+Webpages fetched: 63234
+Failed urls: 5725
+Bytes written: 6612103671
+Registered urls: 113277
+Pages per second (current): 102.00 pages/s
+Pages per second (overall): 174.20 pages/s
+==================================================
+Elapsed time (ms): 367116
+Webpages fetched: 63814
+Failed urls: 5754
+Bytes written: 6688051735
+Registered urls: 113849
+Pages per second (current): 96.67 pages/s
+Pages per second (overall): 173.41 pages/s
+==================================================
+Elapsed time (ms): 372117
+Webpages fetched: 64442
+Failed urls: 5795
+Bytes written: 6771244209
+Registered urls: 114477
+Pages per second (current): 104.67 pages/s
+Pages per second (overall): 172.77 pages/s
+==================================================
+Elapsed time (ms): 377122
+Webpages fetched: 64935
+Failed urls: 5851
+Bytes written: 6837798125
+Registered urls: 114955
+Pages per second (current): 82.17 pages/s
+Pages per second (overall): 171.79 pages/s
+==================================================
+Elapsed time (ms): 382122
+Webpages fetched: 65589
+Failed urls: 5891
+Bytes written: 6933168343
+Registered urls: 115641
+Pages per second (current): 109.00 pages/s
+Pages per second (overall): 171.25 pages/s
+==================================================
+Elapsed time (ms): 387122
+Webpages fetched: 66099
+Failed urls: 5925
+Bytes written: 7008349166
+Registered urls: 116184
+Pages per second (current): 85.00 pages/s
+Pages per second (overall): 170.36 pages/s
+==================================================
+Elapsed time (ms): 392123
+Webpages fetched: 66559
+Failed urls: 5947
+Bytes written: 7073937270
+Registered urls: 116557
+Pages per second (current): 76.67 pages/s
+Pages per second (overall): 169.36 pages/s
+==================================================
+Elapsed time (ms): 397123
+Webpages fetched: 67048
+Failed urls: 5976
+Bytes written: 7143549498
+Registered urls: 117087
+Pages per second (current): 81.50 pages/s
+Pages per second (overall): 168.46 pages/s
+==================================================
+Elapsed time (ms): 402123
+Webpages fetched: 67490
+Failed urls: 6011
+Bytes written: 7202279621
+Registered urls: 117497
+Pages per second (current): 73.67 pages/s
+Pages per second (overall): 167.47 pages/s
+==================================================
+Elapsed time (ms): 407123
+Webpages fetched: 67949
+Failed urls: 6057
+Bytes written: 7269873640
+Registered urls: 117972
+Pages per second (current): 76.50 pages/s
+Pages per second (overall): 166.54 pages/s
+==================================================
+Elapsed time (ms): 412123
+Webpages fetched: 68432
+Failed urls: 6095
+Bytes written: 7334311996
+Registered urls: 118484
+Pages per second (current): 80.50 pages/s
+Pages per second (overall): 165.69 pages/s
+==================================================
+Elapsed time (ms): 417124
+Webpages fetched: 68998
+Failed urls: 6121
+Bytes written: 7415284590
+Registered urls: 118999
+Pages per second (current): 94.33 pages/s
+Pages per second (overall): 165.07 pages/s
+==================================================
+Elapsed time (ms): 422242
+Webpages fetched: 69467
+Failed urls: 6157
+Bytes written: 7484732424
+Registered urls: 119476
+Pages per second (current): 78.17 pages/s
+Pages per second (overall): 164.22 pages/s
+==================================================
+Elapsed time (ms): 427242
+Webpages fetched: 69939
+Failed urls: 6185
+Bytes written: 7560073582
+Registered urls: 119948
+Pages per second (current): 78.67 pages/s
+Pages per second (overall): 163.41 pages/s
+==================================================
+Elapsed time (ms): 432242
+Webpages fetched: 70228
+Failed urls: 6203
+Bytes written: 7595073452
+Registered urls: 120233
+Pages per second (current): 48.17 pages/s
+Pages per second (overall): 162.19 pages/s
+==================================================
+Elapsed time (ms): 437245
+Webpages fetched: 70674
+Failed urls: 6233
+Bytes written: 7663478408
+Registered urls: 120674
+Pages per second (current): 74.33 pages/s
+Pages per second (overall): 161.36 pages/s
+==================================================
+Elapsed time (ms): 442245
+Webpages fetched: 71168
+Failed urls: 6270
+Bytes written: 7731290941
+Registered urls: 121161
+Pages per second (current): 82.33 pages/s
+Pages per second (overall): 160.65 pages/s
+==================================================
+Elapsed time (ms): 447706
+Webpages fetched: 71559
+Failed urls: 6296
+Bytes written: 7788452441
+Registered urls: 121556
+Pages per second (current): 65.17 pages/s
+Pages per second (overall): 159.73 pages/s
+==================================================
+Elapsed time (ms): 452706
+Webpages fetched: 71973
+Failed urls: 6318
+Bytes written: 7845332378
+Registered urls: 121981
+Pages per second (current): 69.00 pages/s
+Pages per second (overall): 158.88 pages/s
+==================================================
+Elapsed time (ms): 457710
+Webpages fetched: 72455
+Failed urls: 6352
+Bytes written: 7914246663
+Registered urls: 123497
+Pages per second (current): 80.33 pages/s
+Pages per second (overall): 158.20 pages/s
+==================================================
+Elapsed time (ms): 462713
+Webpages fetched: 72907
+Failed urls: 6381
+Bytes written: 7984308905
+Registered urls: 123497
+Pages per second (current): 75.33 pages/s
+Pages per second (overall): 157.47 pages/s
+==================================================
+Elapsed time (ms): 467754
+Webpages fetched: 73280
+Failed urls: 6396
+Bytes written: 8040833461
+Registered urls: 123497
+Pages per second (current): 62.17 pages/s
+Pages per second (overall): 156.58 pages/s
+==================================================
+Elapsed time (ms): 472754
+Webpages fetched: 73663
+Failed urls: 6411
+Bytes written: 8093346941
+Registered urls: 123654
+Pages per second (current): 63.83 pages/s
+Pages per second (overall): 155.74 pages/s
+==================================================
+Elapsed time (ms): 477757
+Webpages fetched: 73983
+Failed urls: 6438
+Bytes written: 8134860981
+Registered urls: 124088
+Pages per second (current): 53.33 pages/s
+Pages per second (overall): 154.78 pages/s
+==================================================
+Elapsed time (ms): 482761
+Webpages fetched: 74398
+Failed urls: 6467
+Bytes written: 8198116905
+Registered urls: 124418
+Pages per second (current): 69.17 pages/s
+Pages per second (overall): 154.03 pages/s
+==================================================
+Elapsed time (ms): 487762
+Webpages fetched: 74724
+Failed urls: 6485
+Bytes written: 8243684523
+Registered urls: 124722
+Pages per second (current): 54.33 pages/s
+Pages per second (overall): 153.12 pages/s
+==================================================
+Elapsed time (ms): 492762
+Webpages fetched: 75116
+Failed urls: 6503
+Bytes written: 8296270020
+Registered urls: 125115
+Pages per second (current): 65.33 pages/s
+Pages per second (overall): 152.37 pages/s
+==================================================
+Elapsed time (ms): 497762
+Webpages fetched: 75470
+Failed urls: 6524
+Bytes written: 8346343474
+Registered urls: 125521
+Pages per second (current): 59.00 pages/s
+Pages per second (overall): 151.55 pages/s
+==================================================
+Elapsed time (ms): 502766
+Webpages fetched: 75809
+Failed urls: 6538
+Bytes written: 8395688538
+Registered urls: 125816
+Pages per second (current): 56.50 pages/s
+Pages per second (overall): 150.71 pages/s
+==================================================
+Elapsed time (ms): 507768
+Webpages fetched: 76184
+Failed urls: 6551
+Bytes written: 8454795132
+Registered urls: 126226
+Pages per second (current): 62.50 pages/s
+Pages per second (overall): 149.97 pages/s
+==================================================
+Elapsed time (ms): 512768
+Webpages fetched: 76469
+Failed urls: 6559
+Bytes written: 8496846494
+Registered urls: 126521
+Pages per second (current): 47.50 pages/s
+Pages per second (overall): 149.06 pages/s
+==================================================
+Elapsed time (ms): 517768
+Webpages fetched: 76771
+Failed urls: 6587
+Bytes written: 8540550712
+Registered urls: 126789
+Pages per second (current): 50.33 pages/s
+Pages per second (overall): 148.21 pages/s
+==================================================
+Elapsed time (ms): 522768
+Webpages fetched: 77097
+Failed urls: 6600
+Bytes written: 8584909931
+Registered urls: 127099
+Pages per second (current): 54.33 pages/s
+Pages per second (overall): 147.41 pages/s
+==================================================
+Elapsed time (ms): 527768
+Webpages fetched: 77399
+Failed urls: 6620
+Bytes written: 8625822708
+Registered urls: 127457
+Pages per second (current): 50.33 pages/s
+Pages per second (overall): 146.59 pages/s
+==================================================
+Elapsed time (ms): 532768
+Webpages fetched: 77706
+Failed urls: 6640
+Bytes written: 8667956172
+Registered urls: 127697
+Pages per second (current): 51.17 pages/s
+Pages per second (overall): 145.79 pages/s
+==================================================
+Elapsed time (ms): 537769
+Webpages fetched: 78029
+Failed urls: 6656
+Bytes written: 8715512628
+Registered urls: 128030
+Pages per second (current): 53.83 pages/s
+Pages per second (overall): 145.04 pages/s
+==================================================
+Elapsed time (ms): 542770
+Webpages fetched: 78312
+Failed urls: 6672
+Bytes written: 8755946555
+Registered urls: 128311
+Pages per second (current): 47.17 pages/s
+Pages per second (overall): 144.22 pages/s
+==================================================
+Elapsed time (ms): 547770
+Webpages fetched: 78645
+Failed urls: 6685
+Bytes written: 8803811854
+Registered urls: 128642
+Pages per second (current): 55.50 pages/s
+Pages per second (overall): 143.51 pages/s
+==================================================
+Elapsed time (ms): 552774
+Webpages fetched: 78924
+Failed urls: 6700
+Bytes written: 8844360245
+Registered urls: 128920
+Pages per second (current): 46.50 pages/s
+Pages per second (overall): 142.72 pages/s
+==================================================
+Elapsed time (ms): 557774
+Webpages fetched: 79214
+Failed urls: 6713
+Bytes written: 8886520655
+Registered urls: 129222
+Pages per second (current): 48.33 pages/s
+Pages per second (overall): 141.96 pages/s
+==================================================
+Elapsed time (ms): 562775
+Webpages fetched: 79539
+Failed urls: 6731
+Bytes written: 8934572975
+Registered urls: 129581
+Pages per second (current): 54.17 pages/s
+Pages per second (overall): 141.28 pages/s
+==================================================
+Elapsed time (ms): 567795
+Webpages fetched: 79862
+Failed urls: 6752
+Bytes written: 8983240701
+Registered urls: 129927
+Pages per second (current): 53.83 pages/s
+Pages per second (overall): 140.60 pages/s
+==================================================
+Elapsed time (ms): 572795
+Webpages fetched: 80152
+Failed urls: 6767
+Bytes written: 9024778550
+Registered urls: 130201
+Pages per second (current): 48.33 pages/s
+Pages per second (overall): 139.88 pages/s
+==================================================
+Elapsed time (ms): 577795
+Webpages fetched: 80419
+Failed urls: 6783
+Bytes written: 9066333323
+Registered urls: 130418
+Pages per second (current): 44.50 pages/s
+Pages per second (overall): 139.13 pages/s
+==================================================
+Elapsed time (ms): 582869
+Webpages fetched: 80702
+Failed urls: 6790
+Bytes written: 9110734209
+Registered urls: 130710
+Pages per second (current): 47.17 pages/s
+Pages per second (overall): 138.43 pages/s
+==================================================
+Elapsed time (ms): 587894
+Webpages fetched: 80970
+Failed urls: 6802
+Bytes written: 9148246009
+Registered urls: 131011
+Pages per second (current): 44.67 pages/s
+Pages per second (overall): 137.70 pages/s
+==================================================
+Elapsed time (ms): 592922
+Webpages fetched: 81299
+Failed urls: 6819
+Bytes written: 9195606095
+Registered urls: 131324
+Pages per second (current): 54.83 pages/s
+Pages per second (overall): 137.10 pages/s
+==================================================
+Elapsed time (ms): 597923
+Webpages fetched: 81632
+Failed urls: 6828
+Bytes written: 9243218742
+Registered urls: 131647
+Pages per second (current): 55.50 pages/s
+Pages per second (overall): 136.51 pages/s
+==================================================
+Elapsed time (ms): 602923
+Webpages fetched: 81891
+Failed urls: 6835
+Bytes written: 9279822085
+Registered urls: 131901
+Pages per second (current): 43.17 pages/s
+Pages per second (overall): 135.81 pages/s
+==================================================
+Elapsed time (ms): 607923
+Webpages fetched: 82180
+Failed urls: 6841
+Bytes written: 9327168559
+Registered urls: 132176
+Pages per second (current): 48.17 pages/s
+Pages per second (overall): 135.16 pages/s
+==================================================
+Elapsed time (ms): 612923
+Webpages fetched: 82484
+Failed urls: 6853
+Bytes written: 9369665884
+Registered urls: 132486
+Pages per second (current): 50.67 pages/s
+Pages per second (overall): 134.56 pages/s
+==================================================
+Elapsed time (ms): 618594
+Webpages fetched: 82791
+Failed urls: 6864
+Bytes written: 9415558876
+Registered urls: 132822
+Pages per second (current): 51.17 pages/s
+Pages per second (overall): 133.75 pages/s
+==================================================
+Elapsed time (ms): 623739
+Webpages fetched: 83105
+Failed urls: 6880
+Bytes written: 9455414346
+Registered urls: 133107
+Pages per second (current): 52.33 pages/s
+Pages per second (overall): 133.18 pages/s
+==================================================
+Elapsed time (ms): 628739
+Webpages fetched: 83407
+Failed urls: 6891
+Bytes written: 9499184510
+Registered urls: 133428
+Pages per second (current): 50.33 pages/s
+Pages per second (overall): 132.60 pages/s
+==================================================
+Elapsed time (ms): 633740
+Webpages fetched: 83746
+Failed urls: 6905
+Bytes written: 9551384583
+Registered urls: 133712
+Pages per second (current): 56.50 pages/s
+Pages per second (overall): 132.09 pages/s
+==================================================
+Elapsed time (ms): 638740
+Webpages fetched: 83964
+Failed urls: 6908
+Bytes written: 9584259462
+Registered urls: 133983
+Pages per second (current): 36.33 pages/s
+Pages per second (overall): 131.40 pages/s
+==================================================
+Elapsed time (ms): 643991
+Webpages fetched: 84247
+Failed urls: 6914
+Bytes written: 9625252677
+Registered urls: 134258
+Pages per second (current): 47.17 pages/s
+Pages per second (overall): 130.82 pages/s
+==================================================
+Elapsed time (ms): 648991
+Webpages fetched: 84545
+Failed urls: 6921
+Bytes written: 9667387631
+Registered urls: 134625
+Pages per second (current): 49.67 pages/s
+Pages per second (overall): 130.27 pages/s
+==================================================
+Elapsed time (ms): 653991
+Webpages fetched: 84794
+Failed urls: 6925
+Bytes written: 9706704735
+Registered urls: 134793
+Pages per second (current): 41.50 pages/s
+Pages per second (overall): 129.65 pages/s
+==================================================
+Elapsed time (ms): 658991
+Webpages fetched: 85096
+Failed urls: 6933
+Bytes written: 9752688789
+Registered urls: 135097
+Pages per second (current): 50.33 pages/s
+Pages per second (overall): 129.13 pages/s
+==================================================
+Elapsed time (ms): 663992
+Webpages fetched: 85343
+Failed urls: 6940
+Bytes written: 9790786688
+Registered urls: 135354
+Pages per second (current): 41.17 pages/s
+Pages per second (overall): 128.53 pages/s
+==================================================
+Elapsed time (ms): 668992
+Webpages fetched: 85565
+Failed urls: 6942
+Bytes written: 9824226712
+Registered urls: 135662
+Pages per second (current): 37.00 pages/s
+Pages per second (overall): 127.90 pages/s
+==================================================
+Elapsed time (ms): 674035
+Webpages fetched: 85819
+Failed urls: 6951
+Bytes written: 9864460506
+Registered urls: 135854
+Pages per second (current): 42.33 pages/s
+Pages per second (overall): 127.14 pages/s
+==================================================
+Elapsed time (ms): 679035
+Webpages fetched: 86066
+Failed urls: 6955
+Bytes written: 9901146026
+Registered urls: 136106
+Pages per second (current): 41.17 pages/s
+Pages per second (overall): 126.57 pages/s
+==================================================
+Elapsed time (ms): 684035
+Webpages fetched: 86298
+Failed urls: 6955
+Bytes written: 9935854467
+Registered urls: 136322
+Pages per second (current): 38.67 pages/s
+Pages per second (overall): 125.98 pages/s
+==================================================
+Elapsed time (ms): 689035
+Webpages fetched: 86551
+Failed urls: 6958
+Bytes written: 9972945955
+Registered urls: 136576
+Pages per second (current): 42.17 pages/s
+Pages per second (overall): 125.44 pages/s
+==================================================
+Elapsed time (ms): 694036
+Webpages fetched: 86849
+Failed urls: 6969
+Bytes written: 10016078725
+Registered urls: 136849
+Pages per second (current): 49.67 pages/s
+Pages per second (overall): 124.96 pages/s
+==================================================
+Elapsed time (ms): 699336
+Webpages fetched: 87079
+Failed urls: 6974
+Bytes written: 10051016003
+Registered urls: 137133
+Pages per second (current): 38.33 pages/s
+Pages per second (overall): 124.40 pages/s
+==================================================
+Elapsed time (ms): 704336
+Webpages fetched: 87335
+Failed urls: 6984
+Bytes written: 10092046349
+Registered urls: 137344
+Pages per second (current): 42.67 pages/s
+Pages per second (overall): 123.88 pages/s
+==================================================
+Elapsed time (ms): 709550
+Webpages fetched: 87618
+Failed urls: 6996
+Bytes written: 10135338382
+Registered urls: 137620
+Pages per second (current): 47.17 pages/s
+Pages per second (overall): 123.41 pages/s
+==================================================
+Elapsed time (ms): 714551
+Webpages fetched: 87869
+Failed urls: 7006
+Bytes written: 10174473195
+Registered urls: 137910
+Pages per second (current): 42.00 pages/s
+Pages per second (overall): 122.90 pages/s
+==================================================
+Elapsed time (ms): 719551
+Webpages fetched: 88097
+Failed urls: 7019
+Bytes written: 10210361466
+Registered urls: 138120
+Pages per second (current): 37.83 pages/s
+Pages per second (overall): 122.36 pages/s
+==================================================
+Elapsed time (ms): 724551
+Webpages fetched: 88384
+Failed urls: 7028
+Bytes written: 10256650931
+Registered urls: 138399
+Pages per second (current): 47.83 pages/s
+Pages per second (overall): 121.91 pages/s
+==================================================
+Elapsed time (ms): 729551
+Webpages fetched: 88578
+Failed urls: 7030
+Bytes written: 10284977926
+Registered urls: 138588
+Pages per second (current): 32.33 pages/s
+Pages per second (overall): 121.34 pages/s
+==================================================
+Elapsed time (ms): 734552
+Webpages fetched: 88801
+Failed urls: 7036
+Bytes written: 10320015650
+Registered urls: 138800
+Pages per second (current): 37.17 pages/s
+Pages per second (overall): 120.82 pages/s
+==================================================
+Elapsed time (ms): 739552
+Webpages fetched: 89068
+Failed urls: 7044
+Bytes written: 10361113623
+Registered urls: 139052
+Pages per second (current): 44.50 pages/s
+Pages per second (overall): 120.36 pages/s
+==================================================
+Elapsed time (ms): 744552
+Webpages fetched: 89304
+Failed urls: 7053
+Bytes written: 10393991111
+Registered urls: 139307
+Pages per second (current): 39.33 pages/s
+Pages per second (overall): 119.87 pages/s
+==================================================
+Elapsed time (ms): 749552
+Webpages fetched: 89542
+Failed urls: 7059
+Bytes written: 10428600562
+Registered urls: 139513
+Pages per second (current): 39.67 pages/s
+Pages per second (overall): 119.39 pages/s
+==================================================
+Elapsed time (ms): 754884
+Webpages fetched: 89713
+Failed urls: 7068
+Bytes written: 10452369033
+Registered urls: 139730
+Pages per second (current): 28.50 pages/s
+Pages per second (overall): 118.83 pages/s
+==================================================
+Elapsed time (ms): 759884
+Webpages fetched: 89978
+Failed urls: 7085
+Bytes written: 10491310813
+Registered urls: 140028
+Pages per second (current): 44.17 pages/s
+Pages per second (overall): 118.39 pages/s
+==================================================
+Elapsed time (ms): 764885
+Webpages fetched: 90186
+Failed urls: 7089
+Bytes written: 10525398269
+Registered urls: 140195
+Pages per second (current): 34.67 pages/s
+Pages per second (overall): 117.89 pages/s
+==================================================
+Elapsed time (ms): 769885
+Webpages fetched: 90405
+Failed urls: 7096
+Bytes written: 10560971108
+Registered urls: 140429
+Pages per second (current): 36.50 pages/s
+Pages per second (overall): 117.41 pages/s
+==================================================
+Elapsed time (ms): 774885
+Webpages fetched: 90670
+Failed urls: 7108
+Bytes written: 10604064009
+Registered urls: 140686
+Pages per second (current): 44.17 pages/s
+Pages per second (overall): 116.99 pages/s
+==================================================
+Elapsed time (ms): 779885
+Webpages fetched: 90894
+Failed urls: 7120
+Bytes written: 10637088266
+Registered urls: 140932
+Pages per second (current): 37.33 pages/s
+Pages per second (overall): 116.53 pages/s
+==================================================
+Elapsed time (ms): 784886
+Webpages fetched: 91126
+Failed urls: 7132
+Bytes written: 10676767908
+Registered urls: 141185
+Pages per second (current): 38.67 pages/s
+Pages per second (overall): 116.08 pages/s
+==================================================
+Elapsed time (ms): 789886
+Webpages fetched: 91349
+Failed urls: 7137
+Bytes written: 10708044405
+Registered urls: 141345
+Pages per second (current): 37.17 pages/s
+Pages per second (overall): 115.63 pages/s
+==================================================
+Elapsed time (ms): 794886
+Webpages fetched: 91585
+Failed urls: 7142
+Bytes written: 10742546944
+Registered urls: 141710
+Pages per second (current): 39.33 pages/s
+Pages per second (overall): 115.20 pages/s
+==================================================
+Elapsed time (ms): 799886
+Webpages fetched: 91833
+Failed urls: 7143
+Bytes written: 10781415140
+Registered urls: 141844
+Pages per second (current): 41.33 pages/s
+Pages per second (overall): 114.79 pages/s
+==================================================
+Elapsed time (ms): 804887
+Webpages fetched: 92091
+Failed urls: 7151
+Bytes written: 10821292768
+Registered urls: 142150
+Pages per second (current): 43.00 pages/s
+Pages per second (overall): 114.40 pages/s
+==================================================
+Elapsed time (ms): 810359
+Webpages fetched: 92282
+Failed urls: 7159
+Bytes written: 10850638739
+Registered urls: 142284
+Pages per second (current): 31.83 pages/s
+Pages per second (overall): 113.79 pages/s
+==================================================
+Elapsed time (ms): 815359
+Webpages fetched: 92492
+Failed urls: 7164
+Bytes written: 10883724803
+Registered urls: 142494
+Pages per second (current): 35.00 pages/s
+Pages per second (overall): 113.35 pages/s
+==================================================
+Elapsed time (ms): 820359
+Webpages fetched: 92692
+Failed urls: 7173
+Bytes written: 10912761107
+Registered urls: 142710
+Pages per second (current): 33.33 pages/s
+Pages per second (overall): 112.90 pages/s
+==================================================
+Elapsed time (ms): 825359
+Webpages fetched: 92875
+Failed urls: 7180
+Bytes written: 10940226367
+Registered urls: 142916
+Pages per second (current): 30.50 pages/s
+Pages per second (overall): 112.44 pages/s
+==================================================
+Elapsed time (ms): 830359
+Webpages fetched: 93110
+Failed urls: 7191
+Bytes written: 10977198025
+Registered urls: 143128
+Pages per second (current): 39.17 pages/s
+Pages per second (overall): 112.05 pages/s
+==================================================
+Elapsed time (ms): 835360
+Webpages fetched: 93332
+Failed urls: 7198
+Bytes written: 11010889697
+Registered urls: 143334
+Pages per second (current): 37.00 pages/s
+Pages per second (overall): 111.64 pages/s
+==================================================
+Elapsed time (ms): 840370
+Webpages fetched: 93534
+Failed urls: 7207
+Bytes written: 11040344009
+Registered urls: 143547
+Pages per second (current): 33.67 pages/s
+Pages per second (overall): 111.22 pages/s
+==================================================
+Elapsed time (ms): 845371
+Webpages fetched: 93744
+Failed urls: 7216
+Bytes written: 11070619025
+Registered urls: 143774
+Pages per second (current): 35.00 pages/s
+Pages per second (overall): 110.81 pages/s
+==================================================
+Elapsed time (ms): 850371
+Webpages fetched: 93956
+Failed urls: 7219
+Bytes written: 11100582185
+Registered urls: 144020
+Pages per second (current): 35.33 pages/s
+Pages per second (overall): 110.41 pages/s
+==================================================
+Elapsed time (ms): 855372
+Webpages fetched: 94186
+Failed urls: 7233
+Bytes written: 11136637144
+Registered urls: 144185
+Pages per second (current): 38.33 pages/s
+Pages per second (overall): 110.03 pages/s
+==================================================
+Elapsed time (ms): 860402
+Webpages fetched: 94418
+Failed urls: 7242
+Bytes written: 11172713233
+Registered urls: 144433
+Pages per second (current): 38.67 pages/s
+Pages per second (overall): 109.66 pages/s
+==================================================
+Elapsed time (ms): 865402
+Webpages fetched: 94648
+Failed urls: 7250
+Bytes written: 11207470982
+Registered urls: 144679
+Pages per second (current): 38.33 pages/s
+Pages per second (overall): 109.29 pages/s
+==================================================
+Elapsed time (ms): 870402
+Webpages fetched: 94821
+Failed urls: 7254
+Bytes written: 11231293380
+Registered urls: 144897
+Pages per second (current): 28.83 pages/s
+Pages per second (overall): 108.86 pages/s
+==================================================
+Elapsed time (ms): 875402
+Webpages fetched: 95061
+Failed urls: 7259
+Bytes written: 11264640779
+Registered urls: 145058
+Pages per second (current): 40.00 pages/s
+Pages per second (overall): 108.52 pages/s
+==================================================
+Elapsed time (ms): 880403
+Webpages fetched: 95235
+Failed urls: 7272
+Bytes written: 11294702998
+Registered urls: 145244
+Pages per second (current): 29.00 pages/s
+Pages per second (overall): 108.10 pages/s
+==================================================
+Elapsed time (ms): 885403
+Webpages fetched: 95435
+Failed urls: 7285
+Bytes written: 11324003331
+Registered urls: 145468
+Pages per second (current): 33.33 pages/s
+Pages per second (overall): 107.71 pages/s
+==================================================
+Elapsed time (ms): 890403
+Webpages fetched: 95657
+Failed urls: 7296
+Bytes written: 11357671370
+Registered urls: 145660
+Pages per second (current): 37.00 pages/s
+Pages per second (overall): 107.36 pages/s
+==================================================
+Elapsed time (ms): 895403
+Webpages fetched: 95869
+Failed urls: 7311
+Bytes written: 11388534321
+Registered urls: 145892
+Pages per second (current): 35.33 pages/s
+Pages per second (overall): 107.00 pages/s
+==================================================
+Elapsed time (ms): 900403
+Webpages fetched: 96062
+Failed urls: 7317
+Bytes written: 11417108700
+Registered urls: 146079
+Pages per second (current): 32.17 pages/s
+Pages per second (overall): 106.62 pages/s
+==================================================
+Elapsed time (ms): 905403
+Webpages fetched: 96284
+Failed urls: 7327
+Bytes written: 11448346732
+Registered urls: 146323
+Pages per second (current): 37.00 pages/s
+Pages per second (overall): 106.27 pages/s
+==================================================
+Elapsed time (ms): 910404
+Webpages fetched: 96477
+Failed urls: 7342
+Bytes written: 11474927345
+Registered urls: 146490
+Pages per second (current): 32.17 pages/s
+Pages per second (overall): 105.90 pages/s
+==================================================
+Elapsed time (ms): 915404
+Webpages fetched: 96725
+Failed urls: 7354
+Bytes written: 11512465927
+Registered urls: 146806
+Pages per second (current): 41.33 pages/s
+Pages per second (overall): 105.59 pages/s
+==================================================
+Elapsed time (ms): 920404
+Webpages fetched: 96923
+Failed urls: 7360
+Bytes written: 11540086540
+Registered urls: 146925
+Pages per second (current): 33.00 pages/s
+Pages per second (overall): 105.24 pages/s
+==================================================
+Elapsed time (ms): 925404
+Webpages fetched: 97161
+Failed urls: 7371
+Bytes written: 11575112615
+Registered urls: 147170
+Pages per second (current): 39.67 pages/s
+Pages per second (overall): 104.93 pages/s
+==================================================
+Elapsed time (ms): 930404
+Webpages fetched: 97365
+Failed urls: 7385
+Bytes written: 11601725641
+Registered urls: 147382
+Pages per second (current): 34.00 pages/s
+Pages per second (overall): 104.58 pages/s
+==================================================
+Elapsed time (ms): 935404
+Webpages fetched: 97583
+Failed urls: 7395
+Bytes written: 11633814455
+Registered urls: 147585
+Pages per second (current): 36.33 pages/s
+Pages per second (overall): 104.26 pages/s
+==================================================
+Elapsed time (ms): 940404
+Webpages fetched: 97768
+Failed urls: 7401
+Bytes written: 11661688010
+Registered urls: 147772
+Pages per second (current): 30.83 pages/s
+Pages per second (overall): 103.90 pages/s
+==================================================
+Elapsed time (ms): 945404
+Webpages fetched: 98039
+Failed urls: 7414
+Bytes written: 11704534598
+Registered urls: 148041
+Pages per second (current): 45.17 pages/s
+Pages per second (overall): 103.64 pages/s
+==================================================
+Elapsed time (ms): 950404
+Webpages fetched: 98250
+Failed urls: 7427
+Bytes written: 11737930521
+Registered urls: 148271
+Pages per second (current): 35.17 pages/s
+Pages per second (overall): 103.31 pages/s
+==================================================
+Elapsed time (ms): 955405
+Webpages fetched: 98444
+Failed urls: 7436
+Bytes written: 11766845840
+Registered urls: 148555
+Pages per second (current): 32.33 pages/s
+Pages per second (overall): 102.97 pages/s
+==================================================
+Elapsed time (ms): 960405
+Webpages fetched: 98637
+Failed urls: 7447
+Bytes written: 11794349160
+Registered urls: 148662
+Pages per second (current): 32.17 pages/s
+Pages per second (overall): 102.64 pages/s
+==================================================
+Elapsed time (ms): 965906
+Webpages fetched: 98870
+Failed urls: 7463
+Bytes written: 11829168591
+Registered urls: 148861
+Pages per second (current): 38.83 pages/s
+Pages per second (overall): 102.35 pages/s
+==================================================
+Elapsed time (ms): 970907
+Webpages fetched: 99053
+Failed urls: 7471
+Bytes written: 11855394797
+Registered urls: 149082
+Pages per second (current): 30.50 pages/s
+Pages per second (overall): 102.01 pages/s
+==================================================
+Elapsed time (ms): 975907
+Webpages fetched: 99250
+Failed urls: 7487
+Bytes written: 11883638093
+Registered urls: 149286
+Pages per second (current): 32.83 pages/s
+Pages per second (overall): 101.69 pages/s
+==================================================
+Elapsed time (ms): 980907
+Webpages fetched: 99423
+Failed urls: 7496
+Bytes written: 11910545791
+Registered urls: 149423
+Pages per second (current): 28.83 pages/s
+Pages per second (overall): 101.35 pages/s
+==================================================
+Elapsed time (ms): 985907
+Webpages fetched: 99638
+Failed urls: 7507
+Bytes written: 11940164716
+Registered urls: 149651
+Pages per second (current): 35.83 pages/s
+Pages per second (overall): 101.05 pages/s
+==================================================
+Elapsed time (ms): 990907
+Webpages fetched: 99866
+Failed urls: 7517
+Bytes written: 11973690321
+Registered urls: 149879
+Pages per second (current): 38.00 pages/s
+Pages per second (overall): 100.77 pages/s
+==================================================
+Elapsed time (ms): 1005398
+Webpages fetched: 100112
+Failed urls: 7537
+Bytes written: 11991230491
+Registered urls: 150172
+Pages per second (current): 16.40 pages/s
+Pages per second (overall): 99.51 pages/s
+Hash table (empty): 98.50%
+URLs at priority level 0: 5147
+URLs at priority level 1: 45050
+URLs at priority level 2: 42005
+URLs at priority level 3: 28272
+URLs at priority level 4: 14375
+URLs at priority level 5: 5763
+URLs at priority level 6: 2568
+URLs at priority level 7: 1494
+URLs at priority level 8: 538
+URLs at priority level 9: 4961
+URLs total: 150173
+Total pages written: 100001
+File size: 11991293824 bytes
+Average page size: 119907 bytes
+Growth ratio: 1.50 links/page
 Finished.

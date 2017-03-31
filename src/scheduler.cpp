@@ -31,8 +31,11 @@ bool Scheduler::ProcessDelayedQueue() {
     return false;
   }
   // logger_->Log("delayed_queue: " + std::to_string(delayed_queue_.size()));
+  // logger_->Log("ready_queue: " + std::to_string(ready_queue_.size()));
 
-  // Only the oldest element is checked.
+  // Only the first inserted element is checked. Some elements may have to
+  // wait more than the amount of time specified by the politeness policy
+  // but never less.
   DelayedUrl delayed_url = delayed_queue_.front();
   system_clock::time_point now = system_clock::now();
   auto ms = duration_cast<milliseconds>(now - delayed_url.timestamp);
@@ -50,33 +53,43 @@ bool Scheduler::ProcessDelayedQueue() {
 }
 
 bool Scheduler::RegisterUrl(const std::string& url) {
-  if (url.size() > 255) return false;
+  if (url.size() == 0 || url.size() > 255) return false;
 
   std::string truncated_url = TruncateUrl(url);
   std::string root_url = GetRootUrl(url);
   if (root_url.size() < 3) return false;
   if (root_url.substr(root_url.size() - 3) != ".br") {
-    // logger_->Log("Ignoring url: " + url);
+#ifdef VERBOSE
+    logger_->Log("Ignoring url: " + url);
+#endif
     return false;
   }
 
   // Checks if url is unique.
   Entry entry;
   if (url_database_->Get(truncated_url, &entry)) {
-    // logger_->Log("not unique: " + truncated_url);
+#ifdef VERBOSE
+    logger_->Log("not unique: " + truncated_url);
+#endif
     return false;
   }
 
   // Writes unique url to database.
   try {
-    url_database_->Put(truncated_url, system_clock::time_point());
+    if (url_database_->Put(truncated_url, system_clock::time_point())) {
+#ifdef VERBOSE
+      logger_->Log(std::string("Added: ") + truncated_url + ".");
+#endif
+      // Pushes url to queue.
+      if (url_priority_list_->Push(truncated_url)) {
+        // return false;
+      }
+    } else {
+      return false;
+    }
   } catch (std::runtime_error& e) {
     logger_->Log(e.what());
   }
-  // logger_->Log(std::string("Added: ") + truncated_url + ".");
-
-  // Pushes url to queue.
-  url_priority_list_->Push(truncated_url);
   return true;
 }
 
@@ -103,7 +116,12 @@ bool Scheduler::EnforcePolitenessPolicy(const std::string& url) {
       // The root server has already been accessed recently.
       // We must delay the request for this url.
       // logger_->Log(std::string("Not polite ") + url);
-      delayed_queue_.push(DelayedUrl(url, entry.timestamp));
+      //if (delayed_queue_.size() < 10000) {
+        delayed_queue_.push(DelayedUrl(url, entry.timestamp));
+      //} else {
+      //  ++discarded_urls_;
+      //}
+
       return false;
     }
   }
@@ -131,8 +149,12 @@ bool Scheduler::GetNextUrl(std::string* url) {
   // ones that do not abide to the delayed queue.
   while (!EnforcePolitenessPolicy(*url)) {
     // logger_->Log("Not polite now: " + *url);
+    if (!ready_queue_.empty()) {
+      *url = ready_queue_.front();
+      ready_queue_.pop();
+    }
     // We must wait to query this url. Let's try another one.
-    if (!url_priority_list_->Pop(url)) {
+    else if (!url_priority_list_->Pop(url)) {
       mtx_.unlock(); 
       return false;
     }

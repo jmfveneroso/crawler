@@ -28,6 +28,7 @@ class IUrlPriorityList {
   virtual size_t FetchBlock() = 0;
   virtual bool Close() = 0;
   virtual size_t GetNumUrlsAtPriorityLevel(int) = 0;
+  virtual size_t unread_urls_num() = 0;
 };
 
 class UrlPriorityList : public IUrlPriorityList {
@@ -39,6 +40,7 @@ class UrlPriorityList : public IUrlPriorityList {
   size_t file_cursors_[PRIORITY_LEVELS];
   std::queue<std::string> urls_;
   size_t written_urls_num_;
+  size_t unread_urls_num_;
 
   void CommitFileCursors();
   int GetPriority(const std::string&);
@@ -54,6 +56,7 @@ class UrlPriorityList : public IUrlPriorityList {
   size_t FetchBlock();
   bool Close();
   size_t GetNumUrlsAtPriorityLevel(int);
+  size_t unread_urls_num() { return unread_urls_num_; }
 };
 
 } // End of namespace.

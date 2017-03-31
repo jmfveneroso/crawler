@@ -8,30 +8,21 @@ Fetcher::Fetcher() {
   // spider_.put_MaxResponseSize(250000); // 250kb.
 }
 
-WebPage* Fetcher::GetWebPage(const std::string& url) {
+void Fetcher::GetWebPage(const std::string& url, WebPage* web_page) {
   CkSpider spider;
-  spider.put_ConnectTimeout(20);
-  spider.put_ReadTimeout(20);
 
   // No need to call Initialize here since Initialize restrains the crawler
   // to crawl only within the specified domain.
   // spider.Initialize(url.c_str());
 
-  WebPage* web_page = new WebPage();
   web_page->failed = false;
 
   spider.AddUnspidered(url.c_str());
 
-  // CkTask* task = spider->CrawlNextAsync();
-  // if (task == 0) {
-  //   throw std::runtime_error("Problem writing to chilkat."); 
-  // }
-
   if (!spider.CrawlNext()) {
     web_page->failed = true;
     state_ = FAILED;
-    spider.ClearFailedUrls();
-    return web_page;
+    return;
   }
 
   web_page->html = spider.lastHtml();
@@ -48,8 +39,6 @@ WebPage* Fetcher::GetWebPage(const std::string& url) {
     std::string link = spider.getOutboundLink(i);
     web_page->links.push_back(link);
   }
-
-  return web_page;
 }
 
 } // End of namespace.

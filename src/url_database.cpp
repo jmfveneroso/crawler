@@ -125,15 +125,19 @@ bool UrlDatabase::Put(
   
   size_t hash = GetHash(key) % table_size_; 
 
+  // Check primary memory first.
+  if (urls_.find(key) != urls_.end()) {
+    if (urls_[key] == timestamp) return true;
+  }
+
   Entry entry;
   if (!Probe(hash, key, &entry)) {
     throw std::runtime_error("The hash table is full.");
   }
 
-  // buffer_.occupied = true;
-  // key.copy(buffer_.url, key.size());
-  // buffer_.timestamp = timestamp;
-  entry = Entry(true, key, timestamp);
+  entry.occupied = true;
+  key.copy(entry.url, key.size());
+  entry.timestamp = timestamp;
   // fseeko(db_file_, -sizeof(Entry), SEEK_CUR);
 
   if (fseek(db_file_, -sizeof(Entry), SEEK_CUR) != 0) 
@@ -159,6 +163,12 @@ bool UrlDatabase::Get(const std::string& key, Entry* entry) {
   if (!Probe(hash, key, entry)) {
     return false;
   }
+
+  // if (urls_.size() > MAX_SIZE) {
+  //   urls_.erase(urls_.begin());
+  //   urls_[key] = entry->timestamp; 
+  // }
+
   return entry->occupied;
 }
 

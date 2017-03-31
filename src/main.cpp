@@ -15,10 +15,11 @@ int main () {
   ProfilerStart("crawler.prof");
 #endif
   Crawler::Injector::Instance()->crawler()->Start(
-    "html_pages",
-    "db",
-    "pl_"
+    "/mnt/hd0/joao_test/memo_secondary/html_pages",
+    "/mnt/hd0/joao_test/memo_secondary/db",
+    "/mnt/hd0/joao_test/memo_secondary/pl_"
   );
+  // Crawler::Injector::Instance()->crawler()->TestNumberOfThreads();
 #ifdef PROFILE
   ProfilerStop();
 #endif

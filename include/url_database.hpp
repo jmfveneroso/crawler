@@ -15,7 +15,8 @@
 #include "logger.hpp"
 #include "config.h"
 
-#define TABLE_SIZE 1000000
+#define TABLE_SIZE 10000000
+#define MAX_SIZE 100000
 
 namespace Crawler {
 

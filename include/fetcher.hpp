@@ -28,7 +28,7 @@ struct WebPage {
 class IFetcher {
  public:
   virtual ~IFetcher() {}
-  virtual WebPage* GetWebPage(const std::string& url) = 0;
+  virtual void GetWebPage(const std::string& url, WebPage* web_page) = 0;
 };
 
 class Fetcher : public IFetcher {
@@ -39,7 +39,7 @@ class Fetcher : public IFetcher {
 
   FetcherState state() { return state_; }
   void set_state(FetcherState state) { state_ = state; }
-  WebPage* GetWebPage(const std::string& url);
+  void GetWebPage(const std::string& url, WebPage* web_page);
 };
 
 } // End of namespace.

@@ -1,0 +1,5273 @@
+Testing 8 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2315
+Webpages fetched: 0
+Failed urls: 0
+Bytes written: 0
+Registered urls: 0
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+Hash table (empty): 100.00%
+URLs at priority level 0: 4
+URLs at priority level 1: 0
+URLs at priority level 2: 0
+URLs at priority level 3: 0
+URLs at priority level 4: 0
+URLs at priority level 5: 0
+URLs at priority level 6: 0
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 4
+Total pages written: 0
+File size: 3 bytes
+Average page size: 0 bytes
+Growth ratio: 0.00 links/page
+==================================================
+Elapsed time (ms): 8081
+Webpages fetched: 17
+Failed urls: 0
+Bytes written: 4138644
+Registered urls: 1134
+Pages per second (current): 2.83 pages/s
+Pages per second (overall): 1.89 pages/s
+==================================================
+Elapsed time (ms): 13081
+Webpages fetched: 30
+Failed urls: 0
+Bytes written: 8425706
+Registered urls: 2469
+Pages per second (current): 2.17 pages/s
+Pages per second (overall): 2.14 pages/s
+==================================================
+Elapsed time (ms): 18081
+Webpages fetched: 42
+Failed urls: 0
+Bytes written: 12382053
+Registered urls: 3703
+Pages per second (current): 2.00 pages/s
+Pages per second (overall): 2.21 pages/s
+==================================================
+Elapsed time (ms): 23081
+Webpages fetched: 51
+Failed urls: 0
+Bytes written: 15190722
+Registered urls: 4524
+Pages per second (current): 1.50 pages/s
+Pages per second (overall): 2.12 pages/s
+==================================================
+Elapsed time (ms): 28081
+Webpages fetched: 72
+Failed urls: 0
+Bytes written: 20719094
+Registered urls: 6069
+Pages per second (current): 3.50 pages/s
+Pages per second (overall): 2.48 pages/s
+==================================================
+Elapsed time (ms): 33081
+Webpages fetched: 99
+Failed urls: 0
+Bytes written: 27578119
+Registered urls: 7787
+Pages per second (current): 4.50 pages/s
+Pages per second (overall): 2.91 pages/s
+==================================================
+Elapsed time (ms): 38082
+Webpages fetched: 140
+Failed urls: 0
+Bytes written: 35438727
+Registered urls: 9932
+Pages per second (current): 6.83 pages/s
+Pages per second (overall): 3.59 pages/s
+==================================================
+Elapsed time (ms): 43082
+Webpages fetched: 175
+Failed urls: 0
+Bytes written: 41853669
+Registered urls: 11723
+Pages per second (current): 5.83 pages/s
+Pages per second (overall): 3.98 pages/s
+==================================================
+Elapsed time (ms): 48082
+Webpages fetched: 213
+Failed urls: 0
+Bytes written: 48357655
+Registered urls: 13499
+Pages per second (current): 6.33 pages/s
+Pages per second (overall): 4.35 pages/s
+==================================================
+Elapsed time (ms): 53082
+Webpages fetched: 250
+Failed urls: 0
+Bytes written: 54750707
+Registered urls: 15261
+Pages per second (current): 6.17 pages/s
+Pages per second (overall): 4.63 pages/s
+==================================================
+Elapsed time (ms): 58082
+Webpages fetched: 286
+Failed urls: 0
+Bytes written: 61163713
+Registered urls: 17053
+Pages per second (current): 6.00 pages/s
+Pages per second (overall): 4.85 pages/s
+==================================================
+Elapsed time (ms): 63082
+Webpages fetched: 325
+Failed urls: 0
+Bytes written: 68327313
+Registered urls: 19013
+Pages per second (current): 6.50 pages/s
+Pages per second (overall): 5.08 pages/s
+==================================================
+Elapsed time (ms): 68082
+Webpages fetched: 362
+Failed urls: 0
+Bytes written: 74773251
+Registered urls: 20804
+Pages per second (current): 6.17 pages/s
+Pages per second (overall): 5.25 pages/s
+==================================================
+Elapsed time (ms): 73082
+Webpages fetched: 396
+Failed urls: 0
+Bytes written: 80859739
+Registered urls: 22510
+Pages per second (current): 5.67 pages/s
+Pages per second (overall): 5.35 pages/s
+==================================================
+Elapsed time (ms): 78083
+Webpages fetched: 422
+Failed urls: 0
+Bytes written: 85567977
+Registered urls: 23849
+Pages per second (current): 4.33 pages/s
+Pages per second (overall): 5.34 pages/s
+==================================================
+Elapsed time (ms): 83083
+Webpages fetched: 451
+Failed urls: 0
+Bytes written: 90876075
+Registered urls: 25313
+Pages per second (current): 4.83 pages/s
+Pages per second (overall): 5.37 pages/s
+==================================================
+Elapsed time (ms): 88083
+Webpages fetched: 487
+Failed urls: 0
+Bytes written: 97042642
+Registered urls: 26972
+Pages per second (current): 6.00 pages/s
+Pages per second (overall): 5.47 pages/s
+==================================================
+Elapsed time (ms): 93083
+Webpages fetched: 526
+Failed urls: 0
+Bytes written: 103830342
+Registered urls: 28845
+Pages per second (current): 6.50 pages/s
+Pages per second (overall): 5.60 pages/s
+==================================================
+Elapsed time (ms): 98083
+Webpages fetched: 563
+Failed urls: 0
+Bytes written: 110544438
+Registered urls: 30683
+Pages per second (current): 6.17 pages/s
+Pages per second (overall): 5.69 pages/s
+==================================================
+Elapsed time (ms): 103083
+Webpages fetched: 600
+Failed urls: 0
+Bytes written: 116842520
+Registered urls: 32429
+Pages per second (current): 6.17 pages/s
+Pages per second (overall): 5.77 pages/s
+==================================================
+Elapsed time (ms): 108083
+Webpages fetched: 637
+Failed urls: 0
+Bytes written: 123363735
+Registered urls: 34187
+Pages per second (current): 6.17 pages/s
+Pages per second (overall): 5.84 pages/s
+==================================================
+Elapsed time (ms): 113084
+Webpages fetched: 676
+Failed urls: 0
+Bytes written: 130497268
+Registered urls: 36215
+Pages per second (current): 6.50 pages/s
+Pages per second (overall): 5.93 pages/s
+==================================================
+Elapsed time (ms): 118084
+Webpages fetched: 709
+Failed urls: 0
+Bytes written: 139140608
+Registered urls: 38686
+Pages per second (current): 5.50 pages/s
+Pages per second (overall): 5.96 pages/s
+==================================================
+Elapsed time (ms): 123084
+Webpages fetched: 754
+Failed urls: 0
+Bytes written: 153813157
+Registered urls: 43204
+Pages per second (current): 7.50 pages/s
+Pages per second (overall): 6.08 pages/s
+==================================================
+Elapsed time (ms): 128084
+Webpages fetched: 786
+Failed urls: 1
+Bytes written: 164094887
+Registered urls: 46425
+Pages per second (current): 5.33 pages/s
+Pages per second (overall): 6.09 pages/s
+==================================================
+Elapsed time (ms): 133084
+Webpages fetched: 798
+Failed urls: 1
+Bytes written: 167612517
+Registered urls: 47538
+Pages per second (current): 2.00 pages/s
+Pages per second (overall): 5.96 pages/s
+==================================================
+Elapsed time (ms): 138084
+Webpages fetched: 813
+Failed urls: 1
+Bytes written: 172560890
+Registered urls: 49090
+Pages per second (current): 2.50 pages/s
+Pages per second (overall): 5.85 pages/s
+==================================================
+Elapsed time (ms): 143084
+Webpages fetched: 825
+Failed urls: 1
+Bytes written: 176570045
+Registered urls: 50311
+Pages per second (current): 2.00 pages/s
+Pages per second (overall): 5.73 pages/s
+==================================================
+Elapsed time (ms): 148085
+Webpages fetched: 848
+Failed urls: 1
+Bytes written: 183703052
+Registered urls: 52415
+Pages per second (current): 3.83 pages/s
+Pages per second (overall): 5.69 pages/s
+==================================================
+Elapsed time (ms): 153085
+Webpages fetched: 892
+Failed urls: 1
+Bytes written: 198013299
+Registered urls: 56787
+Pages per second (current): 7.33 pages/s
+Pages per second (overall): 5.79 pages/s
+Hash table (empty): 99.69%
+URLs at priority level 0: 7981
+URLs at priority level 1: 27976
+URLs at priority level 2: 9230
+URLs at priority level 3: 4097
+URLs at priority level 4: 455
+URLs at priority level 5: 0
+URLs at priority level 6: 7950
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 57689
+Total pages written: 892
+File size: 198013302 bytes
+Average page size: 221984 bytes
+Growth ratio: 64.67 links/page
+==================================================
+Elapsed time (ms): 158958
+Webpages fetched: 944
+Failed urls: 1
+Bytes written: 215005066
+Registered urls: 62023
+Pages per second (current): 8.67 pages/s
+Pages per second (overall): 5.94 pages/s
+==================================================
+Elapsed time (ms): 163958
+Webpages fetched: 993
+Failed urls: 1
+Bytes written: 231006523
+Registered urls: 66952
+Pages per second (current): 8.17 pages/s
+Pages per second (overall): 6.05 pages/s
+==================================================
+Elapsed time (ms): 168959
+Webpages fetched: 1007
+Failed urls: 1
+Bytes written: 233317581
+Registered urls: 68392
+Pages per second (current): 2.33 pages/s
+Pages per second (overall): 5.96 pages/s
+Hash table (empty): 99.62%
+URLs at priority level 0: 9672
+URLs at priority level 1: 34043
+URLs at priority level 2: 10811
+URLs at priority level 3: 4210
+URLs at priority level 4: 594
+URLs at priority level 5: 0
+URLs at priority level 6: 10071
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 69401
+Total pages written: 1000
+File size: 233317584 bytes
+Average page size: 233313 bytes
+Growth ratio: 69.40 links/page
+Finished.
+Ended test with speed 164735
+Testing 16 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3033
+Webpages fetched: 0
+Failed urls: 1
+Bytes written: 0
+Registered urls: 68392
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8033
+Webpages fetched: 70
+Failed urls: 1
+Bytes written: 22239387
+Registered urls: 75237
+Pages per second (current): 11.67 pages/s
+Pages per second (overall): 7.78 pages/s
+==================================================
+Elapsed time (ms): 13033
+Webpages fetched: 121
+Failed urls: 2
+Bytes written: 38462610
+Registered urls: 80266
+Pages per second (current): 8.50 pages/s
+Pages per second (overall): 8.64 pages/s
+==================================================
+Elapsed time (ms): 18033
+Webpages fetched: 201
+Failed urls: 4
+Bytes written: 63446217
+Registered urls: 87940
+Pages per second (current): 13.33 pages/s
+Pages per second (overall): 10.58 pages/s
+==================================================
+Elapsed time (ms): 23033
+Webpages fetched: 266
+Failed urls: 5
+Bytes written: 83887873
+Registered urls: 94237
+Pages per second (current): 10.83 pages/s
+Pages per second (overall): 11.08 pages/s
+==================================================
+Elapsed time (ms): 28033
+Webpages fetched: 327
+Failed urls: 6
+Bytes written: 102844817
+Registered urls: 100061
+Pages per second (current): 10.17 pages/s
+Pages per second (overall): 11.28 pages/s
+==================================================
+Elapsed time (ms): 33034
+Webpages fetched: 410
+Failed urls: 8
+Bytes written: 128401017
+Registered urls: 107854
+Pages per second (current): 13.83 pages/s
+Pages per second (overall): 12.06 pages/s
+==================================================
+Elapsed time (ms): 38034
+Webpages fetched: 494
+Failed urls: 9
+Bytes written: 154208121
+Registered urls: 115760
+Pages per second (current): 14.00 pages/s
+Pages per second (overall): 12.67 pages/s
+==================================================
+Elapsed time (ms): 43034
+Webpages fetched: 576
+Failed urls: 11
+Bytes written: 180157110
+Registered urls: 123749
+Pages per second (current): 13.67 pages/s
+Pages per second (overall): 13.09 pages/s
+==================================================
+Elapsed time (ms): 48034
+Webpages fetched: 661
+Failed urls: 12
+Bytes written: 206209449
+Registered urls: 131687
+Pages per second (current): 14.17 pages/s
+Pages per second (overall): 13.49 pages/s
+==================================================
+Elapsed time (ms): 53034
+Webpages fetched: 744
+Failed urls: 14
+Bytes written: 232608163
+Registered urls: 139848
+Pages per second (current): 13.83 pages/s
+Pages per second (overall): 13.78 pages/s
+==================================================
+Elapsed time (ms): 58034
+Webpages fetched: 819
+Failed urls: 15
+Bytes written: 255391086
+Registered urls: 146809
+Pages per second (current): 12.50 pages/s
+Pages per second (overall): 13.88 pages/s
+==================================================
+Elapsed time (ms): 63034
+Webpages fetched: 898
+Failed urls: 17
+Bytes written: 280416612
+Registered urls: 154495
+Pages per second (current): 13.17 pages/s
+Pages per second (overall): 14.03 pages/s
+==================================================
+Elapsed time (ms): 68035
+Webpages fetched: 984
+Failed urls: 19
+Bytes written: 306760328
+Registered urls: 162550
+Pages per second (current): 14.33 pages/s
+Pages per second (overall): 14.26 pages/s
+==================================================
+Elapsed time (ms): 73035
+Webpages fetched: 1015
+Failed urls: 19
+Bytes written: 312035359
+Registered urls: 165572
+Pages per second (current): 5.17 pages/s
+Pages per second (overall): 13.72 pages/s
+Hash table (empty): 99.46%
+URLs at priority level 0: 15015
+URLs at priority level 1: 49158
+URLs at priority level 2: 15710
+URLs at priority level 3: 1030
+URLs at priority level 4: 954
+URLs at priority level 5: 0
+URLs at priority level 6: 16347
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 98214
+Total pages written: 1000
+File size: 312035362 bytes
+Average page size: 312031 bytes
+Growth ratio: 98.21 links/page
+Finished.
+Ended test with speed 68875
+Testing 24 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 4656
+Webpages fetched: 0
+Failed urls: 19
+Bytes written: 0
+Registered urls: 165572
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 9656
+Webpages fetched: 87
+Failed urls: 21
+Bytes written: 26999266
+Registered urls: 173899
+Pages per second (current): 14.50 pages/s
+Pages per second (overall): 8.70 pages/s
+==================================================
+Elapsed time (ms): 14656
+Webpages fetched: 178
+Failed urls: 22
+Bytes written: 55019003
+Registered urls: 182467
+Pages per second (current): 15.17 pages/s
+Pages per second (overall): 11.87 pages/s
+==================================================
+Elapsed time (ms): 19656
+Webpages fetched: 276
+Failed urls: 24
+Bytes written: 85510433
+Registered urls: 191816
+Pages per second (current): 16.33 pages/s
+Pages per second (overall): 13.80 pages/s
+==================================================
+Elapsed time (ms): 24656
+Webpages fetched: 375
+Failed urls: 26
+Bytes written: 116379284
+Registered urls: 201288
+Pages per second (current): 16.50 pages/s
+Pages per second (overall): 15.00 pages/s
+==================================================
+Elapsed time (ms): 29656
+Webpages fetched: 494
+Failed urls: 29
+Bytes written: 153454774
+Registered urls: 212649
+Pages per second (current): 19.83 pages/s
+Pages per second (overall): 16.47 pages/s
+==================================================
+Elapsed time (ms): 34656
+Webpages fetched: 626
+Failed urls: 31
+Bytes written: 194597978
+Registered urls: 225312
+Pages per second (current): 22.00 pages/s
+Pages per second (overall): 17.89 pages/s
+==================================================
+Elapsed time (ms): 39656
+Webpages fetched: 757
+Failed urls: 34
+Bytes written: 235205894
+Registered urls: 237763
+Pages per second (current): 21.83 pages/s
+Pages per second (overall): 18.93 pages/s
+==================================================
+Elapsed time (ms): 44657
+Webpages fetched: 881
+Failed urls: 36
+Bytes written: 273922397
+Registered urls: 249739
+Pages per second (current): 20.67 pages/s
+Pages per second (overall): 19.58 pages/s
+==================================================
+Elapsed time (ms): 52131
+Webpages fetched: 1022
+Failed urls: 39
+Bytes written: 310556575
+Registered urls: 262900
+Pages per second (current): 17.62 pages/s
+Pages per second (overall): 19.28 pages/s
+Hash table (empty): 99.46%
+URLs at priority level 0: 15110
+URLs at priority level 1: 49061
+URLs at priority level 2: 15976
+URLs at priority level 3: 1042
+URLs at priority level 4: 940
+URLs at priority level 5: 0
+URLs at priority level 6: 16242
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 98371
+Total pages written: 1000
+File size: 310556578 bytes
+Average page size: 310552 bytes
+Growth ratio: 98.37 links/page
+Finished.
+Ended test with speed 49331
+Testing 32 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2943
+Webpages fetched: 0
+Failed urls: 39
+Bytes written: 0
+Registered urls: 262900
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7943
+Webpages fetched: 131
+Failed urls: 40
+Bytes written: 34030294
+Registered urls: 273044
+Pages per second (current): 21.83 pages/s
+Pages per second (overall): 16.38 pages/s
+==================================================
+Elapsed time (ms): 12943
+Webpages fetched: 274
+Failed urls: 40
+Bytes written: 54826423
+Registered urls: 279839
+Pages per second (current): 23.83 pages/s
+Pages per second (overall): 21.08 pages/s
+==================================================
+Elapsed time (ms): 17943
+Webpages fetched: 398
+Failed urls: 40
+Bytes written: 72401148
+Registered urls: 285628
+Pages per second (current): 20.67 pages/s
+Pages per second (overall): 22.11 pages/s
+==================================================
+Elapsed time (ms): 22943
+Webpages fetched: 558
+Failed urls: 40
+Bytes written: 95794194
+Registered urls: 293347
+Pages per second (current): 26.67 pages/s
+Pages per second (overall): 24.26 pages/s
+Hash table (empty): 99.84%
+URLs at priority level 0: 7557
+URLs at priority level 1: 10230
+URLs at priority level 2: 7587
+URLs at priority level 3: 490
+URLs at priority level 4: 117
+URLs at priority level 5: 0
+URLs at priority level 6: 1411
+URLs at priority level 7: 3647
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 31039
+Total pages written: 558
+File size: 95794197 bytes
+Average page size: 171670 bytes
+Growth ratio: 55.63 links/page
+==================================================
+Elapsed time (ms): 28737
+Webpages fetched: 657
+Failed urls: 40
+Bytes written: 109822636
+Registered urls: 297976
+Pages per second (current): 16.50 pages/s
+Pages per second (overall): 22.66 pages/s
+==================================================
+Elapsed time (ms): 33737
+Webpages fetched: 698
+Failed urls: 40
+Bytes written: 115729104
+Registered urls: 299799
+Pages per second (current): 6.83 pages/s
+Pages per second (overall): 20.53 pages/s
+==================================================
+Elapsed time (ms): 38737
+Webpages fetched: 730
+Failed urls: 40
+Bytes written: 117991852
+Registered urls: 301006
+Pages per second (current): 5.33 pages/s
+Pages per second (overall): 18.72 pages/s
+==================================================
+Elapsed time (ms): 43737
+Webpages fetched: 749
+Failed urls: 73
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 3.17 pages/s
+Pages per second (overall): 17.02 pages/s
+==================================================
+Elapsed time (ms): 48737
+Webpages fetched: 749
+Failed urls: 133
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 15.29 pages/s
+==================================================
+Elapsed time (ms): 53737
+Webpages fetched: 749
+Failed urls: 188
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 13.87 pages/s
+==================================================
+Elapsed time (ms): 58737
+Webpages fetched: 749
+Failed urls: 240
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 12.69 pages/s
+==================================================
+Elapsed time (ms): 63737
+Webpages fetched: 749
+Failed urls: 307
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 11.70 pages/s
+==================================================
+Elapsed time (ms): 68738
+Webpages fetched: 749
+Failed urls: 370
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 10.86 pages/s
+==================================================
+Elapsed time (ms): 73738
+Webpages fetched: 749
+Failed urls: 425
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 10.12 pages/s
+==================================================
+Elapsed time (ms): 78738
+Webpages fetched: 749
+Failed urls: 483
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 9.48 pages/s
+==================================================
+Elapsed time (ms): 83738
+Webpages fetched: 749
+Failed urls: 545
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 8.92 pages/s
+==================================================
+Elapsed time (ms): 88738
+Webpages fetched: 749
+Failed urls: 603
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 8.42 pages/s
+==================================================
+Elapsed time (ms): 93738
+Webpages fetched: 749
+Failed urls: 658
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 7.97 pages/s
+==================================================
+Elapsed time (ms): 98738
+Webpages fetched: 749
+Failed urls: 721
+Bytes written: 119268918
+Registered urls: 301652
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 7.57 pages/s
+==================================================
+Elapsed time (ms): 103738
+Webpages fetched: 762
+Failed urls: 779
+Bytes written: 123299609
+Registered urls: 302916
+Pages per second (current): 2.17 pages/s
+Pages per second (overall): 7.33 pages/s
+==================================================
+Elapsed time (ms): 108739
+Webpages fetched: 891
+Failed urls: 790
+Bytes written: 150066919
+Registered urls: 310682
+Pages per second (current): 21.50 pages/s
+Pages per second (overall): 8.17 pages/s
+==================================================
+Elapsed time (ms): 113739
+Webpages fetched: 988
+Failed urls: 790
+Bytes written: 167043047
+Registered urls: 315471
+Pages per second (current): 16.17 pages/s
+Pages per second (overall): 8.67 pages/s
+==================================================
+Elapsed time (ms): 119921
+Webpages fetched: 1031
+Failed urls: 790
+Bytes written: 169769325
+Registered urls: 317185
+Pages per second (current): 6.14 pages/s
+Pages per second (overall): 8.59 pages/s
+Hash table (empty): 99.71%
+URLs at priority level 0: 12503
+URLs at priority level 1: 19647
+URLs at priority level 2: 12395
+URLs at priority level 3: 3243
+URLs at priority level 4: 223
+URLs at priority level 5: 0
+URLs at priority level 6: 3326
+URLs at priority level 7: 4411
+URLs at priority level 8: 320
+URLs at priority level 9: 0
+URLs total: 56068
+Total pages written: 1001
+File size: 169769328 bytes
+Average page size: 169595 bytes
+Growth ratio: 56.01 links/page
+Finished.
+Ended test with speed 114345
+Testing 40 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3314
+Webpages fetched: 0
+Failed urls: 790
+Bytes written: 0
+Registered urls: 317185
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8315
+Webpages fetched: 94
+Failed urls: 790
+Bytes written: 17515395
+Registered urls: 322367
+Pages per second (current): 15.67 pages/s
+Pages per second (overall): 10.44 pages/s
+==================================================
+Elapsed time (ms): 13315
+Webpages fetched: 200
+Failed urls: 790
+Bytes written: 36515997
+Registered urls: 327569
+Pages per second (current): 17.67 pages/s
+Pages per second (overall): 14.29 pages/s
+==================================================
+Elapsed time (ms): 18315
+Webpages fetched: 310
+Failed urls: 790
+Bytes written: 55930925
+Registered urls: 332924
+Pages per second (current): 18.33 pages/s
+Pages per second (overall): 16.32 pages/s
+==================================================
+Elapsed time (ms): 23315
+Webpages fetched: 405
+Failed urls: 790
+Bytes written: 72839926
+Registered urls: 337501
+Pages per second (current): 15.83 pages/s
+Pages per second (overall): 16.88 pages/s
+==================================================
+Elapsed time (ms): 28315
+Webpages fetched: 502
+Failed urls: 790
+Bytes written: 89648422
+Registered urls: 342147
+Pages per second (current): 16.17 pages/s
+Pages per second (overall): 17.31 pages/s
+==================================================
+Elapsed time (ms): 33316
+Webpages fetched: 619
+Failed urls: 791
+Bytes written: 110623625
+Registered urls: 348013
+Pages per second (current): 19.50 pages/s
+Pages per second (overall): 18.21 pages/s
+==================================================
+Elapsed time (ms): 38316
+Webpages fetched: 723
+Failed urls: 791
+Bytes written: 128916191
+Registered urls: 353073
+Pages per second (current): 17.33 pages/s
+Pages per second (overall): 18.54 pages/s
+==================================================
+Elapsed time (ms): 43316
+Webpages fetched: 824
+Failed urls: 791
+Bytes written: 146521786
+Registered urls: 357950
+Pages per second (current): 16.83 pages/s
+Pages per second (overall): 18.73 pages/s
+==================================================
+Elapsed time (ms): 48316
+Webpages fetched: 923
+Failed urls: 791
+Bytes written: 163158466
+Registered urls: 362438
+Pages per second (current): 16.50 pages/s
+Pages per second (overall): 18.84 pages/s
+==================================================
+Elapsed time (ms): 62872
+Webpages fetched: 1038
+Failed urls: 792
+Bytes written: 177128070
+Registered urls: 367661
+Pages per second (current): 7.67 pages/s
+Pages per second (overall): 16.48 pages/s
+Hash table (empty): 99.74%
+URLs at priority level 0: 6755
+URLs at priority level 1: 23443
+URLs at priority level 2: 9285
+URLs at priority level 3: 6483
+URLs at priority level 4: 195
+URLs at priority level 5: 15
+URLs at priority level 6: 5341
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 51517
+Total pages written: 1000
+File size: 177128073 bytes
+Average page size: 177124 bytes
+Growth ratio: 51.52 links/page
+Finished.
+Ended test with speed 51552
+Testing 48 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2976
+Webpages fetched: 0
+Failed urls: 792
+Bytes written: 0
+Registered urls: 367661
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7977
+Webpages fetched: 134
+Failed urls: 792
+Bytes written: 22028925
+Registered urls: 373853
+Pages per second (current): 22.33 pages/s
+Pages per second (overall): 16.75 pages/s
+Hash table (empty): 99.96%
+URLs at priority level 0: 916
+URLs at priority level 1: 2922
+URLs at priority level 2: 1172
+URLs at priority level 3: 680
+URLs at priority level 4: 27
+URLs at priority level 5: 0
+URLs at priority level 6: 658
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 6375
+Total pages written: 134
+File size: 22028928 bytes
+Average page size: 164390 bytes
+Growth ratio: 47.57 links/page
+==================================================
+Elapsed time (ms): 13735
+Webpages fetched: 262
+Failed urls: 792
+Bytes written: 45010793
+Registered urls: 380082
+Pages per second (current): 21.33 pages/s
+Pages per second (overall): 18.71 pages/s
+==================================================
+Elapsed time (ms): 18736
+Webpages fetched: 387
+Failed urls: 792
+Bytes written: 67492542
+Registered urls: 386596
+Pages per second (current): 20.83 pages/s
+Pages per second (overall): 20.37 pages/s
+==================================================
+Elapsed time (ms): 23736
+Webpages fetched: 496
+Failed urls: 792
+Bytes written: 86118451
+Registered urls: 391698
+Pages per second (current): 18.17 pages/s
+Pages per second (overall): 20.67 pages/s
+==================================================
+Elapsed time (ms): 28736
+Webpages fetched: 595
+Failed urls: 792
+Bytes written: 104118117
+Registered urls: 396821
+Pages per second (current): 16.50 pages/s
+Pages per second (overall): 20.52 pages/s
+==================================================
+Elapsed time (ms): 33736
+Webpages fetched: 714
+Failed urls: 792
+Bytes written: 123851476
+Registered urls: 402244
+Pages per second (current): 19.83 pages/s
+Pages per second (overall): 21.00 pages/s
+==================================================
+Elapsed time (ms): 38736
+Webpages fetched: 819
+Failed urls: 792
+Bytes written: 141897239
+Registered urls: 407338
+Pages per second (current): 17.50 pages/s
+Pages per second (overall): 21.00 pages/s
+==================================================
+Elapsed time (ms): 43736
+Webpages fetched: 924
+Failed urls: 792
+Bytes written: 159901302
+Registered urls: 412311
+Pages per second (current): 17.50 pages/s
+Pages per second (overall): 21.00 pages/s
+==================================================
+Elapsed time (ms): 75457
+Webpages fetched: 1022
+Failed urls: 817
+Bytes written: 172601351
+Registered urls: 416998
+Pages per second (current): 3.06 pages/s
+Pages per second (overall): 13.45 pages/s
+Hash table (empty): 99.74%
+URLs at priority level 0: 6749
+URLs at priority level 1: 22830
+URLs at priority level 2: 9174
+URLs at priority level 3: 6078
+URLs at priority level 4: 217
+URLs at priority level 5: 0
+URLs at priority level 6: 5337
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 50385
+Total pages written: 1000
+File size: 172601354 bytes
+Average page size: 172597 bytes
+Growth ratio: 50.38 links/page
+Finished.
+Ended test with speed 46710
+Testing 56 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2806
+Webpages fetched: 0
+Failed urls: 817
+Bytes written: 0
+Registered urls: 416998
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7806
+Webpages fetched: 128
+Failed urls: 817
+Bytes written: 23611141
+Registered urls: 424165
+Pages per second (current): 21.33 pages/s
+Pages per second (overall): 16.00 pages/s
+==================================================
+Elapsed time (ms): 12806
+Webpages fetched: 187
+Failed urls: 817
+Bytes written: 34459040
+Registered urls: 427487
+Pages per second (current): 9.83 pages/s
+Pages per second (overall): 14.38 pages/s
+==================================================
+Elapsed time (ms): 17806
+Webpages fetched: 219
+Failed urls: 817
+Bytes written: 39593966
+Registered urls: 429101
+Pages per second (current): 5.33 pages/s
+Pages per second (overall): 12.17 pages/s
+==================================================
+Elapsed time (ms): 22807
+Webpages fetched: 228
+Failed urls: 817
+Bytes written: 41492572
+Registered urls: 429684
+Pages per second (current): 1.50 pages/s
+Pages per second (overall): 9.91 pages/s
+==================================================
+Elapsed time (ms): 27807
+Webpages fetched: 276
+Failed urls: 849
+Bytes written: 49674747
+Registered urls: 432196
+Pages per second (current): 8.00 pages/s
+Pages per second (overall): 9.86 pages/s
+==================================================
+Elapsed time (ms): 32807
+Webpages fetched: 365
+Failed urls: 864
+Bytes written: 66026850
+Registered urls: 437186
+Pages per second (current): 14.83 pages/s
+Pages per second (overall): 11.06 pages/s
+==================================================
+Elapsed time (ms): 37807
+Webpages fetched: 417
+Failed urls: 870
+Bytes written: 75474100
+Registered urls: 440052
+Pages per second (current): 8.67 pages/s
+Pages per second (overall): 10.97 pages/s
+==================================================
+Elapsed time (ms): 42807
+Webpages fetched: 444
+Failed urls: 870
+Bytes written: 80119167
+Registered urls: 441486
+Pages per second (current): 4.50 pages/s
+Pages per second (overall): 10.33 pages/s
+==================================================
+Elapsed time (ms): 47807
+Webpages fetched: 483
+Failed urls: 888
+Bytes written: 87508187
+Registered urls: 443735
+Pages per second (current): 6.50 pages/s
+Pages per second (overall): 10.06 pages/s
+==================================================
+Elapsed time (ms): 52807
+Webpages fetched: 545
+Failed urls: 906
+Bytes written: 98427907
+Registered urls: 447094
+Pages per second (current): 10.33 pages/s
+Pages per second (overall): 10.28 pages/s
+==================================================
+Elapsed time (ms): 57808
+Webpages fetched: 604
+Failed urls: 918
+Bytes written: 109105752
+Registered urls: 450324
+Pages per second (current): 9.83 pages/s
+Pages per second (overall): 10.41 pages/s
+==================================================
+Elapsed time (ms): 62808
+Webpages fetched: 645
+Failed urls: 924
+Bytes written: 115418204
+Registered urls: 452278
+Pages per second (current): 6.83 pages/s
+Pages per second (overall): 10.24 pages/s
+==================================================
+Elapsed time (ms): 67808
+Webpages fetched: 681
+Failed urls: 934
+Bytes written: 121919063
+Registered urls: 454257
+Pages per second (current): 6.00 pages/s
+Pages per second (overall): 10.01 pages/s
+==================================================
+Elapsed time (ms): 72808
+Webpages fetched: 725
+Failed urls: 948
+Bytes written: 129394099
+Registered urls: 456509
+Pages per second (current): 7.33 pages/s
+Pages per second (overall): 9.93 pages/s
+==================================================
+Elapsed time (ms): 77808
+Webpages fetched: 775
+Failed urls: 963
+Bytes written: 138620219
+Registered urls: 459288
+Pages per second (current): 8.33 pages/s
+Pages per second (overall): 9.94 pages/s
+==================================================
+Elapsed time (ms): 82808
+Webpages fetched: 819
+Failed urls: 972
+Bytes written: 146319574
+Registered urls: 461597
+Pages per second (current): 7.33 pages/s
+Pages per second (overall): 9.87 pages/s
+==================================================
+Elapsed time (ms): 87808
+Webpages fetched: 883
+Failed urls: 981
+Bytes written: 159162585
+Registered urls: 465701
+Pages per second (current): 10.67 pages/s
+Pages per second (overall): 10.03 pages/s
+==================================================
+Elapsed time (ms): 92808
+Webpages fetched: 959
+Failed urls: 994
+Bytes written: 172424258
+Registered urls: 469378
+Pages per second (current): 12.67 pages/s
+Pages per second (overall): 10.31 pages/s
+==================================================
+Elapsed time (ms): 116663
+Webpages fetched: 1038
+Failed urls: 1016
+Bytes written: 179868161
+Registered urls: 472852
+Pages per second (current): 3.29 pages/s
+Pages per second (overall): 8.87 pages/s
+Hash table (empty): 99.71%
+URLs at priority level 0: 7670
+URLs at priority level 1: 25853
+URLs at priority level 2: 9982
+URLs at priority level 3: 7030
+URLs at priority level 4: 237
+URLs at priority level 5: 0
+URLs at priority level 6: 6320
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 57092
+Total pages written: 1000
+File size: 179868164 bytes
+Average page size: 179864 bytes
+Growth ratio: 57.09 links/page
+Finished.
+Ended test with speed 94493
+Testing 64 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2358
+Webpages fetched: 0
+Failed urls: 1016
+Bytes written: 0
+Registered urls: 472852
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7359
+Webpages fetched: 146
+Failed urls: 1016
+Bytes written: 25763463
+Registered urls: 480600
+Pages per second (current): 24.33 pages/s
+Pages per second (overall): 18.25 pages/s
+==================================================
+Elapsed time (ms): 12359
+Webpages fetched: 270
+Failed urls: 1016
+Bytes written: 46996920
+Registered urls: 486567
+Pages per second (current): 20.67 pages/s
+Pages per second (overall): 20.77 pages/s
+==================================================
+Elapsed time (ms): 17359
+Webpages fetched: 395
+Failed urls: 1016
+Bytes written: 68933984
+Registered urls: 492901
+Pages per second (current): 20.83 pages/s
+Pages per second (overall): 21.94 pages/s
+Hash table (empty): 99.89%
+URLs at priority level 0: 2773
+URLs at priority level 1: 9339
+URLs at priority level 2: 3682
+URLs at priority level 3: 2414
+URLs at priority level 4: 84
+URLs at priority level 5: 0
+URLs at priority level 6: 2217
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 20509
+Total pages written: 395
+File size: 68933987 bytes
+Average page size: 174512 bytes
+Growth ratio: 51.92 links/page
+==================================================
+Elapsed time (ms): 23184
+Webpages fetched: 475
+Failed urls: 1016
+Bytes written: 83136675
+Registered urls: 496871
+Pages per second (current): 13.33 pages/s
+Pages per second (overall): 19.79 pages/s
+==================================================
+Elapsed time (ms): 28184
+Webpages fetched: 600
+Failed urls: 1016
+Bytes written: 105394488
+Registered urls: 503163
+Pages per second (current): 20.83 pages/s
+Pages per second (overall): 20.69 pages/s
+==================================================
+Elapsed time (ms): 33184
+Webpages fetched: 635
+Failed urls: 1020
+Bytes written: 111227317
+Registered urls: 504998
+Pages per second (current): 5.83 pages/s
+Pages per second (overall): 18.68 pages/s
+==================================================
+Elapsed time (ms): 38184
+Webpages fetched: 651
+Failed urls: 1020
+Bytes written: 114326646
+Registered urls: 505948
+Pages per second (current): 2.67 pages/s
+Pages per second (overall): 16.69 pages/s
+==================================================
+Elapsed time (ms): 43184
+Webpages fetched: 666
+Failed urls: 1034
+Bytes written: 117135972
+Registered urls: 506824
+Pages per second (current): 2.50 pages/s
+Pages per second (overall): 15.14 pages/s
+==================================================
+Elapsed time (ms): 48184
+Webpages fetched: 737
+Failed urls: 1064
+Bytes written: 130628000
+Registered urls: 510974
+Pages per second (current): 11.83 pages/s
+Pages per second (overall): 15.04 pages/s
+==================================================
+Elapsed time (ms): 53184
+Webpages fetched: 787
+Failed urls: 1078
+Bytes written: 139967886
+Registered urls: 513837
+Pages per second (current): 8.33 pages/s
+Pages per second (overall): 14.57 pages/s
+==================================================
+Elapsed time (ms): 58185
+Webpages fetched: 822
+Failed urls: 1083
+Bytes written: 146529016
+Registered urls: 515875
+Pages per second (current): 5.83 pages/s
+Pages per second (overall): 13.93 pages/s
+==================================================
+Elapsed time (ms): 63185
+Webpages fetched: 841
+Failed urls: 1088
+Bytes written: 150037109
+Registered urls: 516977
+Pages per second (current): 3.17 pages/s
+Pages per second (overall): 13.14 pages/s
+==================================================
+Elapsed time (ms): 68185
+Webpages fetched: 888
+Failed urls: 1115
+Bytes written: 158393245
+Registered urls: 519560
+Pages per second (current): 7.83 pages/s
+Pages per second (overall): 12.87 pages/s
+==================================================
+Elapsed time (ms): 73185
+Webpages fetched: 937
+Failed urls: 1131
+Bytes written: 167914075
+Registered urls: 522477
+Pages per second (current): 8.17 pages/s
+Pages per second (overall): 12.66 pages/s
+==================================================
+Elapsed time (ms): 78185
+Webpages fetched: 986
+Failed urls: 1143
+Bytes written: 176428067
+Registered urls: 525144
+Pages per second (current): 8.17 pages/s
+Pages per second (overall): 12.48 pages/s
+==================================================
+Elapsed time (ms): 99847
+Webpages fetched: 1006
+Failed urls: 1200
+Bytes written: 179482109
+Registered urls: 526316
+Pages per second (current): 0.91 pages/s
+Pages per second (overall): 10.06 pages/s
+Hash table (empty): 99.72%
+URLs at priority level 0: 7385
+URLs at priority level 1: 24860
+URLs at priority level 2: 9234
+URLs at priority level 3: 6868
+URLs at priority level 4: 228
+URLs at priority level 5: 0
+URLs at priority level 6: 6080
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 54655
+Total pages written: 1000
+File size: 179482112 bytes
+Average page size: 179478 bytes
+Growth ratio: 54.66 links/page
+Finished.
+Ended test with speed 79799
+Testing 72 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2306
+Webpages fetched: 0
+Failed urls: 1200
+Bytes written: 0
+Registered urls: 526316
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7306
+Webpages fetched: 120
+Failed urls: 1200
+Bytes written: 23541131
+Registered urls: 533477
+Pages per second (current): 20.00 pages/s
+Pages per second (overall): 15.00 pages/s
+==================================================
+Elapsed time (ms): 12306
+Webpages fetched: 176
+Failed urls: 1200
+Bytes written: 33108191
+Registered urls: 536524
+Pages per second (current): 9.33 pages/s
+Pages per second (overall): 13.54 pages/s
+==================================================
+Elapsed time (ms): 17306
+Webpages fetched: 192
+Failed urls: 1200
+Bytes written: 36122515
+Registered urls: 537426
+Pages per second (current): 2.67 pages/s
+Pages per second (overall): 10.67 pages/s
+==================================================
+Elapsed time (ms): 22306
+Webpages fetched: 197
+Failed urls: 1200
+Bytes written: 37156631
+Registered urls: 537764
+Pages per second (current): 0.83 pages/s
+Pages per second (overall): 8.57 pages/s
+==================================================
+Elapsed time (ms): 27306
+Webpages fetched: 265
+Failed urls: 1251
+Bytes written: 49864718
+Registered urls: 541574
+Pages per second (current): 11.33 pages/s
+Pages per second (overall): 9.46 pages/s
+==================================================
+Elapsed time (ms): 32306
+Webpages fetched: 340
+Failed urls: 1264
+Bytes written: 62998873
+Registered urls: 545408
+Pages per second (current): 12.50 pages/s
+Pages per second (overall): 10.30 pages/s
+==================================================
+Elapsed time (ms): 37307
+Webpages fetched: 431
+Failed urls: 1271
+Bytes written: 79116164
+Registered urls: 550103
+Pages per second (current): 15.17 pages/s
+Pages per second (overall): 11.34 pages/s
+==================================================
+Elapsed time (ms): 42307
+Webpages fetched: 515
+Failed urls: 1271
+Bytes written: 93986697
+Registered urls: 554321
+Pages per second (current): 14.00 pages/s
+Pages per second (overall): 11.98 pages/s
+==================================================
+Elapsed time (ms): 47307
+Webpages fetched: 613
+Failed urls: 1280
+Bytes written: 111727087
+Registered urls: 559141
+Pages per second (current): 16.33 pages/s
+Pages per second (overall): 12.77 pages/s
+==================================================
+Elapsed time (ms): 52307
+Webpages fetched: 714
+Failed urls: 1286
+Bytes written: 128704584
+Registered urls: 563862
+Pages per second (current): 16.83 pages/s
+Pages per second (overall): 13.47 pages/s
+==================================================
+Elapsed time (ms): 57307
+Webpages fetched: 844
+Failed urls: 1290
+Bytes written: 151168825
+Registered urls: 570013
+Pages per second (current): 21.67 pages/s
+Pages per second (overall): 14.55 pages/s
+==================================================
+Elapsed time (ms): 62307
+Webpages fetched: 985
+Failed urls: 1294
+Bytes written: 175279944
+Registered urls: 577021
+Pages per second (current): 23.50 pages/s
+Pages per second (overall): 15.63 pages/s
+==================================================
+Elapsed time (ms): 90133
+Webpages fetched: 1024
+Failed urls: 1341
+Bytes written: 178155276
+Registered urls: 579174
+Pages per second (current): 1.39 pages/s
+Pages per second (overall): 11.25 pages/s
+Hash table (empty): 99.72%
+URLs at priority level 0: 7277
+URLs at priority level 1: 24561
+URLs at priority level 2: 9199
+URLs at priority level 3: 6842
+URLs at priority level 4: 221
+URLs at priority level 5: 0
+URLs at priority level 6: 5924
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 54024
+Total pages written: 1000
+File size: 178155279 bytes
+Average page size: 178151 bytes
+Growth ratio: 54.02 links/page
+Finished.
+Ended test with speed 62779
+Testing 80 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2351
+Webpages fetched: 0
+Failed urls: 1341
+Bytes written: 0
+Registered urls: 579174
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7351
+Webpages fetched: 198
+Failed urls: 1341
+Bytes written: 35579375
+Registered urls: 590032
+Pages per second (current): 33.00 pages/s
+Pages per second (overall): 24.75 pages/s
+==================================================
+Elapsed time (ms): 12351
+Webpages fetched: 274
+Failed urls: 1341
+Bytes written: 49525335
+Registered urls: 594340
+Pages per second (current): 12.67 pages/s
+Pages per second (overall): 21.08 pages/s
+==================================================
+Elapsed time (ms): 17352
+Webpages fetched: 313
+Failed urls: 1341
+Bytes written: 56805343
+Registered urls: 596542
+Pages per second (current): 6.50 pages/s
+Pages per second (overall): 17.39 pages/s
+==================================================
+Elapsed time (ms): 22352
+Webpages fetched: 327
+Failed urls: 1341
+Bytes written: 59247643
+Registered urls: 597306
+Pages per second (current): 2.33 pages/s
+Pages per second (overall): 14.22 pages/s
+Hash table (empty): 99.90%
+URLs at priority level 0: 2501
+URLs at priority level 1: 8415
+URLs at priority level 2: 3202
+URLs at priority level 3: 2264
+URLs at priority level 4: 78
+URLs at priority level 5: 0
+URLs at priority level 6: 2080
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 18540
+Total pages written: 327
+File size: 59247646 bytes
+Average page size: 181181 bytes
+Growth ratio: 56.70 links/page
+==================================================
+Elapsed time (ms): 28115
+Webpages fetched: 425
+Failed urls: 1396
+Bytes written: 76324389
+Registered urls: 602565
+Pages per second (current): 16.33 pages/s
+Pages per second (overall): 14.66 pages/s
+==================================================
+Elapsed time (ms): 33116
+Webpages fetched: 537
+Failed urls: 1411
+Bytes written: 96694999
+Registered urls: 608792
+Pages per second (current): 18.67 pages/s
+Pages per second (overall): 15.79 pages/s
+==================================================
+Elapsed time (ms): 38116
+Webpages fetched: 607
+Failed urls: 1417
+Bytes written: 109360303
+Registered urls: 612666
+Pages per second (current): 11.67 pages/s
+Pages per second (overall): 15.56 pages/s
+==================================================
+Elapsed time (ms): 43116
+Webpages fetched: 648
+Failed urls: 1420
+Bytes written: 116174975
+Registered urls: 614786
+Pages per second (current): 6.83 pages/s
+Pages per second (overall): 14.73 pages/s
+==================================================
+Elapsed time (ms): 48116
+Webpages fetched: 707
+Failed urls: 1447
+Bytes written: 127347193
+Registered urls: 618164
+Pages per second (current): 9.83 pages/s
+Pages per second (overall): 14.43 pages/s
+==================================================
+Elapsed time (ms): 53116
+Webpages fetched: 796
+Failed urls: 1471
+Bytes written: 142721522
+Registered urls: 622904
+Pages per second (current): 14.83 pages/s
+Pages per second (overall): 14.74 pages/s
+==================================================
+Elapsed time (ms): 58116
+Webpages fetched: 878
+Failed urls: 1486
+Bytes written: 158363885
+Registered urls: 627681
+Pages per second (current): 13.67 pages/s
+Pages per second (overall): 14.88 pages/s
+==================================================
+Elapsed time (ms): 63116
+Webpages fetched: 939
+Failed urls: 1495
+Bytes written: 168627123
+Registered urls: 630851
+Pages per second (current): 10.17 pages/s
+Pages per second (overall): 14.67 pages/s
+==================================================
+Elapsed time (ms): 68116
+Webpages fetched: 991
+Failed urls: 1510
+Bytes written: 177913160
+Registered urls: 633691
+Pages per second (current): 8.67 pages/s
+Pages per second (overall): 14.36 pages/s
+==================================================
+Elapsed time (ms): 89362
+Webpages fetched: 1019
+Failed urls: 1573
+Bytes written: 179348945
+Registered urls: 634966
+Pages per second (current): 1.27 pages/s
+Pages per second (overall): 11.32 pages/s
+Hash table (empty): 99.70%
+URLs at priority level 0: 7681
+URLs at priority level 1: 25822
+URLs at priority level 2: 9912
+URLs at priority level 3: 7049
+URLs at priority level 4: 237
+URLs at priority level 5: 0
+URLs at priority level 6: 6343
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 57044
+Total pages written: 1000
+File size: 179348948 bytes
+Average page size: 179344 bytes
+Growth ratio: 57.04 links/page
+Finished.
+Ended test with speed 68955
+Testing 88 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2469
+Webpages fetched: 0
+Failed urls: 1573
+Bytes written: 0
+Registered urls: 634966
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7469
+Webpages fetched: 102
+Failed urls: 1573
+Bytes written: 18801508
+Registered urls: 640546
+Pages per second (current): 17.00 pages/s
+Pages per second (overall): 12.75 pages/s
+==================================================
+Elapsed time (ms): 12469
+Webpages fetched: 263
+Failed urls: 1573
+Bytes written: 44847913
+Registered urls: 647894
+Pages per second (current): 26.83 pages/s
+Pages per second (overall): 20.23 pages/s
+==================================================
+Elapsed time (ms): 17470
+Webpages fetched: 443
+Failed urls: 1573
+Bytes written: 78390993
+Registered urls: 657846
+Pages per second (current): 30.00 pages/s
+Pages per second (overall): 24.61 pages/s
+==================================================
+Elapsed time (ms): 22470
+Webpages fetched: 555
+Failed urls: 1573
+Bytes written: 96246606
+Registered urls: 662428
+Pages per second (current): 18.67 pages/s
+Pages per second (overall): 24.13 pages/s
+==================================================
+Elapsed time (ms): 27470
+Webpages fetched: 685
+Failed urls: 1573
+Bytes written: 119922094
+Registered urls: 669193
+Pages per second (current): 21.67 pages/s
+Pages per second (overall): 24.46 pages/s
+==================================================
+Elapsed time (ms): 32470
+Webpages fetched: 847
+Failed urls: 1573
+Bytes written: 146262559
+Registered urls: 676547
+Pages per second (current): 27.00 pages/s
+Pages per second (overall): 25.67 pages/s
+==================================================
+Elapsed time (ms): 37470
+Webpages fetched: 994
+Failed urls: 1573
+Bytes written: 172790865
+Registered urls: 684433
+Pages per second (current): 24.50 pages/s
+Pages per second (overall): 26.16 pages/s
+==================================================
+Elapsed time (ms): 48447
+Webpages fetched: 1087
+Failed urls: 1573
+Bytes written: 173451220
+Registered urls: 686791
+Pages per second (current): 8.45 pages/s
+Pages per second (overall): 22.18 pages/s
+Hash table (empty): 99.73%
+URLs at priority level 0: 7036
+URLs at priority level 1: 23927
+URLs at priority level 2: 9695
+URLs at priority level 3: 6488
+URLs at priority level 4: 209
+URLs at priority level 5: 0
+URLs at priority level 6: 5558
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 52913
+Total pages written: 1000
+File size: 173451223 bytes
+Average page size: 173447 bytes
+Growth ratio: 52.91 links/page
+Finished.
+Ended test with speed 37716
+Testing 96 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 6505
+Webpages fetched: 0
+Failed urls: 1573
+Bytes written: 0
+Registered urls: 686791
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 11506
+Webpages fetched: 187
+Failed urls: 1573
+Bytes written: 35097291
+Registered urls: 697418
+Pages per second (current): 31.17 pages/s
+Pages per second (overall): 15.58 pages/s
+==================================================
+Elapsed time (ms): 16506
+Webpages fetched: 304
+Failed urls: 1573
+Bytes written: 54899945
+Registered urls: 703203
+Pages per second (current): 19.50 pages/s
+Pages per second (overall): 17.88 pages/s
+==================================================
+Elapsed time (ms): 21506
+Webpages fetched: 426
+Failed urls: 1573
+Bytes written: 76557435
+Registered urls: 709260
+Pages per second (current): 20.33 pages/s
+Pages per second (overall): 19.36 pages/s
+==================================================
+Elapsed time (ms): 26506
+Webpages fetched: 534
+Failed urls: 1573
+Bytes written: 96452813
+Registered urls: 715034
+Pages per second (current): 18.00 pages/s
+Pages per second (overall): 19.78 pages/s
+==================================================
+Elapsed time (ms): 31506
+Webpages fetched: 643
+Failed urls: 1573
+Bytes written: 115874154
+Registered urls: 720429
+Pages per second (current): 18.17 pages/s
+Pages per second (overall): 20.09 pages/s
+==================================================
+Elapsed time (ms): 36506
+Webpages fetched: 733
+Failed urls: 1573
+Bytes written: 130250558
+Registered urls: 724449
+Pages per second (current): 15.00 pages/s
+Pages per second (overall): 19.81 pages/s
+==================================================
+Elapsed time (ms): 41507
+Webpages fetched: 833
+Failed urls: 1573
+Bytes written: 146621634
+Registered urls: 729237
+Pages per second (current): 16.67 pages/s
+Pages per second (overall): 19.83 pages/s
+==================================================
+Elapsed time (ms): 46507
+Webpages fetched: 944
+Failed urls: 1573
+Bytes written: 162724109
+Registered urls: 734014
+Pages per second (current): 18.50 pages/s
+Pages per second (overall): 20.09 pages/s
+==================================================
+Elapsed time (ms): 59985
+Webpages fetched: 1095
+Failed urls: 1573
+Bytes written: 171844548
+Registered urls: 738800
+Pages per second (current): 10.79 pages/s
+Pages per second (overall): 18.25 pages/s
+Hash table (empty): 99.73%
+URLs at priority level 0: 6969
+URLs at priority level 1: 23497
+URLs at priority level 2: 9696
+URLs at priority level 3: 7206
+URLs at priority level 4: 400
+URLs at priority level 5: 54
+URLs at priority level 6: 5226
+URLs at priority level 7: 8
+URLs at priority level 8: 39
+URLs at priority level 9: 10
+URLs total: 53105
+Total pages written: 1000
+File size: 171844551 bytes
+Average page size: 171840 bytes
+Growth ratio: 53.10 links/page
+Finished.
+Ended test with speed 49082
+Testing 104 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3891
+Webpages fetched: 0
+Failed urls: 1573
+Bytes written: 0
+Registered urls: 738800
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8891
+Webpages fetched: 194
+Failed urls: 1573
+Bytes written: 34346124
+Registered urls: 751716
+Pages per second (current): 32.33 pages/s
+Pages per second (overall): 21.56 pages/s
+==================================================
+Elapsed time (ms): 13892
+Webpages fetched: 370
+Failed urls: 1573
+Bytes written: 86575528
+Registered urls: 767677
+Pages per second (current): 29.33 pages/s
+Pages per second (overall): 26.43 pages/s
+==================================================
+Elapsed time (ms): 18892
+Webpages fetched: 581
+Failed urls: 1573
+Bytes written: 142693109
+Registered urls: 785756
+Pages per second (current): 35.17 pages/s
+Pages per second (overall): 30.58 pages/s
+Hash table (empty): 99.74%
+URLs at priority level 0: 6992
+URLs at priority level 1: 23486
+URLs at priority level 2: 6247
+URLs at priority level 3: 2062
+URLs at priority level 4: 930
+URLs at priority level 5: 216
+URLs at priority level 6: 7484
+URLs at priority level 7: 32
+URLs at priority level 8: 153
+URLs at priority level 9: 40
+URLs total: 47642
+Total pages written: 581
+File size: 142693112 bytes
+Average page size: 245595 bytes
+Growth ratio: 82.00 links/page
+==================================================
+Elapsed time (ms): 24735
+Webpages fetched: 997
+Failed urls: 1575
+Bytes written: 175892441
+Registered urls: 804450
+Pages per second (current): 69.33 pages/s
+Pages per second (overall): 39.88 pages/s
+==================================================
+Elapsed time (ms): 44873
+Webpages fetched: 1092
+Failed urls: 1586
+Bytes written: 183730217
+Registered urls: 808317
+Pages per second (current): 4.52 pages/s
+Pages per second (overall): 24.27 pages/s
+Hash table (empty): 99.66%
+URLs at priority level 0: 10600
+URLs at priority level 1: 31857
+URLs at priority level 2: 10362
+URLs at priority level 3: 5305
+URLs at priority level 4: 3223
+URLs at priority level 5: 540
+URLs at priority level 6: 8046
+URLs at priority level 7: 80
+URLs at priority level 8: 390
+URLs at priority level 9: 220
+URLs total: 70623
+Total pages written: 1079
+File size: 183730220 bytes
+Average page size: 170274 bytes
+Growth ratio: 65.45 links/page
+Finished.
+Ended test with speed 25613
+Testing 112 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3042
+Webpages fetched: 0
+Failed urls: 1586
+Bytes written: 0
+Registered urls: 808317
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8042
+Webpages fetched: 422
+Failed urls: 1592
+Bytes written: 41908649
+Registered urls: 828779
+Pages per second (current): 70.33 pages/s
+Pages per second (overall): 46.89 pages/s
+==================================================
+Elapsed time (ms): 13042
+Webpages fetched: 573
+Failed urls: 1594
+Bytes written: 67425764
+Registered urls: 836135
+Pages per second (current): 25.17 pages/s
+Pages per second (overall): 40.93 pages/s
+==================================================
+Elapsed time (ms): 18042
+Webpages fetched: 716
+Failed urls: 1595
+Bytes written: 90329046
+Registered urls: 843003
+Pages per second (current): 23.83 pages/s
+Pages per second (overall): 37.68 pages/s
+==================================================
+Elapsed time (ms): 23042
+Webpages fetched: 862
+Failed urls: 1595
+Bytes written: 116006863
+Registered urls: 850603
+Pages per second (current): 24.33 pages/s
+Pages per second (overall): 35.92 pages/s
+==================================================
+Elapsed time (ms): 28042
+Webpages fetched: 987
+Failed urls: 1596
+Bytes written: 137661628
+Registered urls: 856772
+Pages per second (current): 20.83 pages/s
+Pages per second (overall): 34.03 pages/s
+==================================================
+Elapsed time (ms): 43579
+Webpages fetched: 1110
+Failed urls: 1597
+Bytes written: 139994716
+Registered urls: 859737
+Pages per second (current): 7.69 pages/s
+Pages per second (overall): 25.23 pages/s
+Hash table (empty): 99.75%
+URLs at priority level 0: 7443
+URLs at priority level 1: 21852
+URLs at priority level 2: 9500
+URLs at priority level 3: 7423
+URLs at priority level 4: 1998
+URLs at priority level 5: 189
+URLs at priority level 6: 3819
+URLs at priority level 7: 28
+URLs at priority level 8: 140
+URLs at priority level 9: 150
+URLs total: 52542
+Total pages written: 1000
+File size: 139994719 bytes
+Average page size: 139990 bytes
+Growth ratio: 52.54 links/page
+Finished.
+Ended test with speed 28591
+Testing 120 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 5437
+Webpages fetched: 0
+Failed urls: 1597
+Bytes written: 0
+Registered urls: 859737
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 10439
+Webpages fetched: 231
+Failed urls: 1597
+Bytes written: 43734048
+Registered urls: 873142
+Pages per second (current): 38.50 pages/s
+Pages per second (overall): 21.00 pages/s
+==================================================
+Elapsed time (ms): 15439
+Webpages fetched: 367
+Failed urls: 1597
+Bytes written: 67449782
+Registered urls: 880449
+Pages per second (current): 22.67 pages/s
+Pages per second (overall): 22.94 pages/s
+==================================================
+Elapsed time (ms): 20439
+Webpages fetched: 489
+Failed urls: 1597
+Bytes written: 89497537
+Registered urls: 886643
+Pages per second (current): 20.33 pages/s
+Pages per second (overall): 23.29 pages/s
+==================================================
+Elapsed time (ms): 25439
+Webpages fetched: 560
+Failed urls: 1597
+Bytes written: 101911136
+Registered urls: 890113
+Pages per second (current): 11.83 pages/s
+Pages per second (overall): 21.54 pages/s
+==================================================
+Elapsed time (ms): 30439
+Webpages fetched: 655
+Failed urls: 1597
+Bytes written: 118437870
+Registered urls: 894616
+Pages per second (current): 15.83 pages/s
+Pages per second (overall): 21.13 pages/s
+==================================================
+Elapsed time (ms): 35439
+Webpages fetched: 717
+Failed urls: 1597
+Bytes written: 129129671
+Registered urls: 897605
+Pages per second (current): 10.33 pages/s
+Pages per second (overall): 19.92 pages/s
+==================================================
+Elapsed time (ms): 40440
+Webpages fetched: 773
+Failed urls: 1597
+Bytes written: 140431371
+Registered urls: 900753
+Pages per second (current): 9.33 pages/s
+Pages per second (overall): 18.85 pages/s
+==================================================
+Elapsed time (ms): 45440
+Webpages fetched: 870
+Failed urls: 1605
+Bytes written: 158568973
+Registered urls: 905801
+Pages per second (current): 16.17 pages/s
+Pages per second (overall): 18.91 pages/s
+==================================================
+Elapsed time (ms): 50440
+Webpages fetched: 969
+Failed urls: 1611
+Bytes written: 176074654
+Registered urls: 910751
+Pages per second (current): 16.50 pages/s
+Pages per second (overall): 19.00 pages/s
+==================================================
+Elapsed time (ms): 66683
+Webpages fetched: 1119
+Failed urls: 1611
+Bytes written: 181849662
+Registered urls: 914951
+Pages per second (current): 8.82 pages/s
+Pages per second (overall): 16.70 pages/s
+Hash table (empty): 99.71%
+URLs at priority level 0: 7482
+URLs at priority level 1: 25657
+URLs at priority level 2: 9991
+URLs at priority level 3: 6843
+URLs at priority level 4: 290
+URLs at priority level 5: 0
+URLs at priority level 6: 6080
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 5
+URLs total: 56348
+Total pages written: 1000
+File size: 181849665 bytes
+Average page size: 181845 bytes
+Growth ratio: 56.35 links/page
+Finished.
+Ended test with speed 51503
+Testing 128 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2808
+Webpages fetched: 0
+Failed urls: 1611
+Bytes written: 0
+Registered urls: 914951
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7809
+Webpages fetched: 267
+Failed urls: 1611
+Bytes written: 52358684
+Registered urls: 930644
+Pages per second (current): 44.50 pages/s
+Pages per second (overall): 33.38 pages/s
+==================================================
+Elapsed time (ms): 12809
+Webpages fetched: 403
+Failed urls: 1611
+Bytes written: 75598274
+Registered urls: 937890
+Pages per second (current): 22.67 pages/s
+Pages per second (overall): 31.00 pages/s
+==================================================
+Elapsed time (ms): 17809
+Webpages fetched: 509
+Failed urls: 1611
+Bytes written: 94727742
+Registered urls: 943178
+Pages per second (current): 17.67 pages/s
+Pages per second (overall): 28.28 pages/s
+==================================================
+Elapsed time (ms): 22809
+Webpages fetched: 599
+Failed urls: 1611
+Bytes written: 111361926
+Registered urls: 947999
+Pages per second (current): 15.00 pages/s
+Pages per second (overall): 26.04 pages/s
+==================================================
+Elapsed time (ms): 27809
+Webpages fetched: 696
+Failed urls: 1611
+Bytes written: 128863696
+Registered urls: 952826
+Pages per second (current): 16.17 pages/s
+Pages per second (overall): 24.86 pages/s
+==================================================
+Elapsed time (ms): 32810
+Webpages fetched: 771
+Failed urls: 1612
+Bytes written: 142240342
+Registered urls: 956603
+Pages per second (current): 12.50 pages/s
+Pages per second (overall): 23.36 pages/s
+==================================================
+Elapsed time (ms): 37810
+Webpages fetched: 861
+Failed urls: 1618
+Bytes written: 157047751
+Registered urls: 960660
+Pages per second (current): 15.00 pages/s
+Pages per second (overall): 22.66 pages/s
+==================================================
+Elapsed time (ms): 42810
+Webpages fetched: 941
+Failed urls: 1622
+Bytes written: 170624709
+Registered urls: 964482
+Pages per second (current): 13.33 pages/s
+Pages per second (overall): 21.88 pages/s
+==================================================
+Elapsed time (ms): 62479
+Webpages fetched: 1122
+Failed urls: 1630
+Bytes written: 180405335
+Registered urls: 969549
+Pages per second (current): 9.05 pages/s
+Pages per second (overall): 17.81 pages/s
+Hash table (empty): 99.71%
+URLs at priority level 0: 7324
+URLs at priority level 1: 25131
+URLs at priority level 2: 10066
+URLs at priority level 3: 7188
+URLs at priority level 4: 213
+URLs at priority level 5: 0
+URLs at priority level 6: 5818
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 55740
+Total pages written: 1000
+File size: 180405338 bytes
+Average page size: 180401 bytes
+Growth ratio: 55.74 links/page
+Finished.
+Ended test with speed 46066
+Testing 136 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2572
+Webpages fetched: 0
+Failed urls: 1630
+Bytes written: 0
+Registered urls: 969549
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7572
+Webpages fetched: 300
+Failed urls: 1630
+Bytes written: 59939321
+Registered urls: 987688
+Pages per second (current): 50.00 pages/s
+Pages per second (overall): 37.50 pages/s
+==================================================
+Elapsed time (ms): 12572
+Webpages fetched: 462
+Failed urls: 1630
+Bytes written: 89631529
+Registered urls: 996645
+Pages per second (current): 27.00 pages/s
+Pages per second (overall): 35.54 pages/s
+==================================================
+Elapsed time (ms): 17572
+Webpages fetched: 553
+Failed urls: 1630
+Bytes written: 106759474
+Registered urls: 1001761
+Pages per second (current): 15.17 pages/s
+Pages per second (overall): 30.72 pages/s
+Hash table (empty): 99.82%
+URLs at priority level 0: 4435
+URLs at priority level 1: 15180
+URLs at priority level 2: 5502
+URLs at priority level 3: 3793
+URLs at priority level 4: 149
+URLs at priority level 5: 0
+URLs at priority level 6: 3843
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 32902
+Total pages written: 553
+File size: 106759477 bytes
+Average page size: 193051 bytes
+Growth ratio: 59.50 links/page
+==================================================
+Elapsed time (ms): 23374
+Webpages fetched: 639
+Failed urls: 1639
+Bytes written: 121973197
+Registered urls: 1005949
+Pages per second (current): 14.33 pages/s
+Pages per second (overall): 26.62 pages/s
+==================================================
+Elapsed time (ms): 28374
+Webpages fetched: 741
+Failed urls: 1639
+Bytes written: 141038699
+Registered urls: 1011348
+Pages per second (current): 17.00 pages/s
+Pages per second (overall): 25.55 pages/s
+==================================================
+Elapsed time (ms): 33374
+Webpages fetched: 825
+Failed urls: 1646
+Bytes written: 155676908
+Registered urls: 1015505
+Pages per second (current): 14.00 pages/s
+Pages per second (overall): 24.26 pages/s
+==================================================
+Elapsed time (ms): 38374
+Webpages fetched: 932
+Failed urls: 1658
+Bytes written: 175960678
+Registered urls: 1021406
+Pages per second (current): 17.83 pages/s
+Pages per second (overall): 23.90 pages/s
+==================================================
+Elapsed time (ms): 61156
+Webpages fetched: 1130
+Failed urls: 1672
+Bytes written: 187643731
+Registered urls: 1027428
+Pages per second (current): 8.61 pages/s
+Pages per second (overall): 18.23 pages/s
+Hash table (empty): 99.69%
+URLs at priority level 0: 7848
+URLs at priority level 1: 27058
+URLs at priority level 2: 10325
+URLs at priority level 3: 7070
+URLs at priority level 4: 249
+URLs at priority level 5: 0
+URLs at priority level 6: 6502
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 59052
+Total pages written: 1000
+File size: 187643734 bytes
+Average page size: 187639 bytes
+Growth ratio: 59.05 links/page
+Finished.
+Ended test with speed 41651
+Testing 144 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2605
+Webpages fetched: 0
+Failed urls: 1672
+Bytes written: 0
+Registered urls: 1027428
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7605
+Webpages fetched: 278
+Failed urls: 1672
+Bytes written: 54648066
+Registered urls: 1043902
+Pages per second (current): 46.33 pages/s
+Pages per second (overall): 34.75 pages/s
+==================================================
+Elapsed time (ms): 12605
+Webpages fetched: 459
+Failed urls: 1672
+Bytes written: 86935741
+Registered urls: 1053664
+Pages per second (current): 30.17 pages/s
+Pages per second (overall): 35.31 pages/s
+==================================================
+Elapsed time (ms): 17605
+Webpages fetched: 598
+Failed urls: 1672
+Bytes written: 112692071
+Registered urls: 1061209
+Pages per second (current): 23.17 pages/s
+Pages per second (overall): 33.22 pages/s
+==================================================
+Elapsed time (ms): 22605
+Webpages fetched: 681
+Failed urls: 1672
+Bytes written: 127399266
+Registered urls: 1065412
+Pages per second (current): 13.83 pages/s
+Pages per second (overall): 29.61 pages/s
+==================================================
+Elapsed time (ms): 27605
+Webpages fetched: 760
+Failed urls: 1672
+Bytes written: 141190630
+Registered urls: 1069123
+Pages per second (current): 13.17 pages/s
+Pages per second (overall): 27.14 pages/s
+==================================================
+Elapsed time (ms): 32606
+Webpages fetched: 830
+Failed urls: 1679
+Bytes written: 154527741
+Registered urls: 1073063
+Pages per second (current): 11.67 pages/s
+Pages per second (overall): 25.15 pages/s
+==================================================
+Elapsed time (ms): 37606
+Webpages fetched: 932
+Failed urls: 1708
+Bytes written: 173148300
+Registered urls: 1078469
+Pages per second (current): 17.00 pages/s
+Pages per second (overall): 24.53 pages/s
+==================================================
+Elapsed time (ms): 60656
+Webpages fetched: 1123
+Failed urls: 1742
+Bytes written: 185707071
+Registered urls: 1085075
+Pages per second (current): 7.96 pages/s
+Pages per second (overall): 18.41 pages/s
+Hash table (empty): 99.69%
+URLs at priority level 0: 7831
+URLs at priority level 1: 26845
+URLs at priority level 2: 10257
+URLs at priority level 3: 7231
+URLs at priority level 4: 243
+URLs at priority level 5: 0
+URLs at priority level 6: 6434
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 58841
+Total pages written: 1000
+File size: 185707074 bytes
+Average page size: 185703 bytes
+Growth ratio: 58.84 links/page
+Finished.
+Ended test with speed 40115
+Testing 152 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2620
+Webpages fetched: 0
+Failed urls: 1742
+Bytes written: 0
+Registered urls: 1085075
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7620
+Webpages fetched: 242
+Failed urls: 1742
+Bytes written: 42941282
+Registered urls: 1097856
+Pages per second (current): 40.33 pages/s
+Pages per second (overall): 30.25 pages/s
+==================================================
+Elapsed time (ms): 12620
+Webpages fetched: 378
+Failed urls: 1742
+Bytes written: 67739646
+Registered urls: 1105363
+Pages per second (current): 22.67 pages/s
+Pages per second (overall): 29.08 pages/s
+==================================================
+Elapsed time (ms): 17620
+Webpages fetched: 496
+Failed urls: 1742
+Bytes written: 86634412
+Registered urls: 1111032
+Pages per second (current): 19.67 pages/s
+Pages per second (overall): 27.56 pages/s
+==================================================
+Elapsed time (ms): 22630
+Webpages fetched: 810
+Failed urls: 1751
+Bytes written: 107252764
+Registered urls: 1125208
+Pages per second (current): 52.33 pages/s
+Pages per second (overall): 35.22 pages/s
+==================================================
+Elapsed time (ms): 40266
+Webpages fetched: 1129
+Failed urls: 1791
+Bytes written: 118492863
+Registered urls: 1138253
+Pages per second (current): 17.72 pages/s
+Pages per second (overall): 27.54 pages/s
+Hash table (empty): 99.78%
+URLs at priority level 0: 8453
+URLs at priority level 1: 25445
+URLs at priority level 2: 9428
+URLs at priority level 3: 6033
+URLs at priority level 4: 2156
+URLs at priority level 5: 105
+URLs at priority level 6: 2649
+URLs at priority level 7: 0
+URLs at priority level 8: 24
+URLs at priority level 9: 64
+URLs total: 54357
+Total pages written: 1000
+File size: 118492866 bytes
+Average page size: 118488 bytes
+Growth ratio: 54.36 links/page
+Finished.
+Ended test with speed 23722
+Testing 160 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2713
+Webpages fetched: 0
+Failed urls: 1791
+Bytes written: 0
+Registered urls: 1138253
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7713
+Webpages fetched: 329
+Failed urls: 1801
+Bytes written: 26105780
+Registered urls: 1154659
+Pages per second (current): 54.83 pages/s
+Pages per second (overall): 41.12 pages/s
+==================================================
+Elapsed time (ms): 12713
+Webpages fetched: 390
+Failed urls: 1802
+Bytes written: 35211339
+Registered urls: 1158262
+Pages per second (current): 10.17 pages/s
+Pages per second (overall): 30.00 pages/s
+==================================================
+Elapsed time (ms): 17713
+Webpages fetched: 415
+Failed urls: 1806
+Bytes written: 42517468
+Registered urls: 1160469
+Pages per second (current): 4.17 pages/s
+Pages per second (overall): 23.06 pages/s
+==================================================
+Elapsed time (ms): 22713
+Webpages fetched: 696
+Failed urls: 1819
+Bytes written: 87845790
+Registered urls: 1180320
+Pages per second (current): 46.83 pages/s
+Pages per second (overall): 30.26 pages/s
+==================================================
+Elapsed time (ms): 34836
+Webpages fetched: 1155
+Failed urls: 1835
+Bytes written: 137882058
+Registered urls: 1215260
+Pages per second (current): 35.31 pages/s
+Pages per second (overall): 33.00 pages/s
+Hash table (empty): 99.67%
+URLs at priority level 0: 12998
+URLs at priority level 1: 38324
+URLs at priority level 2: 11854
+URLs at priority level 3: 5002
+URLs at priority level 4: 3020
+URLs at priority level 5: 113
+URLs at priority level 6: 6714
+URLs at priority level 7: 36
+URLs at priority level 8: 18
+URLs at priority level 9: 128
+URLs total: 78207
+Total pages written: 1000
+File size: 137882061 bytes
+Average page size: 137878 bytes
+Growth ratio: 78.21 links/page
+Finished.
+Ended test with speed 27141
+Testing 168 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3714
+Webpages fetched: 0
+Failed urls: 1835
+Bytes written: 0
+Registered urls: 1215260
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8714
+Webpages fetched: 401
+Failed urls: 1846
+Bytes written: 72648741
+Registered urls: 1243127
+Pages per second (current): 66.83 pages/s
+Pages per second (overall): 44.56 pages/s
+==================================================
+Elapsed time (ms): 13714
+Webpages fetched: 535
+Failed urls: 1846
+Bytes written: 110923679
+Registered urls: 1254798
+Pages per second (current): 22.33 pages/s
+Pages per second (overall): 38.21 pages/s
+==================================================
+Elapsed time (ms): 18715
+Webpages fetched: 591
+Failed urls: 1864
+Bytes written: 125499945
+Registered urls: 1259061
+Pages per second (current): 9.33 pages/s
+Pages per second (overall): 31.11 pages/s
+==================================================
+Elapsed time (ms): 23715
+Webpages fetched: 701
+Failed urls: 1902
+Bytes written: 152858292
+Registered urls: 1267873
+Pages per second (current): 18.33 pages/s
+Pages per second (overall): 29.21 pages/s
+==================================================
+Elapsed time (ms): 28715
+Webpages fetched: 762
+Failed urls: 1982
+Bytes written: 165031287
+Registered urls: 1271210
+Pages per second (current): 10.17 pages/s
+Pages per second (overall): 26.28 pages/s
+==================================================
+Elapsed time (ms): 33715
+Webpages fetched: 843
+Failed urls: 2029
+Bytes written: 184968108
+Registered urls: 1276943
+Pages per second (current): 13.50 pages/s
+Pages per second (overall): 24.79 pages/s
+==================================================
+Elapsed time (ms): 50457
+Webpages fetched: 1087
+Failed urls: 2163
+Bytes written: 225626171
+Registered urls: 1296762
+Pages per second (current): 14.35 pages/s
+Pages per second (overall): 21.31 pages/s
+Hash table (empty): 99.56%
+URLs at priority level 0: 13361
+URLs at priority level 1: 39247
+URLs at priority level 2: 13822
+URLs at priority level 3: 4818
+URLs at priority level 4: 1531
+URLs at priority level 5: 129
+URLs at priority level 6: 9745
+URLs at priority level 7: 43
+URLs at priority level 8: 83
+URLs at priority level 9: 139
+URLs total: 82918
+Total pages written: 1000
+File size: 225626174 bytes
+Average page size: 225622 bytes
+Growth ratio: 82.92 links/page
+Finished.
+Ended test with speed 36879
+Testing 176 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3867
+Webpages fetched: 0
+Failed urls: 2163
+Bytes written: 0
+Registered urls: 1296762
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+Hash table (empty): 100.00%
+URLs at priority level 0: 3
+URLs at priority level 1: 0
+URLs at priority level 2: 0
+URLs at priority level 3: 0
+URLs at priority level 4: 0
+URLs at priority level 5: 0
+URLs at priority level 6: 0
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 3
+Total pages written: 0
+File size: 3 bytes
+Average page size: 0 bytes
+Growth ratio: 0.00 links/page
+==================================================
+Elapsed time (ms): 34906
+Webpages fetched: 1130
+Failed urls: 2209
+Bytes written: 80852107
+Registered urls: 1354107
+Pages per second (current): 35.31 pages/s
+Pages per second (overall): 32.29 pages/s
+Hash table (empty): 99.79%
+URLs at priority level 0: 10214
+URLs at priority level 1: 23512
+URLs at priority level 2: 8924
+URLs at priority level 3: 5514
+URLs at priority level 4: 6995
+URLs at priority level 5: 378
+URLs at priority level 6: 2096
+URLs at priority level 7: 56
+URLs at priority level 8: 273
+URLs at priority level 9: 560
+URLs total: 58522
+Total pages written: 1000
+File size: 80852110 bytes
+Average page size: 80848 bytes
+Growth ratio: 58.52 links/page
+Finished.
+Ended test with speed 8743
+Testing 184 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2402
+Webpages fetched: 0
+Failed urls: 2209
+Bytes written: 0
+Registered urls: 1354107
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7402
+Webpages fetched: 401
+Failed urls: 2211
+Bytes written: 64957299
+Registered urls: 1375243
+Pages per second (current): 66.83 pages/s
+Pages per second (overall): 50.12 pages/s
+==================================================
+Elapsed time (ms): 12403
+Webpages fetched: 603
+Failed urls: 2211
+Bytes written: 99300826
+Registered urls: 1385967
+Pages per second (current): 33.67 pages/s
+Pages per second (overall): 46.38 pages/s
+==================================================
+Elapsed time (ms): 17403
+Webpages fetched: 774
+Failed urls: 2211
+Bytes written: 126874657
+Registered urls: 1395300
+Pages per second (current): 28.50 pages/s
+Pages per second (overall): 43.00 pages/s
+==================================================
+Elapsed time (ms): 22403
+Webpages fetched: 851
+Failed urls: 2211
+Bytes written: 135758719
+Registered urls: 1399043
+Pages per second (current): 12.83 pages/s
+Pages per second (overall): 37.00 pages/s
+==================================================
+Elapsed time (ms): 46848
+Webpages fetched: 1062
+Failed urls: 2416
+Bytes written: 153063928
+Registered urls: 1409692
+Pages per second (current): 8.44 pages/s
+Pages per second (overall): 22.60 pages/s
+Hash table (empty): 99.73%
+URLs at priority level 0: 7764
+URLs at priority level 1: 24093
+URLs at priority level 2: 9866
+URLs at priority level 3: 8562
+URLs at priority level 4: 1794
+URLs at priority level 5: 108
+URLs at priority level 6: 4403
+URLs at priority level 7: 16
+URLs at priority level 8: 79
+URLs at priority level 9: 170
+URLs total: 56855
+Total pages written: 1000
+File size: 153063931 bytes
+Average page size: 153059 bytes
+Growth ratio: 56.85 links/page
+Finished.
+Ended test with speed 27068
+Testing 192 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3187
+Webpages fetched: 0
+Failed urls: 2416
+Bytes written: 0
+Registered urls: 1409692
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8187
+Webpages fetched: 770
+Failed urls: 2423
+Bytes written: 81625226
+Registered urls: 1445367
+Pages per second (current): 128.33 pages/s
+Pages per second (overall): 85.56 pages/s
+==================================================
+Elapsed time (ms): 32490
+Webpages fetched: 1068
+Failed urls: 2559
+Bytes written: 119898099
+Registered urls: 1459917
+Pages per second (current): 11.92 pages/s
+Pages per second (overall): 32.36 pages/s
+Hash table (empty): 99.76%
+URLs at priority level 0: 7826
+URLs at priority level 1: 21631
+URLs at priority level 2: 9391
+URLs at priority level 3: 6262
+URLs at priority level 4: 2910
+URLs at priority level 5: 81
+URLs at priority level 6: 3039
+URLs at priority level 7: 12
+URLs at priority level 8: 60
+URLs at priority level 9: 225
+URLs total: 51437
+Total pages written: 1000
+File size: 119898102 bytes
+Average page size: 119894 bytes
+Growth ratio: 51.44 links/page
+Finished.
+Ended test with speed 11663
+Testing 200 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2505
+Webpages fetched: 0
+Failed urls: 2559
+Bytes written: 0
+Registered urls: 1459917
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7505
+Webpages fetched: 236
+Failed urls: 2559
+Bytes written: 37768619
+Registered urls: 1470966
+Pages per second (current): 39.33 pages/s
+Pages per second (overall): 29.50 pages/s
+==================================================
+Elapsed time (ms): 12505
+Webpages fetched: 377
+Failed urls: 2559
+Bytes written: 70264289
+Registered urls: 1480400
+Pages per second (current): 23.50 pages/s
+Pages per second (overall): 29.00 pages/s
+==================================================
+Elapsed time (ms): 17506
+Webpages fetched: 587
+Failed urls: 2578
+Bytes written: 109175219
+Registered urls: 1492301
+Pages per second (current): 35.00 pages/s
+Pages per second (overall): 32.61 pages/s
+==================================================
+Elapsed time (ms): 22506
+Webpages fetched: 650
+Failed urls: 2578
+Bytes written: 119920410
+Registered urls: 1495707
+Pages per second (current): 10.50 pages/s
+Pages per second (overall): 28.26 pages/s
+==================================================
+Elapsed time (ms): 27506
+Webpages fetched: 848
+Failed urls: 2666
+Bytes written: 154863841
+Registered urls: 1506306
+Pages per second (current): 33.00 pages/s
+Pages per second (overall): 30.29 pages/s
+==================================================
+Elapsed time (ms): 51008
+Webpages fetched: 1039
+Failed urls: 2843
+Bytes written: 182951252
+Registered urls: 1516882
+Pages per second (current): 7.96 pages/s
+Pages per second (overall): 19.98 pages/s
+Hash table (empty): 99.69%
+URLs at priority level 0: 7831
+URLs at priority level 1: 25989
+URLs at priority level 2: 10087
+URLs at priority level 3: 8123
+URLs at priority level 4: 189
+URLs at priority level 5: 0
+URLs at priority level 6: 6070
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 58289
+Total pages written: 1000
+File size: 182951255 bytes
+Average page size: 182947 bytes
+Growth ratio: 58.29 links/page
+Finished.
+Ended test with speed 31329
+Testing 208 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 4748
+Webpages fetched: 0
+Failed urls: 2843
+Bytes written: 0
+Registered urls: 1516882
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 9748
+Webpages fetched: 413
+Failed urls: 2843
+Bytes written: 82814617
+Registered urls: 1541624
+Pages per second (current): 68.83 pages/s
+Pages per second (overall): 41.30 pages/s
+==================================================
+Elapsed time (ms): 14748
+Webpages fetched: 619
+Failed urls: 2843
+Bytes written: 122183420
+Registered urls: 1553506
+Pages per second (current): 34.33 pages/s
+Pages per second (overall): 41.27 pages/s
+==================================================
+Elapsed time (ms): 19748
+Webpages fetched: 733
+Failed urls: 2843
+Bytes written: 141193654
+Registered urls: 1559386
+Pages per second (current): 19.00 pages/s
+Pages per second (overall): 36.65 pages/s
+==================================================
+Elapsed time (ms): 24749
+Webpages fetched: 796
+Failed urls: 2843
+Bytes written: 152029596
+Registered urls: 1562636
+Pages per second (current): 10.50 pages/s
+Pages per second (overall): 31.84 pages/s
+==================================================
+Elapsed time (ms): 29749
+Webpages fetched: 876
+Failed urls: 2845
+Bytes written: 166812181
+Registered urls: 1566623
+Pages per second (current): 13.33 pages/s
+Pages per second (overall): 29.20 pages/s
+==================================================
+Elapsed time (ms): 45391
+Webpages fetched: 1167
+Failed urls: 2887
+Bytes written: 187658872
+Registered urls: 1575600
+Pages per second (current): 18.19 pages/s
+Pages per second (overall): 25.37 pages/s
+Hash table (empty): 99.68%
+URLs at priority level 0: 8105
+URLs at priority level 1: 27345
+URLs at priority level 2: 10490
+URLs at priority level 3: 7486
+URLs at priority level 4: 188
+URLs at priority level 5: 0
+URLs at priority level 6: 6314
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 2
+URLs total: 59930
+Total pages written: 1000
+File size: 187658875 bytes
+Average page size: 187654 bytes
+Growth ratio: 59.93 links/page
+Finished.
+Ended test with speed 32769
+Testing 216 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2694
+Webpages fetched: 0
+Failed urls: 2887
+Bytes written: 0
+Registered urls: 1575600
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7694
+Webpages fetched: 423
+Failed urls: 2887
+Bytes written: 80986381
+Registered urls: 1599339
+Pages per second (current): 70.50 pages/s
+Pages per second (overall): 52.88 pages/s
+==================================================
+Elapsed time (ms): 12694
+Webpages fetched: 609
+Failed urls: 2887
+Bytes written: 113394041
+Registered urls: 1608998
+Pages per second (current): 31.00 pages/s
+Pages per second (overall): 46.85 pages/s
+==================================================
+Elapsed time (ms): 17694
+Webpages fetched: 729
+Failed urls: 2887
+Bytes written: 132363560
+Registered urls: 1614707
+Pages per second (current): 20.00 pages/s
+Pages per second (overall): 40.50 pages/s
+==================================================
+Elapsed time (ms): 22694
+Webpages fetched: 867
+Failed urls: 2889
+Bytes written: 156801961
+Registered urls: 1621845
+Pages per second (current): 23.00 pages/s
+Pages per second (overall): 37.70 pages/s
+==================================================
+Elapsed time (ms): 47713
+Webpages fetched: 1113
+Failed urls: 3010
+Bytes written: 182056551
+Registered urls: 1632690
+Pages per second (current): 9.46 pages/s
+Pages per second (overall): 23.19 pages/s
+Hash table (empty): 99.69%
+URLs at priority level 0: 7710
+URLs at priority level 1: 26270
+URLs at priority level 2: 10842
+URLs at priority level 3: 7944
+URLs at priority level 4: 78
+URLs at priority level 5: 0
+URLs at priority level 6: 5483
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 58327
+Total pages written: 1000
+File size: 182056554 bytes
+Average page size: 182052 bytes
+Growth ratio: 58.33 links/page
+Finished.
+Ended test with speed 27076
+Testing 224 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2629
+Webpages fetched: 0
+Failed urls: 3010
+Bytes written: 0
+Registered urls: 1632690
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7629
+Webpages fetched: 458
+Failed urls: 3010
+Bytes written: 89920981
+Registered urls: 1659581
+Pages per second (current): 76.33 pages/s
+Pages per second (overall): 57.25 pages/s
+==================================================
+Elapsed time (ms): 12629
+Webpages fetched: 614
+Failed urls: 3010
+Bytes written: 118598294
+Registered urls: 1668169
+Pages per second (current): 26.00 pages/s
+Pages per second (overall): 47.23 pages/s
+==================================================
+Elapsed time (ms): 17629
+Webpages fetched: 770
+Failed urls: 3010
+Bytes written: 144448105
+Registered urls: 1676113
+Pages per second (current): 26.00 pages/s
+Pages per second (overall): 42.78 pages/s
+==================================================
+Elapsed time (ms): 22629
+Webpages fetched: 864
+Failed urls: 3010
+Bytes written: 162381235
+Registered urls: 1681245
+Pages per second (current): 15.67 pages/s
+Pages per second (overall): 37.57 pages/s
+==================================================
+Elapsed time (ms): 27629
+Webpages fetched: 941
+Failed urls: 3043
+Bytes written: 175190745
+Registered urls: 1684635
+Pages per second (current): 12.83 pages/s
+Pages per second (overall): 33.61 pages/s
+Hash table (empty): 99.72%
+URLs at priority level 0: 7345
+URLs at priority level 1: 24191
+URLs at priority level 2: 9145
+URLs at priority level 3: 6605
+URLs at priority level 4: 168
+URLs at priority level 5: 0
+URLs at priority level 6: 5690
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 53144
+Total pages written: 942
+File size: 175362494 bytes
+Average page size: 186155 bytes
+Growth ratio: 56.42 links/page
+==================================================
+Elapsed time (ms): 50264
+Webpages fetched: 1095
+Failed urls: 3183
+Bytes written: 185411754
+Registered urls: 1690770
+Pages per second (current): 6.70 pages/s
+Pages per second (overall): 21.47 pages/s
+Hash table (empty): 99.69%
+URLs at priority level 0: 7999
+URLs at priority level 1: 26977
+URLs at priority level 2: 10687
+URLs at priority level 3: 7386
+URLs at priority level 4: 180
+URLs at priority level 5: 0
+URLs at priority level 6: 6120
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 59349
+Total pages written: 1000
+File size: 185411757 bytes
+Average page size: 185407 bytes
+Growth ratio: 59.35 links/page
+Finished.
+Ended test with speed 29292
+Testing 232 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3136
+Webpages fetched: 0
+Failed urls: 3183
+Bytes written: 0
+Registered urls: 1690770
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8136
+Webpages fetched: 436
+Failed urls: 3184
+Bytes written: 82918366
+Registered urls: 1714313
+Pages per second (current): 72.67 pages/s
+Pages per second (overall): 48.44 pages/s
+==================================================
+Elapsed time (ms): 13136
+Webpages fetched: 787
+Failed urls: 3184
+Bytes written: 148998314
+Registered urls: 1733886
+Pages per second (current): 58.50 pages/s
+Pages per second (overall): 56.21 pages/s
+==================================================
+Elapsed time (ms): 18137
+Webpages fetched: 999
+Failed urls: 3184
+Bytes written: 185754583
+Registered urls: 1744585
+Pages per second (current): 35.33 pages/s
+Pages per second (overall): 52.58 pages/s
+==================================================
+Elapsed time (ms): 50427
+Webpages fetched: 1088
+Failed urls: 3327
+Bytes written: 186005486
+Registered urls: 1747031
+Pages per second (current): 2.70 pages/s
+Pages per second (overall): 21.33 pages/s
+Hash table (empty): 99.69%
+URLs at priority level 0: 8408
+URLs at priority level 1: 25986
+URLs at priority level 2: 10366
+URLs at priority level 3: 6956
+URLs at priority level 4: 83
+URLs at priority level 5: 81
+URLs at priority level 6: 5544
+URLs at priority level 7: 12
+URLs at priority level 8: 58
+URLs at priority level 9: 0
+URLs total: 57494
+Total pages written: 1000
+File size: 186005489 bytes
+Average page size: 186001 bytes
+Growth ratio: 57.49 links/page
+Finished.
+Ended test with speed 18145
+Testing 240 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2592
+Webpages fetched: 0
+Failed urls: 3327
+Bytes written: 0
+Registered urls: 1747031
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7592
+Webpages fetched: 80
+Failed urls: 3327
+Bytes written: 16999807
+Registered urls: 1751638
+Pages per second (current): 13.33 pages/s
+Pages per second (overall): 10.00 pages/s
+==================================================
+Elapsed time (ms): 12592
+Webpages fetched: 484
+Failed urls: 3327
+Bytes written: 105340496
+Registered urls: 1776248
+Pages per second (current): 67.33 pages/s
+Pages per second (overall): 37.23 pages/s
+==================================================
+Elapsed time (ms): 17593
+Webpages fetched: 708
+Failed urls: 3328
+Bytes written: 160013941
+Registered urls: 1792180
+Pages per second (current): 37.33 pages/s
+Pages per second (overall): 39.33 pages/s
+==================================================
+Elapsed time (ms): 22593
+Webpages fetched: 771
+Failed urls: 3331
+Bytes written: 172388392
+Registered urls: 1795681
+Pages per second (current): 10.50 pages/s
+Pages per second (overall): 33.52 pages/s
+==================================================
+Elapsed time (ms): 27593
+Webpages fetched: 831
+Failed urls: 3332
+Bytes written: 184360019
+Registered urls: 1799147
+Pages per second (current): 10.00 pages/s
+Pages per second (overall): 29.68 pages/s
+==================================================
+Elapsed time (ms): 32593
+Webpages fetched: 895
+Failed urls: 3350
+Bytes written: 198438398
+Registered urls: 1803348
+Pages per second (current): 10.67 pages/s
+Pages per second (overall): 27.12 pages/s
+==================================================
+Elapsed time (ms): 53311
+Webpages fetched: 1092
+Failed urls: 3579
+Bytes written: 218101378
+Registered urls: 1813081
+Pages per second (current): 9.38 pages/s
+Pages per second (overall): 20.22 pages/s
+Hash table (empty): 99.66%
+URLs at priority level 0: 8037
+URLs at priority level 1: 27926
+URLs at priority level 2: 11976
+URLs at priority level 3: 12938
+URLs at priority level 4: 305
+URLs at priority level 5: 0
+URLs at priority level 6: 5946
+URLs at priority level 7: 267
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 67395
+Total pages written: 1000
+File size: 218101381 bytes
+Average page size: 218097 bytes
+Growth ratio: 67.39 links/page
+Finished.
+Ended test with speed 36268
+Testing 248 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2597
+Webpages fetched: 0
+Failed urls: 3579
+Bytes written: 0
+Registered urls: 1813081
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7597
+Webpages fetched: 446
+Failed urls: 3579
+Bytes written: 77959667
+Registered urls: 1835586
+Pages per second (current): 74.33 pages/s
+Pages per second (overall): 55.75 pages/s
+==================================================
+Elapsed time (ms): 12597
+Webpages fetched: 621
+Failed urls: 3579
+Bytes written: 111186927
+Registered urls: 1845902
+Pages per second (current): 29.17 pages/s
+Pages per second (overall): 47.77 pages/s
+==================================================
+Elapsed time (ms): 17597
+Webpages fetched: 771
+Failed urls: 3579
+Bytes written: 140204609
+Registered urls: 1854356
+Pages per second (current): 25.00 pages/s
+Pages per second (overall): 42.83 pages/s
+==================================================
+Elapsed time (ms): 22598
+Webpages fetched: 876
+Failed urls: 3579
+Bytes written: 156815239
+Registered urls: 1859273
+Pages per second (current): 17.50 pages/s
+Pages per second (overall): 38.09 pages/s
+==================================================
+Elapsed time (ms): 46910
+Webpages fetched: 1089
+Failed urls: 3737
+Bytes written: 179493936
+Registered urls: 1868721
+Pages per second (current): 8.52 pages/s
+Pages per second (overall): 23.17 pages/s
+Hash table (empty): 99.70%
+URLs at priority level 0: 7569
+URLs at priority level 1: 25294
+URLs at priority level 2: 10803
+URLs at priority level 3: 7545
+URLs at priority level 4: 235
+URLs at priority level 5: 0
+URLs at priority level 6: 5442
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 56888
+Total pages written: 1000
+File size: 179493939 bytes
+Average page size: 179489 bytes
+Growth ratio: 56.89 links/page
+Finished.
+Ended test with speed 24466
+Testing 256 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3456
+Webpages fetched: 0
+Failed urls: 3737
+Bytes written: 0
+Registered urls: 1868721
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8456
+Webpages fetched: 532
+Failed urls: 3737
+Bytes written: 102324156
+Registered urls: 1898115
+Pages per second (current): 88.67 pages/s
+Pages per second (overall): 59.11 pages/s
+==================================================
+Elapsed time (ms): 13456
+Webpages fetched: 738
+Failed urls: 3737
+Bytes written: 142377339
+Registered urls: 1909908
+Pages per second (current): 34.33 pages/s
+Pages per second (overall): 52.71 pages/s
+==================================================
+Elapsed time (ms): 18456
+Webpages fetched: 871
+Failed urls: 3737
+Bytes written: 166468055
+Registered urls: 1917307
+Pages per second (current): 22.17 pages/s
+Pages per second (overall): 45.84 pages/s
+==================================================
+Elapsed time (ms): 23457
+Webpages fetched: 995
+Failed urls: 3737
+Bytes written: 188174128
+Registered urls: 1923798
+Pages per second (current): 20.67 pages/s
+Pages per second (overall): 41.46 pages/s
+==================================================
+Elapsed time (ms): 47336
+Webpages fetched: 1042
+Failed urls: 3950
+Bytes written: 193722836
+Registered urls: 1925752
+Pages per second (current): 1.96 pages/s
+Pages per second (overall): 21.71 pages/s
+Hash table (empty): 99.70%
+URLs at priority level 0: 7280
+URLs at priority level 1: 25714
+URLs at priority level 2: 10241
+URLs at priority level 3: 9296
+URLs at priority level 4: 186
+URLs at priority level 5: 0
+URLs at priority level 6: 5570
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 58287
+Total pages written: 1022
+File size: 193722839 bytes
+Average page size: 189548 bytes
+Growth ratio: 57.03 links/page
+Finished.
+Ended test with speed 24331
+Testing 264 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2609
+Webpages fetched: 0
+Failed urls: 3950
+Bytes written: 0
+Registered urls: 1925752
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7609
+Webpages fetched: 479
+Failed urls: 3950
+Bytes written: 101455755
+Registered urls: 1955739
+Pages per second (current): 79.83 pages/s
+Pages per second (overall): 59.88 pages/s
+==================================================
+Elapsed time (ms): 12609
+Webpages fetched: 708
+Failed urls: 3950
+Bytes written: 152320509
+Registered urls: 1970821
+Pages per second (current): 38.17 pages/s
+Pages per second (overall): 54.46 pages/s
+==================================================
+Elapsed time (ms): 17609
+Webpages fetched: 838
+Failed urls: 3950
+Bytes written: 174511052
+Registered urls: 1977753
+Pages per second (current): 21.67 pages/s
+Pages per second (overall): 46.56 pages/s
+==================================================
+Elapsed time (ms): 22609
+Webpages fetched: 992
+Failed urls: 3950
+Bytes written: 199960947
+Registered urls: 1985650
+Pages per second (current): 25.67 pages/s
+Pages per second (overall): 43.13 pages/s
+==================================================
+Elapsed time (ms): 47544
+Webpages fetched: 1066
+Failed urls: 4147
+Bytes written: 201486533
+Registered urls: 1988416
+Pages per second (current): 2.96 pages/s
+Pages per second (overall): 22.21 pages/s
+Hash table (empty): 99.66%
+URLs at priority level 0: 8339
+URLs at priority level 1: 29227
+URLs at priority level 2: 10599
+URLs at priority level 3: 8168
+URLs at priority level 4: 293
+URLs at priority level 5: 0
+URLs at priority level 6: 7302
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 63928
+Total pages written: 1000
+File size: 201486536 bytes
+Average page size: 201482 bytes
+Growth ratio: 63.93 links/page
+Finished.
+Ended test with speed 23875
+Testing 272 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2732
+Webpages fetched: 0
+Failed urls: 4147
+Bytes written: 0
+Registered urls: 1988416
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7732
+Webpages fetched: 479
+Failed urls: 4147
+Bytes written: 93000775
+Registered urls: 2018801
+Pages per second (current): 79.83 pages/s
+Pages per second (overall): 59.88 pages/s
+==================================================
+Elapsed time (ms): 12732
+Webpages fetched: 715
+Failed urls: 4147
+Bytes written: 136403501
+Registered urls: 2028682
+Pages per second (current): 39.33 pages/s
+Pages per second (overall): 55.00 pages/s
+==================================================
+Elapsed time (ms): 17732
+Webpages fetched: 904
+Failed urls: 4147
+Bytes written: 169684526
+Registered urls: 2038686
+Pages per second (current): 31.50 pages/s
+Pages per second (overall): 50.22 pages/s
+Hash table (empty): 99.73%
+URLs at priority level 0: 6563
+URLs at priority level 1: 22898
+URLs at priority level 2: 8978
+URLs at priority level 3: 7630
+URLs at priority level 4: 186
+URLs at priority level 5: 0
+URLs at priority level 6: 5192
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 51447
+Total pages written: 904
+File size: 169684529 bytes
+Average page size: 187700 bytes
+Growth ratio: 56.91 links/page
+==================================================
+Elapsed time (ms): 48583
+Webpages fetched: 1041
+Failed urls: 4377
+Bytes written: 185879116
+Registered urls: 2045132
+Pages per second (current): 4.42 pages/s
+Pages per second (overall): 21.24 pages/s
+Hash table (empty): 99.70%
+URLs at priority level 0: 7316
+URLs at priority level 1: 25656
+URLs at priority level 2: 10193
+URLs at priority level 3: 8878
+URLs at priority level 4: 204
+URLs at priority level 5: 0
+URLs at priority level 6: 5741
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 57988
+Total pages written: 1000
+File size: 185879119 bytes
+Average page size: 185875 bytes
+Growth ratio: 57.99 links/page
+Finished.
+Ended test with speed 21980
+Testing 280 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2974
+Webpages fetched: 0
+Failed urls: 4377
+Bytes written: 0
+Registered urls: 2045132
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7974
+Webpages fetched: 584
+Failed urls: 4377
+Bytes written: 119793042
+Registered urls: 2080023
+Pages per second (current): 97.33 pages/s
+Pages per second (overall): 73.00 pages/s
+==================================================
+Elapsed time (ms): 37895
+Webpages fetched: 1251
+Failed urls: 4405
+Bytes written: 217941418
+Registered urls: 2113720
+Pages per second (current): 22.23 pages/s
+Pages per second (overall): 32.92 pages/s
+Hash table (empty): 99.67%
+URLs at priority level 0: 6582
+URLs at priority level 1: 28208
+URLs at priority level 2: 11172
+URLs at priority level 3: 18996
+URLs at priority level 4: 198
+URLs at priority level 5: 5
+URLs at priority level 6: 4707
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 69868
+Total pages written: 1000
+File size: 217941421 bytes
+Average page size: 217937 bytes
+Growth ratio: 69.87 links/page
+Finished.
+Ended test with speed 12799
+Testing 288 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2661
+Webpages fetched: 0
+Failed urls: 4405
+Bytes written: 0
+Registered urls: 2113720
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7661
+Webpages fetched: 602
+Failed urls: 4406
+Bytes written: 171352597
+Registered urls: 2165742
+Pages per second (current): 100.33 pages/s
+Pages per second (overall): 75.25 pages/s
+==================================================
+Elapsed time (ms): 26048
+Webpages fetched: 1281
+Failed urls: 4417
+Bytes written: 287145549
+Registered urls: 2225546
+Pages per second (current): 35.74 pages/s
+Pages per second (overall): 47.44 pages/s
+Hash table (empty): 99.39%
+URLs at priority level 0: 15974
+URLs at priority level 1: 54050
+URLs at priority level 2: 17665
+URLs at priority level 3: 7123
+URLs at priority level 4: 994
+URLs at priority level 5: 0
+URLs at priority level 6: 17251
+URLs at priority level 7: 63
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 113120
+Total pages written: 1000
+File size: 287145552 bytes
+Average page size: 287141 bytes
+Growth ratio: 113.12 links/page
+Finished.
+Ended test with speed 11045
+Testing 296 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3520
+Webpages fetched: 0
+Failed urls: 4417
+Bytes written: 0
+Registered urls: 2225546
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8520
+Webpages fetched: 722
+Failed urls: 4417
+Bytes written: 174049335
+Registered urls: 2225546
+Pages per second (current): 120.33 pages/s
+Pages per second (overall): 80.22 pages/s
+==================================================
+Elapsed time (ms): 21648
+Webpages fetched: 1292
+Failed urls: 4420
+Bytes written: 241149376
+Registered urls: 2225546
+Pages per second (current): 40.71 pages/s
+Pages per second (overall): 58.73 pages/s
+Hash table (empty): 99.99%
+URLs at priority level 0: 1296
+URLs at priority level 1: 0
+URLs at priority level 2: 0
+URLs at priority level 3: 0
+URLs at priority level 4: 0
+URLs at priority level 5: 0
+URLs at priority level 6: 0
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 1296
+Total pages written: 1000
+File size: 241149379 bytes
+Average page size: 241145 bytes
+Growth ratio: 1.30 links/page
+Finished.
+Ended test with speed 11477
+Testing 304 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 4409
+Webpages fetched: 0
+Failed urls: 4420
+Bytes written: 0
+Registered urls: 2225546
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 9409
+Webpages fetched: 453
+Failed urls: 4424
+Bytes written: 113350829
+Registered urls: 2259156
+Pages per second (current): 75.50 pages/s
+Pages per second (overall): 45.30 pages/s
+==================================================
+Elapsed time (ms): 14409
+Webpages fetched: 933
+Failed urls: 4425
+Bytes written: 193842008
+Registered urls: 2282193
+Pages per second (current): 80.00 pages/s
+Pages per second (overall): 62.20 pages/s
+==================================================
+Elapsed time (ms): 24659
+Webpages fetched: 1302
+Failed urls: 4426
+Bytes written: 229769666
+Registered urls: 2304610
+Pages per second (current): 33.55 pages/s
+Pages per second (overall): 52.08 pages/s
+Hash table (empty): 99.56%
+URLs at priority level 0: 12013
+URLs at priority level 1: 38088
+URLs at priority level 2: 15775
+URLs at priority level 3: 3848
+URLs at priority level 4: 443
+URLs at priority level 5: 0
+URLs at priority level 6: 10179
+URLs at priority level 7: 27
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 80373
+Total pages written: 1066
+File size: 229769669 bytes
+Average page size: 215539 bytes
+Growth ratio: 75.40 links/page
+Finished.
+Ended test with speed 15146
+Testing 312 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2523
+Webpages fetched: 0
+Failed urls: 4426
+Bytes written: 0
+Registered urls: 2304610
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7523
+Webpages fetched: 601
+Failed urls: 4426
+Bytes written: 107281742
+Registered urls: 2335984
+Pages per second (current): 100.17 pages/s
+Pages per second (overall): 75.12 pages/s
+==================================================
+Elapsed time (ms): 12523
+Webpages fetched: 784
+Failed urls: 4426
+Bytes written: 141309405
+Registered urls: 2346090
+Pages per second (current): 30.50 pages/s
+Pages per second (overall): 60.31 pages/s
+==================================================
+Elapsed time (ms): 17523
+Webpages fetched: 907
+Failed urls: 4426
+Bytes written: 161923257
+Registered urls: 2352407
+Pages per second (current): 20.50 pages/s
+Pages per second (overall): 50.39 pages/s
+==================================================
+Elapsed time (ms): 44957
+Webpages fetched: 1073
+Failed urls: 4664
+Bytes written: 180236061
+Registered urls: 2359325
+Pages per second (current): 5.93 pages/s
+Pages per second (overall): 23.84 pages/s
+Hash table (empty): 99.71%
+URLs at priority level 0: 7212
+URLs at priority level 1: 24526
+URLs at priority level 2: 10786
+URLs at priority level 3: 8088
+URLs at priority level 4: 168
+URLs at priority level 5: 0
+URLs at priority level 6: 5247
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 56027
+Total pages written: 1030
+File size: 180236064 bytes
+Average page size: 174982 bytes
+Growth ratio: 54.40 links/page
+Finished.
+Ended test with speed 21572
+Testing 320 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3576
+Webpages fetched: 0
+Failed urls: 4664
+Bytes written: 0
+Registered urls: 2359325
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8576
+Webpages fetched: 586
+Failed urls: 4664
+Bytes written: 108526082
+Registered urls: 2390853
+Pages per second (current): 97.67 pages/s
+Pages per second (overall): 65.11 pages/s
+==================================================
+Elapsed time (ms): 13577
+Webpages fetched: 837
+Failed urls: 4664
+Bytes written: 157277542
+Registered urls: 2405531
+Pages per second (current): 41.83 pages/s
+Pages per second (overall): 59.79 pages/s
+==================================================
+Elapsed time (ms): 18577
+Webpages fetched: 966
+Failed urls: 4664
+Bytes written: 179287001
+Registered urls: 2412290
+Pages per second (current): 21.50 pages/s
+Pages per second (overall): 50.84 pages/s
+==================================================
+Elapsed time (ms): 48209
+Webpages fetched: 1072
+Failed urls: 4911
+Bytes written: 185324274
+Registered urls: 2416693
+Pages per second (current): 3.53 pages/s
+Pages per second (overall): 21.88 pages/s
+Hash table (empty): 99.69%
+URLs at priority level 0: 8099
+URLs at priority level 1: 26290
+URLs at priority level 2: 10385
+URLs at priority level 3: 7729
+URLs at priority level 4: 177
+URLs at priority level 5: 0
+URLs at priority level 6: 6008
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 58688
+Total pages written: 1006
+File size: 185324277 bytes
+Average page size: 184214 bytes
+Growth ratio: 58.34 links/page
+Finished.
+Ended test with speed 20378
+Testing 328 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2708
+Webpages fetched: 0
+Failed urls: 4911
+Bytes written: 0
+Registered urls: 2416693
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7708
+Webpages fetched: 692
+Failed urls: 4911
+Bytes written: 130799477
+Registered urls: 2455061
+Pages per second (current): 115.33 pages/s
+Pages per second (overall): 86.50 pages/s
+==================================================
+Elapsed time (ms): 12708
+Webpages fetched: 886
+Failed urls: 4911
+Bytes written: 170552259
+Registered urls: 2466798
+Pages per second (current): 32.33 pages/s
+Pages per second (overall): 68.15 pages/s
+==================================================
+Elapsed time (ms): 47377
+Webpages fetched: 1071
+Failed urls: 5167
+Bytes written: 188980454
+Registered urls: 2475221
+Pages per second (current): 5.29 pages/s
+Pages per second (overall): 22.31 pages/s
+Hash table (empty): 99.68%
+URLs at priority level 0: 8084
+URLs at priority level 1: 26518
+URLs at priority level 2: 10281
+URLs at priority level 3: 8869
+URLs at priority level 4: 156
+URLs at priority level 5: 0
+URLs at priority level 6: 5948
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 59856
+Total pages written: 1000
+File size: 188980457 bytes
+Average page size: 188976 bytes
+Growth ratio: 59.86 links/page
+Finished.
+Ended test with speed 16240
+Testing 336 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2714
+Webpages fetched: 0
+Failed urls: 5167
+Bytes written: 0
+Registered urls: 2475221
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7714
+Webpages fetched: 582
+Failed urls: 5167
+Bytes written: 103480233
+Registered urls: 2505311
+Pages per second (current): 97.00 pages/s
+Pages per second (overall): 72.75 pages/s
+==================================================
+Elapsed time (ms): 12714
+Webpages fetched: 769
+Failed urls: 5167
+Bytes written: 138615271
+Registered urls: 2515705
+Pages per second (current): 31.17 pages/s
+Pages per second (overall): 59.15 pages/s
+==================================================
+Elapsed time (ms): 17714
+Webpages fetched: 878
+Failed urls: 5167
+Bytes written: 157766145
+Registered urls: 2521492
+Pages per second (current): 18.17 pages/s
+Pages per second (overall): 48.78 pages/s
+==================================================
+Elapsed time (ms): 22714
+Webpages fetched: 970
+Failed urls: 5167
+Bytes written: 170532080
+Registered urls: 2525767
+Pages per second (current): 15.33 pages/s
+Pages per second (overall): 42.17 pages/s
+==================================================
+Elapsed time (ms): 49485
+Webpages fetched: 1046
+Failed urls: 5457
+Bytes written: 175818572
+Registered urls: 2530501
+Pages per second (current): 2.81 pages/s
+Pages per second (overall): 20.92 pages/s
+Hash table (empty): 99.70%
+URLs at priority level 0: 7683
+URLs at priority level 1: 24979
+URLs at priority level 2: 9943
+URLs at priority level 3: 8308
+URLs at priority level 4: 136
+URLs at priority level 5: 0
+URLs at priority level 6: 5568
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 56617
+Total pages written: 1000
+File size: 175818575 bytes
+Average page size: 175814 bytes
+Growth ratio: 56.62 links/page
+Finished.
+Ended test with speed 23794
+Testing 344 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2915
+Webpages fetched: 0
+Failed urls: 5457
+Bytes written: 0
+Registered urls: 2530501
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7915
+Webpages fetched: 803
+Failed urls: 5457
+Bytes written: 133347847
+Registered urls: 2571254
+Pages per second (current): 133.83 pages/s
+Pages per second (overall): 100.38 pages/s
+==================================================
+Elapsed time (ms): 46899
+Webpages fetched: 1089
+Failed urls: 5711
+Bytes written: 170296609
+Registered urls: 2585426
+Pages per second (current): 7.33 pages/s
+Pages per second (overall): 23.17 pages/s
+Hash table (empty): 99.71%
+URLs at priority level 0: 7565
+URLs at priority level 1: 25245
+URLs at priority level 2: 11026
+URLs at priority level 3: 7282
+URLs at priority level 4: 152
+URLs at priority level 5: 0
+URLs at priority level 6: 4999
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 56269
+Total pages written: 1000
+File size: 170296612 bytes
+Average page size: 170292 bytes
+Growth ratio: 56.27 links/page
+Finished.
+Ended test with speed 12591
+Testing 352 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2567
+Webpages fetched: 0
+Failed urls: 5711
+Bytes written: 0
+Registered urls: 2585426
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7567
+Webpages fetched: 266
+Failed urls: 5713
+Bytes written: 48553822
+Registered urls: 2599930
+Pages per second (current): 44.33 pages/s
+Pages per second (overall): 33.25 pages/s
+==================================================
+Elapsed time (ms): 12567
+Webpages fetched: 351
+Failed urls: 5715
+Bytes written: 65020790
+Registered urls: 2604684
+Pages per second (current): 14.17 pages/s
+Pages per second (overall): 27.00 pages/s
+Hash table (empty): 99.90%
+URLs at priority level 0: 2735
+URLs at priority level 1: 7908
+URLs at priority level 2: 3825
+URLs at priority level 3: 3640
+URLs at priority level 4: 86
+URLs at priority level 5: 0
+URLs at priority level 6: 1765
+URLs at priority level 7: 7
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 19966
+Total pages written: 351
+File size: 65020793 bytes
+Average page size: 185240 bytes
+Growth ratio: 56.88 links/page
+==================================================
+Elapsed time (ms): 18370
+Webpages fetched: 360
+Failed urls: 5721
+Bytes written: 67306643
+Registered urls: 2605438
+Pages per second (current): 1.50 pages/s
+Pages per second (overall): 18.95 pages/s
+==================================================
+Elapsed time (ms): 23370
+Webpages fetched: 369
+Failed urls: 5735
+Bytes written: 69647729
+Registered urls: 2606236
+Pages per second (current): 1.50 pages/s
+Pages per second (overall): 15.38 pages/s
+==================================================
+Elapsed time (ms): 28370
+Webpages fetched: 422
+Failed urls: 5923
+Bytes written: 85462633
+Registered urls: 2610989
+Pages per second (current): 8.83 pages/s
+Pages per second (overall): 14.55 pages/s
+==================================================
+Elapsed time (ms): 33371
+Webpages fetched: 469
+Failed urls: 6051
+Bytes written: 98484527
+Registered urls: 2614932
+Pages per second (current): 7.83 pages/s
+Pages per second (overall): 13.79 pages/s
+==================================================
+Elapsed time (ms): 38371
+Webpages fetched: 716
+Failed urls: 6075
+Bytes written: 173585707
+Registered urls: 2638030
+Pages per second (current): 41.17 pages/s
+Pages per second (overall): 18.36 pages/s
+==================================================
+Elapsed time (ms): 62753
+Webpages fetched: 1158
+Failed urls: 6280
+Bytes written: 262979882
+Registered urls: 2681369
+Pages per second (current): 17.68 pages/s
+Pages per second (overall): 18.38 pages/s
+Hash table (empty): 99.48%
+URLs at priority level 0: 14489
+URLs at priority level 1: 45935
+URLs at priority level 2: 16263
+URLs at priority level 3: 5989
+URLs at priority level 4: 823
+URLs at priority level 5: 0
+URLs at priority level 6: 14144
+URLs at priority level 7: 28
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 97671
+Total pages written: 1001
+File size: 262979885 bytes
+Average page size: 262713 bytes
+Growth ratio: 97.57 links/page
+Finished.
+Ended test with speed 42804
+Testing 360 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2711
+Webpages fetched: 0
+Failed urls: 6280
+Bytes written: 0
+Registered urls: 2681369
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7711
+Webpages fetched: 519
+Failed urls: 6280
+Bytes written: 160583758
+Registered urls: 2730624
+Pages per second (current): 86.50 pages/s
+Pages per second (overall): 64.88 pages/s
+==================================================
+Elapsed time (ms): 31735
+Webpages fetched: 1264
+Failed urls: 6374
+Bytes written: 318534889
+Registered urls: 2802992
+Pages per second (current): 29.80 pages/s
+Pages per second (overall): 39.50 pages/s
+Hash table (empty): 99.33%
+URLs at priority level 0: 18362
+URLs at priority level 1: 61686
+URLs at priority level 2: 19411
+URLs at priority level 3: 2099
+URLs at priority level 4: 1180
+URLs at priority level 5: 0
+URLs at priority level 6: 20237
+URLs at priority level 7: 7
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 122982
+Total pages written: 1016
+File size: 318534892 bytes
+Average page size: 313514 bytes
+Growth ratio: 121.05 links/page
+Finished.
+Ended test with speed 11391
+Testing 368 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 4843
+Webpages fetched: 0
+Failed urls: 6374
+Bytes written: 0
+Registered urls: 2802992
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 9844
+Webpages fetched: 706
+Failed urls: 6374
+Bytes written: 157338813
+Registered urls: 2802992
+Pages per second (current): 117.67 pages/s
+Pages per second (overall): 70.60 pages/s
+==================================================
+Elapsed time (ms): 14844
+Webpages fetched: 894
+Failed urls: 6374
+Bytes written: 191419001
+Registered urls: 2802992
+Pages per second (current): 31.33 pages/s
+Pages per second (overall): 59.60 pages/s
+==================================================
+Elapsed time (ms): 19844
+Webpages fetched: 993
+Failed urls: 6426
+Bytes written: 209913389
+Registered urls: 2802992
+Pages per second (current): 16.50 pages/s
+Pages per second (overall): 49.65 pages/s
+==================================================
+Elapsed time (ms): 47581
+Webpages fetched: 1106
+Failed urls: 6690
+Bytes written: 210470223
+Registered urls: 2802992
+Pages per second (current): 4.04 pages/s
+Pages per second (overall): 23.04 pages/s
+Hash table (empty): 99.99%
+URLs at priority level 0: 1423
+URLs at priority level 1: 0
+URLs at priority level 2: 0
+URLs at priority level 3: 0
+URLs at priority level 4: 0
+URLs at priority level 5: 0
+URLs at priority level 6: 0
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 1423
+Total pages written: 1000
+File size: 210470226 bytes
+Average page size: 210466 bytes
+Growth ratio: 1.42 links/page
+Finished.
+Ended test with speed 20130
+Testing 376 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2682
+Webpages fetched: 0
+Failed urls: 6690
+Bytes written: 0
+Registered urls: 2802992
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7682
+Webpages fetched: 727
+Failed urls: 6690
+Bytes written: 135573793
+Registered urls: 2843498
+Pages per second (current): 121.17 pages/s
+Pages per second (overall): 90.88 pages/s
+==================================================
+Elapsed time (ms): 12682
+Webpages fetched: 886
+Failed urls: 6690
+Bytes written: 167374265
+Registered urls: 2852777
+Pages per second (current): 26.50 pages/s
+Pages per second (overall): 68.15 pages/s
+==================================================
+Elapsed time (ms): 17682
+Webpages fetched: 952
+Failed urls: 6690
+Bytes written: 180592514
+Registered urls: 2856593
+Pages per second (current): 11.00 pages/s
+Pages per second (overall): 52.89 pages/s
+==================================================
+Elapsed time (ms): 45081
+Webpages fetched: 1086
+Failed urls: 6979
+Bytes written: 187312487
+Registered urls: 2862036
+Pages per second (current): 4.79 pages/s
+Pages per second (overall): 23.61 pages/s
+Hash table (empty): 99.68%
+URLs at priority level 0: 7958
+URLs at priority level 1: 26857
+URLs at priority level 2: 10623
+URLs at priority level 3: 8504
+URLs at priority level 4: 211
+URLs at priority level 5: 0
+URLs at priority level 6: 6267
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 60420
+Total pages written: 1000
+File size: 187312490 bytes
+Average page size: 187308 bytes
+Growth ratio: 60.42 links/page
+Finished.
+Ended test with speed 21306
+Testing 384 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2483
+Webpages fetched: 0
+Failed urls: 6979
+Bytes written: 0
+Registered urls: 2862036
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7483
+Webpages fetched: 524
+Failed urls: 6979
+Bytes written: 93620012
+Registered urls: 2889885
+Pages per second (current): 87.33 pages/s
+Pages per second (overall): 65.50 pages/s
+==================================================
+Elapsed time (ms): 12483
+Webpages fetched: 789
+Failed urls: 6979
+Bytes written: 145481682
+Registered urls: 2905188
+Pages per second (current): 44.17 pages/s
+Pages per second (overall): 60.69 pages/s
+==================================================
+Elapsed time (ms): 41831
+Webpages fetched: 1089
+Failed urls: 7273
+Bytes written: 183652073
+Registered urls: 2920499
+Pages per second (current): 10.00 pages/s
+Pages per second (overall): 25.93 pages/s
+Hash table (empty): 99.69%
+URLs at priority level 0: 7856
+URLs at priority level 1: 26467
+URLs at priority level 2: 10633
+URLs at priority level 3: 8605
+URLs at priority level 4: 200
+URLs at priority level 5: 0
+URLs at priority level 6: 6086
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 59847
+Total pages written: 1000
+File size: 183652076 bytes
+Average page size: 183648 bytes
+Growth ratio: 59.85 links/page
+Finished.
+Ended test with speed 17388
+Testing 392 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2685
+Webpages fetched: 0
+Failed urls: 7273
+Bytes written: 0
+Registered urls: 2920499
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7685
+Webpages fetched: 644
+Failed urls: 7273
+Bytes written: 119785783
+Registered urls: 2955970
+Pages per second (current): 107.33 pages/s
+Pages per second (overall): 80.50 pages/s
+==================================================
+Elapsed time (ms): 39025
+Webpages fetched: 1160
+Failed urls: 7504
+Bytes written: 218603995
+Registered urls: 2995093
+Pages per second (current): 16.12 pages/s
+Pages per second (overall): 29.00 pages/s
+Hash table (empty): 99.59%
+URLs at priority level 0: 10298
+URLs at priority level 1: 35831
+URLs at priority level 2: 11990
+URLs at priority level 3: 7656
+URLs at priority level 4: 410
+URLs at priority level 5: 0
+URLs at priority level 6: 9801
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 75986
+Total pages written: 1000
+File size: 218603998 bytes
+Average page size: 218599 bytes
+Growth ratio: 75.99 links/page
+Finished.
+Ended test with speed 11777
+Testing 400 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3367
+Webpages fetched: 0
+Failed urls: 7504
+Bytes written: 0
+Registered urls: 2995093
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8368
+Webpages fetched: 777
+Failed urls: 7504
+Bytes written: 148334311
+Registered urls: 3039197
+Pages per second (current): 129.50 pages/s
+Pages per second (overall): 86.33 pages/s
+==================================================
+Elapsed time (ms): 13368
+Webpages fetched: 953
+Failed urls: 7504
+Bytes written: 182298051
+Registered urls: 3049302
+Pages per second (current): 29.33 pages/s
+Pages per second (overall): 68.07 pages/s
+==================================================
+Elapsed time (ms): 44372
+Webpages fetched: 1106
+Failed urls: 7797
+Bytes written: 191519537
+Registered urls: 3056175
+Pages per second (current): 4.78 pages/s
+Pages per second (overall): 24.58 pages/s
+Hash table (empty): 99.67%
+URLs at priority level 0: 8225
+URLs at priority level 1: 27901
+URLs at priority level 2: 10830
+URLs at priority level 3: 8675
+URLs at priority level 4: 231
+URLs at priority level 5: 0
+URLs at priority level 6: 6620
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 62482
+Total pages written: 1000
+File size: 191519540 bytes
+Average page size: 191515 bytes
+Growth ratio: 62.48 links/page
+Finished.
+Ended test with speed 14980
+Testing 408 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3075
+Webpages fetched: 0
+Failed urls: 7797
+Bytes written: 0
+Registered urls: 3056175
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8075
+Webpages fetched: 395
+Failed urls: 13326
+Bytes written: 72926029
+Registered urls: 3077818
+Pages per second (current): 65.83 pages/s
+Pages per second (overall): 43.89 pages/s
+==================================================
+Elapsed time (ms): 13076
+Webpages fetched: 494
+Failed urls: 21618
+Bytes written: 94201185
+Registered urls: 3083760
+Pages per second (current): 16.50 pages/s
+Pages per second (overall): 35.29 pages/s
+==================================================
+Elapsed time (ms): 18076
+Webpages fetched: 890
+Failed urls: 21638
+Bytes written: 164182095
+Registered urls: 3104174
+Pages per second (current): 66.00 pages/s
+Pages per second (overall): 46.84 pages/s
+==================================================
+Elapsed time (ms): 47959
+Webpages fetched: 1100
+Failed urls: 21946
+Bytes written: 186815031
+Registered urls: 3114368
+Pages per second (current): 7.00 pages/s
+Pages per second (overall): 22.92 pages/s
+Hash table (empty): 99.57%
+URLs at priority level 0: 21560
+URLs at priority level 1: 26225
+URLs at priority level 2: 10549
+URLs at priority level 3: 9110
+URLs at priority level 4: 191
+URLs at priority level 5: 0
+URLs at priority level 6: 5803
+URLs at priority level 7: 5
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 73443
+Total pages written: 1011
+File size: 186815034 bytes
+Average page size: 184778 bytes
+Growth ratio: 72.64 links/page
+Finished.
+Ended test with speed 21019
+Testing 416 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2728
+Webpages fetched: 0
+Failed urls: 21946
+Bytes written: 0
+Registered urls: 3114368
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7728
+Webpages fetched: 798
+Failed urls: 21946
+Bytes written: 138075422
+Registered urls: 3154334
+Pages per second (current): 133.00 pages/s
+Pages per second (overall): 99.75 pages/s
+==================================================
+Elapsed time (ms): 31354
+Webpages fetched: 1133
+Failed urls: 22228
+Bytes written: 176530848
+Registered urls: 3171292
+Pages per second (current): 13.96 pages/s
+Pages per second (overall): 35.41 pages/s
+Hash table (empty): 99.70%
+URLs at priority level 0: 7566
+URLs at priority level 1: 25694
+URLs at priority level 2: 10837
+URLs at priority level 3: 8637
+URLs at priority level 4: 170
+URLs at priority level 5: 0
+URLs at priority level 6: 5436
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 58340
+Total pages written: 1000
+File size: 176530851 bytes
+Average page size: 176526 bytes
+Growth ratio: 58.34 links/page
+Finished.
+Ended test with speed 11461
+Testing 424 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 4914
+Webpages fetched: 0
+Failed urls: 22228
+Bytes written: 0
+Registered urls: 3171292
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+Hash table (empty): 100.00%
+URLs at priority level 0: 3
+URLs at priority level 1: 0
+URLs at priority level 2: 0
+URLs at priority level 3: 0
+URLs at priority level 4: 0
+URLs at priority level 5: 0
+URLs at priority level 6: 0
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 3
+Total pages written: 0
+File size: 3 bytes
+Average page size: 0 bytes
+Growth ratio: 0.00 links/page
+==================================================
+Elapsed time (ms): 10657
+Webpages fetched: 631
+Failed urls: 23205
+Bytes written: 122712934
+Registered urls: 3207721
+Pages per second (current): 105.17 pages/s
+Pages per second (overall): 57.36 pages/s
+==================================================
+Elapsed time (ms): 15657
+Webpages fetched: 763
+Failed urls: 23205
+Bytes written: 145778954
+Registered urls: 3214716
+Pages per second (current): 22.00 pages/s
+Pages per second (overall): 47.69 pages/s
+==================================================
+Elapsed time (ms): 20657
+Webpages fetched: 795
+Failed urls: 23205
+Bytes written: 148276202
+Registered urls: 3215804
+Pages per second (current): 5.33 pages/s
+Pages per second (overall): 37.86 pages/s
+==================================================
+Elapsed time (ms): 25657
+Webpages fetched: 841
+Failed urls: 23205
+Bytes written: 151865996
+Registered urls: 3217368
+Pages per second (current): 7.67 pages/s
+Pages per second (overall): 32.35 pages/s
+==================================================
+Elapsed time (ms): 45949
+Webpages fetched: 1322
+Failed urls: 23522
+Bytes written: 204244943
+Registered urls: 3246695
+Pages per second (current): 22.90 pages/s
+Pages per second (overall): 28.74 pages/s
+Hash table (empty): 99.59%
+URLs at priority level 0: 11522
+URLs at priority level 1: 35669
+URLs at priority level 2: 12850
+URLs at priority level 3: 8803
+URLs at priority level 4: 360
+URLs at priority level 5: 0
+URLs at priority level 6: 8816
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 78020
+Total pages written: 1081
+File size: 204244946 bytes
+Average page size: 188936 bytes
+Growth ratio: 72.17 links/page
+Finished.
+Ended test with speed 28782
+Testing 432 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2828
+Webpages fetched: 0
+Failed urls: 23522
+Bytes written: 0
+Registered urls: 3246695
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7828
+Webpages fetched: 661
+Failed urls: 23522
+Bytes written: 203930528
+Registered urls: 3310191
+Pages per second (current): 110.17 pages/s
+Pages per second (overall): 82.62 pages/s
+==================================================
+Elapsed time (ms): 13945
+Webpages fetched: 1431
+Failed urls: 23522
+Bytes written: 358630844
+Registered urls: 3377810
+Pages per second (current): 110.00 pages/s
+Pages per second (overall): 102.21 pages/s
+Hash table (empty): 99.28%
+URLs at priority level 0: 17933
+URLs at priority level 1: 66723
+URLs at priority level 2: 16174
+URLs at priority level 3: 9561
+URLs at priority level 4: 1020
+URLs at priority level 5: 0
+URLs at priority level 6: 21136
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 132547
+Total pages written: 1163
+File size: 358630847 bytes
+Average page size: 308363 bytes
+Growth ratio: 113.97 links/page
+Finished.
+Ended test with speed 10625
+Testing 440 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 4634
+Webpages fetched: 0
+Failed urls: 23522
+Bytes written: 0
+Registered urls: 3377810
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 12787
+Webpages fetched: 1429
+Failed urls: 26737
+Bytes written: 247306550
+Registered urls: 3377810
+Pages per second (current): 158.78 pages/s
+Pages per second (overall): 109.92 pages/s
+Hash table (empty): 99.97%
+URLs at priority level 0: 4645
+URLs at priority level 1: 0
+URLs at priority level 2: 0
+URLs at priority level 3: 0
+URLs at priority level 4: 0
+URLs at priority level 5: 0
+URLs at priority level 6: 0
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 4645
+Total pages written: 1000
+File size: 247306553 bytes
+Average page size: 247302 bytes
+Growth ratio: 4.64 links/page
+Finished.
+Ended test with speed 8845
+Testing 448 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3514
+Webpages fetched: 0
+Failed urls: 26737
+Bytes written: 0
+Registered urls: 3377810
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 10605
+Webpages fetched: 1446
+Failed urls: 27510
+Bytes written: 298703456
+Registered urls: 3495586
+Pages per second (current): 180.75 pages/s
+Pages per second (overall): 131.45 pages/s
+Hash table (empty): 99.35%
+URLs at priority level 0: 16822
+URLs at priority level 1: 58967
+URLs at priority level 2: 16131
+URLs at priority level 3: 9680
+URLs at priority level 4: 765
+URLs at priority level 5: 0
+URLs at priority level 6: 17631
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 119996
+Total pages written: 1084
+File size: 298703459 bytes
+Average page size: 275552 bytes
+Growth ratio: 110.70 links/page
+Finished.
+Ended test with speed 8433
+Testing 456 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3027
+Webpages fetched: 0
+Failed urls: 27510
+Bytes written: 0
+Registered urls: 3495586
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 43834
+Webpages fetched: 1304
+Failed urls: 32907
+Bytes written: 183230333
+Registered urls: 3495586
+Pages per second (current): 31.80 pages/s
+Pages per second (overall): 29.64 pages/s
+Hash table (empty): 99.94%
+URLs at priority level 0: 6702
+URLs at priority level 1: 0
+URLs at priority level 2: 0
+URLs at priority level 3: 0
+URLs at priority level 4: 0
+URLs at priority level 5: 0
+URLs at priority level 6: 0
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 6702
+Total pages written: 1000
+File size: 183230336 bytes
+Average page size: 183226 bytes
+Growth ratio: 6.70 links/page
+Finished.
+Ended test with speed 6936
+Testing 464 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3335
+Webpages fetched: 0
+Failed urls: 32907
+Bytes written: 0
+Registered urls: 3495586
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8335
+Webpages fetched: 840
+Failed urls: 36110
+Bytes written: 174330939
+Registered urls: 3545782
+Pages per second (current): 140.00 pages/s
+Pages per second (overall): 93.33 pages/s
+==================================================
+Elapsed time (ms): 47451
+Webpages fetched: 1179
+Failed urls: 38022
+Bytes written: 219961767
+Registered urls: 3563857
+Pages per second (current): 8.47 pages/s
+Pages per second (overall): 24.56 pages/s
+Hash table (empty): 99.60%
+URLs at priority level 0: 12841
+URLs at priority level 1: 30112
+URLs at priority level 2: 11204
+URLs at priority level 3: 13459
+URLs at priority level 4: 287
+URLs at priority level 5: 0
+URLs at priority level 6: 6663
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 74566
+Total pages written: 1052
+File size: 219961770 bytes
+Average page size: 209085 bytes
+Growth ratio: 70.88 links/page
+Finished.
+Ended test with speed 11119
+Testing 472 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2425
+Webpages fetched: 0
+Failed urls: 38022
+Bytes written: 0
+Registered urls: 3563857
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7425
+Webpages fetched: 702
+Failed urls: 42595
+Bytes written: 131622978
+Registered urls: 3603100
+Pages per second (current): 117.00 pages/s
+Pages per second (overall): 87.75 pages/s
+==================================================
+Elapsed time (ms): 12425
+Webpages fetched: 988
+Failed urls: 47772
+Bytes written: 187581003
+Registered urls: 3618334
+Pages per second (current): 47.67 pages/s
+Pages per second (overall): 76.00 pages/s
+==================================================
+Elapsed time (ms): 43227
+Webpages fetched: 1124
+Failed urls: 48307
+Bytes written: 189222959
+Registered urls: 3624510
+Pages per second (current): 4.39 pages/s
+Pages per second (overall): 25.55 pages/s
+Hash table (empty): 99.59%
+URLs at priority level 0: 16842
+URLs at priority level 1: 24440
+URLs at priority level 2: 11118
+URLs at priority level 3: 14220
+URLs at priority level 4: 234
+URLs at priority level 5: 0
+URLs at priority level 6: 5124
+URLs at priority level 7: 85
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 72063
+Total pages written: 1000
+File size: 189222962 bytes
+Average page size: 189218 bytes
+Growth ratio: 72.06 links/page
+Finished.
+Ended test with speed 12740
+Testing 480 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2473
+Webpages fetched: 0
+Failed urls: 48307
+Bytes written: 0
+Registered urls: 3624510
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7476
+Webpages fetched: 982
+Failed urls: 54087
+Bytes written: 141684746
+Registered urls: 3665755
+Pages per second (current): 163.67 pages/s
+Pages per second (overall): 122.75 pages/s
+==================================================
+Elapsed time (ms): 43808
+Webpages fetched: 1184
+Failed urls: 54782
+Bytes written: 144127729
+Registered urls: 3675115
+Pages per second (current): 5.46 pages/s
+Pages per second (overall): 26.91 pages/s
+Hash table (empty): 99.69%
+URLs at priority level 0: 12411
+URLs at priority level 1: 21385
+URLs at priority level 2: 11733
+URLs at priority level 3: 9024
+URLs at priority level 4: 141
+URLs at priority level 5: 0
+URLs at priority level 6: 3571
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 58265
+Total pages written: 1000
+File size: 144127732 bytes
+Average page size: 144123 bytes
+Growth ratio: 58.27 links/page
+Finished.
+Ended test with speed 7671
+Testing 488 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2499
+Webpages fetched: 0
+Failed urls: 54782
+Bytes written: 0
+Registered urls: 3675115
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7499
+Webpages fetched: 899
+Failed urls: 60486
+Bytes written: 148043982
+Registered urls: 3717948
+Pages per second (current): 149.83 pages/s
+Pages per second (overall): 112.38 pages/s
+==================================================
+Elapsed time (ms): 12499
+Webpages fetched: 940
+Failed urls: 71025
+Bytes written: 155986295
+Registered urls: 3720219
+Pages per second (current): 6.83 pages/s
+Pages per second (overall): 72.31 pages/s
+==================================================
+Elapsed time (ms): 41789
+Webpages fetched: 1028
+Failed urls: 81161
+Bytes written: 164302031
+Registered urls: 3724335
+Pages per second (current): 2.93 pages/s
+Pages per second (overall): 24.48 pages/s
+Hash table (empty): 99.46%
+URLs at priority level 0: 32133
+URLs at priority level 1: 21972
+URLs at priority level 2: 9777
+URLs at priority level 3: 8657
+URLs at priority level 4: 146
+URLs at priority level 5: 0
+URLs at priority level 6: 3940
+URLs at priority level 7: 3
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 76628
+Total pages written: 1001
+File size: 164302034 bytes
+Average page size: 164133 bytes
+Growth ratio: 76.55 links/page
+Finished.
+Ended test with speed 16572
+Testing 496 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2638
+Webpages fetched: 0
+Failed urls: 81161
+Bytes written: 0
+Registered urls: 3724335
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 33237
+Webpages fetched: 1463
+Failed urls: 85105
+Bytes written: 224445216
+Registered urls: 3810356
+Pages per second (current): 47.19 pages/s
+Pages per second (overall): 43.03 pages/s
+Hash table (empty): 99.54%
+URLs at priority level 0: 14082
+URLs at priority level 1: 39211
+URLs at priority level 2: 16116
+URLs at priority level 3: 12306
+URLs at priority level 4: 456
+URLs at priority level 5: 0
+URLs at priority level 6: 9258
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 91429
+Total pages written: 1000
+File size: 224445219 bytes
+Average page size: 224441 bytes
+Growth ratio: 91.43 links/page
+Finished.
+Ended test with speed 7378
+Testing 504 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 2928
+Webpages fetched: 0
+Failed urls: 85105
+Bytes written: 0
+Registered urls: 3810356
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 7930
+Webpages fetched: 621
+Failed urls: 91967
+Bytes written: 127979660
+Registered urls: 3846253
+Pages per second (current): 103.50 pages/s
+Pages per second (overall): 77.62 pages/s
+==================================================
+Elapsed time (ms): 23057
+Webpages fetched: 1501
+Failed urls: 95110
+Bytes written: 255405180
+Registered urls: 3912213
+Pages per second (current): 55.00 pages/s
+Pages per second (overall): 62.54 pages/s
+Hash table (empty): 99.40%
+URLs at priority level 0: 20596
+URLs at priority level 1: 43631
+URLs at priority level 2: 15098
+URLs at priority level 3: 23492
+URLs at priority level 4: 526
+URLs at priority level 5: 0
+URLs at priority level 6: 9954
+URLs at priority level 7: 59
+URLs at priority level 8: 8
+URLs at priority level 9: 0
+URLs total: 113364
+Total pages written: 1088
+File size: 255405183 bytes
+Average page size: 234743 bytes
+Growth ratio: 104.19 links/page
+Finished.
+Ended test with speed 11890
+Testing 512 threads.
+Started
+/mnt/hd0/joao_test/threads/db_test
+/mnt/hd0/joao_test/threads/pl_test
+==================================================
+Elapsed time (ms): 3267
+Webpages fetched: 0
+Failed urls: 95110
+Bytes written: 0
+Registered urls: 3912213
+Pages per second (current): 0.00 pages/s
+Pages per second (overall): 0.00 pages/s
+==================================================
+Elapsed time (ms): 8267
+Webpages fetched: 888
+Failed urls: 101423
+Bytes written: 212654361
+Registered urls: 3912213
+Pages per second (current): 148.00 pages/s
+Pages per second (overall): 98.67 pages/s
+==================================================
+Elapsed time (ms): 15890
+Webpages fetched: 1488
+Failed urls: 101496
+Bytes written: 238874419
+Registered urls: 3912213
+Pages per second (current): 75.00 pages/s
+Pages per second (overall): 93.00 pages/s
+Hash table (empty): 99.94%
+URLs at priority level 0: 7875
+URLs at priority level 1: 0
+URLs at priority level 2: 0
+URLs at priority level 3: 0
+URLs at priority level 4: 0
+URLs at priority level 5: 0
+URLs at priority level 6: 0
+URLs at priority level 7: 0
+URLs at priority level 8: 0
+URLs at priority level 9: 0
+URLs total: 7875
+Total pages written: 1000
+File size: 238874422 bytes
+Average page size: 238870 bytes
+Growth ratio: 7.88 links/page
+Finished.
+Ended test with speed 9086
+8, 164735, 233317584
+16, 68875, 312035362
+24, 49331, 310556578
+32, 114345, 169769328
+40, 51552, 177128073
+48, 46710, 172601354
+56, 94493, 179868164
+64, 79799, 179482112
+72, 62779, 178155279
+80, 68955, 179348948
+88, 37716, 173451223
+96, 49082, 171844551
+104, 25613, 183730220
+112, 28591, 139994719
+120, 51503, 181849665
+128, 46066, 180405338
+136, 41651, 187643734
+144, 40115, 185707074
+152, 23722, 118492866
+160, 27141, 137882061
+168, 36879, 225626174
+176, 8743, 80852110
+184, 27068, 153063931
+192, 11663, 119898102
+200, 31329, 182951255
+208, 32769, 187658875
+216, 27076, 182056554
+224, 29292, 185411757
+232, 18145, 186005489
+240, 36268, 218101381
+248, 24466, 179493939
+256, 24331, 193722839
+264, 23875, 201486536
+272, 21980, 185879119
+280, 12799, 217941421
+288, 11045, 287145552
+296, 11477, 241149379
+304, 15146, 229769669
+312, 21572, 180236064
+320, 20378, 185324277
+328, 16240, 188980457
+336, 23794, 175818575
+344, 12591, 170296612
+352, 42804, 262979885
+360, 11391, 318534892
+368, 20130, 210470226
+376, 21306, 187312490
+384, 17388, 183652076
+392, 11777, 218603998
+400, 14980, 191519540
+408, 21019, 186815034
+416, 11461, 176530851
+424, 28782, 204244946
+432, 10625, 358630847
+440, 8845, 247306553
+448, 8433, 298703459
+456, 6936, 183230336
+464, 11119, 219961770
+472, 12740, 189222962
+480, 7671, 144127732
+488, 16572, 164302034
+496, 7378, 224445219
+504, 11890, 255405183
+512, 9086, 238874422
+End

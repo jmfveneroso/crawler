@@ -15,7 +15,7 @@ Logger::~Logger() {
 void Logger::Log(const std::string& msg) {
   mtx_.lock();
 #ifdef LOG_TO_STDOUT
-  std::cout << msg << "\n";
+  std::cout << msg << "\n" << std::flush;
 #else
   char buffer[1024];
   size_t size = (msg.size() > 1024) ? 1024 : msg.size();

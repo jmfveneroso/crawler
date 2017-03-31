@@ -12,6 +12,7 @@ Storage::~Storage() {
 }
 
 void Storage::Open(const char* filename, bool overwrite) {
+  stopped_ = false;
   bool file_exists = access(filename, F_OK) != -1;
   if (!file_exists || overwrite) {
     output_file_ = fopen(filename, "wb+");
@@ -34,6 +35,15 @@ void Storage::StripSeparators(std::string& html) {
 }
 
 size_t Storage::Write(std::string& url, std::string& html) {
+  if (html.size() == 0 || url.size() == 0) return 0;
+
+  if (html[0] != '<') {
+#ifdef VERBOSE
+    logger_->Log(url + " is not html.");
+#endif
+    return 0;
+  }
+
   StripSeparators(url);
   StripSeparators(html);
 
@@ -58,7 +68,7 @@ size_t Storage::Write(std::string& url, std::string& html) {
   mtx_.unlock();
 
 #ifdef VERBOSE
-  logger_->Log("Wrote " + std::to_string(buffer.size()) + "bytes.");
+  logger_->Log("Wrote " + url + " as " + std::to_string(buffer.size()) + "bytes.");
 #endif
   return buffer.size();
 }

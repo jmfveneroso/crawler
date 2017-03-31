@@ -99,16 +99,13 @@ bool UrlPriorityList::Push(const std::string& url) {
   if (fwrite(&size, sizeof(unsigned char), 1, priority_files_[priority]) != 1)
     throw new std::runtime_error("Error writing to priority file.");
 
-  // char* buffer = new char[257]; // The null character is also copied. That's why the extra bit is set.
-  std::strcpy(buffer_, url.c_str());
-  if (buffer_[0] == '\0')
-    throw new std::runtime_error("Error writing to char buffer in pl->push.");
-
-  if (fwrite(buffer_, sizeof(char), size, priority_files_[priority]) != size)
+  char buffer[257]; // The null character is also copied. That's why the extra bit is set.
+  url.copy(buffer, url.size());
+  if (fwrite(buffer, sizeof(char), size, priority_files_[priority]) != size)
     throw new std::runtime_error("Error writing to priority file.");
 
   ++written_urls_num_;
-  // delete[] buffer;
+  ++unread_urls_num_;
   return true;
 }
 
@@ -123,9 +120,6 @@ bool UrlPriorityList::Pop(std::string* url) {
 }
 
 size_t UrlPriorityList::FetchBlock() {
-  // std::queue<std::string> empty;
-  // std::swap(urls_, empty);
-
   // Commit the current cursor values to file and set the cursors
   // to read position.
   CommitFileCursors();
@@ -145,8 +139,9 @@ size_t UrlPriorityList::FetchBlock() {
     }
 
     buffer[size] = '\0';
-    urls_.push(std::string(buffer));
+    urls_.push(buffer);
     file_cursors_[priority] += sizeof(unsigned char) + size * sizeof(char);
+    --unread_urls_num_;
   }
 
   // Set cursors back to write position.
