@@ -15,9 +15,9 @@ int main () {
   ProfilerStart("crawler.prof");
 #endif
   Crawler::Injector::Instance()->crawler()->Start(
-    "/mnt/hd0/joao_test/memo_secondary/html_pages",
-    "/mnt/hd0/joao_test/memo_secondary/db",
-    "/mnt/hd0/joao_test/memo_secondary/pl_"
+    "/mnt/hd0/joao_test/gogo/html_pages",
+    "/mnt/hd0/joao_test/gogo/db",
+    "/mnt/hd0/joao_test/gogo/pl_"
   );
   // Crawler::Injector::Instance()->crawler()->TestNumberOfThreads();
 #ifdef PROFILE

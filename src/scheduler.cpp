@@ -100,7 +100,9 @@ bool Scheduler::RegisterUrlAsync(const std::string& url) {
   return result;
 }
 
-bool Scheduler::EnforcePolitenessPolicy(const std::string& url) {
+bool Scheduler::EnforcePolitenessPolicy(
+  const std::string& url, bool write_to_priority_list
+) {
   std::string root_url = GetRootUrl(url);
 
   system_clock::time_point now = system_clock::now();
@@ -112,15 +114,13 @@ bool Scheduler::EnforcePolitenessPolicy(const std::string& url) {
   } else {
     auto ms = duration_cast<milliseconds>(now - entry.timestamp);
     if (ms.count() < politeness_policy_) {
-      // logger_->Log("URL " + url + " está com problema de " + std::to_string(ms.count()));
       // The root server has already been accessed recently.
       // We must delay the request for this url.
-      // logger_->Log(std::string("Not polite ") + url);
-      //if (delayed_queue_.size() < 10000) {
+      if (write_to_priority_list) {
+        url_priority_list_->Push(url, false);
+      } else {
         delayed_queue_.push(DelayedUrl(url, entry.timestamp));
-      //} else {
-      //  ++discarded_urls_;
-      //}
+      }
 
       return false;
     }
@@ -134,10 +134,13 @@ bool Scheduler::EnforcePolitenessPolicy(const std::string& url) {
 
 bool Scheduler::GetNextUrl(std::string* url) {
   mtx_.lock();
+  bool send_back_to_disk = false;
+
   // Check if there are any delayed urls waiting to be queried.
   if (!ready_queue_.empty()) {
     *url = ready_queue_.front();
     ready_queue_.pop();
+    send_back_to_disk = true;
   } else if (!url_priority_list_->Pop(url)) {
     // If the url queue is empty, we must fetch the next batch from disk.
     // logger_->Log("Empty queue.");
@@ -147,17 +150,20 @@ bool Scheduler::GetNextUrl(std::string* url) {
 
   // Fetch a url that abides to the politeness policy, while adding the
   // ones that do not abide to the delayed queue.
-  while (!EnforcePolitenessPolicy(*url)) {
+  while (!EnforcePolitenessPolicy(*url, send_back_to_disk)) {
     // logger_->Log("Not polite now: " + *url);
     if (!ready_queue_.empty()) {
       *url = ready_queue_.front();
       ready_queue_.pop();
+      send_back_to_disk = true;
+      continue;
     }
     // We must wait to query this url. Let's try another one.
     else if (!url_priority_list_->Pop(url)) {
       mtx_.unlock(); 
       return false;
     }
+    send_back_to_disk = false;
   }
 
   mtx_.unlock();

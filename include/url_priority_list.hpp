@@ -15,15 +15,20 @@
 #include "config.h"
 
 #define PRIORITY_LEVELS 10
-#define BLOCK_SIZE 10000
+#define BLOCK_SIZE 30000
 
 namespace Crawler {
+
+struct UnspideredUrl {
+  bool invalid;
+  char url[256];
+};
 
 class IUrlPriorityList {
  public:
   virtual ~IUrlPriorityList() {}
   virtual bool Open(const std::string&, bool overwrite = false) = 0;
-  virtual bool Push(const std::string&) = 0;
+  virtual bool Push(const std::string&, bool new_url = true) = 0;
   virtual bool Pop(std::string*) = 0;
   virtual size_t FetchBlock() = 0;
   virtual bool Close() = 0;
@@ -39,19 +44,20 @@ class UrlPriorityList : public IUrlPriorityList {
   FILE* priority_files_[PRIORITY_LEVELS];
   size_t file_cursors_[PRIORITY_LEVELS];
   std::queue<std::string> urls_;
-  size_t written_urls_num_;
-  size_t unread_urls_num_;
+  size_t written_urls_num_ = 0;
+  size_t unread_urls_num_ = 0;
+  std::string file_suffix_;
 
   void CommitFileCursors();
   int GetPriority(const std::string&);
-  char buffer_[257];
+  void RemoveCrawledUrls();
 
  public:
   UrlPriorityList(std::shared_ptr<ILogger> logger);
   ~UrlPriorityList();
 
   bool Open(const std::string&, bool overwrite = false);
-  bool Push(const std::string&);
+  bool Push(const std::string&, bool new_url = true);
   bool Pop(std::string*);
   size_t FetchBlock();
   bool Close();

@@ -68,7 +68,9 @@ class Scheduler : public IScheduler {
   long long politeness_policy_ = 1000;
 
   static std::string TruncateUrl(std::string);
-  bool EnforcePolitenessPolicy(const std::string&);
+  bool EnforcePolitenessPolicy(
+    const std::string&, bool write_to_priority_list = false
+  );
   bool RegisterUrl(const std::string&);
 
  public:
