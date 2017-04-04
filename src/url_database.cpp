@@ -33,7 +33,7 @@ size_t UrlDatabase::GetHash(std::string const& s) const {
 }
 
 bool UrlDatabase::Probe(size_t start, const std::string& key, Entry* entry) {
-  if (fseek(db_file_, header_size_ + start * sizeof(Entry), SEEK_SET) != 0)
+  if (fseeko(db_file_, header_size_ + start * sizeof(Entry), SEEK_SET) != 0)
     throw new std::runtime_error("Seek set 1 failed.");
 
   while (fread(entry, sizeof(Entry), 1, db_file_) == 1) {
@@ -47,7 +47,7 @@ bool UrlDatabase::Probe(size_t start, const std::string& key, Entry* entry) {
 
   // Reached end of file.
   size_t counter = 0;
-  if (fseek(db_file_, header_size_, SEEK_SET) != 0)
+  if (fseeko(db_file_, header_size_, SEEK_SET) != 0)
     throw new std::runtime_error("Seek set 2 failed.");
 
   while (fread(entry, sizeof(Entry), 1, db_file_) == 1) {
@@ -125,23 +125,19 @@ bool UrlDatabase::Put(
   
   size_t hash = GetHash(key) % table_size_; 
 
-  // Check primary memory first.
-  if (urls_.find(key) != urls_.end()) {
-    if (urls_[key] == timestamp) return true;
-  }
-
   Entry entry;
   if (!Probe(hash, key, &entry)) {
     throw std::runtime_error("The hash table is full.");
   }
 
+  if (entry.occupied == false) ++num_unique_urls_;
+
   entry.occupied = true;
   key.copy(entry.url, key.size());
   entry.timestamp = timestamp;
-  // fseeko(db_file_, -sizeof(Entry), SEEK_CUR);
 
-  if (fseek(db_file_, -sizeof(Entry), SEEK_CUR) != 0) 
-    throw new std::runtime_error("Error 3 on seek set.");
+  if (fseeko(db_file_, -sizeof(Entry), SEEK_CUR) != 0) 
+    throw new std::runtime_error("Error on seek set.");
 
   if (fwrite(&entry, sizeof(Entry), 1, db_file_) != 1)
     throw new std::runtime_error("Error writing to db.");

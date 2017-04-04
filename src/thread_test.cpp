@@ -11,7 +11,7 @@
 
 int main (int argc, char** argv) {
   if (argc != 3) {
-    std::cout << "Usage: crawler OUTPUT_FILE DATABASE_FILE\n";
+    std::cout << "Usage: thread_test OUTPUT_FILE DATABASE_FILE\n";
     return 1;
   }
 
@@ -19,7 +19,7 @@ int main (int argc, char** argv) {
   ProfilerStart("crawler.prof");
 #endif
   signal(SIGINT, Crawler::Crawler::SignalHandler);
-  Crawler::Injector::Instance()->crawler()->Start(
+  Crawler::Injector::Instance()->crawler()->TestNumberOfThreads(
     argv[1], argv[2]
   );
 #ifdef PROFILE

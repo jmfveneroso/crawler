@@ -12,10 +12,10 @@
 #include "logger.hpp"
 #include "fetcher.hpp"
 #include "storage.hpp"
+#include "scheduler.hpp"
 #include "config.h"
 
 #define NUM_THREADS 512
-#define NUM_URLS 1000000
 
 namespace Crawler {
 
@@ -24,8 +24,8 @@ using namespace std::chrono;
 class ICrawler {
  public:
   virtual ~ICrawler() {}
-  virtual void Start(const char*, const char*, const char*, bool overwrite = false) = 0;
-  virtual void TestNumberOfThreads() = 0;
+  virtual void Start(const char*, const char*, size_t max_urls = 0) = 0;
+  virtual void TestNumberOfThreads(const char*, const char*) = 0;
 };
 
 class Crawler : public ICrawler {
@@ -36,15 +36,20 @@ class Crawler : public ICrawler {
   std::shared_ptr<IFetcher> fetcher_;
   std::shared_ptr<IStorage> storage_;
 
-  std::mutex mtx_;
-  std::mutex print_mtx_;
-  system_clock::time_point now_;
-
+  static Crawler* instance_;
   Fetcher fetchers_[NUM_THREADS];
   std::thread threads_[NUM_THREADS];
-  std::thread delayed_urls_thread_;
   std::thread print_info_thread_;
+  std::mutex mtx_;
+  std::mutex print_mtx_;
+  bool terminate_ = false;
+  int num_threads_ = NUM_THREADS;
 
+  // Control variables.
+  system_clock::time_point start_time_;
+  size_t max_urls_ = 0;
+
+  // Sample time and size are used to calculate the current crawl speed.
   size_t sample_size_ = 0;
   system_clock::time_point sample_time_;
 
@@ -54,23 +59,17 @@ class Crawler : public ICrawler {
   size_t bytes_written_ = 0;
   size_t total_time_ = 0;
   size_t registered_urls_ = 0;
-  size_t max_urls_ = 0;
   size_t pages_written_ = 0;
   size_t file_size_ = 0;
   size_t total_urls_ = 0;
-  size_t disk_requests_ = 0;
 
+  bool Terminate();
+  void BlockSignals();
   void FetchPagesAsync(int);
   void ProcessDelayedUrls();
   void PrintInfoCallback();
-  void PrintInfo(bool print_all = false);
-
-  int num_threads_ = NUM_THREADS;
-  bool terminate_ = false;
-  
-  static Crawler* instance_;
-
-  bool Terminate();
+  void PrintInfo();
+  void Seed();
 
  public:
   Crawler(
@@ -81,8 +80,8 @@ class Crawler : public ICrawler {
     std::shared_ptr<IStorage>
   );
 
-  void TestNumberOfThreads();
-  void Start(const char*, const char*, const char*, bool overwrite = false);
+  void TestNumberOfThreads(const char*, const char*);
+  void Start(const char*, const char*, size_t max_urls = 0);
   static void SignalHandler(int);
 };
 

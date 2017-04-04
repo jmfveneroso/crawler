@@ -37,10 +37,11 @@ void Storage::StripSeparators(std::string& html) {
 size_t Storage::Write(std::string& url, std::string& html) {
   if (html.size() == 0 || url.size() == 0) return 0;
 
-  if (html[0] != '<') {
-#ifdef VERBOSE
-    logger_->Log(url + " is not html.");
-#endif
+  for (size_t i = 0; i < html.size(); ++i) {
+    char c = html[0];
+    if (c == '\n' || c == ' ' || c == '\t' || c == '\r') continue;
+    if (c == '<') break;
+    logger_->Log(url + " is not html.", ONLY_ON_VERBOSE);
     return 0;
   }
 
@@ -68,7 +69,7 @@ size_t Storage::Write(std::string& url, std::string& html) {
   mtx_.unlock();
 
 #ifdef VERBOSE
-  logger_->Log("Wrote " + url + " as " + std::to_string(buffer.size()) + "bytes.");
+  logger_->Log("Wrote " + url + " as " + std::to_string(buffer.size()) + "bytes.", ONLY_ON_VERBOSE);
 #endif
   return buffer.size();
 }

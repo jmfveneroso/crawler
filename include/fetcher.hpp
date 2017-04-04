@@ -8,16 +8,9 @@
 
 #include <vector>
 #include "logger.hpp"
-#include "scheduler.hpp"
 #include "CkSpider.h"
 
 namespace Crawler {
-
-enum FetcherState {
-  IDLE = 0,
-  FETCHING,
-  FAILED
-};
 
 struct WebPage {
   bool failed;
@@ -32,13 +25,9 @@ class IFetcher {
 };
 
 class Fetcher : public IFetcher {
-  FetcherState state_ = IDLE;
-
  public:
   Fetcher();
 
-  FetcherState state() { return state_; }
-  void set_state(FetcherState state) { state_ = state; }
   void GetWebPage(const std::string& url, WebPage* web_page);
 };
 

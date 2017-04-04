@@ -6,63 +6,71 @@
 #ifndef __URL_PRIORITY_LIST_HPP__
 #define __URL_PRIORITY_LIST_HPP__
 
-#include <thread>
 #include <string>
+#include <vector>
 #include <queue>
-#include <stdio.h>
-#include <unistd.h>
+#include <memory>
 #include "logger.hpp"
 #include "config.h"
 
 #define PRIORITY_LEVELS 10
-#define BLOCK_SIZE 30000
+#define MAX_PRIORITY_LEVEL 9
+#define MAX_UNCRAWLED_URLS_STORED 5000 // In each queue.
+#define POLITENESS_POLICY 30000 // Milliseconds.
+#define MAX_WAIT_TIME 200000 // 200 seconds.
 
 namespace Crawler {
 
-struct UnspideredUrl {
-  bool invalid;
-  char url[256];
+using namespace std::chrono;
+
+struct UncrawledUrl {
+  std::string url;
+  system_clock::time_point scheduled_time;
+  UncrawledUrl(std::string, system_clock::time_point);
 };
+
+struct UncrawledUrlComparator {
+  // This function returns true when a should go before b.
+  bool operator() (const UncrawledUrl& a, const UncrawledUrl& b) const {
+    auto ms = duration_cast<milliseconds>(b.scheduled_time - a.scheduled_time);
+    return ms.count() < 0; // This is true when a is scheduled earlier than b.
+  }
+};
+
+// Alias for typing convenience.
+using PriorityQueue = std::priority_queue<
+  UncrawledUrl, std::vector<UncrawledUrl>, UncrawledUrlComparator
+>;
 
 class IUrlPriorityList {
  public:
   virtual ~IUrlPriorityList() {}
-  virtual bool Open(const std::string&, bool overwrite = false) = 0;
-  virtual bool Push(const std::string&, bool new_url = true) = 0;
+  virtual size_t num_uncrawled_urls() = 0;
+  virtual size_t num_registered_urls() = 0;
+  virtual int GetPriority(const std::string&) = 0;
+  virtual bool Push(const std::string&, const system_clock::time_point&) = 0;
   virtual bool Pop(std::string*) = 0;
-  virtual size_t FetchBlock() = 0;
-  virtual bool Close() = 0;
-  virtual size_t GetNumUrlsAtPriorityLevel(int) = 0;
-  virtual size_t unread_urls_num() = 0;
+  virtual size_t GetNumUrlsAtPriorityLevel(const int&) = 0;
+  virtual void Clear() = 0;
 };
 
 class UrlPriorityList : public IUrlPriorityList {
   std::shared_ptr<ILogger> logger_;
-
-  size_t fingerprint_ = 0xe1137371bf83af76;
-  size_t header_size_;
-  FILE* priority_files_[PRIORITY_LEVELS];
-  size_t file_cursors_[PRIORITY_LEVELS];
-  std::queue<std::string> urls_;
-  size_t written_urls_num_ = 0;
-  size_t unread_urls_num_ = 0;
-  std::string file_suffix_;
-
-  void CommitFileCursors();
-  int GetPriority(const std::string&);
-  void RemoveCrawledUrls();
+  PriorityQueue uncrawled_urls_[MAX_PRIORITY_LEVEL + 1];
+  size_t num_uncrawled_urls_;
+  size_t num_registered_urls_;
 
  public:
   UrlPriorityList(std::shared_ptr<ILogger> logger);
   ~UrlPriorityList();
 
-  bool Open(const std::string&, bool overwrite = false);
-  bool Push(const std::string&, bool new_url = true);
+  size_t num_uncrawled_urls() { return num_uncrawled_urls_; }
+  size_t num_registered_urls() { return num_registered_urls_; }
+  int GetPriority(const std::string&);
+  bool Push(const std::string&, const system_clock::time_point&);
   bool Pop(std::string*);
-  size_t FetchBlock();
-  bool Close();
-  size_t GetNumUrlsAtPriorityLevel(int);
-  size_t unread_urls_num() { return unread_urls_num_; }
+  size_t GetNumUrlsAtPriorityLevel(const int&);
+  void Clear();
 };
 
 } // End of namespace.

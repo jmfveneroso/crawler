@@ -9,13 +9,16 @@
 #include <mutex>
 #include <cstring>
 #include <cstdio>
+#include "config.h"
+
+#define ONLY_ON_VERBOSE 1
 
 namespace Crawler {
 
 class ILogger {
  public:
   virtual ~ILogger() {}
-  virtual void Log(const std::string& msg) = 0;
+  virtual void Log(const std::string& msg, bool only_on_verbose = false) = 0;
 };
 
 class Logger : public ILogger {
@@ -26,7 +29,7 @@ class Logger : public ILogger {
   Logger();
   ~Logger();
   
-  void Log(const std::string& msg);
+  void Log(const std::string& msg, bool only_on_verbose = false);
 };
 
 } // End of namespace.

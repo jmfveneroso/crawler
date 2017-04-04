@@ -15,8 +15,7 @@
 #include "logger.hpp"
 #include "config.h"
 
-#define TABLE_SIZE 10000000
-#define MAX_SIZE 100000
+#define TABLE_SIZE 30000000
 
 namespace Crawler {
 
@@ -34,6 +33,7 @@ struct Entry {
 class IUrlDatabase {
  public:
   virtual ~IUrlDatabase() {}
+  virtual size_t num_unique_urls() = 0;
   virtual bool Open(const char*, bool overwrite = false) = 0;
   virtual bool Close() = 0;
   virtual bool Put(const std::string&, system_clock::time_point) = 0;
@@ -47,6 +47,7 @@ class UrlDatabase : public IUrlDatabase {
   FILE* db_file_;
   size_t table_size_;
   size_t header_size_;
+  size_t num_unique_urls_ = 0;
   std::map<std::string, system_clock::time_point> urls_;
 
   size_t GetHash(std::string const&) const;
@@ -59,6 +60,7 @@ class UrlDatabase : public IUrlDatabase {
   UrlDatabase(std::shared_ptr<ILogger> logger);
   ~UrlDatabase();
 
+  size_t num_unique_urls() { return num_unique_urls_; }
   bool Open(const char*, bool overwrite = false);
   bool Close();
   bool Put(const std::string&, system_clock::time_point);

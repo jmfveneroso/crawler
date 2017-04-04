@@ -6,8 +6,8 @@ MKDIR_TEST := $(shell mkdir -p build/test)
 
 IDIR=include
 CC=g++
-# CPP_FLAGS=-I. -W -Wall -Werror -pedantic -std=c++11 -O3 -D_FILE_OFFSET_BITS=64
-CPP_FLAGS=-g -I. -W -Wall -pedantic -std=c++11 -D_FILE_OFFSET_BITS=64 -O0
+CPP_FLAGS=-I. -W -Wall -Werror -pedantic -std=c++11 -O3 -D_FILE_OFFSET_BITS=64
+# CPP_FLAGS=-g -I. -W -Wall -pedantic -std=c++11 -D_FILE_OFFSET_BITS=64 -O0
 
 CPP_FLAGS_32 := -Dx86 -m32
 CPP_FLAGS_64 := -Dx64 -m64
@@ -39,6 +39,9 @@ $(BUILD_DIR)/%.o: src/%.cpp $(DEPS)
 $(BUILD_DIR)/crawler: build/main.o $(OBJ)
 	$(CC) -o $@ $^ $(LDLIBS) $(CPP_FLAGS) -lprofiler
 
+$(BUILD_DIR)/thread_test: build/thread_test.o $(OBJ)
+	$(CC) -o $@ $^ $(LDLIBS) $(CPP_FLAGS) -lprofiler
+
 # Tests.
 
 _TESTS = url_database_test url_priority_list_test scheduler_test
@@ -50,7 +53,7 @@ $(BUILD_DIR)/test/%.o: test/%.cpp $(DEPS)
 $(BUILD_DIR)/test/%: $(BUILD_DIR)/test/%.o $(OBJ)
 	$(CC) -o $@ $^ $(LDLIBS) $(CPP_FLAGS)
 
-all: $(BUILD_DIR)/crawler $(TESTS)
+all: $(BUILD_DIR)/crawler $(BUILD_DIR)/thread_test $(TESTS)
 
 .PHONY: test
 

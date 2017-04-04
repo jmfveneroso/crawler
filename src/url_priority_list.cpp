@@ -1,15 +1,14 @@
 #include "url_priority_list.hpp"
-#include <iostream>
-#include <sstream>
-#include <cassert>
 
 namespace Crawler {
 
+UncrawledUrl::UncrawledUrl(
+  std::string url, system_clock::time_point scheduled_time
+) : url(url), scheduled_time(scheduled_time) {
+}
+
 UrlPriorityList::UrlPriorityList(std::shared_ptr<ILogger> logger) 
-  : logger_(logger) {
-  header_size_ = sizeof(size_t) * 2;
-  written_urls_num_ = 0;
-  unread_urls_num_ = 0;
+  : logger_(logger), num_uncrawled_urls_(0), num_registered_urls_(0) {
 }
 
 UrlPriorityList::~UrlPriorityList() {
@@ -24,203 +23,61 @@ int UrlPriorityList::GetPriority(const std::string& url) {
   return (words > PRIORITY_LEVELS) ? (PRIORITY_LEVELS - 1) : words - 1;
 }
 
-void UrlPriorityList::RemoveCrawledUrls() {
-  for (int i = 0; i < PRIORITY_LEVELS; ++i) {
-    std::stringstream ss;
-    ss << file_suffix_ << i << ".tmp";
-    std::string tmp_filename = ss.str();
-
-    ss.str(std::string());
-    ss << file_suffix_ << i;
-    std::string filename = ss.str();
-
-    FILE* new_file = fopen(tmp_filename.c_str(), "wb+");
-    fwrite(&fingerprint_, sizeof(size_t), 1, new_file);
-
-    // Write cursor to new file.
-    fwrite(&header_size_, sizeof(size_t), 1, new_file);
-
-    // Copy all uncrawled urls.
-    unsigned char size;
-    fseek(priority_files_[i], file_cursors_[i], SEEK_SET);
-    while (fread(&size, sizeof(unsigned char), 1, priority_files_[i]) == 1) {
-      char buffer[256];
-      if (fread(buffer, sizeof(char), size, priority_files_[i]) != size)
-        throw new std::runtime_error("Error reading priority file.");
-
-      if (fwrite(&size, sizeof(unsigned char), 1, new_file) != 1)
-        throw new std::runtime_error("Error writing to new file.");
-
-      if (fwrite(buffer, sizeof(char), size, new_file) != size)
-        throw new std::runtime_error("Error writing to new file.");
-    }
-
-    if (fclose(priority_files_[i]))
-      throw new std::runtime_error("Error closing priority file.");
-
-    if (fclose(new_file))
-      throw new std::runtime_error("Error closing priority file.");
-
-    if (rename(tmp_filename.c_str(), filename.c_str()))
-      throw new std::runtime_error("Error renaming temp file.");
-
-    file_cursors_[i] = header_size_;
-    priority_files_[i] = fopen(filename.c_str(), "rb+");
-    if (!priority_files_[i])
-      throw new std::runtime_error("Error reopening priority file.");
-    fseek(priority_files_[i], 0, SEEK_END);
-  }
-}
-
-void UrlPriorityList::CommitFileCursors() {
-  for (int i = 0; i < PRIORITY_LEVELS; ++i) {
-    // Write cursor to the file header.
-    fseek(priority_files_[i], sizeof(size_t), SEEK_SET);
-    fwrite(&file_cursors_[i], sizeof(size_t), 1, priority_files_[i]);
-  }
-}
-
-bool UrlPriorityList::Open(const std::string& file_suffix, bool overwrite) {
-  file_suffix_ = file_suffix;
-
-  // One file must be opened for each priority level.
-  for (int i = 0; i < PRIORITY_LEVELS; ++i) {
-    std::stringstream ss;
-    ss << file_suffix << i;
-    std::string filename = ss.str();
-
-    bool file_exists = access(filename.c_str(), F_OK) != -1;
-    if (!file_exists || overwrite) { 
-      priority_files_[i] = fopen(filename.c_str(), "wb+");
-      if (priority_files_[i] == NULL) 
-        throw new std::runtime_error("Error opening priority file.");
-
-      // Write fingerprint to the new file.
-      fwrite(&fingerprint_, sizeof(size_t), 1, priority_files_[i]);
-
-      // Write cursor to the new file.
-      file_cursors_[i] = header_size_;
-      fwrite(&file_cursors_[i], sizeof(size_t), 1, priority_files_[i]);
-    } else {
-      priority_files_[i] = fopen(filename.c_str(), "rb+");
-      if (priority_files_[i] == NULL) 
-        throw new std::runtime_error("Error opening priority file.");
-
-      size_t buffer = 0;
-      if (fread(&buffer, sizeof(size_t), 1, priority_files_[i]) != 1)
-        throw new std::runtime_error("Error reading fingerprint.");
-
-      // Check fingerprint.
-      if (buffer != fingerprint_)
-        throw new std::runtime_error("The database file is invalid.");
-
-      if (fread(&file_cursors_[i], sizeof(size_t), 1, priority_files_[i]) != 1)
-        throw new std::runtime_error("Error reading file cursor.");
-      
-      fseek(priority_files_[i], 0, SEEK_END);
-    }
-  }
-  return true;
-}
-
-bool UrlPriorityList::Close() {
-  for (int i = 0; i < PRIORITY_LEVELS; ++i) {
-    if (!fclose(priority_files_[i])) return false;
-    priority_files_[i] = NULL;
-    file_cursors_[i] = 0;
-  }
-  return true;
-}
-
-bool UrlPriorityList::Push(const std::string& url, bool new_url) {
+bool UrlPriorityList::Push(
+  const std::string& url, const system_clock::time_point& scheduled_time
+) {
   if (url.size() == 0 || url.size() > 256) return false;
 
-#ifdef IN_MEMORY_PRIORITY_LIST
-  // Write to memory.
-  urls_.push(url);
-  ++written_urls_num_;
-  return true;
-#endif
+  auto ms = duration_cast<milliseconds>(scheduled_time - system_clock::now());
+  if (ms.count() > MAX_WAIT_TIME) {
+    // If we have to wait too much to query this server again, probably it is
+    // not worth it to add this url. 
+    return false;
+  }
 
   int priority = GetPriority(url);
+  if (priority > MAX_PRIORITY_LEVEL) return false;
 
-  unsigned char size = url.size();
-  if (fwrite(&size, sizeof(unsigned char), 1, priority_files_[priority]) != 1)
-    throw new std::runtime_error("Error writing to priority file.");
+  if (priority != 0 && uncrawled_urls_[priority].size() > MAX_UNCRAWLED_URLS_STORED) 
+    return false;
 
-  char buffer[257]; // The null character is also copied. That's why the extra bit is set.
-  url.copy(buffer, url.size());
-  if (fwrite(buffer, sizeof(char), size, priority_files_[priority]) != size)
-    throw new std::runtime_error("Error writing to priority file.");
-
-  if (new_url) {
-    ++written_urls_num_;
-    ++unread_urls_num_;
-  }
+  uncrawled_urls_[priority].push(UncrawledUrl(url, scheduled_time));
+  ++num_registered_urls_;
+  ++num_uncrawled_urls_;
   return true;
 }
 
 bool UrlPriorityList::Pop(std::string* url) {
-  if (urls_.empty()) {
-    return false;
-  }
+  for (int i = 0; i <= MAX_PRIORITY_LEVEL; ++i) {
+    if (uncrawled_urls_[i].size() == 0) continue;
 
-  *url = urls_.front();
-  urls_.pop();
-  return true;
+    system_clock::time_point scheduled_time;
+    scheduled_time = uncrawled_urls_[i].top().scheduled_time;
+
+    // If the first uncrawled url in the priority queue is still not due
+    // then there are no available urls in this queue. 
+    // We need to move to the next one.
+    auto ms = duration_cast<milliseconds>(system_clock::now() - scheduled_time);
+    if (ms.count() < 0) continue;
+
+    *url = uncrawled_urls_[i].top().url;
+    uncrawled_urls_[i].pop();
+    --num_uncrawled_urls_;
+    return true;
+  }
+  return false;
 }
 
-size_t UrlPriorityList::FetchBlock() {
-  // Commit the current cursor values to file and set the cursors
-  // to read position.
-  CommitFileCursors();
-  RemoveCrawledUrls();
-
-  // Set cursor to read position.
-  for (int i = 0; i < PRIORITY_LEVELS; ++i) 
-    fseek(priority_files_[i], file_cursors_[i], SEEK_SET);
-
-  unsigned char size;
-  char buffer[257];
-  int priority = 0; 
-  while (urls_.size() < BLOCK_SIZE) {
-    if (fread(&size, sizeof(unsigned char), 1, priority_files_[priority]) != 1) {
-      // Reached end of file.
-      if (++priority > PRIORITY_LEVELS - 1) break;
-      continue;
-    }
-
-    if (fread(buffer, sizeof(char), size, priority_files_[priority]) != size) {
-      throw std::runtime_error("Error reading priority file.");
-    }
-
-    buffer[size] = '\0';
-    urls_.push(buffer);
-    file_cursors_[priority] += sizeof(unsigned char) + size * sizeof(char);
-    if (unread_urls_num_ > 0) --unread_urls_num_;
-  }
-
-  // Set cursors back to write position.
-  for (int i = 0; i < PRIORITY_LEVELS; ++i) 
-    fseek(priority_files_[i], 0, SEEK_END);
-
-  return urls_.size();
+size_t UrlPriorityList::GetNumUrlsAtPriorityLevel(const int& i) {
+  return uncrawled_urls_[i].size();
 }
 
-size_t UrlPriorityList::GetNumUrlsAtPriorityLevel(int i) {
-  size_t num_urls = 0;
-  fseek(priority_files_[i], header_size_, SEEK_SET);
-
-  size_t size = 0;
-  while (fread(&size, sizeof(unsigned char), 1, priority_files_[i]) == 1) {
-    char buffer[257];
-    if (fread(buffer, sizeof(char), size, priority_files_[i]) != size) {
-      throw std::runtime_error("Error reading priority file.");
-    }
-    buffer[size] = '\0';
-    ++num_urls;
-  } 
-  return num_urls;
+void UrlPriorityList::Clear() {
+  for (int i = 0; i <= MAX_PRIORITY_LEVEL; ++i) {
+    uncrawled_urls_[i] = PriorityQueue();
+    num_registered_urls_ = 0;
+    num_uncrawled_urls_ = 0;
+  }
 }
 
 } // End of namespace.

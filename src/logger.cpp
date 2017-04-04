@@ -12,7 +12,9 @@ Logger::~Logger() {
   fclose(log_file_);
 }
 
-void Logger::Log(const std::string& msg) {
+void Logger::Log(const std::string& msg, bool only_on_verbose) {
+  if (only_on_verbose && !VERBOSE) return;
+
   mtx_.lock();
 #ifdef LOG_TO_STDOUT
   std::cout << msg << "\n" << std::flush;
