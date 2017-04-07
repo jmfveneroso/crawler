@@ -16,7 +16,6 @@
 #define PRIORITY_LEVELS 10
 #define MAX_PRIORITY_LEVEL 9
 #define MAX_UNCRAWLED_URLS_STORED 5000 // In each queue.
-#define POLITENESS_POLICY 30000 // Milliseconds.
 #define MAX_WAIT_TIME 200000 // 200 seconds.
 
 namespace Crawler {

@@ -39,6 +39,7 @@ class IUrlDatabase {
   virtual bool Put(const std::string&, system_clock::time_point) = 0;
   virtual bool Get(const std::string&, Entry*) = 0;
   virtual double CheckEmptyBuckets() = 0;
+  virtual void Clear() = 0;
 };
 
 class UrlDatabase : public IUrlDatabase {
@@ -66,6 +67,7 @@ class UrlDatabase : public IUrlDatabase {
   bool Put(const std::string&, system_clock::time_point);
   bool Get(const std::string&, Entry*);
   double CheckEmptyBuckets();
+  void Clear();
 };
 
 } // End of namespace.

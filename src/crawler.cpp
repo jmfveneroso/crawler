@@ -186,6 +186,7 @@ void Crawler::Seed() {
   scheduler_->RegisterUrlAsync("info.abril.com.br");
   scheduler_->RegisterUrlAsync("g1.globo.com/tecnologia");
   scheduler_->RegisterUrlAsync("gizmodo.com.br");
+  scheduler_->RegisterUrlAsync("uol.com.br");
 }
 
 void Crawler::Start(
@@ -193,12 +194,12 @@ void Crawler::Start(
 ) {
   // This class needs to be a singleton because of the signal handling function.
   instance_ = this;
-  start_time_ = system_clock::now();
 
   // The output file always begins with "|||" which has a size of 3 chars.
   bytes_written_ = 3;
   fetched_urls_num_ = 0;
   total_time_ = 0;
+  start_time_ = system_clock::now();
   sample_time_ = system_clock::now();
   max_urls_ = max_urls;
 
@@ -212,6 +213,9 @@ void Crawler::Start(
 #ifndef IN_MEMORY
   logger_->Log("The database is being written to: " + std::string(db_file));
   url_database_->Open(db_file, true);
+#else
+  url_database_->Clear();
+  logger_->Log("The database file " + std::string(db_file) + " will be ignored.");
 #endif
 
   url_priority_list_->Clear();

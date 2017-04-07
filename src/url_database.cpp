@@ -182,4 +182,8 @@ double UrlDatabase::CheckEmptyBuckets() {
   return (double) num_occupied / table_size_; 
 }
 
+void UrlDatabase::Clear() {
+  urls_ = std::map<std::string, system_clock::time_point>();
+}
+
 } // End of namespace.

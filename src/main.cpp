@@ -10,17 +10,19 @@
 #endif
 
 int main (int argc, char** argv) {
-  if (argc != 3) {
-    std::cout << "Usage: crawler OUTPUT_FILE DATABASE_FILE\n";
+  if (argc != 3 && argc != 4) {
+    std::cout << "Usage: crawler OUTPUT_FILE DATABASE_FILE [MAX_URLS]\n";
     return 1;
   }
+
+  unsigned int max_urls = (argc == 4) ? std::atoi(argv[3]) : 0;
 
 #ifdef PROFILE
   ProfilerStart("crawler.prof");
 #endif
   signal(SIGINT, Crawler::Crawler::SignalHandler);
   Crawler::Injector::Instance()->crawler()->Start(
-    argv[1], argv[2]
+    argv[1], argv[2], max_urls
   );
 #ifdef PROFILE
   ProfilerStop();
