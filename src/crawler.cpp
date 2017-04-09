@@ -252,8 +252,6 @@ void Crawler::TestNumberOfThreads(const char* out_name, const char* db_name) {
       db_name,
       1000
     );
-    system_clock::time_point now = system_clock::now();
-    auto ms = duration_cast<milliseconds>(now - start_time_); 
     speed[(i/8) - 1] = total_time_;
     file_size[(i/8) - 1] = file_size_;
     std::cout << "Ended test with speed " << total_time_ << "\n";

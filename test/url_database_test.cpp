@@ -11,6 +11,7 @@ int main () {
 
   system_clock::time_point timestamp = system_clock::time_point::min();
 
+  db->set_table_size(1000);
   db->Open("build/db_test", true);
   assert(db->Put("lorem ipsum", timestamp));
   assert(db->Put("dolor sit", timestamp));

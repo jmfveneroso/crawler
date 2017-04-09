@@ -40,6 +40,7 @@ class IUrlDatabase {
   virtual bool Get(const std::string&, Entry*) = 0;
   virtual double CheckEmptyBuckets() = 0;
   virtual void Clear() = 0;
+  virtual void set_table_size(size_t table_size) = 0;
 };
 
 class UrlDatabase : public IUrlDatabase {
@@ -68,6 +69,7 @@ class UrlDatabase : public IUrlDatabase {
   bool Get(const std::string&, Entry*);
   double CheckEmptyBuckets();
   void Clear();
+  void set_table_size(size_t table_size) { table_size_ = table_size; }
 };
 
 } // End of namespace.

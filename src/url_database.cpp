@@ -11,7 +11,7 @@ Entry::Entry(bool occupied, std::string str, system_clock::time_point timestamp)
 }
 
 UrlDatabase::UrlDatabase(std::shared_ptr<ILogger> logger) 
-  : logger_(logger), db_file_(NULL), table_size_(0) {
+  : logger_(logger), db_file_(NULL), table_size_(TABLE_SIZE) {
   header_size_ = sizeof(size_t) * 2;
 }
 
@@ -67,7 +67,6 @@ bool UrlDatabase::Open(const char* filename, bool overwrite) {
   bool file_exists = access(filename, F_OK) != -1;
 
   size_t fingerprint = 0x462fab2668d358eb;
-  table_size_ = TABLE_SIZE;
   if (!file_exists || overwrite) { 
     db_file_ = fopen(filename, "wb+");
     if (db_file_ == NULL) 
@@ -82,7 +81,7 @@ bool UrlDatabase::Open(const char* filename, bool overwrite) {
     Entry e = { false, "\0", system_clock::time_point() };
     memset(e.url, 0, (size_t) 256);
 
-    for (size_t i = 0; i < TABLE_SIZE; ++i) {
+    for (size_t i = 0; i < table_size_; ++i) {
       fwrite(&e, sizeof(Entry), 1, db_file_);
     }
   } else { 

@@ -6,6 +6,7 @@
 #ifndef __FETCHER_HPP__
 #define __FETCHER_HPP__
 
+#include <string>
 #include <vector>
 #include "logger.hpp"
 #include "CkSpider.h"
