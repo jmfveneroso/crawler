@@ -55,6 +55,3 @@ And run tests by executing:
 ```
 $ make test
 ```
-
-Take note that the tests may take a while if the url database file size is too large. It is recommended to change
-it to somethin like 1000 urls in the "url_database.hpp" file before running tests.
