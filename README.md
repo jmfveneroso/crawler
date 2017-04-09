@@ -32,7 +32,7 @@ The output file is where the html pages will be stored.
 The database file is where the url database is going to be written if the option IN_MEMORY
 is not selected.
 
-The parameter max_urls is optional. If is greater than 0, the crawler will only download the specified number of urls.
+The parameter max_urls is optional. If it is greater than 0, the crawler will only download the specified number of urls.
 
 ---
 
