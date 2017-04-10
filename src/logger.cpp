@@ -11,7 +11,9 @@ Logger::Logger() {
 }
 
 Logger::~Logger() {
+#ifndef LOG_TO_STDOUT
   fclose(log_file_);
+#endif
 }
 
 void Logger::Log(const std::string& msg, bool only_on_verbose) {
