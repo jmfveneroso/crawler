@@ -33,14 +33,16 @@ else ifeq ($(UNAME_S),Darwin)
    LDLIBS += $(LDIR)/chilkat-9.5.0-macosx-cpp11/libStatic/libchilkat_x86_64.a
 endif
 
+# GOOGLE_PROFILER = -lprofiler
+
 $(BUILD_DIR)/%.o: src/%.cpp $(DEPS)
 	$(CC) -c -o $@ $< $(CPP_FLAGS) -I$(IDIR) $(INC)
 
 $(BUILD_DIR)/crawler: build/main.o $(OBJ)
-	$(CC) -o $@ $^ $(LDLIBS) $(CPP_FLAGS) -lprofiler
+	$(CC) -o $@ $^ $(LDLIBS) $(CPP_FLAGS) $(GOOGLE_PROFILER)
 
 $(BUILD_DIR)/thread_test: build/thread_test.o $(OBJ)
-	$(CC) -o $@ $^ $(LDLIBS) $(CPP_FLAGS) -lprofiler
+	$(CC) -o $@ $^ $(LDLIBS) $(CPP_FLAGS) $(GOOGLE_PROFILER)
 
 # Tests.
 
