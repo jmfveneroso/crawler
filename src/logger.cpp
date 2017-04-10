@@ -5,7 +5,9 @@
 namespace Crawler {
 
 Logger::Logger() {
+#ifndef LOG_TO_STDOUT
   log_file_ = fopen("crawler.log", "wb+");
+#endif
 }
 
 Logger::~Logger() {

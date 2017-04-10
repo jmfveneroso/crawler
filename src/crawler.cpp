@@ -167,6 +167,7 @@ void Crawler::PrintInfoCallback() {
 void Crawler::SignalHandler(int signum) {
    instance_->print_mtx_.lock();
    instance_->logger_->Log("Interrupt signal (" + std::to_string(signum) + ") received.\n");
+   instance_->logger_->Log("Finishing write operation and cleaning up...\n");
 
    // Prevent storage from writing anything else.
    instance_->terminate_ = true;
